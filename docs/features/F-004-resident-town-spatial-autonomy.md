@@ -2,7 +2,7 @@
 
 **文档编号：** `COA-F004-RESIDENT.1`  
 **Feature ID：** `F-004`  
-**当前版本：** V0.9  
+**当前版本：** V1.0
 **文档状态：** `DESIGN_REBASELINE_REVIEW`  
 **制作人 / 主策划：** Codex `/root`  
 **目标平台：** Mobile  
@@ -10,12 +10,13 @@
 **默认语言：** `zh-CN`；设置中可切换并持久化 `en`  
 **运行时权限：** `false`  
 **产品决策：** `docs/decisions/PD-002-animal-resident-town-rebaseline.md`  
-**只读回执：** `docs/receipts/PD-002-READ-ONLY.md`
+**只读回执：** `docs/receipts/F004-RESIDENT-CONTINUE-READ-ONLY-002.md`
 
 ## 版本历史
 
 | 版本 | 编写人 | 审核人 | 日期 | 状态 | 更新内容 |
 |---|---|---|---:|---|---|
+| V1.0 | Codex `/root` | 待用户评审 | 2026-07-26 | 设计重基线评审 | 完成 A-H 正式设计覆盖、RAG/控制面续接核验与锁状态收口；复核 Figma MCP、浏览器和 Chrome 扩展路径，准确保留可编辑交接阻塞。 |
 | V0.9 | Codex `/root` | 待用户评审 | 2026-07-25 | 设计重基线评审 | 重建 F004 为统一空间、动物居民、自动作业与世界车辆订单基础；旧 `F004-DISTRICT.1` 建议被本版本覆盖。 |
 
 ## 开发计划
@@ -24,7 +25,7 @@
 |---|---|---|---|
 | 产品重基线 | Codex `/root` | 已完成 | 单一记忆点、减法目标、旧规则处置和代表性闭环明确。 |
 | 空间/居民/车辆系统设计 | Codex `/root` | 本文待评审 | 占地目录、合法性、状态机、配置源、UE 和 QA 获得制作人批准。 |
-| UI/UX 与视觉质量合同 | Codex `/root` | 待评审 | 可编辑 Figma/FigJam、状态覆盖与视觉质量合同通过。 |
+| UI/UX 与视觉质量合同 | Codex `/root` | 内容完成；Figma 物质阻塞 | 可编辑 Figma/FigJam、状态覆盖与视觉质量合同通过。 |
 | 代表性运行切片 | 未授权 | 未开始 | 新工程只读回执、明确写集、Godot 实装授权。 |
 | 扩面 | 未授权 | 未开始 | 真实 720×1280 切片通过且 `SCALE_OUT_APPROVED`。 |
 
@@ -696,17 +697,32 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 | 图类型 | 可编辑源 | 页面/节点 | 版本 | Owner | 当前状态 | 覆盖 |
 |---|---|---|---|---|---|---|
-| 720×1280 主地图与组件 | [现有 Figma Design](https://www.figma.com/design/uU2Oek5RqFb19CPoGl48lC/Untitled) | 计划 `CityOfAnimals / F004-RESIDENT.1` | V0.9 | Codex `/root` | `PENDING WRITE/READBACK` | 主地图、道路/住房/岗位/车辆、状态与 token |
-| 代表性玩家 UE | 待生成 FigJam | 待登记 | V0.9 | Codex `/root` | `PENDING` | 建房—邀请—派遣—作业—装载—离场 |
-| 居民状态机 | 待生成 FigJam | 待登记 | V0.9 | Codex `/root` | `PENDING` | 身份、日常任务、阻塞与恢复 |
-| 车辆状态机 | 待生成 FigJam | 待登记 | V0.9 | Codex `/root` | `PENDING` | 到达、等待、装载、离场、失败 |
-| 空间合法性流程 | 待生成 FigJam | 待登记 | V0.9 | Codex `/root` | `PENDING` | 占地、入口、道路、路径与事务 |
+| 720×1280 主地图与组件 | [现有 Figma Design](https://www.figma.com/design/uU2Oek5RqFb19CPoGl48lC/Untitled) | 计划 `CityOfAnimals / F004-RESIDENT.1` | V1.0 | Codex `/root` | `BLOCKED: WRITE/READBACK` | 主地图、道路/住房/岗位/车辆、状态与 token |
+| 代表性玩家 UE | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 建房—邀请—派遣—作业—装载—离场 |
+| 居民状态机 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 身份、日常任务、阻塞与恢复 |
+| 车辆状态机 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 到达、等待、装载、离场、失败 |
+| 空间合法性流程 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 占地、入口、道路、路径与事务 |
 
 本地 Mermaid/SVG/PNG/PDF 只是草稿或预览；只有可编辑 Figma/FigJam 是最终 UI/UE 源。
 
-## 16. 进度矩阵与正式来源更新建议
+2026-07-26 复核证据：Figma `whoami` 成功返回 `skyfire / Starter / seat=View`；对目标 Design 文件的只读 `use_figma` 调用在 MCP 传输层失败；内置浏览器打开目标文件超时；Chrome 扩展控制通道返回不可用。以上均不能证明节点可写或可读回，因此 Gate 必须保持阻塞。
 
-在释放旧 `F004-DESIGN-LOCK-001` 并获得用户批准后，建议一次性同步：
+## 16. A-H 设计重基线完成度
+
+| 项目 | 正式来源 | 当前结论 |
+|---|---|---|
+| A. 只读基线与 RAG/控制面 | 本文、续接只读回执、RAG task receipt | `READY`；无共享锁；正式基线干净；运行时未授权。 |
+| B. 产品重基线 | 第 2–4 章、PD-002 | 完成，待用户审阅。 |
+| C. 空间系统 | 第 5 章 | `1×1` 网格、占地、入口、道路、作业点、寻路、遮挡规则完成，待批准。 |
+| D. 动物居民 UE 与状态机 | 第 6–7 章 | 完整覆盖建房至中断/恢复；配置和 QA 合同完成，未创建运行表。 |
+| E. 世界车辆订单 | 第 8 章 | 到达、等待、装载、离场、失败/阻塞完成。 |
+| F. 主页面 UI/UX 与视觉合同 | 第 9–10 章及两个附属正式来源 | 内容完成；可编辑 Figma/FigJam 仍是物质阻塞。 |
+| G. 推荐方案 | 第 3–4、17 章 | 单一推荐方案和少数待确认默认值已给出。 |
+| H. 进度矩阵与正式来源 | 第 16 章、Active Scope、PM Handoff、工作簿 | Feature 身份与 superseded 关系已同步；未误报 Ready。 |
+
+## 17. 进度矩阵与正式来源状态
+
+旧 `F004-DESIGN-LOCK-001` 已正式释放。当前正式来源按下列状态同步，不把静态文档或旧 22% 继承为新方向完成：
 
 ### F004 行
 
@@ -714,11 +730,11 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - Functional source：`docs/features/F-004-resident-town-spatial-autonomy.md`
 - Numeric source：上述 `f004_resident_*.csv`（创建并验证后填写）
 - Producer directive：`PRODUCT-REBASELINE.1`
-- Design doc：在用户和 Figma 门通过前保持审阅中，不写 100%
+- Design doc：90%，A-H 和文档包完成，但用户和 Figma 门通过前不写 100%
 - Numeric table：0%，因为尚未创建新表
 - Code/Scene/UI/Integration：0%
-- Overall：不沿用旧 22% 作为新版本完成度
-- Current stage：`DESIGN REBASELINE / FIGMA PENDING`
+- Overall：10%，不沿用旧 22% 作为新版本完成度
+- Current stage：`DESIGN PACKAGE COMPLETE / FIGMA BLOCKED`
 - Next milestone：用户批准占地目录 + Figma/FigJam 可编辑交付
 - Blocker：`BLOCKED: Figma UE attachment; runtime not authorized`
 
@@ -729,9 +745,9 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - F003：保持 100% 历史可玩基线，不把其完成度继承到新 F004。
 - F005：继续 0%，依赖新 F004 接受。
 
-在当前锁未释放前，本轮只给出同步建议，不修改矩阵、Active Scope、PM Handoff、Task Contract 或索引。
+矩阵、Active Scope、PM Handoff、Task Contract 与索引在本轮按该状态收口；运行时权限仍为 `false`。
 
-## 17. 当前 Gate 与待确认项
+## 18. 当前 Gate 与待确认项
 
 ### 最高 Gate
 
@@ -739,7 +755,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 ### 仍未通过
 
-- 用户尚未批准占地目录 V0.9；
+- 用户尚未批准占地目录 V1.0；
 - Figma/FigJam 尚未全部写入并读回；
 - 新配置表未获授权、未创建；
 - 没有新方向的 Godot 实装；
@@ -753,6 +769,6 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 3. 常规产出自动搬运，满仓时世界内阻塞；
 4. 订单无硬超时，允许谢绝；
 5. 逻辑四向道路，等距绘制；
-6. 占地目录按本文 V0.9 进入 Figma 评审。
+6. 占地目录按本文 V1.0 进入 Figma 评审。
 
 用户批准本文和 Figma/FigJam 后，再创建新的工程只读回执与配置合同；没有新的运行时授权，不进入 Godot。

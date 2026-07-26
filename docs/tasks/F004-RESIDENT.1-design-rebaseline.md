@@ -5,7 +5,7 @@
 **Feature ID：** `F-004`  
 **版本：** `F004-RESIDENT.1`  
 **Owner：** Codex `/root`  
-**状态：** `ACTIVE_DESIGN_HANDOFF`  
+**状态：** `DESIGN_PACKAGE_COMPLETE_FIGMA_BLOCKED`
 **Task fingerprint：** `BA4466ABDA82579862EA7476FF39D1A8B96ACB30A009EDCC85616914805E4897`  
 **运行时权限：** `false`
 

@@ -394,7 +394,7 @@ def build_document(
     set_run_font(title_run, name="微软雅黑", size=20, bold=True)
     subtitle = doc.add_paragraph(style="Template Note")
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    subtitle_run = subtitle.add_run("产品与设计重基线 V0.9 · 720×1280 竖屏 · runtime_authority=false")
+    subtitle_run = subtitle.add_run("产品与设计重基线 V1.0 · 720×1280 竖屏 · runtime_authority=false")
     set_run_font(subtitle_run, name="微软雅黑", size=9, color=BLUE_DARK)
     add_status_panel(doc)
 
@@ -402,10 +402,10 @@ def build_document(
         doc,
         "版本控制",
         [
-            ["文档编号", "COA-F004-RESIDENT.1", "当前版本", "V0.9 REVIEW"],
+            ["文档编号", "COA-F004-RESIDENT.1", "当前版本", "V1.0 REVIEW"],
             ["功能 ID", "F-004 / F004-RESIDENT.1", "文档状态", "DESIGN_REBASELINE_REVIEW"],
             ["制作人 / 主策划", "Codex /root", "运行时权限", "false"],
-            ["创建日期", "2026-07-25", "目标平台", "Mobile / 720×1280 portrait"],
+            ["创建日期", "2026-07-26", "目标平台", "Mobile / 720×1280 portrait"],
             ["默认语言", "zh-CN；设置可切 en", "配置版本", "仅建议，未授权建表"],
             ["Figma 源", "https://www.figma.com/design/uU2Oek5RqFb19CPoGl48lC/Untitled", "Figma Gate", "BLOCKED: UE attachment"],
             ["正式决策", "PD-002 animal resident town rebaseline", "评审结论", "待用户审阅"],
@@ -417,7 +417,7 @@ def build_document(
         "版本历史",
         [
             ["版本", "编写人", "审核人", "批准人", "日期", "更新内容"],
-            ["V0.9", "Codex /root", "待用户评审", "Pending", "2026-07-25", "把旧点击式 F004 重建为统一空间、动物居民、自主作业与世界车辆订单基础。"],
+            ["V1.0", "Codex /root", "待用户评审", "Pending", "2026-07-26", "完成 A-H 正式设计覆盖、RAG/控制面续接与 Figma 阻塞证据收口。"],
         ],
         [900, 1350, 1350, 1150, 1350, 3260],
     )

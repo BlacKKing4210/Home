@@ -1,11 +1,11 @@
 {
-  "chunk_count": 346,
+  "chunk_count": 354,
   "config_hash": "2d6409cbaba6e932956b990266a8031ec6c6fb94096a47b8cdc0a9df29e83f59",
-  "created_at": "2026-07-26T05:37:27Z",
+  "created_at": "2026-07-26T06:33:43Z",
   "embedding_provider": "hashing-ngrams-v1",
   "errors": [],
   "evaluation": {
-    "golden_queries_hash": "fdee4729b98fcdc849a601e60d340072c384ca361e9e5260caf1b259147f2a12",
+    "golden_queries_hash": "f0209e957f95db70c9c0190085d096455837e1c799f833f6f8c46efe4aa55bec",
     "mean_recall_at_k": 1.0,
     "pass_rate": 1.0,
     "passed": true,
@@ -66,7 +66,8 @@
         "returned_source_ids": [
           "PROJECT_PROFILE",
           "PROJECT_AGENTS",
-          "PROJECT_WORKFLOW"
+          "PROJECT_WORKFLOW",
+          "TASK_CONTRACT"
         ]
       },
       {
@@ -152,8 +153,7 @@
           "TASK_CONTRACT",
           "ACTIVE_SCOPE",
           "GIT_LOCK_CONTROL_PLANE_RECEIPT",
-          "PROJECT_AGENTS",
-          "F004_RESIDENT_STRUCTURED_DECISION"
+          "PROJECT_AGENTS"
         ]
       },
       {
@@ -173,8 +173,8 @@
         "returned_source_ids": [
           "F004_DESIGN_RECEIPT",
           "ACTIVE_SCOPE",
-          "TASK_CONTRACT",
           "PROJECT_WORKFLOW",
+          "TASK_CONTRACT",
           "PRODUCT_REBASE_DECISION"
         ]
       },
@@ -217,7 +217,7 @@
         "returned_source_ids": [
           "PRODUCT_REBASE_DECISION",
           "F004_RESIDENT_SOURCE",
-          "F004_RESIDENT_FINAL_RECEIPT"
+          "F004_RESIDENT_REBASELINE_RECEIPT"
         ]
       },
       {
@@ -238,9 +238,9 @@
           "PRODUCT_REBASE_DECISION",
           "F004_RESIDENT_SOURCE",
           "F004_RESIDENT_FINAL_RECEIPT",
+          "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_STRUCTURED_DECISION",
-          "PD002_READ_ONLY_RECEIPT",
-          "F004_LOCK_RELEASE_RECEIPT"
+          "PD002_READ_ONLY_RECEIPT"
         ]
       },
       {
@@ -256,12 +256,12 @@
         "query": "哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？",
         "query_id": "GQ-012",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.33333333,
+        "reciprocal_rank": 0.25,
         "returned_source_ids": [
           "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_SOURCE",
-          "F004_RESIDENT_FINAL_RECEIPT",
-          "F004_RESIDENT_STRUCTURED_DECISION"
+          "F004_RESIDENT_FINAL_RECEIPT"
         ]
       },
       {
@@ -279,15 +279,14 @@
         "query": "Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?",
         "query_id": "GQ-013",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.2,
+        "reciprocal_rank": 0.16666667,
         "returned_source_ids": [
           "ACTIVE_SCOPE",
           "TASK_CONTRACT",
           "PROJECT_WORKFLOW",
           "F003_VQ_CHECKLIST",
           "F003_VQ_CONTRACT",
-          "F003_VQ_RECEIPT",
-          "F003_VQ_SYNC_RECEIPT"
+          "F003_VQ_RECEIPT"
         ]
       },
       {
@@ -309,27 +308,30 @@
           "F003_VQ_RECEIPT",
           "F003_VQ_CHECKLIST",
           "F003_VQ_CONTRACT",
-          "F003_SOURCE"
+          "F003_SOURCE",
+          "CORE_FUNCTIONS"
         ]
       },
       {
         "expected_source_ids": [
           "FEATURE_PROGRESS"
         ],
-        "k": 5,
+        "k": 12,
         "matched_source_ids": [
           "FEATURE_PROGRESS"
         ],
         "min_recall_at_k": 1.0,
         "passed": true,
-        "query": "Which source records feature priority completion stage next milestone and blockers?",
+        "query": "Feature Nine-Dimension Progress Matrix Complete feature Priority Current stage Next milestone Blocker dependency",
         "query_id": "GQ-015",
         "recall_at_k": 1.0,
         "reciprocal_rank": 0.2,
         "returned_source_ids": [
+          "ACTIVE_SCOPE",
           "PROJECT_AGENTS",
-          "PROJECT_WORKFLOW",
-          "FEATURE_PROGRESS"
+          "TASK_CONTRACT",
+          "FEATURE_PROGRESS",
+          "PROJECT_PROFILE"
         ]
       },
       {
@@ -350,9 +352,10 @@
           "PD002_READ_ONLY_RECEIPT",
           "F004_RESIDENT_FINAL_RECEIPT",
           "F004_RESIDENT_SOURCE",
-          "CORE_FUNCTIONS",
           "PRODUCT_REBASE_DECISION",
-          "F004_LOCK_RELEASE_RECEIPT"
+          "F004_RESIDENT_REBASELINE_RECEIPT",
+          "F004_RESIDENT_CONTINUE_READONLY",
+          "CORE_FUNCTIONS"
         ]
       },
       {
@@ -370,8 +373,8 @@
         "recall_at_k": 1.0,
         "reciprocal_rank": 0.16666667,
         "returned_source_ids": [
-          "F004_RESIDENT_FINAL_RECEIPT",
           "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_FINAL_RECEIPT",
           "PD002_READ_ONLY_RECEIPT",
           "F004_RESIDENT_UIUX",
           "GIT_LOCK_READ_ONLY_RECEIPT"
@@ -394,16 +397,37 @@
         "returned_source_ids": [
           "PD002_READ_ONLY_RECEIPT",
           "F004_LOCK_RELEASE_RECEIPT",
-          "GIT_LOCK_READ_ONLY_RECEIPT",
-          "F004_RESIDENT_VQ",
           "F004_RESIDENT_SOURCE",
-          "ACTIVE_SCOPE",
-          "TASK_CONTRACT",
-          "F004_RESIDENT_STRUCTURED_DECISION"
+          "F004_RESIDENT_VQ",
+          "GIT_LOCK_READ_ONLY_RECEIPT",
+          "F004_RESIDENT_CONTINUE_READONLY",
+          "F004_RESIDENT_DOCX",
+          "ACTIVE_SCOPE"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_REBASELINE_RECEIPT"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_RESIDENT_REBASELINE_RECEIPT"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包已完成待审且 Figma seat View 阻塞并保持 runtime false？",
+        "query_id": "GQ-019",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.33333333,
+        "returned_source_ids": [
+          "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_REBASELINE_RECEIPT",
+          "GIT_LOCK_READ_ONLY_RECEIPT",
+          "F004_LOCK_RELEASE_RECEIPT"
         ]
       }
     ],
-    "query_count": 18,
+    "query_count": 19,
     "thresholds": {
       "default_k": 5,
       "min_mean_recall_at_k": 0.8,
@@ -412,14 +436,14 @@
     }
   },
   "fresh": true,
-  "golden_queries_hash": "fdee4729b98fcdc849a601e60d340072c384ca361e9e5260caf1b259147f2a12",
-  "index_signature": "c204223feda828b1ce0d6fcf643a6002439d0f26d91a8c080875984005ab2f2d",
-  "manifest_hash": "9e76612886ec9919cecf907e4d6f2934b9b3247e5ee4d18805da7b0c5c39bb12",
+  "golden_queries_hash": "f0209e957f95db70c9c0190085d096455837e1c799f833f6f8c46efe4aa55bec",
+  "index_signature": "835285268b25ba121fe304c390dc30a8815c734f4ab2180c116ec428530991f0",
+  "manifest_hash": "151b7a0cc39a466c17c183bd928664dd737fdc32d1fa8579faa7446c792079db",
   "project_root": "D:\\AI\\CityOfAnimals",
   "reason": null,
   "reranker": "authority-feature-overlap-v1",
   "schema_version": 1,
-  "source_count": 51,
+  "source_count": 53,
   "sources": [
     {
       "authority": "canonical",
@@ -445,14 +469,14 @@
     {
       "authority": "canonical",
       "path": "docs/active_scope.yaml",
-      "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
+      "sha256": "4a97ef384371a227128c6a7a5752e6333a447efb0adb893b4f8074349776af0d",
       "source_id": "ACTIVE_SCOPE",
       "version": "v1"
     },
     {
       "authority": "approved",
       "path": "docs/PM_HANDOFF.md",
-      "sha256": "87203df37e27e97185ea019638e0b217e5981d99692f474a36137ddfc2377dcf",
+      "sha256": "8697fad73bf998ff5b6186f6f77c41245a00882de3a76fefbcc2bd4e0bc9e64d",
       "source_id": "PM_HANDOFF",
       "version": "v1"
     },
@@ -473,7 +497,7 @@
     {
       "authority": "approved",
       "path": "PM/feature_progress.xlsx",
-      "sha256": "64c9ddfe7ada9646576f4894299938f2658835968571279e9e717abd0ddece33",
+      "sha256": "591643b6c6ff0bdc17ce700ad49a0331203d8b725252009aaabe58e2275eeef4",
       "source_id": "FEATURE_PROGRESS",
       "version": "v1"
     },
@@ -487,7 +511,7 @@
     {
       "authority": "canonical",
       "path": "docs/task_contract.md",
-      "sha256": "1b926af18e14729aadb0bd9301b3983505bc424b02c546a6ef826267913427dd",
+      "sha256": "349e1fb386f2358b979efd3a53b725e409eef1f66933cf72020dd90deb4a495e",
       "source_id": "TASK_CONTRACT",
       "version": "v1"
     },
@@ -697,37 +721,37 @@
     {
       "authority": "approved",
       "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
-      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "sha256": "c94599ace261771233ba6e39bea6d1a4f4a60ddeb601e5feb72ef9797cc27341",
       "source_id": "F004_RESIDENT_SOURCE",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "supporting",
       "path": "docs/uiux/F004-RESIDENT.1-ui-priority.md",
-      "sha256": "9b3e08cb86c204ede367ac399d8f8b619724996b0975926b0ba1f4c242a421ab",
+      "sha256": "178b1a4f237bd016956d04b235c85e0e12c155af27b6e8223ed278512b1ee785",
       "source_id": "F004_RESIDENT_UIUX",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "supporting",
       "path": "docs/design/F004-RESIDENT.1-visual-quality-contract.md",
-      "sha256": "baccbf15c0a5b94d23fb62b4479670702a3248518660dfee4bcdbee32afb99b7",
+      "sha256": "7fb3f8fd0ae5a9eeea20cd52b386be148b38ba76591252388275c5eea57f78f9",
       "source_id": "F004_RESIDENT_VQ",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "supporting",
       "path": "output/figma/F004-RESIDENT.1/README.md",
-      "sha256": "b1bf7973b5bc48109d965cbd50584a0b767c4ef76cd21a6edd7b2469a8c0d403",
+      "sha256": "7015078a3a5a44fee9974f4d01aa3ef045af7262775e834351dacf91fd830b7c",
       "source_id": "F004_RESIDENT_FIGMA_REGISTER",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "supporting",
       "path": "docs/tasks/F004-RESIDENT.1-design-rebaseline.md",
-      "sha256": "1a0f42dcec1dd1ead485d7a5ea958fa44e53ba12c7b39c5bffa747457e9a3312",
+      "sha256": "f3a4d9120c348233a0d4215d63cfb7ac51ea038689e7f63b60f4f0f2702b1007",
       "source_id": "F004_RESIDENT_TASK",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "approved",
@@ -744,18 +768,32 @@
       "version": "F004-RESIDENT.1"
     },
     {
-      "authority": "generated",
-      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.docx",
-      "sha256": "ebace7363fbe9fbcd4c559c893a40a37ba1655ab85f5eca1cf881bcb4eb5ef33",
-      "source_id": "F004_RESIDENT_DOCX",
-      "version": "F004-RESIDENT.1"
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-CONTINUE-READ-ONLY-002.md",
+      "sha256": "3ee5644ea77be5f7b9df0acb7236e0ab4d145c86b0af269a95d3f01739b09c8d",
+      "source_id": "F004_RESIDENT_CONTINUE_READONLY",
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md",
+      "sha256": "90cecdd85f5808e1c5a870d9330dbe8ade080c85a3d1f2febed02174a1570b77",
+      "source_id": "F004_RESIDENT_REBASELINE_RECEIPT",
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "generated",
-      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.pdf",
-      "sha256": "d1d1da21d64af9c2bb1a86038a58ca5c3045c24207262d4781de8f2f19022438",
+      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V1.0_REVIEW.docx",
+      "sha256": "17bdeed113bc5c9a74e1e09d1e1a9934c28fedd7e47a66dce4ad0197bc2b93f2",
+      "source_id": "F004_RESIDENT_DOCX",
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "generated",
+      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V1.0_REVIEW.pdf",
+      "sha256": "94d0385ed90d6579c337b45943abe446d4ae645209186d2ef2d2e331353dd8ab",
       "source_id": "F004_RESIDENT_PDF",
-      "version": "F004-RESIDENT.1"
+      "version": "F004-RESIDENT.1-V1.0"
     },
     {
       "authority": "approved",

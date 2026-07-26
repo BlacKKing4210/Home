@@ -39,7 +39,7 @@ active_modules:
     name: Animal Resident Town Spatial and Autonomy Foundation
     version: F004-RESIDENT.1
     phase: DESIGN_REBASELINE_REVIEW
-    state: DESIGN_REBASELINE_REVIEW_FIGMA_BLOCKED_NOT_RUNTIME_AUTHORIZED
+    state: DESIGN_PACKAGE_COMPLETE_FIGMA_BLOCKED_NOT_RUNTIME_AUTHORIZED
     producer: Codex /root
     design_owner: Codex /root
     primary_skill: game-feature-design-docs + ui-design-priority + game-visual-quality-pipeline
@@ -50,10 +50,11 @@ active_modules:
       - docs/uiux/F004-RESIDENT.1-ui-priority.md
       - docs/design/F004-RESIDENT.1-visual-quality-contract.md
       - docs/receipts/F004-RESIDENT-DESIGN-001.md
+      - docs/receipts/F004-RESIDENT-CONTINUE-READ-ONLY-002.md
       - docs/features/F-003-farm-town-foundation-v2.md
       - docs/features/F-004-farm-district-industry-i.md
     authorization: docs/receipts/PD-002-READ-ONLY.md
-    current_receipt: docs/receipts/F004-RESIDENT-DESIGN-001.md
+    current_receipt: docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md
     editable_design_register: output/figma/F004-RESIDENT.1/README.md
     blocker: "BLOCKED: Figma UE attachment"
     runtime_authority: false

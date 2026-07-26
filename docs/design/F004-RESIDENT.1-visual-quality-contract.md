@@ -1,7 +1,7 @@
 # CityOfAnimals F004-RESIDENT.1 视觉质量合同
 
 **合同 ID：** `COA-VQ-F004-RESIDENT-001`  
-**版本：** V0.9 / 2026-07-25  
+**版本：** V1.0 / 2026-07-26
 **适用范围：** 动物居民小镇主地图及代表性闭环  
 **目标：** 720×1280 竖屏、45° 等距 2D 卡通  
 **状态：** `VISUAL_CONTRACT_REVIEW`  
@@ -175,3 +175,5 @@
 - `RELEASE_VISUAL_APPROVED`：未通过。
 
 在可编辑 Figma style frame、状态与组件源通过前，不得进入代表性运行切片；在真实 720×1280 切片无 BLOCKER/MATERIAL 前，不得批量重做道路、田地、建筑或居民。
+
+2026-07-26 续接复核没有改变视觉方向与质量阈值。可编辑交接仍被 Figma `View` 席位和不可用的 MCP/浏览器写入通道阻塞；因此本合同可供用户评审，但仍不得标记 `VISUAL_CONTRACT_APPROVED`。

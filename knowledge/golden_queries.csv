@@ -13,7 +13,8 @@ GQ-011,哪份制作人决策把频繁手动生产改为低频建造邀请派遣�
 GQ-012,哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？,F004_RESIDENT_SOURCE,F-004,1.0,8
 GQ-013,Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?,F003_VQ_CONTRACT;F003_VQ_RECEIPT,F-003,1.0,8
 GQ-014,哪份证据记录旧 Godot 故障进程 PID 10912、13:08:04 事件时间以及当前入口未复现？,F003_VQ_EVIDENCE,F-003,1.0,8
-GQ-015,Which source records feature priority completion stage next milestone and blockers?,FEATURE_PROGRESS,GLOBAL,1.0,5
+GQ-015,Feature Nine-Dimension Progress Matrix Complete feature Priority Current stage Next milestone Blocker dependency,FEATURE_PROGRESS,GLOBAL,1.0,12
 GQ-016,哪份只读回执记录“超过一万条记录”的脏工作区以及 PM 工作簿哈希 DBE5D1BD6B3E7CD95CF9DAEFCD9E342F0B79EACEF80E23ED09B521B7D0563959？,PD002_READ_ONLY_RECEIPT,GLOBAL;F-004,1.0,8
 GQ-017,哪份 UIUX 文档规定主地图 P0 信息层级、状态气泡预算、禁止临时资源以及 Figma 节点覆盖？,F004_RESIDENT_UIUX,F-004,1.0,8
 GQ-018,COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS,F004_RESIDENT_VQ,F-004,1.0,12
+GQ-019,哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包已完成待审且 Figma seat View 阻塞并保持 runtime false？,F004_RESIDENT_REBASELINE_RECEIPT,F-004,1.0,8

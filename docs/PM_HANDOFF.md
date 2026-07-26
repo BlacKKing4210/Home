@@ -1,6 +1,6 @@
 # Producer Handoff
 
-Status: F004-RESIDENT.1 DESIGN REBASELINE REVIEW - FIGMA BLOCKED, RUNTIME NOT AUTHORIZED
+Status: F004-RESIDENT.1 DESIGN REBASELINE PACKAGE COMPLETE FOR REVIEW - FIGMA BLOCKED, RUNTIME NOT AUTHORIZED
 
 ## Read Order
 
@@ -20,7 +20,7 @@ Status: F004-RESIDENT.1 DESIGN REBASELINE REVIEW - FIGMA BLOCKED, RUNTIME NOT AU
 
 ## Current Batch
 
-`PD-002` has formally rebaselined F-004 to `F004-RESIDENT.1`: players make low-frequency building, invitation, assignment and planning decisions while visible animal residents walk along roads, work, carry goods and live in the town. The representative loop is one house, one resident, one road segment, one field or workplace and one vehicle order. The design package, UI priority source, visual quality contract and DOCX/PDF review package exist, but the editable Figma/FigJam source is still blocked. No Godot runtime or new F004 configuration write is authorized. F003-FARM.2 remains the accepted playable baseline evidence, not proof of the new direction.
+`PD-002` has formally rebaselined F-004 to `F004-RESIDENT.1`: players make low-frequency building, invitation, assignment and planning decisions while visible animal residents walk along roads, work, carry goods and live in the town. The representative loop is one house, one resident, one road segment, one field or workplace and one vehicle order. Version 1.0 of the A-H design package, UI priority source, visual quality contract and DOCX/PDF review package is complete for user review, but the editable Figma/FigJam source is still blocked. No Godot runtime or new F004 configuration write is authorized. F003-FARM.2 remains the accepted playable baseline evidence, not proof of the new direction.
 
 ## Shared Locks
 
@@ -32,12 +32,12 @@ No shared file or runtime lock is active. `F004-DESIGN-LOCK-001` was released th
 
 ## Blockers
 
-`BLOCKED: Figma UE attachment` remains material. The target Figma file can be identified, but editable frames/flows have not been created and read back with a valid edit-capable seat. User review of the `1x1` footprint catalog and the recommended resident/offline/order defaults is also pending. These blockers prevent design approval and runtime authorization; they are not file locks and must not be bypassed. F-001, F-002 and F003-FARM.2 remain closed for prototype.
+`BLOCKED: Figma UE attachment` remains material. On 2026-07-26, Figma `whoami` returned `skyfire / Starter / seat=View`; target-file `use_figma` failed at the MCP transport layer, the in-app browser load timed out, and the installed Chrome control channel returned unavailable. Editable frames/flows therefore have not been created or read back with a valid edit-capable path. User review of the `1x1` footprint catalog and the recommended resident/offline/order defaults is also pending. These blockers prevent design approval and runtime authorization; they are not file locks and must not be bypassed. F-001, F-002 and F003-FARM.2 remain closed for prototype.
 
 ## Git State
 
-The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The guarded project baseline was committed as `5128e5a5bd27b2e61bf3f9c3137f2f36c92a1ca5` and pushed to `origin/main`; the post-push remote hash matched the local hash. The baseline contains 305 project files (34.54 MB), while dependency junctions, task scratch data outside auditable RAG receipts, Godot imports/translations, Python caches and workstation GPU caches remain ignored. Git connectivity and source synchronization do not change F004 design or runtime acceptance.
+The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The audited pre-delivery baseline is `9fb0dc63595ce841528546c5474425d0bcc95702` on `main`; final delivery synchronization is verified separately after the design package, workbook and RAG receipts are committed. Dependency junctions, non-auditable task scratch data, Godot imports/translations, Python caches and workstation GPU caches remain ignored. Git connectivity and source synchronization do not change F004 design or runtime acceptance.
 
 ## Takeover State
 
-`F004_RESIDENT_DESIGN_REVIEW_FIGMA_BLOCKED`: Codex `/root` remains the sole accountable producer. The stale old-direction lock is released, so coordination is no longer blocked by a file lock. The next product step is still to restore editable Figma/FigJam delivery, review the footprint catalog, and close the design milestone before authorizing one representative Godot runtime slice. F-004 through F-010 remain non-runtime-authorized until their individual gates pass.
+`F004_RESIDENT_DESIGN_PACKAGE_COMPLETE_FIGMA_BLOCKED`: Codex `/root` remains the sole accountable producer. The stale old-direction lock is released, so coordination is no longer blocked by a file lock. The next product step is to restore editable Figma/FigJam delivery and obtain user review of the footprint catalog and recommended defaults before authorizing one representative Godot runtime slice. F-004 through F-010 remain non-runtime-authorized until their individual gates pass.

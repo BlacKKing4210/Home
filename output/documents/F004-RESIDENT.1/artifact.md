@@ -21,3 +21,12 @@
 - 不插入本地低保真图冒充正式 Figma；
 - Figma 未写入并读回前统一标记 `BLOCKED: Figma UE attachment`；
 - 运行时权限保持 `false`，不把静态文档当作实装或玩家验收。
+
+V1.0 交付：
+
+- 可编辑 DOCX：`CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V1.0_REVIEW.docx`；
+- 审阅 PDF：`CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V1.0_REVIEW.pdf`；
+- 38 页 A4，Word 目录和字段已更新；
+- 821 个正文段落、26 张表、2 张旧运行基线截图；
+- 10 张 contact sheet 已逐页检查，无空白页、截断、越界、字段错误或 `Reference source not found`；
+- Figma Gate 仍保持阻塞，文档 QA 不改变运行时权限。

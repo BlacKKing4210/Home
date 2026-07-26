@@ -1,0 +1,190 @@
+{
+  "citation_count": 10,
+  "citations": [
+    {
+      "authority": "approved",
+      "chunk_id": "337d07c149399e827febb4a8",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 4,
+      "locator": "lines 1-54",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md",
+      "score": 0.12193088,
+      "sha256": "90cecdd85f5808e1c5a870d9330dbe8ade080c85a3d1f2febed02174a1570b77",
+      "source_id": "F004_RESIDENT_REBASELINE_RECEIPT",
+      "vector_rank": 8,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "218dbbd7dfcb248420adebce",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 9,
+      "locator": "lines 714-762",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.11771327,
+      "sha256": "c94599ace261771233ba6e39bea6d1a4f4a60ddeb601e5feb72ef9797cc27341",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": 18,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "3736639ccdc1bfe243f8d5e2",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 3,
+      "locator": "lines 1-17",
+      "owner": "producer",
+      "path": "docs/task_contract.md",
+      "score": 0.11594603,
+      "sha256": "349e1fb386f2358b979efd3a53b725e409eef1f66933cf72020dd90deb4a495e",
+      "source_id": "TASK_CONTRACT",
+      "vector_rank": 3,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "1b33d9535a555291d1fdefad",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 19,
+      "locator": "lines 54-117",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-001.md",
+      "score": 0.11315686,
+      "sha256": "8eed6089a4695d8e1be3a9221707bf5a1eb87a474c7bc0068640a57a86ed5498",
+      "source_id": "F004_RESIDENT_FINAL_RECEIPT",
+      "vector_rank": 13,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "faafba75bda74de2e5a957c3",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 16,
+      "locator": "lines 8-10",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.11198289,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 4,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "66de9ac9dfc53335be483586",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 8,
+      "locator": "lines 39-70",
+      "owner": "producer",
+      "path": "docs/active_scope.yaml",
+      "score": 0.1118905,
+      "sha256": "4a97ef384371a227128c6a7a5752e6333a447efb0adb893b4f8074349776af0d",
+      "source_id": "ACTIVE_SCOPE",
+      "vector_rank": 5,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "1b784f3fdd37379e1ff0beae",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 22,
+      "locator": "lines 1-9",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.11187963,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 11,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "6cd7b80b7b23ad7a25d07955",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 24,
+      "locator": "lines 681-718",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.11105044,
+      "sha256": "c94599ace261771233ba6e39bea6d1a4f4a60ddeb601e5feb72ef9797cc27341",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": 21,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "021e12229864b6fec8c6bd63",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 11,
+      "locator": "lines 38-73",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md",
+      "score": 0.1104424,
+      "sha256": "90cecdd85f5808e1c5a870d9330dbe8ade080c85a3d1f2febed02174a1570b77",
+      "source_id": "F004_RESIDENT_REBASELINE_RECEIPT",
+      "vector_rank": 16,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "d79194b1ead7c477c8742bd9",
+      "feature_ids": [
+        "F-004",
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": null,
+      "locator": "lines 93-99",
+      "owner": "producer",
+      "path": "docs/decisions/PD-002-animal-resident-town-rebaseline.md",
+      "score": 0.1097,
+      "sha256": "f27b1a6d5e5675c384928859a54832b736fe334f8185721fbcd21d2d3a171e3c",
+      "source_id": "PRODUCT_REBASE_DECISION",
+      "vector_rank": 20,
+      "version": "PRODUCT-REBASELINE.1"
+    }
+  ],
+  "context_pack": "tmp/rag/context/REQ-COA-F004-DESIGN-REBASELINE-CONTINUE-20260726.md",
+  "context_pack_sha256": "6005c310b256bf12b2bdebf7aa8693ebd1193ef212c834a5edbd2099c4476aed",
+  "created_at": "2026-07-26T06:34:04Z",
+  "feature_ids": [
+    "F-004"
+  ],
+  "gate_receipt": "tmp/rag/receipts/rag-gate.json",
+  "gate_receipt_sha256": "efe89b952609306ff81fc0f30ca0dcd9a1665780cc7b45b11753bc6d13ab68be",
+  "index_signature": "835285268b25ba121fe304c390dc30a8815c734f4ab2180c116ec428530991f0",
+  "project_root": "D:\\AI\\CityOfAnimals",
+  "query": "Continue F004-RESIDENT.1 V1.0 A-H design package complete for review Figma seat View blocked editable FigJam runtime false progress matrix superseded rules",
+  "request_id": "REQ-COA-F004-DESIGN-REBASELINE-CONTINUE-20260726",
+  "schema_version": 1,
+  "status": "READY"
+}
