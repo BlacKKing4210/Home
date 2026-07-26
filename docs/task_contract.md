@@ -1,6 +1,6 @@
 # Current Execution Task Contract
 
-F-004 has been formally rebaselined from `F004-DISTRICT.1` to `F004-RESIDENT.1`. The current task is design review and editable-design handoff only. Figma remains blocked and runtime implementation remains unauthorized.
+F-004 has been formally rebaselined from `F004-DISTRICT.1` to `F004-RESIDENT.1`. The current task is design review and editable-design handoff only. `PD-003` selects Penpot as the formal editable source; authenticated import/readback and runtime implementation remain pending/unauthorized.
 
 - Task ID: `F-004-RESIDENT-DESIGN-001`.
 - Version: `F004-RESIDENT.1`.
@@ -9,13 +9,15 @@ F-004 has been formally rebaselined from `F004-DISTRICT.1` to `F004-RESIDENT.1`.
 - Product decision: [PD-002 Animal Resident Town Rebaseline](decisions/PD-002-animal-resident-town-rebaseline.md).
 - Producer direction reaffirmation: [F004-RESIDENT Producer Reaffirmation](receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt); the five product principles are approved, while the exact footprint catalog and recommended defaults remain under review.
 - Design authorization: [PD-002 Read-only Receipt](receipts/PD-002-READ-ONLY.md).
-- Current design receipt: [F004-RESIDENT-DESIGN-REBASELINE-002](receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md).
+- Current design receipt: [F004-RESIDENT-PENPOT-HANDOFF-004](receipts/F004-RESIDENT-PENPOT-HANDOFF-004.md).
 - Formal output target: [F-004 Resident Town Spatial and Autonomy](features/F-004-resident-town-spatial-autonomy.md).
-- Required handoff: approved `1x1` grid and footprint catalog, editable Figma/FigJam UE and state layouts, reviewed general-template DOCX/PDF, visual quality contract and milestone review.
-- Current evidence: product rebaseline, spatial rules, resident/job state machine, vehicle-order UE, UI priority, visual contract, A-H completion audit and DOCX/PDF review package exist.
-- Current blocker: `BLOCKED: Figma UE attachment`; local Mermaid sources, static figures and documents do not close this gate.
-- Latest Figma diagnosis: `skyfire / Starter / seat=View`; target-file MCP transport failed, in-app browser load timed out, and the installed Chrome control channel was unavailable on 2026-07-26.
+- Editable-design decision: [PD-003 Penpot Editable Design Source](decisions/PD-003-penpot-editable-design-source.md).
+- Required handoff: approved `1x1` grid and footprint catalog, editable Penpot UE/state layouts with object-level readback, reviewed general-template DOCX/PDF, visual quality contract and milestone review.
+- Current evidence: product rebaseline, spatial rules, resident/job state machine, vehicle-order UE, UI priority, visual contract, A-H completion audit, Penpot import package, updated progress workbook and V1.1 DOCX/PDF review package exist.
+- Current dependency: `PENDING: Penpot authenticated editable file creation/readback`; local named SVG sources, Mermaid drafts, static figures and documents do not close this gate.
+- Current Penpot evidence: official SaaS login page reachable; no authenticated session; local import source/register at `output/penpot/F004-RESIDENT.1/`.
+- Historical Figma diagnosis: `skyfire / Starter / seat=View`; retained as superseded tool evidence and no longer blocks the active route.
 - Runtime exclusion: do not edit Godot scenes, scripts, tests, save data, `project.godot`, runtime assets or create new F004 configuration tables under this task.
-- Engineering gate: user approval of the detailed footprint catalog/recommended defaults and verified editable Figma/FigJam write-readback must pass before a new representative-slice read-only receipt can authorize runtime work.
+- Engineering gate: user approval of the detailed footprint catalog/recommended defaults and verified editable Penpot import/readback must pass before a new representative-slice read-only receipt can authorize runtime work.
 - Superseded source: `F004-DISTRICT.1` and its eight CSVs are preserved as historical migration input and are not runtime authority.
 - Baseline: [F-003 Farm Foundation V2](features/F-003-farm-town-foundation-v2.md) and [F-003 FARM.2 Acceptance](receipts/F-003-FARM2-ENG-002.md) remain the accepted playable prototype evidence only.

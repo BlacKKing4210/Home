@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "feature_id": "F-004",
+  "version": "F004-RESIDENT.1-V1.1",
+  "status": "PENPOT_IMPORT_SOURCE_NOT_RUNTIME",
+  "target_canvas": {
+    "width": 720,
+    "height": 1280,
+    "orientation": "portrait",
+    "locale": "zh-CN"
+  },
+  "screen_source": "F004-RESIDENT.1-penpot-screen-source.svg",
+  "flow_source": "F004-RESIDENT.1-penpot-flow-source.svg",
+  "frames": [
+    "00_Product_Memory_Point",
+    "01_Main_Map_720x1280",
+    "02_Build_And_Road_Mode",
+    "03_House_Invite_Assign",
+    "04_Resident_And_Workplace_States",
+    "05_Vehicle_Order_States",
+    "06_Loading_Empty_Failure_Interrupted",
+    "07_Component_And_Token_Sheet"
+  ],
+  "flows": [
+    "08_Representative_Player_UE",
+    "09_Resident_State_Machine",
+    "10_Vehicle_Order_State_Machine",
+    "11_Spatial_Placement_Validation"
+  ],
+  "required_readback_objects": [
+    "memory-point",
+    "main-map-world",
+    "top-hud",
+    "context-panel",
+    "resident-fox",
+    "resident-path",
+    "house-footprint-2x2",
+    "field-footprint-1x1",
+    "road-network",
+    "vehicle-dock",
+    "vehicle-order",
+    "blocked-state",
+    "reduced-motion-state",
+    "component-sheet"
+  ],
+  "gate": "PENDING_AUTHENTICATED_PENPOT_IMPORT_AND_READBACK",
+  "runtime_authority": false
+}

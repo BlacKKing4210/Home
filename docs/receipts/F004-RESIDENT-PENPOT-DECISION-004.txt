@@ -1,0 +1,10 @@
+feature_id: F-004
+decision_state: APPROVED_PENPOT_AS_FORMAL_EDITABLE_DESIGN_SOURCE / PENPOT_AUTH_PENDING / NOT_RUNTIME
+approved_rule: CityOfAnimals 当前及后续新建或物质性修改的玩家可见设计使用 Penpot 作为正式可编辑 UI、UE、状态、组件与视觉评审源；本地可编辑 SVG 只作为 Penpot 导入源和备份，PNG/PDF 只作为评审派生物；真实文件创建、对象级回读、导出一致性和制作人/用户审阅门槛保持不变。
+superseded_rule: F004 必须依赖 Figma/FigJam 才能继续的工具限定被 PD-003 覆盖；旧 Figma View 席位、MCP 和浏览器阻塞保留为历史诊断，不再作为当前 F004 的活动阻塞。
+formal_source_target: docs/decisions/PD-003-penpot-editable-design-source.md
+affected_domains: producer; workflow; game-design; ui-ux; visual-quality; documentation; evidence; progress-matrix; rag
+affected_files: AGENTS.md; docs/WORKFLOW.md; docs/project_profile.yaml; docs/active_scope.yaml; docs/PM_HANDOFF.md; docs/task_contract.md; docs/design_index.md; docs/config_index.md; docs/features/F-004-resident-town-spatial-autonomy.md; docs/uiux/F004-RESIDENT.1-ui-priority.md; docs/design/F004-RESIDENT.1-visual-quality-contract.md; docs/tasks/F004-RESIDENT.1-design-rebaseline.md; output/penpot/F004-RESIDENT.1/; output/documents/F004-RESIDENT.1/; PM/feature_progress.xlsx; knowledge/knowledge_manifest.csv; knowledge/golden_queries.csv
+execution_readiness: READY_FOR_F004_DESIGN_PACKAGE_AND_PENPOT_IMPORT_SOURCE_CONTINUATION_ONLY; remote Penpot file creation/readback and user detailed design review remain pending; runtime_authority=false
+unresolved_producer_decisions: approve the detailed V1.1 footprint catalog and recommended defaults after Penpot review; authorize a separate representative Godot slice only after editable-design closure
+reusable_method_candidate: yes; project workflow may use a tool-agnostic editable-design gate with Penpot as the selected current source

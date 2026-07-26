@@ -343,6 +343,18 @@ def add_baseline_figure(doc: Document, image_path: Path, caption: str) -> None:
     set_run_font(run, size=8.8, color="666666")
 
 
+def add_review_board_figure(doc: Document, image_path: Path, caption: str) -> None:
+    paragraph = doc.add_paragraph()
+    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    shape = paragraph.add_run().add_picture(str(image_path), width=Cm(16.6))
+    shape._inline.docPr.set("descr", caption)
+    shape._inline.docPr.set("title", image_path.stem)
+    caption_paragraph = doc.add_paragraph()
+    caption_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = caption_paragraph.add_run(caption)
+    set_run_font(run, size=8.8, color="666666")
+
+
 def add_status_panel(doc: Document) -> None:
     table = doc.add_table(rows=1, cols=1)
     table.style = "Table Grid"
@@ -351,8 +363,8 @@ def add_status_panel(doc: Document) -> None:
     set_cell_shading(table.cell(0, 0), CORAL)
     paragraph = table.cell(0, 0).paragraphs[0]
     run = paragraph.add_run(
-        "当前最高 Gate：DESIGN_REBASELINE_REVIEW / VISUAL_CONTRACT_REVIEW。"
-        "Figma UE attachment 仍为 BLOCKED；runtime_authority=false；"
+        "当前最高 Gate：DESIGN_REBASELINE_REVIEW / PENPOT_IMPORT_SOURCE_READY。"
+        "Penpot 云端登录、导入、对象回读和用户设计评审仍为 PENDING；runtime_authority=false；"
         "本文、PDF、静态截图和测试均不证明运行时完成。"
     )
     set_run_font(run, size=8.8, bold=True)
@@ -374,8 +386,11 @@ def build_document(
     ui_md: Path,
     visual_md: Path,
     decision_md: Path,
+    penpot_decision_md: Path,
     baseline_main: Path,
     baseline_orders: Path,
+    penpot_screen_board: Path,
+    penpot_flow_board: Path,
     output: Path,
 ) -> None:
     doc = Document(str(template))
@@ -394,7 +409,7 @@ def build_document(
     set_run_font(title_run, name="微软雅黑", size=20, bold=True)
     subtitle = doc.add_paragraph(style="Template Note")
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    subtitle_run = subtitle.add_run("产品与设计重基线 V1.0 · 720×1280 竖屏 · runtime_authority=false")
+    subtitle_run = subtitle.add_run("产品与设计重基线 V1.1 · Penpot 可编辑移交 · 720×1280 竖屏 · runtime_authority=false")
     set_run_font(subtitle_run, name="微软雅黑", size=9, color=BLUE_DARK)
     add_status_panel(doc)
 
@@ -402,13 +417,13 @@ def build_document(
         doc,
         "版本控制",
         [
-            ["文档编号", "COA-F004-RESIDENT.1", "当前版本", "V1.0 REVIEW"],
+            ["文档编号", "COA-F004-RESIDENT.1", "当前版本", "V1.1 REVIEW"],
             ["功能 ID", "F-004 / F004-RESIDENT.1", "文档状态", "DESIGN_REBASELINE_REVIEW"],
             ["制作人 / 主策划", "Codex /root", "运行时权限", "false"],
             ["创建日期", "2026-07-26", "目标平台", "Mobile / 720×1280 portrait"],
             ["默认语言", "zh-CN；设置可切 en", "配置版本", "仅建议，未授权建表"],
-            ["Figma 源", "https://www.figma.com/design/uU2Oek5RqFb19CPoGl48lC/Untitled", "Figma Gate", "BLOCKED: UE attachment"],
-            ["正式决策", "PD-002 animal resident town rebaseline", "评审结论", "待用户审阅"],
+            ["Penpot 源", "output/penpot/F004-RESIDENT.1/README.md", "Penpot Gate", "PENDING: cloud import/readback"],
+            ["正式决策", "PD-002 rebaseline + PD-003 Penpot source", "评审结论", "待用户审阅"],
         ],
         [1600, 3280, 1600, 2880],
     )
@@ -418,6 +433,7 @@ def build_document(
         [
             ["版本", "编写人", "审核人", "批准人", "日期", "更新内容"],
             ["V1.0", "Codex /root", "待用户评审", "Pending", "2026-07-26", "完成 A-H 正式设计覆盖、RAG/控制面续接与 Figma 阻塞证据收口。"],
+            ["V1.1", "Codex /root", "待用户评审", "Pending", "2026-07-26", "正式改用 Penpot；完成 8 张界面、4 张流程和 14 个回读对象的导入源与 720×1280 静态校验。"],
         ],
         [900, 1350, 1350, 1150, 1350, 3260],
     )
@@ -427,7 +443,7 @@ def build_document(
         [
             ["责任方", "负责人", "当前状态", "下一 Gate", "完成条件"],
             ["产品/设计", "Codex /root", "重基线已形成，待审阅", "DESIGN_REBASELINE_APPROVED", "占地、居民、车辆与减法规则批准"],
-            ["UI/UX/主美", "Codex /root", "合同已形成；Figma 阻塞", "VISUAL_CONTRACT_APPROVED", "可编辑设计、全状态与评审面批准"],
+            ["UI/UX/主美", "Codex /root", "Penpot 导入源已形成；云端待回读", "VISUAL_CONTRACT_APPROVED", "Penpot 对象回读、全状态与评审面批准"],
             ["程序", "未授权", "未开始", "RUNTIME_SLICE_APPROVED", "一个真实 720×1280 代表切片及行为证据"],
             ["扩面", "未授权", "禁止开始", "SCALE_OUT_APPROVED", "代表切片无 BLOCKER/MATERIAL"],
         ],
@@ -446,7 +462,7 @@ def build_document(
     doc.add_paragraph("0. 制作人只读基线", style="Heading 1")
     add_text_paragraph(
         doc,
-        "F003-FARM.2 仅保留为已接受可玩原型基线；旧 F004-DISTRICT.1 为 22% 的 FORMAL DESIGN HOLD / FIGMA，"
+        "F003-FARM.2 仅保留为已接受可玩原型基线；旧 F004-DISTRICT.1 为 22% 的历史 FORMAL DESIGN HOLD / FIGMA，"
         "其频繁点击、固定站点和分区面板方向与本次正式决策冲突，进入 revise/superseded 审计。"
     )
     add_text_paragraph(
@@ -455,6 +471,23 @@ def build_document(
     )
     add_baseline_figure(doc, baseline_main, "图 0-1：旧 F003 主地图真实运行基线。问题包括占地不统一、道路断裂、居民不是任务执行者。")
     add_baseline_figure(doc, baseline_orders, "图 0-2：旧 F003 订单面板真实运行基线。订单仍是卡片/按钮，而不是世界车辆事件。")
+
+    doc.add_paragraph("0.1 Penpot 可编辑设计移交", style="Heading 1")
+    add_text_paragraph(
+        doc,
+        "下列画板由项目内 SVG 可编辑源渲染，用于在 Penpot 登录后导入、分组、组件化和对象回读。"
+        "本地 SVG 是导入源与备份，不替代真实 Penpot 云端文件；PNG/PDF 仅为派生评审预览。"
+    )
+    add_review_board_figure(
+        doc,
+        penpot_screen_board,
+        "图 0-3：Penpot 界面导入源总览。覆盖 8 个命名界面组，包括 720×1280 主地图、建造、居民、车辆订单、系统状态与组件 Token。",
+    )
+    add_review_board_figure(
+        doc,
+        penpot_flow_board,
+        "图 0-4：Penpot 流程导入源总览。覆盖代表性 UE、居民状态机、车辆订单状态机与空间放置合法性。",
+    )
 
     parse_markdown(doc, feature_md.read_text(encoding="utf-8"))
     appendix_a = doc.add_paragraph("附录 A：制作人决策原文与处置", style="Heading 1")
@@ -466,6 +499,9 @@ def build_document(
     appendix_c = doc.add_paragraph("附录 C：视觉质量合同", style="Heading 1")
     appendix_c.paragraph_format.page_break_before = True
     parse_markdown(doc, visual_md.read_text(encoding="utf-8"))
+    appendix_d = doc.add_paragraph("附录 D：Penpot 正式设计源决策", style="Heading 1")
+    appendix_d.paragraph_format.page_break_before = True
+    parse_markdown(doc, penpot_decision_md.read_text(encoding="utf-8"))
 
     ensure_update_fields(doc)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -481,8 +517,11 @@ def main() -> None:
     parser.add_argument("--ui", type=Path, required=True)
     parser.add_argument("--visual", type=Path, required=True)
     parser.add_argument("--decision", type=Path, required=True)
+    parser.add_argument("--penpot-decision", type=Path, required=True)
     parser.add_argument("--baseline-main", type=Path, required=True)
     parser.add_argument("--baseline-orders", type=Path, required=True)
+    parser.add_argument("--penpot-screen-board", type=Path, required=True)
+    parser.add_argument("--penpot-flow-board", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     build_document(
@@ -491,8 +530,11 @@ def main() -> None:
         args.ui,
         args.visual,
         args.decision,
+        args.penpot_decision,
         args.baseline_main,
         args.baseline_orders,
+        args.penpot_screen_board,
+        args.penpot_flow_board,
         args.output,
     )
 

@@ -1,6 +1,6 @@
 # CityOfAnimals Production Workflow
 
-Version: WORKFLOW-1
+Version: WORKFLOW-2
 
 ## Authority
 
@@ -46,17 +46,17 @@ The task first submits a read-only receipt. The owner independently reviews it a
 - Verify safe areas, touch targets, readable text, and core state changes at `720 x 1280`.
 - A landscape or alternate-resolution exception requires a filed producer decision in both the profile and the affected feature source.
 
-## Mandatory Figma UE and UI/UX Handoff
+## Mandatory Penpot UE and UI/UX Handoff
 
 Every new or materially revised player-facing design, functional specification, product plan, or feature plan that defines UI, interaction, client behavior, or a UE flow must complete this gate before its UI/UE design is accepted:
 
 1. Apply `ui-design-priority`: identify the single primary decision, rank P0-P3 content, define full state coverage, map dynamic elements to data, and check text fit, touch targets, contrast, and color-independent cues.
-2. Create editable Figma artifacts: use Figma Design for screen/wireframe frames, and Figma/FigJam for system, UI interaction, state, reward, and UE/client flows.
-3. Record a `Figma UE & UI/UX Artifact Register` in the planning source with `figma_url`, `file_key`, `file_type`, `page_or_section`, `node_refs`, `source_version`, `owner`, `review_state`, and `coverage`.
-4. A document/PDF may show a preview, but the editable Figma URL is the review and change source of truth. Mermaid, PNG, SVG, or PDF alone is insufficient.
-5. If Figma is unavailable, file `BLOCKED: Figma UE attachment` with an accountable owner and next action; do not call the plan's UI/UE section complete.
+2. Create editable Penpot artifacts: use named boards/frames/components for screen layouts and named vector/connector groups for system, UI interaction, state, reward, and UE/client flows.
+3. Record a `Penpot UE & UI/UX Artifact Register` in the planning source with `penpot_url`, `workspace_id`, `project_id`, `file_id`, `page_or_board`, `object_refs`, `source_version`, `owner`, `review_state`, `coverage`, and `local_source_backup`.
+4. A document/PDF may show a preview, but the authenticated, editable, read-back-verified Penpot file is the review and change source of truth. Mermaid, PNG, SVG, PDF, browser-open state, or local import source alone is insufficient.
+5. If Penpot authentication, creation, import, or object-level readback is unavailable, file `PENDING: Penpot editable source creation/readback` with an accountable owner and next action; do not call the plan's UI/UE section complete.
 
-Pure research that defines no player interaction may be marked `Not applicable` with reason and owner. The gate applies to material revisions, not retroactively to accepted historical sources.
+Pure research that defines no player interaction may be marked `Not applicable` with reason and owner. Historical accepted Figma/FigJam sources remain valid evidence; Penpot is the selected editable source for new or materially revised CityOfAnimals work under `PD-003`.
 
 ## Evidence
 

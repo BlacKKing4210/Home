@@ -21,7 +21,7 @@ Use `game-feature-design-docs/assets/general-feature-design-template.docx` for g
 
 Treat `B-庇护所.docx` as the general-document reference and `Z-在线奖励.docx` as the simple-document reference. Choose by system complexity, not page count; default to the general template when the feature is new, cross-system, multi-screen, multi-state, configuration-heavy, or interruption-sensitive. The simple template must still contain versioning, TOC, objectives, overview, editable UE flow, exact configuration sources, core logic, boundaries, UI behavior, art/audio/telemetry requirements, related systems, and QA acceptance. If a simple feature grows beyond those limits, migrate it to the general template before implementation continues.
 
-Create final system, UE, swimlane, state, and page-spec diagrams in editable Figma/FigJam with clear PNG/PDF exports linked from the DOCX. Mermaid, ASCII, text arrows, and Visio-only diagrams are drafts, not final planning artifacts. The producer-reviewed Word, Figma/FigJam, and configuration files are the source of truth.
+Create final system, UE, swimlane, state, and page-spec diagrams in the project's selected editable design source with clear PNG/PDF exports linked from the DOCX. For CityOfAnimals the selected source is Penpot under `PD-003`. Mermaid, ASCII, text arrows, standalone SVG, and Visio-only diagrams are drafts or import sources, not final planning artifacts. The producer-reviewed Word, Penpot, and configuration files are the source of truth.
 
 ## AnySearch Primary Search Default
 
@@ -70,17 +70,17 @@ Every new game must provide an in-game language selector in Settings, with `zh-C
 
 Unless an approved project profile and feature source explicitly choose another target, every mobile game screen uses a **720 x 1280 portrait** design canvas. Configure the engine with that viewport as its default, then use responsive scaling rather than designing at a smaller desktop size. Verify safe areas, touch targets, readable text, and state transitions at 720 x 1280; any resolution or orientation override must be filed in the project profile and the affected feature source.
 
-## Mandatory Figma UE and UI/UX Handoff
+## Mandatory Penpot UE and UI/UX Handoff
 
 For every new or materially revised player-facing game design, functional specification, product plan, or feature plan that defines UI, player interaction, client behavior, or a UE flow:
 
 1. Use `ui-design-priority` before drawing. Define the screen/state's single primary decision; rank P0-P3 information; then define entry, exit, loading, empty, disabled, failure, success, interrupted states, data sources, touch/text/contrast checks, and explicit removals.
-2. Produce editable Figma artifacts, not only a static export. Use a Figma Design file for editable screen/wireframe frames and a Figma/FigJam diagram for system, UI interaction, state, reward, and UE/client flows. Use the Figma diagram workflow for flow/state diagrams; use Figma Design editing for screen layouts.
-3. Attach a `Figma UE & UI/UX Artifact Register` to the planning document with the Figma URL, file key, file type, page/section or node references, source version, owner, review state, and diagram/frame coverage.
-4. Insert a review preview or link in the document/PDF, but treat the editable Figma artifact as the source of truth. Mermaid, PNG, SVG, or PDF alone cannot satisfy this handoff.
-5. Do not mark the plan's UI/UE portion design-complete without a verified editable Figma link. If Figma is unavailable, record `BLOCKED: Figma UE attachment` with an owner and next action; do not silently downgrade to a static diagram.
+2. Produce editable Penpot artifacts, not only a static export. Use Penpot boards/frames/components for editable screen layouts and named vector/connector groups for system, UI interaction, state, reward, and UE/client flows.
+3. Attach a `Penpot UE & UI/UX Artifact Register` to the planning document with the Penpot URL, workspace/project/file ID, page or board name, object references, source version, owner, review state, diagram/frame coverage, and local editable-source backup.
+4. Insert a review preview or link in the document/PDF, but treat the authenticated, editable, read-back-verified Penpot file as the source of truth. Mermaid, PNG, SVG, PDF, browser-open state, or a local import source alone cannot satisfy this handoff.
+5. Do not mark the plan's UI/UE portion design-complete without a verified editable Penpot link and object-level readback. If Penpot authentication, creation, import, or readback is unavailable, record `PENDING: Penpot editable source creation/readback` with an owner and next action; do not silently downgrade to a static diagram.
 
-Pure research with no player interaction may record `Not applicable` with a reason and owner. Historical accepted documents are not retroactively invalidated, but this gate applies whenever they are materially revised.
+Pure research with no player interaction may record `Not applicable` with a reason and owner. Historical accepted Figma/FigJam documents remain valid historical evidence and are not retroactively invalidated, but Penpot is the current source for new or materially revised CityOfAnimals work.
  
 ## Producer Takeover Phrases
 

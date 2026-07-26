@@ -94,6 +94,8 @@ CityOfAnimals 从“玩家逐个点击田地、动物栏、机器与收取位的
 - 视觉质量合同：`docs/design/F004-RESIDENT.1-visual-quality-contract.md`
 - 只读/控制面回执：`docs/receipts/PD-002-READ-ONLY.md`
 - DOCX/PDF：`output/documents/F004-RESIDENT.1/`
-- Figma/FigJam 登记与草稿源：`output/figma/F004-RESIDENT.1/`
+- 当前可编辑工具决策：`docs/decisions/PD-003-penpot-editable-design-source.md`
+- Penpot 登记与导入源：`output/penpot/F004-RESIDENT.1/`
+- Figma/FigJam 历史诊断与草稿源：`output/figma/F004-RESIDENT.1/`
 
-下一阶段必须先由用户审阅设计重基线、占地目录和 Figma/FigJam；未获得运行时实装授权前，不修改 Godot。
+下一阶段必须先完成 Penpot 云端导入/对象级回读，并由用户审阅设计重基线、占地目录和推荐默认值；未获得运行时实装授权前，不修改 Godot。

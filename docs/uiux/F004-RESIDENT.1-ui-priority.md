@@ -1,11 +1,11 @@
 # F004-RESIDENT.1 主页面 UI/UX 优先级
 
-**版本：** V1.0 / 2026-07-26
+**版本：** V1.1 / 2026-07-26
 **目标画布：** 720×1280 竖屏  
 **输入：** 触控为主；鼠标用于桌面调试  
 **默认语言：** `zh-CN`；设置中可切换并持久化 `en`  
 **状态：** `UI_UX_REBASELINE_REVIEW`  
-**Figma：** 未经节点写入与读回验证前保持 `BLOCKED: Figma UE attachment`
+**Penpot：** 本地导入源已完成；未经云端认证、导入与对象级读回前保持 `PENDING: Penpot editable source creation/readback`
 
 ## 1. 单一主要决定
 
@@ -113,9 +113,9 @@
 
 上述表名是新版本配置源建议，尚未获得创建/修改配置表的授权。
 
-## 10. Figma 交付覆盖
+## 10. Penpot 交付覆盖
 
-设计文件目标页：`CityOfAnimals / F004-RESIDENT.1`
+设计文件目标：`CityOfAnimals / F004-RESIDENT.1`
 
 必须包含：
 
@@ -128,20 +128,21 @@
 7. `06_Loading_Empty_Failure_Interrupted`
 8. `07_Component_And_Token_Sheet`
 
-FigJam 必须包含：
+Penpot 命名流程画板必须包含：
 
 - 玩家代表性 UE 流程；
 - 动物居民状态机；
 - 车辆订单状态机；
 - 空间放置与路径合法性流程。
 
-只有 Figma/FigJam 节点真实存在、可编辑、能读回并完成制作人审阅时，UI/UE Gate 才可从 `Blocked/Pending` 转为通过。
+只有 Penpot 页面/画板真实存在、可编辑、能对象级读回并完成制作人审阅时，UI/UE Gate 才可从 `Pending` 转为通过。
 
 2026-07-26 可编辑交接复核：
 
-- Figma 账户为 `skyfire`，Starter 团队席位返回 `View`；
-- 目标 Design 文件的 `use_figma` 只读连接在 MCP 传输层失败；
-- 内置浏览器打开目标文件超时；
-- 已安装 Chrome 的控制通道当前返回不可用。
+- `PD-003` 已把正式工具切换为 Penpot；
+- `output/penpot/F004-RESIDENT.1/` 已提供 8 个命名屏幕/状态 group、4 个命名流程 group 和 import manifest；
+- Penpot 官方 SaaS 登录页可访问，但当前浏览器没有已认证会话；
+- 云端文件 URL、ID、对象引用、导入结果和回读结果仍为 `PENDING`；
+- 旧 Figma 席位/传输诊断仅保留为历史证据。
 
-因此本文件已达到 `UI_UX_REBASELINE_REVIEW`，但不能把本地流程草稿、DOCX/PDF 或静态预览当作可编辑 Figma 交付。
+因此本文件已达到 `UI_UX_REBASELINE_REVIEW / PENPOT_IMPORT_SOURCE_READY`，但不能把本地 SVG、DOCX/PDF 或静态预览当作已通过的 Penpot 云端交付。

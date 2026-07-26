@@ -1,11 +1,11 @@
 # CityOfAnimals F004-RESIDENT.1 视觉质量合同
 
 **合同 ID：** `COA-VQ-F004-RESIDENT-001`  
-**版本：** V1.0 / 2026-07-26
+**版本：** V1.1 / 2026-07-26
 **适用范围：** 动物居民小镇主地图及代表性闭环  
 **目标：** 720×1280 竖屏、45° 等距 2D 卡通  
 **状态：** `VISUAL_CONTRACT_REVIEW`  
-**Figma Gate：** `BLOCKED: Figma UE attachment`（直至写入与读回验证）  
+**Penpot Gate：** `PENDING: authenticated editable file creation/readback`（本地导入源已完成）
 **运行时 Gate：** `NOT AUTHORIZED`
 
 ## 1. 一句话视觉方向
@@ -174,6 +174,6 @@
 - `SCALE_OUT_APPROVED`：未通过。
 - `RELEASE_VISUAL_APPROVED`：未通过。
 
-在可编辑 Figma style frame、状态与组件源通过前，不得进入代表性运行切片；在真实 720×1280 切片无 BLOCKER/MATERIAL 前，不得批量重做道路、田地、建筑或居民。
+在可编辑 Penpot style frame、状态与组件源通过前，不得进入代表性运行切片；在真实 720×1280 切片无 BLOCKER/MATERIAL 前，不得批量重做道路、田地、建筑或居民。
 
-2026-07-26 续接复核没有改变视觉方向与质量阈值。可编辑交接仍被 Figma `View` 席位和不可用的 MCP/浏览器写入通道阻塞；因此本合同可供用户评审，但仍不得标记 `VISUAL_CONTRACT_APPROVED`。
+2026-07-26 续接复核没有改变视觉方向与质量阈值。`PD-003` 已把可编辑源切换为 Penpot，本地命名 SVG 导入源已完成；当前仅缺已认证的 Penpot 云端导入、对象级回读和用户评审。因此本合同可供用户评审，但仍不得标记 `VISUAL_CONTRACT_APPROVED`。

@@ -12,6 +12,8 @@ formal_sources:
   feature_progress: PM/feature_progress.xlsx
   design_index: docs/design_index.md
   config_index: docs/config_index.md
+  editable_design_decision: docs/decisions/PD-003-penpot-editable-design-source.md
+  editable_design_register: output/penpot/F004-RESIDENT.1/README.md
 
 runtime:
   project_path: 'D:\AI\CityOfAnimals'
@@ -27,6 +29,9 @@ presentation:
   design_resolution: [720, 1280]
   responsive_scaling_required: true
   verification_resolution: [720, 1280]
+  editable_design_tool: Penpot
+  editable_design_cloud: "https://design.penpot.app/"
+  editable_design_gate: "authenticated editable file plus object-level readback"
 
 localization:
   default_locale: zh-CN
@@ -49,4 +54,5 @@ rules:
   one_writer_per_shared_file: true
   existing_final_assets_have_priority: true
   ui_temporary_visuals_allowed: true
+  ui_temporary_visuals_runtime_visible: false
   non_ui_art_final_quality_from_first_production: true

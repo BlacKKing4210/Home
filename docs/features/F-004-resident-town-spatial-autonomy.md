@@ -2,7 +2,7 @@
 
 **文档编号：** `COA-F004-RESIDENT.1`  
 **Feature ID：** `F-004`  
-**当前版本：** V1.0
+**当前版本：** V1.1
 **文档状态：** `DESIGN_REBASELINE_REVIEW`  
 **制作人 / 主策划：** Codex `/root`  
 **目标平台：** Mobile  
@@ -18,6 +18,7 @@
 
 | 版本 | 编写人 | 审核人 | 日期 | 状态 | 更新内容 |
 |---|---|---|---:|---|---|
+| V1.1 | Codex `/root` | 待用户详细设计评审 | 2026-07-26 | Penpot 导入源完成 / 云端认证与回读待办 | `PD-003` 将正式可编辑源切换为 Penpot；新增 8 个 720×1280 命名评审面、4 张命名流程图及 import manifest；旧 Figma 阻塞降为历史证据，运行时仍未授权。 |
 | V1.0 | Codex `/root` | 产品方向五原则已确认；详细目录与 Figma 待评审 | 2026-07-26 | 设计重基线评审 | 完成 A-H 正式设计覆盖、RAG/控制面续接核验与锁状态收口；制作人再次确认统一占地、世界车辆订单、正式资产优先、动物居民自主作业和慢节奏住房/邀请体验；详细占地目录及可编辑交接仍未批准。 |
 | V0.9 | Codex `/root` | 待用户评审 | 2026-07-25 | 设计重基线评审 | 重建 F004 为统一空间、动物居民、自动作业与世界车辆订单基础；旧 `F004-DISTRICT.1` 建议被本版本覆盖。 |
 
@@ -27,7 +28,7 @@
 |---|---|---|---|
 | 产品重基线 | Codex `/root` | 已完成 | 单一记忆点、减法目标、旧规则处置和代表性闭环明确。 |
 | 空间/居民/车辆系统设计 | Codex `/root` | 本文待评审 | 占地目录、合法性、状态机、配置源、UE 和 QA 获得制作人批准。 |
-| UI/UX 与视觉质量合同 | Codex `/root` | 内容完成；Figma 物质阻塞 | 可编辑 Figma/FigJam、状态覆盖与视觉质量合同通过。 |
+| UI/UX 与视觉质量合同 | Codex `/root` | V1.1 内容与 Penpot 导入源完成；认证/回读待办 | 可编辑 Penpot 文件、对象级回读、状态覆盖与视觉质量合同通过。 |
 | 代表性运行切片 | 未授权 | 未开始 | 新工程只读回执、明确写集、Godot 实装授权。 |
 | 扩面 | 未授权 | 未开始 | 真实 720×1280 切片通过且 `SCALE_OUT_APPROVED`。 |
 
@@ -47,7 +48,7 @@
 12. 资产、动效、声音与原创  
 13. 关联与迁移  
 14. 验收与 QA  
-15. Figma UE & UI/UX Artifact Register  
+15. Penpot UE & UI/UX Artifact Register
 16. 进度矩阵与正式来源更新建议  
 17. 当前 Gate 与待确认项
 
@@ -210,7 +211,7 @@
 
 - 坐标：`grid_x, grid_y`，整数。
 - 邻接：仅 `N/E/S/W` 四向连接；画面是 45°，逻辑不使用对角捷径。
-- 渲染：每格投影为同尺寸菱形；`cell_width_px` / `cell_height_px` 在 Figma style frame 通过后配置。
+- 渲染：每格投影为同尺寸菱形；`cell_width_px` / `cell_height_px` 在 Penpot style frame 通过后配置。
 - 原点：世界地图有唯一逻辑原点与投影转换。
 - Y-sort：以实体脚点/占地前缘计算，不以图片顶部计算。
 - 地形：首切片仅 `buildable` 与 `blocked`；水、坡地等后续按相同格扩展。
@@ -464,7 +465,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 以下路径禁止出现 emoji、字母块、灰色占位、未批准候选或整页截图 UI：
 
 - 主页面制作人评审；
-- Figma style frame 的“正式视觉”帧；
+- Penpot style frame 的“正式视觉”帧；
 - 720×1280 玩家视角截图/视频；
 - 代表性切片行为验收；
 - 对外包、发布或扩面做出的视觉批准。
@@ -615,7 +616,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 - 功能源：`SUPERSEDED / HISTORICAL SUPPORTING`
 - 八张配置：`MIGRATION_INPUT / NOT_RUNTIME`
-- Figma Hold：由新版本的 Figma Gate 取代，但旧节点未完成事实继续保留。
+- Figma Hold：由 `PD-003` 的 Penpot Gate 取代；旧节点未完成与席位/传输诊断只保留为历史证据。
 - 旧设计锁：在制作人批准同步方案前保持，防止半更新。
 
 ### 13.3 F005
@@ -640,7 +641,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - [x] 配置源和 QA 合同已提出。
 - [x] 用户确认统一占地、世界车辆订单、正式资产优先、动物居民自主作业和慢节奏住房/邀请五项产品方向。
 - [ ] 用户批准详细占地目录与推荐默认值。
-- [ ] 可编辑 Figma/FigJam 节点写入并验证。
+- [ ] 可编辑 Penpot 文件导入、对象级回读并验证。
 - [ ] 视觉质量合同批准。
 
 ### 14.2 空间 QA
@@ -686,7 +687,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 ### 14.5 玩家可见视觉 QA
 
-- 真实 Godot 720×1280 玩家视角，不以静态 Figma、窗口打开或 exit code 替代。
+- 真实 Godot 720×1280 玩家视角，不以静态 Penpot/Figma、窗口打开或 exit code 替代。
 - 主页面不出现临时图、emoji、字母块、候选/NOT_RUNTIME 资源。
 - 居民、道路、建筑入口、作业点和车辆在 50% 预览可读。
 - 状态气泡预算满足，常态不出现菜单/感叹号海洋。
@@ -694,21 +695,21 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - 触控区、安全区、焦点、reduced-motion、加载/空态/失败/中断全部验证。
 - 帧率、内存、节点数、导航重建频率有行为级证据。
 
-静态文档、PNG、Figma、配置校验、无头测试和退出码都不能关闭运行时 Gate。
+静态文档、PNG、Penpot/Figma、配置校验、无头测试和退出码都不能关闭运行时 Gate。
 
-## 15. Figma UE & UI/UX Artifact Register
+## 15. Penpot UE & UI/UX Artifact Register
 
-| 图类型 | 可编辑源 | 页面/节点 | 版本 | Owner | 当前状态 | 覆盖 |
+| 图类型 | 可编辑源 | 页面/对象 | 版本 | Owner | 当前状态 | 覆盖 |
 |---|---|---|---|---|---|---|
-| 720×1280 主地图与组件 | [现有 Figma Design](https://www.figma.com/design/uU2Oek5RqFb19CPoGl48lC/Untitled) | 计划 `CityOfAnimals / F004-RESIDENT.1` | V1.0 | Codex `/root` | `BLOCKED: WRITE/READBACK` | 主地图、道路/住房/岗位/车辆、状态与 token |
-| 代表性玩家 UE | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 建房—邀请—派遣—作业—装载—离场 |
-| 居民状态机 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 身份、日常任务、阻塞与恢复 |
-| 车辆状态机 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 到达、等待、装载、离场、失败 |
-| 空间合法性流程 | 待生成 FigJam | 待登记 | V1.0 | Codex `/root` | `BLOCKED` | 占地、入口、道路、路径与事务 |
+| 8 个 720×1280 主地图/状态/组件面 | `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-screen-source.svg` | `00`–`07` 命名 group；云端对象 ID 待登记 | V1.1 | Codex `/root` | `IMPORT_SOURCE_READY / CLOUD_PENDING` | 记忆点、主地图、建造/道路、住房/邀请/派遣、居民/岗位、车辆、全状态、组件/token |
+| 代表性玩家 UE | `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-flow-source.svg` | `08_Representative_Player_UE` | V1.1 | Codex `/root` | `IMPORT_SOURCE_READY / CLOUD_PENDING` | 建房—邀请—派遣—作业—装载—离场 |
+| 居民状态机 | 同上 | `09_Resident_State_Machine` | V1.1 | Codex `/root` | `IMPORT_SOURCE_READY / CLOUD_PENDING` | 身份、日常任务、阻塞与恢复 |
+| 车辆状态机 | 同上 | `10_Vehicle_Order_State_Machine` | V1.1 | Codex `/root` | `IMPORT_SOURCE_READY / CLOUD_PENDING` | 到达、等待、装载、离场、失败 |
+| 空间合法性流程 | 同上 | `11_Spatial_Placement_Validation` | V1.1 | Codex `/root` | `IMPORT_SOURCE_READY / CLOUD_PENDING` | 占地、入口、道路、路径与事务 |
 
-本地 Mermaid/SVG/PNG/PDF 只是草稿或预览；只有可编辑 Figma/FigJam 是最终 UI/UE 源。
+本地命名 SVG 是 Penpot 导入源与可审计备份，不单独关闭 Gate。最终 UI/UE source of truth 必须是已认证、可编辑、可再次打开并完成对象级回读的 Penpot 文件；登记见 `output/penpot/F004-RESIDENT.1/README.md`。
 
-2026-07-26 复核证据：Figma `whoami` 成功返回 `skyfire / Starter / seat=View`；对目标 Design 文件的只读 `use_figma` 调用在 MCP 传输层失败；内置浏览器打开目标文件超时；Chrome 扩展控制通道返回不可用。以上均不能证明节点可写或可读回，因此 Gate 必须保持阻塞。
+2026-07-26 复核证据：Penpot 官方 SaaS 登录页可访问，但当前浏览器没有已认证会话，因而尚未创建云端文件、登记对象 ID 或完成回读。旧 Figma `View` 席位与传输诊断由 `PD-003` 降为历史证据，不再阻塞当前工具路线。
 
 ## 16. A-H 设计重基线完成度
 
@@ -719,7 +720,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 | C. 空间系统 | 第 5 章 | `1×1` 网格、占地、入口、道路、作业点、寻路、遮挡规则完成，待批准。 |
 | D. 动物居民 UE 与状态机 | 第 6–7 章 | 完整覆盖建房至中断/恢复；配置和 QA 合同完成，未创建运行表。 |
 | E. 世界车辆订单 | 第 8 章 | 到达、等待、装载、离场、失败/阻塞完成。 |
-| F. 主页面 UI/UX 与视觉合同 | 第 9–10 章及两个附属正式来源 | 内容完成；可编辑 Figma/FigJam 仍是物质阻塞。 |
+| F. 主页面 UI/UX 与视觉合同 | 第 9–10 章及两个附属正式来源 | 内容与 Penpot 导入源完成；云端认证、导入、对象回读与用户评审待办。 |
 | G. 推荐方案 | 第 3–4、17 章 | 单一推荐方案和少数待确认默认值已给出。 |
 | H. 进度矩阵与正式来源 | 第 16 章、Active Scope、PM Handoff、工作簿 | Feature 身份与 superseded 关系已同步；未误报 Ready。 |
 
@@ -733,13 +734,13 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - Functional source：`docs/features/F-004-resident-town-spatial-autonomy.md`
 - Numeric source：上述 `f004_resident_*.csv`（创建并验证后填写）
 - Producer directive：`PRODUCT-REBASELINE.1`
-- Design doc：90%，A-H 和文档包完成，但用户和 Figma 门通过前不写 100%
+- Design doc：95%，A-H、文档包和 Penpot 导入源完成，但用户与 Penpot 可编辑源门通过前不写 100%
 - Numeric table：0%，因为尚未创建新表
 - Code/Scene/UI/Integration：0%
 - Overall：10%，不沿用旧 22% 作为新版本完成度
-- Current stage：`DESIGN PACKAGE COMPLETE / FIGMA BLOCKED`
-- Next milestone：用户批准占地目录 + Figma/FigJam 可编辑交付
-- Blocker：`BLOCKED: Figma UE attachment; runtime not authorized`
+- Current stage：`DESIGN PACKAGE V1.1 / PENPOT SOURCE PENDING`
+- Next milestone：用户批准占地目录 + Penpot 云端导入/对象回读
+- Dependency：`PENDING: Penpot authenticated editable file creation/readback; runtime not authorized`
 
 ### Superseded 关系
 
@@ -758,8 +759,8 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 ### 仍未通过
 
-- 用户已确认五项产品方向，但尚未批准详细占地目录 V1.0 与推荐默认值；
-- Figma/FigJam 尚未全部写入并读回；
+- 用户已确认五项产品方向，但尚未批准详细占地目录 V1.1 与推荐默认值；
+- Penpot 云端文件尚未认证创建、导入并完成对象级回读；
 - 新配置表未获授权、未创建；
 - 没有新方向的 Godot 实装；
 - 没有真实 720×1280 新切片；
@@ -772,6 +773,6 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 3. 常规产出自动搬运，满仓时世界内阻塞；
 4. 订单无硬超时，允许谢绝；
 5. 逻辑四向道路，等距绘制；
-6. 占地目录按本文 V1.0 进入 Figma 评审。
+6. 占地目录按本文 V1.1 进入 Penpot 评审。
 
-用户批准详细占地目录与推荐默认值，并完成 Figma/FigJam 可编辑写入和读回后，再创建新的工程只读回执与配置合同；没有新的运行时授权，不进入 Godot。
+用户批准详细占地目录与推荐默认值，并完成 Penpot 可编辑导入和对象级回读后，再创建新的工程只读回执与配置合同；没有新的运行时授权，不进入 Godot。

@@ -1,0 +1,319 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3040" height="2720" viewBox="0 0 3040 2720">
+  <defs>
+    <style>
+      .bg{fill:#f3efe4}.frame{fill:#d8edbd;stroke:#2f453c;stroke-width:4}.hud{fill:#fff8e8;stroke:#2f453c;stroke-width:3}
+      .panel{fill:#fffdf6;stroke:#2f453c;stroke-width:3}.ink{fill:#2f453c}.muted{fill:#60766c}.road{fill:#e8c98e;stroke:#98734f;stroke-width:3}
+      .field{fill:#b97847;stroke:#70462d;stroke-width:3}.crop{fill:#6ea24a}.house{fill:#d98267;stroke:#2f453c;stroke-width:4}
+      .roof{fill:#8f4f45;stroke:#2f453c;stroke-width:4}.work{fill:#67a998;stroke:#2f453c;stroke-width:4}.vehicle{fill:#f3c45c;stroke:#2f453c;stroke-width:4}
+      .accent{fill:#d96552}.teal{fill:#3d9c8c}.gold{fill:#f4c65d}.ok{fill:#79ad58}.warn{fill:#d96652}.white{fill:#fffdf6}
+      .grid{fill:none;stroke:#9bbd78;stroke-width:2;stroke-dasharray:8 8}.path{fill:none;stroke:#3d9c8c;stroke-width:9;stroke-linecap:round;stroke-dasharray:16 12}
+      .t1{font:700 28px Arial,'Microsoft YaHei',sans-serif}.t2{font:700 22px Arial,'Microsoft YaHei',sans-serif}
+      .body{font:18px Arial,'Microsoft YaHei',sans-serif}.small{font:15px Arial,'Microsoft YaHei',sans-serif}.tiny{font:13px Arial,'Microsoft YaHei',sans-serif}
+      .chip{fill:#fff8e8;stroke:#2f453c;stroke-width:2}.button{fill:#d96552;stroke:#2f453c;stroke-width:3}.button2{fill:#3d9c8c;stroke:#2f453c;stroke-width:3}
+    </style>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#294036" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="3040" height="2720" class="bg"/>
+
+  <g id="00_Product_Memory_Point" transform="translate(0 0)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="56" y="78" class="t1 ink">00 产品记忆点</text>
+    <text x="56" y="110" class="small muted">DESIGN SOURCE · NOT_RUNTIME</text>
+    <rect id="memory-point" x="56" y="160" width="628" height="230" rx="24" class="panel" filter="url(#shadow)"/>
+    <text x="90" y="222" class="t2 ink">动物不是按钮或加成</text>
+    <text x="90" y="267" class="body ink">它们是看得见、会走路、会生活、</text>
+    <text x="90" y="301" class="body ink">会把小镇运转起来的居民。</text>
+    <path d="M120 570 L250 495 L380 570 L250 645 Z" class="road"/>
+    <path d="M250 645 L380 570 L520 650 L390 725 Z" class="road"/>
+    <g id="resident-fox" transform="translate(230 515)">
+      <circle cx="22" cy="18" r="16" class="accent"/><circle cx="70" cy="18" r="16" class="accent"/>
+      <circle cx="46" cy="46" r="36" class="accent"/><ellipse cx="46" cy="96" rx="31" ry="42" class="gold"/>
+      <circle cx="34" cy="42" r="4" class="ink"/><circle cx="58" cy="42" r="4" class="ink"/>
+      <path d="M40 56 Q46 63 52 56" fill="none" stroke="#2f453c" stroke-width="3"/>
+    </g>
+    <g id="house-footprint-2x2" transform="translate(410 385)">
+      <path d="M0 150 L115 85 L230 150 L115 215 Z" class="grid"/>
+      <path d="M20 130 L115 75 L210 130 L115 185 Z" class="house"/>
+      <path d="M20 130 L115 25 L210 130 L115 185 Z" class="roof"/>
+      <rect x="98" y="135" width="34" height="50" rx="5" class="gold"/>
+    </g>
+    <g id="field-footprint-1x1" transform="translate(90 735)">
+      <path d="M0 75 L120 8 L240 75 L120 142 Z" class="field"/>
+      <path d="M45 86 Q60 42 74 86 M92 105 Q108 54 124 105 M138 86 Q154 42 170 86" fill="none" stroke="#6ea24a" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <g id="vehicle-order" transform="translate(390 785)">
+      <rect x="0" y="30" width="190" height="94" rx="20" class="vehicle"/>
+      <rect x="138" y="0" width="82" height="75" rx="16" class="teal" stroke="#2f453c" stroke-width="4"/>
+      <circle cx="45" cy="132" r="21" class="ink"/><circle cx="171" cy="132" r="21" class="ink"/>
+      <rect x="25" y="55" width="42" height="32" rx="6" class="white"/><rect x="78" y="55" width="42" height="32" rx="6" class="white"/>
+    </g>
+    <path d="M278 635 C320 720 340 835 390 840" class="path"/>
+    <text x="56" y="1050" class="t2 ink">低频决策</text>
+    <text x="56" y="1084" class="body ink">建造 · 邀请 · 派遣 · 调整道路与优先级</text>
+    <text x="56" y="1140" class="t2 ink">世界内结果</text>
+    <text x="56" y="1174" class="body ink">居民通勤作业 · 货物装车 · 车辆离场</text>
+  </g>
+
+  <g id="01_Main_Map_720x1280" transform="translate(760 0)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <rect id="top-hud" x="40" y="42" width="660" height="92" rx="22" class="hud" filter="url(#shadow)"/>
+    <text x="66" y="83" class="t2 ink">松果镇 · 3</text>
+    <text x="305" y="82" class="body ink">● 2,460</text><text x="455" y="82" class="body ink">▣ 18/30</text>
+    <rect x="616" y="62" width="54" height="54" rx="18" class="chip"/><text x="633" y="98" class="t2 ink">⚙</text>
+    <g id="main-map-world">
+      <path d="M60 300 L350 140 L670 320 L380 480 Z" fill="#c7e6a5" stroke="#9abd76" stroke-width="4"/>
+      <path d="M80 465 L370 305 L660 465 L370 625 Z" fill="#c7e6a5" stroke="#9abd76" stroke-width="4"/>
+      <path d="M100 650 L370 500 L640 650 L370 800 Z" fill="#c7e6a5" stroke="#9abd76" stroke-width="4"/>
+      <path id="road-network" d="M80 505 L205 435 L305 490 L430 420 L610 520 L485 590 L385 535 L260 605 Z" class="road"/>
+      <path d="M315 490 L380 455 L505 525 L440 560 Z" class="road"/>
+      <g transform="translate(105 300)">
+        <path d="M0 125 L110 62 L220 125 L110 188 Z" class="house"/>
+        <path d="M0 125 L110 15 L220 125 L110 188 Z" class="roof"/>
+        <rect x="94" y="130" width="34" height="50" rx="5" class="gold"/>
+      </g>
+      <g transform="translate(430 270)">
+        <path d="M0 110 L105 50 L210 110 L105 170 Z" class="work"/>
+        <rect x="75" y="55" width="65" height="88" rx="10" class="gold"/>
+      </g>
+      <g transform="translate(110 610)">
+        <path d="M0 70 L100 14 L200 70 L100 126 Z" class="field"/>
+        <path d="M35 78 Q50 38 65 78 M78 98 Q94 48 110 98 M121 78 Q136 38 151 78" fill="none" stroke="#6ea24a" stroke-width="11" stroke-linecap="round"/>
+      </g>
+      <path id="resident-path" d="M250 430 C310 470 350 520 430 520" class="path"/>
+      <g transform="translate(295 470) scale(.72)">
+        <circle cx="22" cy="18" r="16" class="accent"/><circle cx="70" cy="18" r="16" class="accent"/>
+        <circle cx="46" cy="46" r="36" class="accent"/><ellipse cx="46" cy="96" rx="31" ry="42" class="gold"/>
+        <circle cx="34" cy="42" r="4" class="ink"/><circle cx="58" cy="42" r="4" class="ink"/>
+      </g>
+      <g id="vehicle-dock" transform="translate(400 680)">
+        <rect x="0" y="0" width="230" height="70" rx="18" fill="#bd9464" stroke="#2f453c" stroke-width="4"/>
+        <rect x="20" y="20" width="55" height="34" rx="6" class="white"/>
+        <rect x="86" y="20" width="55" height="34" rx="6" class="white"/>
+      </g>
+    </g>
+    <rect id="context-panel" x="40" y="920" width="660" height="300" rx="28" class="panel" filter="url(#shadow)"/>
+    <text x="72" y="970" class="t2 ink">狐狸阿栗 · 前往麦田</text>
+    <text x="72" y="1008" class="body muted">家 → 道路 → 麦田入口　约 18 秒</text>
+    <rect x="72" y="1050" width="230" height="94" rx="22" class="button2"/>
+    <text x="125" y="1108" class="t2 white">调整岗位</text>
+    <rect x="330" y="1050" width="120" height="94" rx="22" class="chip"/><text x="362" y="1108" class="body ink">回家</text>
+    <rect x="474" y="1050" width="180" height="94" rx="22" class="chip"/><text x="518" y="1108" class="body ink">查看路线</text>
+    <text x="40" y="1244" class="tiny muted">01 Main Map · 世界行为优先于常驻文字</text>
+  </g>
+
+  <g id="02_Build_And_Road_Mode" transform="translate(1520 0)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="48" y="76" class="t1 ink">02 建造与道路</text>
+    <text x="48" y="108" class="small muted">合法性先于确认 · 占地边界始终可感知</text>
+    <g transform="translate(65 170)">
+      <path d="M0 180 L280 22 L560 180 L280 338 Z" fill="#c7e6a5" stroke="#9abd76" stroke-width="4"/>
+      <path d="M30 180 L140 118 L250 180 L140 242 Z" class="road"/>
+      <path d="M250 180 L360 118 L470 180 L360 242 Z" class="road"/>
+      <path d="M140 242 L250 180 L360 242 L250 304 Z" class="road"/>
+      <g id="placement-preview" opacity=".9">
+        <path d="M180 115 L280 58 L380 115 L280 172 Z" fill="#79ad58" fill-opacity=".55" stroke="#2f453c" stroke-width="4"/>
+        <path d="M200 112 L280 68 L360 112 L280 158 Z" class="house"/>
+        <path d="M200 112 L280 32 L360 112 L280 158 Z" class="roof"/>
+      </g>
+      <circle cx="360" cy="242" r="15" class="gold" stroke="#2f453c" stroke-width="4"/>
+      <text x="377" y="249" class="small ink">入口</text>
+    </g>
+    <rect x="48" y="575" width="624" height="230" rx="26" class="panel"/>
+    <text x="76" y="620" class="t2 ink">2×2 居民住房</text>
+    <text x="76" y="657" class="body ink">占地 4 格 · 入口 1 · 住户 1</text>
+    <text x="76" y="693" class="body muted">道路已连接；不会切断现有居民路径</text>
+    <rect x="76" y="730" width="250" height="56" rx="18" class="chip"/><text x="108" y="767" class="body ink">旋转入口方向</text>
+    <rect x="48" y="835" width="624" height="155" rx="26" fill="#fde3dc" stroke="#d96652" stroke-width="3"/>
+    <text x="76" y="882" class="t2 ink">非法示例：占地重叠</text>
+    <text x="76" y="922" class="body ink">不扣资源 · 不提交 · 高亮冲突格</text>
+    <text x="76" y="955" class="small muted">只显示第一阻塞原因，避免错误文本海洋</text>
+    <rect x="48" y="1040" width="288" height="102" rx="24" class="button"/>
+    <text x="125" y="1102" class="t2 white">确认建造</text>
+    <rect x="368" y="1040" width="304" height="102" rx="24" class="chip"/>
+    <text x="478" y="1102" class="t2 ink">取消</text>
+    <text x="48" y="1225" class="tiny muted">02 Build &amp; Road · 1×1 是逻辑与视觉最小单位</text>
+  </g>
+
+  <g id="03_House_Invite_Assign" transform="translate(2280 0)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="48" y="76" class="t1 ink">03 住房 · 邀请 · 派遣</text>
+    <text x="48" y="108" class="small muted">一次低频决定，换来持续可见的居民生活</text>
+    <rect x="48" y="160" width="624" height="190" rx="26" class="panel"/>
+    <g transform="translate(72 190)">
+      <circle cx="48" cy="45" r="38" class="accent"/><circle cx="31" cy="20" r="16" class="accent"/><circle cx="65" cy="20" r="16" class="accent"/>
+      <text x="112" y="42" class="t2 ink">狐狸阿栗</text><text x="112" y="78" class="body muted">喜欢园艺 · 经验 1 · 可入住</text>
+    </g>
+    <rect x="48" y="390" width="624" height="205" rx="26" class="panel"/>
+    <text x="76" y="435" class="t2 ink">松果屋 01</text>
+    <text x="76" y="473" class="body ink">住户 0/1 · 道路已连接 · 门口可达</text>
+    <path d="M82 535 L170 485 L258 535 L170 585 Z" class="house"/>
+    <path d="M82 535 L170 450 L258 535 L170 585 Z" class="roof"/>
+    <circle cx="300" cy="535" r="14" class="gold" stroke="#2f453c" stroke-width="3"/>
+    <text x="326" y="542" class="body ink">从访客点步行入住</text>
+    <rect x="48" y="635" width="624" height="220" rx="26" class="panel"/>
+    <text x="76" y="680" class="t2 ink">主岗位：麦田</text>
+    <text x="76" y="718" class="body muted">同时只保留一个主岗位；非 RTS 连续指挥</text>
+    <rect x="76" y="760" width="180" height="64" rx="18" class="button2"/><text x="118" y="801" class="body white">分配麦田</text>
+    <rect x="278" y="760" width="180" height="64" rx="18" class="chip"/><text x="323" y="801" class="body ink">查看路线</text>
+    <rect x="480" y="760" width="160" height="64" rx="18" class="chip"/><text x="524" y="801" class="body ink">稍后</text>
+    <rect x="48" y="900" width="624" height="242" rx="26" class="panel"/>
+    <text x="76" y="946" class="t2 ink">确认后发生在世界里</text>
+    <text x="76" y="985" class="body ink">1. 阿栗从访客点走到住房</text>
+    <text x="76" y="1022" class="body ink">2. 门窗亮起，住户标牌更新</text>
+    <text x="76" y="1059" class="body ink">3. 下一工作时段从家出发到麦田</text>
+    <text x="76" y="1096" class="body muted">不弹连续奖励窗，不要求逐次点击开工</text>
+    <text x="48" y="1225" class="tiny muted">03 House Invite Assign · 住房是居民关系，不是人口数字按钮</text>
+  </g>
+
+  <g id="04_Resident_And_Workplace_States" transform="translate(0 1360)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="48" y="76" class="t1 ink">04 居民与岗位状态</text>
+    <text x="48" y="108" class="small muted">世界姿态 + 单一阻塞原因 + 可恢复任务</text>
+    <g transform="translate(48 160)">
+      <rect width="300" height="230" rx="24" class="panel"/>
+      <text x="24" y="42" class="t2 ink">通勤</text>
+      <path d="M35 150 C95 95 170 185 245 108" class="path"/>
+      <circle cx="95" cy="125" r="30" class="accent"/>
+      <text x="24" y="205" class="small muted">显示路径，不显示长文本</text>
+    </g>
+    <g transform="translate(372 160)">
+      <rect width="300" height="230" rx="24" class="panel"/>
+      <text x="24" y="42" class="t2 ink">工作</text>
+      <path d="M35 160 L140 100 L245 160 L140 220 Z" class="field"/>
+      <path d="M95 165 Q110 120 125 165 M145 175 Q160 130 175 175" fill="none" stroke="#6ea24a" stroke-width="10"/>
+      <text x="24" y="205" class="small muted">姿态、工具、场景同步</text>
+    </g>
+    <g transform="translate(48 420)" id="blocked-state">
+      <rect width="624" height="220" rx="24" fill="#fde3dc" stroke="#d96652" stroke-width="3"/>
+      <text x="24" y="44" class="t2 ink">阻塞：道路中断</text>
+      <circle cx="100" cy="120" r="34" class="accent"/>
+      <path d="M160 120 H285" stroke="#2f453c" stroke-width="8" stroke-dasharray="14 10"/>
+      <path d="M300 85 L365 155 M365 85 L300 155" stroke="#d96652" stroke-width="12" stroke-linecap="round"/>
+      <text x="395" y="113" class="body ink">停在安全点</text>
+      <text x="395" y="150" class="small muted">保留任务与资源预留</text>
+      <rect x="24" y="166" width="185" height="40" rx="14" class="button"/><text x="67" y="193" class="small white">定位断路</text>
+    </g>
+    <g transform="translate(48 675)">
+      <rect width="624" height="210" rx="24" class="panel"/>
+      <text x="24" y="44" class="t2 ink">工作点队列</text>
+      <circle cx="90" cy="110" r="28" class="accent"/><circle cx="175" cy="110" r="28" class="teal"/>
+      <path d="M230 110 H405" stroke="#2f453c" stroke-width="6"/>
+      <rect x="430" y="70" width="145" height="88" rx="18" class="work"/>
+      <text x="24" y="186" class="small muted">FIFO · 不叠位 · 改派在安全边界生效</text>
+    </g>
+    <g id="reduced-motion-state" transform="translate(48 920)">
+      <rect width="624" height="190" rx="24" class="panel"/>
+      <text x="24" y="44" class="t2 ink">Reduced motion</text>
+      <text x="24" y="84" class="body ink">保留位置、朝向、轮廓、路径和数值变化</text>
+      <text x="24" y="120" class="body muted">关闭弹跳、循环呼吸、粒子弧线与镜头冲击</text>
+      <rect x="24" y="142" width="150" height="34" rx="12" class="teal"/><text x="56" y="165" class="small white">已开启</text>
+    </g>
+    <text x="48" y="1225" class="tiny muted">04 Resident States · 逻辑状态不依赖动画存在</text>
+  </g>
+
+  <g id="05_Vehicle_Order_States" transform="translate(760 1360)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="48" y="76" class="t1 ink">05 世界车辆订单</text>
+    <text x="48" y="108" class="small muted">订单先是一辆到镇上的车，其次才是详情</text>
+    <g transform="translate(70 155)">
+      <rect x="0" y="45" width="290" height="150" rx="28" class="vehicle"/>
+      <rect x="210" y="0" width="120" height="115" rx="22" class="teal" stroke="#2f453c" stroke-width="4"/>
+      <circle cx="70" cy="205" r="30" class="ink"/><circle cx="250" cy="205" r="30" class="ink"/>
+      <rect x="35" y="78" width="66" height="52" rx="8" class="white"/>
+      <rect x="117" y="78" width="66" height="52" rx="8" class="white"/>
+      <text x="380" y="65" class="t2 ink">等待装载</text>
+      <text x="380" y="105" class="body ink">小麦 2/4</text>
+      <text x="380" y="140" class="body ink">牛奶 1/1</text>
+      <text x="380" y="178" class="small muted">无硬倒计时</text>
+    </g>
+    <rect x="48" y="430" width="624" height="225" rx="26" class="panel"/>
+    <text x="76" y="475" class="t2 ink">装载由居民完成</text>
+    <text x="76" y="515" class="body ink">仓库/产出 → 居民搬运 → 道路侧装卸点 → 货箱</text>
+    <rect x="76" y="558" width="95" height="55" rx="12" class="gold"/><rect x="190" y="558" width="95" height="55" rx="12" class="gold"/>
+    <rect x="304" y="558" width="95" height="55" rx="12" fill="#fff8e8" stroke="#98734f" stroke-width="3"/>
+    <rect x="418" y="558" width="95" height="55" rx="12" fill="#fff8e8" stroke="#98734f" stroke-width="3"/>
+    <text x="535" y="594" class="body ink">2/4</text>
+    <rect x="48" y="700" width="624" height="210" rx="26" fill="#e2f1ed" stroke="#3d9c8c" stroke-width="3"/>
+    <text x="76" y="745" class="t2 ink">成功离场</text>
+    <text x="76" y="785" class="body ink">满载 → 鸣笛 → 离场检查点 → 一次奖励入账</text>
+    <text x="76" y="825" class="body muted">车辆离开与货箱变化是核心记忆点</text>
+    <path d="M86 865 H560" stroke="#3d9c8c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M560 865 l-24 -18 M560 865 l-24 18" stroke="#3d9c8c" stroke-width="8" stroke-linecap="round"/>
+    <rect x="48" y="955" width="292" height="102" rx="24" class="button2"/><text x="117" y="1017" class="t2 white">承诺订单</text>
+    <rect x="380" y="955" width="292" height="102" rx="24" class="chip"/><text x="486" y="1017" class="t2 ink">谢绝</text>
+    <text x="48" y="1115" class="small muted">谢绝：空车离开，无惩罚，稍后刷新</text>
+    <text x="48" y="1225" class="tiny muted">05 Vehicle Orders · 货物移动与车辆状态承担解释</text>
+  </g>
+
+  <g id="06_Loading_Empty_Failure_Interrupted" transform="translate(1520 1360)">
+    <rect x="20" y="20" width="700" height="1240" rx="28" class="frame"/>
+    <text x="48" y="76" class="t1 ink">06 完整状态覆盖</text>
+    <text x="48" y="108" class="small muted">Default · Loading · Empty · Disabled · Failure · Interrupted</text>
+    <g transform="translate(48 160)">
+      <rect width="300" height="175" rx="22" class="panel"/><text x="22" y="38" class="t2 ink">Loading</text>
+      <rect x="22" y="66" width="256" height="28" rx="12" fill="#e8e1d2"/><rect x="22" y="112" width="180" height="22" rx="10" fill="#e8e1d2"/>
+    </g>
+    <g transform="translate(372 160)">
+      <rect width="300" height="175" rx="22" class="panel"/><text x="22" y="38" class="t2 ink">Empty</text>
+      <circle cx="70" cy="102" r="34" fill="#d7e7d1"/><text x="122" y="98" class="body ink">住房有空位</text><text x="122" y="128" class="small muted">邀请一名居民</text>
+    </g>
+    <g transform="translate(48 365)">
+      <rect width="300" height="175" rx="22" fill="#f1eee6" stroke="#9a9a90" stroke-width="3"/><text x="22" y="38" class="t2 ink">Disabled</text>
+      <rect x="22" y="72" width="190" height="70" rx="18" fill="#c9c7bf"/><text x="50" y="116" class="body ink">缺少 200 木材</text>
+    </g>
+    <g transform="translate(372 365)">
+      <rect width="300" height="175" rx="22" fill="#fde3dc" stroke="#d96652" stroke-width="3"/><text x="22" y="38" class="t2 ink">Failure</text>
+      <text x="22" y="82" class="body ink">道路断开</text><text x="22" y="112" class="small muted">原状态保持，不扣资源</text>
+      <rect x="22" y="130" width="118" height="32" rx="10" class="button"/><text x="48" y="152" class="small white">定位</text>
+    </g>
+    <g transform="translate(48 570)">
+      <rect width="624" height="190" rx="22" class="panel"/><text x="22" y="40" class="t2 ink">Interrupted / Resume</text>
+      <text x="22" y="82" class="body ink">读取快照 → 校验占地/资源 → 恢复安全点 → 汇总一次变化</text>
+      <text x="22" y="118" class="small muted">居民、货物、车辆不无因瞬移；奖励不重复</text>
+      <rect x="22" y="140" width="180" height="36" rx="12" class="teal"/><text x="60" y="165" class="small white">继续小镇</text>
+    </g>
+    <g transform="translate(48 800)">
+      <rect width="624" height="240" rx="22" class="panel"/><text x="22" y="40" class="t2 ink">同屏状态预算</text>
+      <text x="22" y="82" class="body ink">常态每栋建筑最多 1 个状态标记</text>
+      <text x="22" y="118" class="body ink">全屏最高突出 4 个 P0/P1 标记</text>
+      <text x="22" y="154" class="body ink">优先：断路 ＞ 满仓/装载阻塞 ＞ 缺输入 ＞ 无居民</text>
+      <text x="22" y="195" class="small muted">状态用图形 + 轮廓/材质双重线索，不只靠颜色</text>
+    </g>
+    <text x="48" y="1225" class="tiny muted">06 States · 状态恢复与幂等属于设计验收，不是工程备注</text>
+  </g>
+
+  <g id="07_Component_And_Token_Sheet" transform="translate(2280 1360)">
+    <rect id="component-sheet" x="20" y="20" width="700" height="1240" rx="28" fill="#fffdf6" stroke="#2f453c" stroke-width="4"/>
+    <text x="48" y="76" class="t1 ink">07 组件与 Token</text>
+    <text x="48" y="108" class="small muted">Penpot 组件起点 · Godot Theme 实装参考 · NOT_RUNTIME</text>
+    <text x="48" y="170" class="t2 ink">Color roles</text>
+    <g transform="translate(48 195)">
+      <rect width="88" height="88" rx="18" fill="#d8edbd"/><rect x="104" width="88" height="88" rx="18" class="road"/>
+      <rect x="208" width="88" height="88" rx="18" class="ink"/><rect x="312" width="88" height="88" rx="18" class="accent"/>
+      <rect x="416" width="88" height="88" rx="18" class="teal"/><rect x="520" width="88" height="88" rx="18" class="gold"/>
+      <text x="0" y="115" class="tiny muted">地面</text><text x="104" y="115" class="tiny muted">道路</text><text x="208" y="115" class="tiny muted">深墨</text>
+      <text x="312" y="115" class="tiny muted">阻塞</text><text x="416" y="115" class="tiny muted">工作</text><text x="520" y="115" class="tiny muted">完成</text>
+    </g>
+    <text x="48" y="360" class="t2 ink">Actions</text>
+    <rect x="48" y="390" width="250" height="88" rx="22" class="button"/><text x="104" y="445" class="t2 white">确认建造</text>
+    <rect x="330" y="390" width="250" height="88" rx="22" class="button2"/><text x="391" y="445" class="t2 white">分配居民</text>
+    <rect x="48" y="500" width="250" height="88" rx="22" class="chip"/><text x="126" y="555" class="t2 ink">取消</text>
+    <rect x="330" y="500" width="250" height="88" rx="22" fill="#e0ddd5" stroke="#9a9a90" stroke-width="3"/><text x="388" y="555" class="t2 ink">条件不足</text>
+    <text x="48" y="655" class="t2 ink">World state chips</text>
+    <g transform="translate(48 685)">
+      <rect width="140" height="54" rx="18" class="chip"/><circle cx="28" cy="27" r="10" class="teal"/><text x="48" y="34" class="small ink">前往岗位</text>
+      <rect x="158" width="140" height="54" rx="18" fill="#fde3dc" stroke="#d96652" stroke-width="2"/><path d="M184 18 l18 18 M202 18 l-18 18" stroke="#d96652" stroke-width="5"/><text x="214" y="34" class="small ink">道路断开</text>
+      <rect x="316" width="140" height="54" rx="18" class="chip"/><rect x="336" y="17" width="20" height="20" class="gold"/><text x="366" y="34" class="small ink">装载 2/4</text>
+      <rect x="474" width="140" height="54" rx="18" class="chip"/><circle cx="500" cy="27" r="10" class="ok"/><text x="520" y="34" class="small ink">已完成</text>
+    </g>
+    <text x="48" y="825" class="t2 ink">Layout rules</text>
+    <text x="48" y="866" class="body ink">安全区外：0 px 关键交互 · 最小触控：52×52 px</text>
+    <text x="48" y="905" class="body ink">相邻动作间距 ≥ 8 px · 主地图可用纵向空间 ≥ 80%</text>
+    <text x="48" y="944" class="body ink">底部情境层：收起 56–64 px；展开 280–320 px</text>
+    <text x="48" y="983" class="body ink">单一主要 CTA；中文默认，英文预留 1.35× 宽度</text>
+    <rect x="48" y="1040" width="624" height="112" rx="22" fill="#e2f1ed" stroke="#3d9c8c" stroke-width="3"/>
+    <text x="72" y="1084" class="t2 ink">Runtime rule</text>
+    <text x="72" y="1123" class="body ink">Godot 原生 Control + 动态文本 + 响应式布局</text>
+    <text x="48" y="1225" class="tiny muted">07 Components · SVG 是 Penpot 导入源，不是扁平运行时 UI</text>
+  </g>
+</svg>
