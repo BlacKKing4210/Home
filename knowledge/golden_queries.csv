@@ -1,12 +1,12 @@
 query_id,query,expected_source_ids,feature_ids,min_recall_at_k,k
-GQ-001,Where is the authoritative producer-led workflow and its gates defined?,PROJECT_WORKFLOW,GLOBAL,1.0,5
+GQ-001,Which source is titled CityOfAnimals Production Workflow Version WORKFLOW-2 and states Contract READY is not task READY?,PROJECT_WORKFLOW,GLOBAL,1.0,5
 GQ-002,Which source records active priorities task ownership and shared write locks?,ACTIVE_SCOPE,GLOBAL,1.0,5
 GQ-003,Which file defines project roles engine runtime paths and formal sources?,PROJECT_PROFILE,GLOBAL,1.0,5
 GQ-004,哪份功能文档定义动物小镇农场经营地基 V2 以及田格、机器队列和邻里委托？,F003_SOURCE,F-003,1.0,8
 GQ-005,Which receipt accepts F003-FARM.2 as the playable prototype baseline?,F003_ACCEPT_RECEIPT,F-003,1.0,8
 GQ-006,Which evidence README records the real 720 x 1280 F003-FARM.2 runtime captures and player interaction routes?,F003_RUNTIME_EVIDENCE,F-003,1.0,8
-GQ-007,Which receipt says F004-DISTRICT.1 is blocked by the Figma UE attachment and runtime_authority is false?,F004_DESIGN_RECEIPT,F-004,1.0,8
-GQ-008,Which live scope source records that F004-DESIGN-LOCK-001 is released and runtime authority remains false?,ACTIVE_SCOPE,F-004,1.0,8
+GQ-007,Which receipt approves F004-RESIDENT.1 as a runtime representative slice while keeping scale-out unauthorized?,F004_RESIDENT_RUNTIME_RECEIPT,F-004,1.0,8
+GQ-008,Which live scope source records no active write task no shared lock and F004 RUNTIME_SLICE_APPROVED with scale_out_approved false?,ACTIVE_SCOPE,F-004,1.0,8
 GQ-009,Which F003 CSV defines building footprint and world placement columns?,F003_CFG_BUILDINGS,F-003,1.0,8
 GQ-010,哪份 F004 新功能设计定义 1x1 最小田格、统一占地目录、四向道路、入口和作业点？,F004_RESIDENT_SOURCE,F-004,1.0,8
 GQ-011,哪份制作人决策把频繁手动生产改为低频建造邀请派遣并声明动物是会生活和工作的居民？,PRODUCT_REBASE_DECISION,GLOBAL;F-004,1.0,8
@@ -20,4 +20,7 @@ GQ-018,COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 6
 GQ-019,哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包完成待审且当时 Figma seat View 阻塞并保持 runtime false？,F004_RESIDENT_REBASELINE_RECEIPT,F-004,1.0,8
 GQ-020,哪份制作人回执确认统一1x1占地、世界车辆订单、正式主页面资产、动物居民自主作业和慢节奏住房邀请五项方向，同时保持runtime false？,F004_RESIDENT_REAFFIRMED_DECISION,F-004,1.0,8
 GQ-021,哪份制作人决策把 CityOfAnimals 的正式可编辑 UI UE 源切换为 Penpot 并声明旧 Figma 阻塞仅保留为历史证据？,PENPOT_SOURCE_DECISION,GLOBAL;F-004,1.0,8
-GQ-022,哪份登记列出 F004 Penpot 的八个屏幕状态画板、四张流程图、云端认证和对象级回读待办？,F004_RESIDENT_PENPOT_REGISTER,F-004,1.0,8
+GQ-022,哪份登记列出 F004 Penpot 的八个屏幕状态画板、四张流程图、云端认证和对象级回读，并把下载错误标为归档限制？,F004_RESIDENT_PENPOT_REGISTER,F-004,1.0,8
+GQ-023,Which F004 runtime manifest records six approved original assets plus the approved project rabbit and approved-only loading rule?,F004_RESIDENT_RUNTIME_MANIFEST,F-004,1.0,8
+GQ-024,哪份运行证据记录真实720x1280画面、主入口点击、订单1/1、金币40到120和连续120帧性能？,F004_RESIDENT_RUNTIME_EVIDENCE,F-004,1.0,8
+GQ-025,Which F004 configuration source defines the 1x1 field and roads 2x2 house and workshop and 3x2 loading yard?,F004_RESIDENT_CFG_GRID,F-004,1.0,8

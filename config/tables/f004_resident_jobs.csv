@@ -1,0 +1,3 @@
+id,display_key,sequence,workplace_id,work_seconds,input_item,input_count,output_item,output_count,next_job_id,carry_target_id
+harvest_wheat,job_harvest,1,field_wheat,8.0,,0,wheat_bundle,3,sort_wheat,workshop_granary
+sort_wheat,job_sort,2,workshop_granary,5.0,wheat_bundle,3,order_crate,1,,loading_yard

@@ -1,0 +1,2 @@
+id,display_key,required_item,required_count,reward_coins,load_seconds,repeat_delay_seconds,hard_timeout_seconds
+bakery_delivery,order_bakery,order_crate,1,80,2.5,8.0,0

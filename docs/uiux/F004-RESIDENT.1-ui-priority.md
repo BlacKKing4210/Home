@@ -4,8 +4,8 @@
 **目标画布：** 720×1280 竖屏  
 **输入：** 触控为主；鼠标用于桌面调试  
 **默认语言：** `zh-CN`；设置中可切换并持久化 `en`  
-**状态：** `UI_UX_REBASELINE_REVIEW`  
-**Penpot：** `EDITABLE_SOURCE_READBACK_VERIFIED`；云端导出归档与用户详细设计审阅仍为 `PENDING`
+**状态：** `UI_UX_APPROVED_FOR_REPRESENTATIVE_SLICE`
+**Penpot：** `EDITABLE_SOURCE_READBACK_VERIFIED / LOCAL_EXPORT_RECONCILED`；云端下载错误已记录，未冒充云端导出成功
 
 ## 1. 单一主要决定
 
@@ -135,7 +135,7 @@ Penpot 命名流程画板必须包含：
 - 车辆订单状态机；
 - 空间放置与路径合法性流程。
 
-Penpot 云端文件、命名组和对象级读回已经通过；只有云端导出归档与制作人/用户详细审阅完成后，UI/UE 设计评审 Gate 才可从 `Pending` 转为通过。
+Penpot 云端文件、命名组和对象级读回已经通过；制作人已在 `docs/receipts/F004-RESIDENT-DESIGN-CLOSE-007.md` 批准本代表性切片的 UI/UE 设计基线。云端导出归档故障不影响可编辑源读回，也不再作为本切片的设计阻塞。
 
 2026-07-26 可编辑交接复核：
 
@@ -144,7 +144,8 @@ Penpot 云端文件、命名组和对象级读回已经通过；只有云端导�
 - 认证云端文件 `CityOfAnimals / F004-RESIDENT.1` 已创建、导入并再次打开；
 - URL、team/file/page ID、两个根分组、8 个屏幕组、4 个流程组和代表性内部矢量层均已对象级回读；
 - 云端登记与对象 ID 见 `output/penpot/F004-RESIDENT.1/README.md`；
-- Penpot 云端导出归档与用户详细设计审阅仍为 `PENDING`；
+- Penpot 云端导出归档仍受服务端下载错误影响，准确记录为非阻塞归档限制；
+- 本代表性切片的详细设计已由制作人批准，玩家可见运行证据见 `docs/evidence/F004-RESIDENT.1/README.md`；
 - 旧 Figma 席位/传输诊断仅保留为历史证据。
 
-因此本文件已达到 `UI_UX_REBASELINE_REVIEW / PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED`，但不能把该状态当作详细设计批准或运行时完成。
+因此本文件已达到 `UI_UX_BASELINE_APPROVED / PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED`。运行时完成不由本文件单独证明，正式行为级结论以 `docs/receipts/F004-RESIDENT-SLICE-RUNTIME-ACCEPTANCE-010.md` 为准。

@@ -1,0 +1,26 @@
+{
+	"asset_count": 7,
+	"capture_path": "normal Godot render path; SubViewport UPDATE_ALWAYS",
+	"captured_at_utc": "2026-07-26T16:13:32",
+	"engine": {
+		"build": "official",
+		"hash": "71f334935c000924d403448e698df4441130df18",
+		"hex": 263682,
+		"major": 4,
+		"minor": 6,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.6.2-stable (official)",
+		"timestamp": 0
+	},
+	"engine_fps_at_capture": 74.0,
+	"measured_fps": 164.69,
+	"measured_frames": 120,
+	"node_count": 4.0,
+	"render_objects_in_frame": 416.0,
+	"static_memory_bytes": 64762206.0,
+	"viewport": {
+		"height": 1280,
+		"width": 720
+	}
+}

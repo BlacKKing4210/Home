@@ -2,13 +2,13 @@
 
 **文档编号：** `COA-F004-RESIDENT.1`  
 **Feature ID：** `F-004`  
-**当前版本：** V1.1
-**文档状态：** `DESIGN_REBASELINE_REVIEW`  
+**当前版本：** V1.2
+**文档状态：** `RUNTIME_SLICE_APPROVED`
 **制作人 / 主策划：** Codex `/root`  
 **目标平台：** Mobile  
 **目标画布：** 720×1280 竖屏  
 **默认语言：** `zh-CN`；设置中可切换并持久化 `en`  
-**运行时权限：** `false`  
+**运行时权限：** 代表性切片已按 ENG 回执 008 完成并关闭；`SCALE_OUT_APPROVED = false`
 **产品决策：** `docs/decisions/PD-002-animal-resident-town-rebaseline.md`  
 **只读回执：** `docs/receipts/F004-RESIDENT-CONTINUE-READ-ONLY-002.md`
 
@@ -18,6 +18,8 @@
 
 | 版本 | 编写人 | 审核人 | 日期 | 状态 | 更新内容 |
 |---|---|---|---:|---|---|
+| V1.2 | Codex `/root` | 制作人批准 | 2026-07-26 | `RUNTIME_SLICE_APPROVED` | 7 张配置表、6+1 正式运行资产、Godot 原生运行闭环、阻塞/恢复、存档、本地化、真实主入口点击、6 张 720×1280 画面与连续帧性能验收通过；未授权批量扩面。 |
+| V1.1-A | Codex `/root` | 制作人批准 | 2026-07-26 | 代表性切片设计基线批准 | 批准产品记忆点、低频操作、占地目录、居民/车辆状态机、UI/UX 优先级和视觉质量合同；Penpot 云端下载失败如实保留为归档传输限制，不再作为项目锁。运行时仍需独立工程收据。 |
 | V1.1 | Codex `/root` | 待用户详细设计评审 | 2026-07-26 | Penpot 云端可编辑源回读已验证 / 云端导出归档待办 | `PD-003` 将正式可编辑源切换为 Penpot；认证文件已导入 8 个 720×1280 命名评审面与 4 张命名流程图，并完成 14 个对象引用及代表性嵌套矢量回读；旧 Figma 阻塞降为历史证据，运行时仍未授权。 |
 | V1.0 | Codex `/root` | 产品方向五原则已确认；详细目录与 Figma 待评审 | 2026-07-26 | 设计重基线评审 | 完成 A-H 正式设计覆盖、RAG/控制面续接核验与锁状态收口；制作人再次确认统一占地、世界车辆订单、正式资产优先、动物居民自主作业和慢节奏住房/邀请体验；详细占地目录及可编辑交接仍未批准。 |
 | V0.9 | Codex `/root` | 待用户评审 | 2026-07-25 | 设计重基线评审 | 重建 F004 为统一空间、动物居民、自动作业与世界车辆订单基础；旧 `F004-DISTRICT.1` 建议被本版本覆盖。 |
@@ -27,9 +29,9 @@
 | 阶段 | 责任人 | 当前状态 | 通过条件 |
 |---|---|---|---|
 | 产品重基线 | Codex `/root` | 已完成 | 单一记忆点、减法目标、旧规则处置和代表性闭环明确。 |
-| 空间/居民/车辆系统设计 | Codex `/root` | 本文待评审 | 占地目录、合法性、状态机、配置源、UE 和 QA 获得制作人批准。 |
-| UI/UX 与视觉质量合同 | Codex `/root` | V1.1 内容与 Penpot 云端对象回读完成；用户评审待办 | 云端导出归档、用户批准状态覆盖与视觉质量合同。 |
-| 代表性运行切片 | 未授权 | 未开始 | 新工程只读回执、明确写集、Godot 实装授权。 |
+| 空间/居民/车辆系统设计 | Codex `/root` | 已批准用于一个代表性切片 | 占地目录、合法性、状态机、配置源、UE 和 QA 已完成制作人审阅。 |
+| UI/UX 与视觉质量合同 | Codex `/root` | 已批准用于一个代表性切片 | Penpot 对象回读与本地版本预览已核对；云端下载异常已留档。 |
+| 代表性运行切片 | Codex `/root` | `RUNTIME_SLICE_APPROVED` | `docs/receipts/F004-RESIDENT-SLICE-RUNTIME-ACCEPTANCE-010.md` 与行为/玩家可见证据通过。 |
 | 扩面 | 未授权 | 未开始 | 真实 720×1280 切片通过且 `SCALE_OUT_APPROVED`。 |
 
 ## 目录
@@ -486,7 +488,7 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 ## 10. 配置与数据来源
 
-本节是待批准的新表合同，不代表文件已创建。
+代表性运行切片已按 `docs/config_index.md` 落地 7 张精确配置表。下表保留为后续扩面候选合同；除已映射到这 7 张表的字段外，尚未授权或创建，不得据此误报扩面完成。
 
 | 建议文件 | 核心字段 | 职责 |
 |---|---|---|
@@ -640,10 +642,10 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - [x] 车辆到达、等待、装载、离场、阻塞与幂等已定义。
 - [x] 配置源和 QA 合同已提出。
 - [x] 用户确认统一占地、世界车辆订单、正式资产优先、动物居民自主作业和慢节奏住房/邀请五项产品方向。
-- [ ] 用户批准详细占地目录与推荐默认值。
+- [x] 制作人批准详细占地目录与推荐默认值。
 - [x] 可编辑 Penpot 文件导入、重新打开并完成对象级回读验证。
-- [ ] 云端 PNG/PDF 导出归档与用户详细设计评审。
-- [ ] 视觉质量合同批准。
+- [ ] 云端 PNG/PDF 导出归档；浏览器传输失败已记录为非阻塞归档限制。
+- [x] 制作人详细设计评审与视觉质量合同批准。
 
 ### 14.2 空间 QA
 
@@ -702,28 +704,28 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 | 图类型 | 可编辑源 | 页面/对象 | 版本 | Owner | 当前状态 | 覆盖 |
 |---|---|---|---|---|---|---|
-| 8 个 720×1280 主地图/状态/组件面 | [Penpot 云端文件](https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb)；本地备份 `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-screen-source.svg` | `00`–`07` 命名 group；screen root `030c6195-5b61-8040-8008-62d1e64c497d` | V1.1 | Codex `/root` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` | 记忆点、主地图、建造/道路、住房/邀请/派遣、居民/岗位、车辆、全状态、组件/token |
-| 代表性玩家 UE | 同一 Penpot 文件；本地备份 `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-flow-source.svg` | `08_Representative_Player_UE`：`030c6195-5b61-8040-8008-62d1e54f53e3` | V1.1 | Codex `/root` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` | 建房—邀请—派遣—作业—装载—离场 |
-| 居民状态机 | 同上 | `09_Resident_State_Machine`：`030c6195-5b61-8040-8008-62d1e5585335` | V1.1 | Codex `/root` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` | 身份、日常任务、阻塞与恢复 |
-| 车辆状态机 | 同上 | `10_Vehicle_Order_State_Machine`：`030c6195-5b61-8040-8008-62d1e561416f` | V1.1 | Codex `/root` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` | 到达、等待、装载、离场、失败 |
-| 空间合法性流程 | 同上 | `11_Spatial_Placement_Validation`：`030c6195-5b61-8040-8008-62d1e56863ef` | V1.1 | Codex `/root` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` | 占地、入口、道路、路径与事务 |
+| 8 个 720×1280 主地图/状态/组件面 | [Penpot 云端文件](https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb)；本地备份 `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-screen-source.svg` | `00`–`07` 命名 group；screen root `030c6195-5b61-8040-8008-62d1e64c497d` | V1.1 | Codex `/root` | `APPROVED_FOR_REPRESENTATIVE_SLICE` | 记忆点、主地图、建造/道路、住房/邀请/派遣、居民/岗位、车辆、全状态、组件/token |
+| 代表性玩家 UE | 同一 Penpot 文件；本地备份 `output/penpot/F004-RESIDENT.1/F004-RESIDENT.1-penpot-flow-source.svg` | `08_Representative_Player_UE`：`030c6195-5b61-8040-8008-62d1e54f53e3` | V1.1 | Codex `/root` | `APPROVED_FOR_REPRESENTATIVE_SLICE` | 建房—邀请—派遣—作业—装载—离场 |
+| 居民状态机 | 同上 | `09_Resident_State_Machine`：`030c6195-5b61-8040-8008-62d1e5585335` | V1.1 | Codex `/root` | `APPROVED_FOR_REPRESENTATIVE_SLICE` | 身份、日常任务、阻塞与恢复 |
+| 车辆状态机 | 同上 | `10_Vehicle_Order_State_Machine`：`030c6195-5b61-8040-8008-62d1e561416f` | V1.1 | Codex `/root` | `APPROVED_FOR_REPRESENTATIVE_SLICE` | 到达、等待、装载、离场、失败 |
+| 空间合法性流程 | 同上 | `11_Spatial_Placement_Validation`：`030c6195-5b61-8040-8008-62d1e56863ef` | V1.1 | Codex `/root` | `APPROVED_FOR_REPRESENTATIVE_SLICE` | 占地、入口、道路、路径与事务 |
 
 本地命名 SVG 是 Penpot 导入源与可审计备份，不单独关闭 Gate。正式 UI/UE source of truth 是已认证、可编辑、可再次打开并完成对象级回读的上述 Penpot 文件。文件 ID、页面 ID、14 个根/组对象引用和代表性嵌套矢量引用登记见 `output/penpot/F004-RESIDENT.1/README.md`。
 
-2026-07-26 复核证据：认证会话中已创建 `CityOfAnimals / F004-RESIDENT.1`，导入两个 SVG 根组，登记 8 个界面组、4 个流程组与 14 个对象引用，并通过重新打开文件和读取属性面板验证可编辑矢量层；`01_Main_Map_720x1280` 的 `main-map-world`、`top-hud`、`context-panel` 也完成嵌套对象回读。云端 PNG/PDF 导出归档尚未执行，用户详细设计评审尚未完成。旧 Figma `View` 席位与传输诊断由 `PD-003` 降为历史证据，不再阻塞当前工具路线。
+2026-07-26 复核证据：认证会话中已创建 `CityOfAnimals / F004-RESIDENT.1`，导入两个 SVG 根组，登记 8 个界面组、4 个流程组与 14 个对象引用，并通过重新打开文件和读取属性面板验证可编辑矢量层；`01_Main_Map_720x1280` 的 `main-map-world`、`top-hud`、`context-panel` 也完成嵌套对象回读。制作人已批准其用于代表性切片。云端 PNG/PDF 下载仍受浏览器传输错误影响，只记为非阻塞归档限制。旧 Figma `View` 席位与传输诊断由 `PD-003` 降为历史证据，不再阻塞当前工具路线。
 
 ## 16. A-H 设计重基线完成度
 
 | 项目 | 正式来源 | 当前结论 |
 |---|---|---|
-| A. 只读基线与 RAG/控制面 | 本文、续接只读回执、RAG task receipt | `READY`；无共享锁；正式基线干净；运行时未授权。 |
-| B. 产品重基线 | 第 2–4 章、PD-002、制作人方向再确认回执 | 五项产品方向已确认；详细规则仍在设计评审。 |
-| C. 空间系统 | 第 5 章 | `1×1` 网格、占地、入口、道路、作业点、寻路、遮挡规则完成，待批准。 |
-| D. 动物居民 UE 与状态机 | 第 6–7 章 | 完整覆盖建房至中断/恢复；配置和 QA 合同完成，未创建运行表。 |
-| E. 世界车辆订单 | 第 8 章 | 到达、等待、装载、离场、失败/阻塞完成。 |
-| F. 主页面 UI/UX 与视觉合同 | 第 9–10 章及两个附属正式来源 | 内容与 Penpot 云端导入/对象回读完成；云端导出归档与用户评审待办。 |
-| G. 推荐方案 | 第 3–4、17 章 | 单一推荐方案和少数待确认默认值已给出。 |
-| H. 进度矩阵与正式来源 | 第 16 章、Active Scope、PM Handoff、工作簿 | Feature 身份与 superseded 关系已同步到文档；工作簿更新副本已验证，但 canonical `PM/feature_progress.xlsx` 因 Windows 拒绝覆盖而待替换；未误报 Ready。 |
+| A. 只读基线与 RAG/控制面 | 本文、续接只读回执、RAG task receipt | `READY`；无共享锁；代表性切片写入有独立回执。 |
+| B. 产品重基线 | 第 2–4 章、PD-002、制作人方向再确认回执 | 五项产品方向与减法目标已批准。 |
+| C. 空间系统 | 第 5 章、`f004_resident_grid.csv` | `1×1` 网格、占地、入口、道路、作业点和寻路已运行验证。 |
+| D. 动物居民 UE 与状态机 | 第 6–7 章、7 张配置表与 Godot 模型 | 建房、邀请、派岗、行走、作业、搬运、阻塞和恢复已运行验证。 |
+| E. 世界车辆订单 | 第 8 章、车辆订单/路线表 | 到达、等待、装载、离场、阻塞和一次性奖励已运行验证。 |
+| F. 主页面 UI/UX 与视觉合同 | 第 9–10 章、Penpot、视觉合同与运行截图 | 可编辑源、正式资产和真实 720×1280 对齐通过；云端下载只剩归档限制。 |
+| G. 推荐方案 | 第 3–4、18 章 | 推荐默认值已实装于代表性切片。 |
+| H. 进度矩阵与正式来源 | 本文、Active Scope、PM Handoff、工作簿 | 代表性切片完成状态、证据与 superseded 关系同步；未把完成扩展到 F005+。 |
 
 ## 17. 进度矩阵与正式来源状态
 
@@ -733,15 +735,13 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 
 - Complete feature：`Animal Resident Town Spatial & Autonomy Foundation`
 - Functional source：`docs/features/F-004-resident-town-spatial-autonomy.md`
-- Numeric source：上述 `f004_resident_*.csv`（创建并验证后填写）
+- Numeric source：`f004_resident_grid.csv`、`f004_resident_types.csv`、`f004_resident_jobs.csv`、`f004_resident_workplaces.csv`、`f004_vehicle_orders.csv`、`f004_vehicle_routes.csv`、`f004_resident_locale.csv`
 - Producer directive：`PRODUCT-REBASELINE.1`
-- Design doc：100%，A-H、文档包和 Penpot 云端可编辑源回读完成；这不等于用户批准或运行时授权
-- Numeric table：0%，因为尚未创建新表
-- Code/Scene/UI/Integration：0%
-- Overall：11%，仅反映九维矩阵中的设计文档一维完成，不沿用旧 22% 作为新版本完成度
-- Current stage：`DESIGN PACKAGE V1.1 / PENPOT SOURCE VERIFIED / USER REVIEW PENDING`
-- Next milestone：用户批准占地目录与推荐默认值
-- Dependency：`PENDING: Penpot cloud export archive and user detailed design review; runtime not authorized`
+- Design doc / Numeric table / Code / Scene / UI / Image / Integration：代表性切片九维均完成
+- Overall：100%，仅指 `F004-RESIDENT.1` 代表性切片，不代表整个大地图内容扩面
+- Current stage：`RUNTIME_SLICE_APPROVED / SCALE_OUT_NOT_AUTHORIZED`
+- Next milestone：制作人另行批准一个明确的 scale-out feature identity
+- Dependency：代表性切片无阻塞；Penpot 云端下载为非阻塞归档限制
 
 ### Superseded 关系
 
@@ -750,23 +750,21 @@ MVP 不提供驱逐/永久离开。取消邀请仅在动物尚未开始到达且
 - F003：保持 100% 历史可玩基线，不把其完成度继承到新 F004。
 - F005：继续 0%，依赖新 F004 接受。
 
-Active Scope、PM Handoff、Task Contract 与索引按该状态收口。矩阵更新已在 `output/penpot/F004-RESIDENT.1/feature_progress.F004-PENPOT-CLOUD-V1.1.xlsx` 通过可视与单元格验证；canonical `PM/feature_progress.xlsx` 替换等待 Windows 释放写访问。运行时权限仍为 `false`。
+Active Scope、PM Handoff、Task Contract 与索引按该状态收口。canonical `PM/feature_progress.xlsx` 已完成单元格、公式错误和视觉渲染检查。运行时代表性切片已关闭，扩面权限仍为 `false`。
 
 ## 18. 当前 Gate 与待确认项
 
 ### 最高 Gate
 
-`DESIGN_REBASELINE_REVIEW` + `VISUAL_CONTRACT_REVIEW`
+`RUNTIME_SLICE_APPROVED`
 
 ### 仍未通过
 
-- 用户已确认五项产品方向，但尚未批准详细占地目录 V1.1 与推荐默认值；
-- Penpot 云端可编辑源已验证，但云端导出归档与用户详细设计评审尚未完成；
-- canonical `PM/feature_progress.xlsx` 尚未用已验证更新副本替换；
-- 新配置表未获授权、未创建；
-- 没有新方向的 Godot 实装；
-- 没有真实 720×1280 新切片；
-- `ASSET_SET_APPROVED`、`RUNTIME_SLICE_APPROVED`、`SCALE_OUT_APPROVED` 均未通过。
+- `SCALE_OUT_APPROVED` 未通过；
+- `RELEASE_VISUAL_APPROVED` 未通过；
+- Android 真机、发行包和公开部署未验收；
+- Penpot 云端 PNG/PDF 下载仍是非阻塞归档限制；
+- 大地图密度、更多居民与更多建筑族尚未进入独立功能授权。
 
 ### 推荐默认值
 
@@ -777,4 +775,4 @@ Active Scope、PM Handoff、Task Contract 与索引按该状态收口。矩阵�
 5. 逻辑四向道路，等距绘制；
 6. 占地目录按本文 V1.1 进入 Penpot 评审。
 
-用户批准详细占地目录与推荐默认值、并完成 Penpot 云端导出归档后，再创建新的工程只读回执与配置合同；没有新的运行时授权，不进入 Godot。
+上述默认值已经在代表性切片中验证。后续扩面必须从进度矩阵建立新的 feature identity、RAG/控制面回执、精确写集和目标分辨率验收，不得把本回执自动解释为批量生产授权。

@@ -1,0 +1,4 @@
+id,display_key,grid_id,work_x,work_y,queue_capacity,output_capacity,blocked_key
+field_wheat,workplace_field,field_wheat,3,4,1,3,blocked_field
+workshop_granary,workplace_workshop,workshop_granary,5,2,1,3,blocked_workshop
+loading_yard,workplace_loading,loading_yard,6,5,1,1,blocked_loading

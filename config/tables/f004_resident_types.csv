@@ -1,0 +1,2 @@
+id,display_key,asset_path,speed_cells_per_second,invite_cost,home_id,default_job_id
+rabbit_resident,resident_rabbit_name,res://assets/runtime/f003_farm2/animals/animal_rabbit_v1.png,1.35,20,home_plot,harvest_wheat

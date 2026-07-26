@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "asset_set": "F004-RESIDENT-SLICE.1",
+  "status": "ASSET_SET_APPROVED",
+  "source_board": {
+    "path": "assets/runtime/f004_resident_slice/source/F004-RESIDENT-SLICE.1-whole-set-board.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "aaf511b72324b95d5d1945e69ba30166eb90e13b2b372f2942eeaf2958e3dcc3",
+    "grid": "3x2"
+  },
+  "approved_assets": [
+    {
+      "id": "resident_house",
+      "path": "assets/runtime/f004_resident_slice/approved/resident_house.png",
+      "source_cell": {
+        "column": 1,
+        "row": 1
+      },
+      "width": 457,
+      "height": 410,
+      "sha256": "cdf5c905985de508d4399fc203b9a4af930be15d6cb6a3ddea15d1500a3ba3af",
+      "runtime_approved": true
+    },
+    {
+      "id": "road_tile",
+      "path": "assets/runtime/f004_resident_slice/approved/road_tile.png",
+      "source_cell": {
+        "column": 2,
+        "row": 1
+      },
+      "width": 384,
+      "height": 248,
+      "sha256": "8b03f3abc129fb981a963aa979b59c14d18d23ddc860ec5c1c9f1b4ec5ddd58f",
+      "runtime_approved": true
+    },
+    {
+      "id": "wheat_field",
+      "path": "assets/runtime/f004_resident_slice/approved/wheat_field.png",
+      "source_cell": {
+        "column": 3,
+        "row": 1
+      },
+      "width": 436,
+      "height": 345,
+      "sha256": "7ec65ba3dc0df7a7dadd7aaff0d6cc15ff173e84780ea328bed694696d1b6189",
+      "runtime_approved": true
+    },
+    {
+      "id": "workshop_granary",
+      "path": "assets/runtime/f004_resident_slice/approved/workshop_granary.png",
+      "source_cell": {
+        "column": 1,
+        "row": 2
+      },
+      "width": 473,
+      "height": 425,
+      "sha256": "b9589da12d690c7145fe29d42d5fb80c69fc6dd6c0c1048a163f185a8f343291",
+      "runtime_approved": true
+    },
+    {
+      "id": "loading_yard",
+      "path": "assets/runtime/f004_resident_slice/approved/loading_yard.png",
+      "source_cell": {
+        "column": 2,
+        "row": 2
+      },
+      "width": 478,
+      "height": 365,
+      "sha256": "4aff6e1bac948cb77c0bcca80abb4d5cf4262e6f45066035be381a5a0ebfd36a",
+      "runtime_approved": true
+    },
+    {
+      "id": "order_truck",
+      "path": "assets/runtime/f004_resident_slice/approved/order_truck.png",
+      "source_cell": {
+        "column": 3,
+        "row": 2
+      },
+      "width": 310,
+      "height": 274,
+      "sha256": "28ba1f0bbcbbc7142fab009bfdff8d9b6b5af8e4381f77ac5c59b9417c49aaca",
+      "runtime_approved": true
+    }
+  ],
+  "shared_project_asset": {
+    "id": "resident_rabbit",
+    "path": "assets/runtime/f003_farm2/animals/animal_rabbit_v1.png",
+    "provenance": "project-owned accepted F003 runtime asset"
+  },
+  "qa_board": {
+    "path": "assets/runtime/f004_resident_slice/qa/F004-RESIDENT-SLICE.1-approved-alpha-board.png",
+    "sha256": "c8d97e82e0a35cbcd4aa8d0aaca0dc312f4d559ca7646daf54568f3dacc4b438"
+  },
+  "runtime_rule": "Only approved assets and the registered project-owned rabbit may be loaded by the F004 slice."
+}

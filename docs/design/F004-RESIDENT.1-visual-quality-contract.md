@@ -1,12 +1,12 @@
 # CityOfAnimals F004-RESIDENT.1 视觉质量合同
 
 **合同 ID：** `COA-VQ-F004-RESIDENT-001`  
-**版本：** V1.1 / 2026-07-26
+**版本：** V1.2 / 2026-07-26
 **适用范围：** 动物居民小镇主地图及代表性闭环  
 **目标：** 720×1280 竖屏、45° 等距 2D 卡通  
-**状态：** `VISUAL_CONTRACT_REVIEW`  
-**Penpot Gate：** `EDITABLE_SOURCE_READBACK_VERIFIED / CLOUD_EXPORT_AND_USER_REVIEW_PENDING`
-**运行时 Gate：** `NOT AUTHORIZED`
+**状态：** `RUNTIME_SLICE_APPROVED`
+**Penpot Gate：** `EDITABLE_SOURCE_READBACK_VERIFIED / LOCAL_EXPORT_RECONCILED`
+**运行时 Gate：** `RUNTIME_SLICE_APPROVED / SCALE_OUT_APPROVED=false`
 
 ## 1. 一句话视觉方向
 
@@ -98,7 +98,7 @@
 
 ## 9. 声音职责
 
-声音尚未进入资产制作，本合同只规定职责：
+代表性切片使用运行时生成的轻量反馈音，不引入未授权外部音频；后续正式音频仍按以下职责生产：
 
 - 居民脚步：低频、材质相关、限制并发。
 - 作业：按田地/木工/动物照料/加工区分短循环，镜头外衰减。
@@ -168,12 +168,12 @@
 ## 15. Gate
 
 - `PROTOTYPE_READABLE`：旧 F003 基线可读，仅作历史证据。
-- `VISUAL_CONTRACT_APPROVED`：**Pending user review**。
-- `ASSET_SET_APPROVED`：未开始。
-- `RUNTIME_SLICE_APPROVED`：未授权、未开始。
+- `VISUAL_CONTRACT_APPROVED`：通过。
+- `ASSET_SET_APPROVED`：通过；6 个新原创资产 + 1 个项目批准兔子。
+- `RUNTIME_SLICE_APPROVED`：通过；见 `docs/receipts/F004-RESIDENT-SLICE-RUNTIME-ACCEPTANCE-010.md`。
 - `SCALE_OUT_APPROVED`：未通过。
 - `RELEASE_VISUAL_APPROVED`：未通过。
 
-在可编辑 Penpot style frame、状态与组件源通过前，不得进入代表性运行切片；在真实 720×1280 切片无 BLOCKER/MATERIAL 前，不得批量重做道路、田地、建筑或居民。
+可编辑 Penpot source、整套资产、真实 720×1280 切片和状态覆盖均已通过；最终未解决 `BLOCKER = 0`、`MATERIAL = 0`。因此代表性切片获批，但不得据此批量重做道路、田地、建筑或居民。
 
-2026-07-26 续接复核没有改变视觉方向与质量阈值。`PD-003` 已把可编辑源切换为 Penpot，本地命名 SVG 导入源已完成；当前仅缺已认证的 Penpot 云端导入、对象级回读和用户评审。因此本合同可供用户评审，但仍不得标记 `VISUAL_CONTRACT_APPROVED`。
+2026-07-26 最终验证：Penpot 已认证、导入、重开并完成对象级回读；云端下载错误仅为归档限制。正常 Godot 720×1280 渲染产生 6 个状态画面；连续 120 帧实测 164.69 FPS、引擎采样 74 FPS、静态内存 64,762,206 bytes。证据见 `docs/evidence/F004-RESIDENT.1/README.md`。扩面与发行视觉门仍未通过。

@@ -1,0 +1,4 @@
+id,state,from_x,from_y,to_x,to_y,duration_seconds
+route_arrive,arriving,812,675,520,625,2.8
+route_wait,waiting,520,625,520,625,0
+route_depart,departing,520,625,812,675,2.8

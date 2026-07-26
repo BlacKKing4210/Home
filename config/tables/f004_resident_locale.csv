@@ -1,0 +1,56 @@
+key,zh-CN,en
+town_name,茸叶小镇,Fernleaf Town
+coins,金币,Coins
+settings,设置,Settings
+close,关闭,Close
+language,语言,Language
+chinese,中文,Chinese
+english,English,English
+reduced_motion,减少动态,Reduced motion
+on,开启,On
+off,关闭,Off
+build_house,建造居民小屋,Build a resident cottage
+build_cost,花费 {0} 金币,Costs {0} coins
+confirm_build,建造,Build
+house_ready,小屋建好了,Cottage is ready
+invite_resident,邀请兔子居民,Invite the rabbit resident
+invite_cost,邀请需要 {0} 金币,Invitation costs {0} coins
+confirm_invite,发出邀请,Send invitation
+resident_rabbit_name,小团,Tuft
+assign_job,安排小团负责麦田与谷仓,Assign Tuft to field and granary
+confirm_assign,安排岗位,Assign job
+job_harvest,收割麦田,Harvesting wheat
+job_sort,谷仓分拣,Sorting at the granary
+workplace_field,金穗田,Golden Field
+workplace_workshop,谷仓工坊,Granary Workshop
+workplace_loading,路边装卸场,Roadside Loading Yard
+order_bakery,面包坊配送车,Bakery delivery truck
+truck_arriving,订单车正在进镇,Delivery truck arriving
+truck_waiting,订单车正在装卸场等待,Delivery truck waiting at the yard
+truck_loading,居民正在装车,Resident is loading the truck
+truck_departing,订单完成，车辆正在离开,Order complete - truck departing
+truck_gone,订单已交付,Order delivered
+resident_uninvited,等待新居民,Awaiting a resident
+resident_home,小团在家休息,Tuft is resting at home
+resident_walk_field,小团正沿路去麦田,Tuft is walking to the field
+resident_work_field,小团正在收割,Tuft is harvesting
+resident_walk_workshop,小团正把麦子送往谷仓,Tuft is carrying wheat to the granary
+resident_work_workshop,小团正在谷仓分拣,Tuft is sorting at the granary
+resident_walk_yard,小团正把货箱送往订单车,Tuft is carrying the crate to the truck
+resident_loading,小团正在装车,Tuft is loading the truck
+resident_walk_home,小团正在回家,Tuft is walking home
+resident_blocked,道路中断，小团正在等待,Road interrupted - Tuft is waiting
+loading_blocked,装卸位已满，货物正在等待,Loading bay full - cargo is waiting
+select_road,道路管理,Road management
+close_road,暂时封路,Close this road
+open_road,恢复通行,Reopen this road
+road_open,道路畅通,Road open
+road_closed,道路已封闭,Road closed
+order_progress,订单货箱 {0}/{1},Order crates {0}/{1}
+reward_received,获得 {0} 金币,Received {0} coins
+not_enough_coins,金币不足,Not enough coins
+placement_invalid,占地冲突，无法建造,Footprint conflict - cannot build
+road_missing,道路未连通，居民无法出发,Road disconnected - resident cannot depart
+interrupted_saved,进度已保存，恢复后继续,Progress saved and will resume
+tap_world_hint,点建筑或道路查看状态,Tap a building or road to inspect it
+time_remaining,还需 {0} 秒,{0} seconds remaining

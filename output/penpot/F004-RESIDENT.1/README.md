@@ -45,7 +45,7 @@
 | `page_id` | `bd31e32d-d69f-81e2-8008-62cc67c1eedb` |
 | `source_version` | `F004-RESIDENT.1-V1.1` |
 | `owner` | Codex `/root` |
-| `review_state` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` |
+| `review_state` | `DESIGN_BASELINE_APPROVED_FOR_REPRESENTATIVE_SLICE` |
 | `coverage` | 8 个屏幕/状态评审面 + 4 张 UE/状态流程 |
 | `local_source_backup` | 本目录 SVG 与 manifest |
 
@@ -74,15 +74,16 @@
 - `top-hud`：`030c6195-5b61-8040-8008-62d1e6536408`
 - `context-panel`：`030c6195-5b61-8040-8008-62d1e6565be5`
 
-## 剩余 Gate
+## Gate 结论
 
 已完成：认证、云端文件创建、SVG 导入、再次打开、命名对象回读和内部矢量层核验。
 
+2026-07-26 已完成制作人对 UI/UX、状态、视觉质量、原创性、详细占地目录与推荐默认值的审阅，设计基线与视觉质量合同批准用于一个代表性 Godot 运行切片。
+
+Penpot 云端 PNG 下载已实际尝试，浏览器下载通道返回 `Invalid http status code or phrase`，下载目录未产生文件；不得宣称云端导出成功。云端可编辑对象回读与版本匹配的本地派生预览已完成评审核对，因此该归档传输限制不是项目文件锁，也不继续阻断代表性切片。
+
 仍待完成：
 
-1. 归档 Penpot 云端 PNG/PDF 导出并与 V1.1 本地派生预览核对；
-2. 制作人/用户完成 UI/UX、状态、视觉质量与原创性审阅；
-3. 用户批准详细占地目录与推荐默认值；
-4. 另行签发代表性 Godot 运行切片授权。
-
-因此可编辑源阻塞已解除，但详细设计审阅与运行时授权仍保持 Pending。
+1. 刷新 RAG 并签发独立代表性 Godot 工程收据；
+2. 完成正式资产集、真实运行切片和 720×1280 玩家视角行为证据；
+3. 只有切片通过 `RUNTIME_SLICE_APPROVED` 后才可评估扩面。
