@@ -39,7 +39,7 @@ active_modules:
     name: Animal Resident Town Spatial and Autonomy Foundation
     version: F004-RESIDENT.1
     phase: DESIGN_REBASELINE_REVIEW
-    state: DESIGN_PACKAGE_V1_1_PENPOT_SOURCE_PENDING_NOT_RUNTIME_AUTHORIZED
+    state: DESIGN_PACKAGE_V1_1_PENPOT_READBACK_VERIFIED_USER_REVIEW_PENDING_NOT_RUNTIME_AUTHORIZED
     producer: Codex /root
     design_owner: Codex /root
     primary_skill: game-feature-design-docs + ui-design-priority + game-visual-quality-pipeline
@@ -56,16 +56,23 @@ active_modules:
       - docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt
       - docs/receipts/F004-RESIDENT-PENPOT-READ-ONLY-004.md
       - docs/receipts/F004-RESIDENT-PENPOT-DECISION-004.txt
+      - docs/receipts/F004-RESIDENT-PENPOT-CLOUD-READ-ONLY-005.md
+      - docs/receipts/F004-RESIDENT-PENPOT-CLOUD-HANDOFF-005.md
       - docs/features/F-003-farm-town-foundation-v2.md
       - docs/features/F-004-farm-district-industry-i.md
     authorization: docs/receipts/PD-002-READ-ONLY.md
-    current_receipt: docs/receipts/F004-RESIDENT-PENPOT-HANDOFF-004.md
+    current_receipt: docs/receipts/F004-RESIDENT-PENPOT-CLOUD-HANDOFF-005.md
     producer_direction_state: APPROVED_REAFFIRMED_20260726
     producer_direction_receipt: docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt
     editable_design_register: output/penpot/F004-RESIDENT.1/README.md
     editable_design_tool: Penpot
     superseded_design_register: output/figma/F004-RESIDENT.1/README.md
-    blocker: "PENDING: Penpot authenticated editable file creation/readback and user detailed design review"
+    blocker: "PENDING: Penpot cloud export archive, user detailed design review, and canonical PM workbook replacement after Windows releases write access; authenticated editable file/import/readback verified"
+    progress_matrix_sync:
+      canonical: PM/feature_progress.xlsx
+      staged_review_copy: output/penpot/F004-RESIDENT.1/feature_progress.F004-PENPOT-CLOUD-V1.1.xlsx
+      state: STAGED_VALIDATED_CANONICAL_REPLACEMENT_PENDING_WINDOWS_WRITE_ACCESS
+      no_project_lock: true
     runtime_authority: false
 queued_modules:
   - feature_id: F-005

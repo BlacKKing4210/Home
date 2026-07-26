@@ -363,8 +363,8 @@ def add_status_panel(doc: Document) -> None:
     set_cell_shading(table.cell(0, 0), CORAL)
     paragraph = table.cell(0, 0).paragraphs[0]
     run = paragraph.add_run(
-        "当前最高 Gate：DESIGN_REBASELINE_REVIEW / PENPOT_IMPORT_SOURCE_READY。"
-        "Penpot 云端登录、导入、对象回读和用户设计评审仍为 PENDING；runtime_authority=false；"
+        "当前最高 Gate：PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED。"
+        "Penpot 云端导出归档和用户详细设计评审仍为 PENDING；runtime_authority=false；"
         "本文、PDF、静态截图和测试均不证明运行时完成。"
     )
     set_run_font(run, size=8.8, bold=True)
@@ -422,7 +422,7 @@ def build_document(
             ["制作人 / 主策划", "Codex /root", "运行时权限", "false"],
             ["创建日期", "2026-07-26", "目标平台", "Mobile / 720×1280 portrait"],
             ["默认语言", "zh-CN；设置可切 en", "配置版本", "仅建议，未授权建表"],
-            ["Penpot 源", "output/penpot/F004-RESIDENT.1/README.md", "Penpot Gate", "PENDING: cloud import/readback"],
+            ["Penpot 源", "output/penpot/F004-RESIDENT.1/README.md", "Penpot Gate", "READBACK VERIFIED / EXPORT + USER REVIEW PENDING"],
             ["正式决策", "PD-002 rebaseline + PD-003 Penpot source", "评审结论", "待用户审阅"],
         ],
         [1600, 3280, 1600, 2880],
@@ -433,7 +433,7 @@ def build_document(
         [
             ["版本", "编写人", "审核人", "批准人", "日期", "更新内容"],
             ["V1.0", "Codex /root", "待用户评审", "Pending", "2026-07-26", "完成 A-H 正式设计覆盖、RAG/控制面续接与 Figma 阻塞证据收口。"],
-            ["V1.1", "Codex /root", "待用户评审", "Pending", "2026-07-26", "正式改用 Penpot；完成 8 张界面、4 张流程和 14 个回读对象的导入源与 720×1280 静态校验。"],
+            ["V1.1", "Codex /root", "待用户评审", "Pending", "2026-07-26", "正式改用 Penpot；认证云端文件已导入 8 张界面与 4 张流程，登记 14 个对象引用并完成代表性嵌套矢量回读。"],
         ],
         [900, 1350, 1350, 1150, 1350, 3260],
     )
@@ -443,7 +443,7 @@ def build_document(
         [
             ["责任方", "负责人", "当前状态", "下一 Gate", "完成条件"],
             ["产品/设计", "Codex /root", "重基线已形成，待审阅", "DESIGN_REBASELINE_APPROVED", "占地、居民、车辆与减法规则批准"],
-            ["UI/UX/主美", "Codex /root", "Penpot 导入源已形成；云端待回读", "VISUAL_CONTRACT_APPROVED", "Penpot 对象回读、全状态与评审面批准"],
+            ["UI/UX/主美", "Codex /root", "Penpot 云端对象回读已验证；用户评审待办", "VISUAL_CONTRACT_APPROVED", "云端导出归档、全状态与评审面批准"],
             ["程序", "未授权", "未开始", "RUNTIME_SLICE_APPROVED", "一个真实 720×1280 代表切片及行为证据"],
             ["扩面", "未授权", "禁止开始", "SCALE_OUT_APPROVED", "代表切片无 BLOCKER/MATERIAL"],
         ],
@@ -475,8 +475,11 @@ def build_document(
     doc.add_paragraph("0.1 Penpot 可编辑设计移交", style="Heading 1")
     add_text_paragraph(
         doc,
-        "下列画板由项目内 SVG 可编辑源渲染，用于在 Penpot 登录后导入、分组、组件化和对象回读。"
-        "本地 SVG 是导入源与备份，不替代真实 Penpot 云端文件；PNG/PDF 仅为派生评审预览。"
+        "下列画板由项目内 SVG 可编辑源渲染，并已导入认证 Penpot 文件 "
+        "CityOfAnimals / F004-RESIDENT.1（file bd31e32d-d69f-81e2-8008-62cc67c1eeda；"
+        "page bd31e32d-d69f-81e2-8008-62cc67c1eedb）。"
+        "文件已重新打开，8 个界面组、4 个流程组、14 个根/组对象引用及代表性嵌套矢量完成回读。"
+        "本地 SVG 是导入源与备份；PNG/PDF 仅为派生评审预览，云端导出归档与用户详细评审仍待完成。"
     )
     add_review_board_figure(
         doc,

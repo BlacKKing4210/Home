@@ -5,7 +5,7 @@
 **输入：** 触控为主；鼠标用于桌面调试  
 **默认语言：** `zh-CN`；设置中可切换并持久化 `en`  
 **状态：** `UI_UX_REBASELINE_REVIEW`  
-**Penpot：** 本地导入源已完成；未经云端认证、导入与对象级读回前保持 `PENDING: Penpot editable source creation/readback`
+**Penpot：** `EDITABLE_SOURCE_READBACK_VERIFIED`；云端导出归档与用户详细设计审阅仍为 `PENDING`
 
 ## 1. 单一主要决定
 
@@ -135,14 +135,16 @@ Penpot 命名流程画板必须包含：
 - 车辆订单状态机；
 - 空间放置与路径合法性流程。
 
-只有 Penpot 页面/画板真实存在、可编辑、能对象级读回并完成制作人审阅时，UI/UE Gate 才可从 `Pending` 转为通过。
+Penpot 云端文件、命名组和对象级读回已经通过；只有云端导出归档与制作人/用户详细审阅完成后，UI/UE 设计评审 Gate 才可从 `Pending` 转为通过。
 
 2026-07-26 可编辑交接复核：
 
 - `PD-003` 已把正式工具切换为 Penpot；
 - `output/penpot/F004-RESIDENT.1/` 已提供 8 个命名屏幕/状态 group、4 个命名流程 group 和 import manifest；
-- Penpot 官方 SaaS 登录页可访问，但当前浏览器没有已认证会话；
-- 云端文件 URL、ID、对象引用、导入结果和回读结果仍为 `PENDING`；
+- 认证云端文件 `CityOfAnimals / F004-RESIDENT.1` 已创建、导入并再次打开；
+- URL、team/file/page ID、两个根分组、8 个屏幕组、4 个流程组和代表性内部矢量层均已对象级回读；
+- 云端登记与对象 ID 见 `output/penpot/F004-RESIDENT.1/README.md`；
+- Penpot 云端导出归档与用户详细设计审阅仍为 `PENDING`；
 - 旧 Figma 席位/传输诊断仅保留为历史证据。
 
-因此本文件已达到 `UI_UX_REBASELINE_REVIEW / PENPOT_IMPORT_SOURCE_READY`，但不能把本地 SVG、DOCX/PDF 或静态预览当作已通过的 Penpot 云端交付。
+因此本文件已达到 `UI_UX_REBASELINE_REVIEW / PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED`，但不能把该状态当作详细设计批准或运行时完成。

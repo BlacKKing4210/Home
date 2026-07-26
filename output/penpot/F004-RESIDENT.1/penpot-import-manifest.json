@@ -2,7 +2,7 @@
   "schema_version": 1,
   "feature_id": "F-004",
   "version": "F004-RESIDENT.1-V1.1",
-  "status": "PENPOT_IMPORT_SOURCE_NOT_RUNTIME",
+  "status": "PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED_NOT_RUNTIME",
   "target_canvas": {
     "width": 720,
     "height": 1280,
@@ -27,6 +27,38 @@
     "10_Vehicle_Order_State_Machine",
     "11_Spatial_Placement_Validation"
   ],
+  "penpot_cloud": {
+    "url": "https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb",
+    "team_id": "bd31e32d-d69f-81e2-8008-62c66e2babc2",
+    "project_container": "Drafts",
+    "project_id_note": "The authenticated workspace URL did not expose a separate project UUID.",
+    "file_id": "bd31e32d-d69f-81e2-8008-62cc67c1eeda",
+    "page_id": "bd31e32d-d69f-81e2-8008-62cc67c1eedb",
+    "file_name": "CityOfAnimals / F004-RESIDENT.1",
+    "readback_status": "VERIFIED",
+    "cloud_export_archive_status": "PENDING"
+  },
+  "object_refs": {
+    "F004-RESIDENT.1-penpot-screen-source": "030c6195-5b61-8040-8008-62d1e64c497d",
+    "00_Product_Memory_Point": "030c6195-5b61-8040-8008-62d1e64f656f",
+    "01_Main_Map_720x1280": "030c6195-5b61-8040-8008-62d1e65338b6",
+    "02_Build_And_Road_Mode": "030c6195-5b61-8040-8008-62d1e656c642",
+    "03_House_Invite_Assign": "030c6195-5b61-8040-8008-62d1e6598832",
+    "04_Resident_And_Workplace_States": "030c6195-5b61-8040-8008-62d1e65cb5fc",
+    "05_Vehicle_Order_States": "030c6195-5b61-8040-8008-62d1e65f5744",
+    "06_Loading_Empty_Failure_Interrupted": "030c6195-5b61-8040-8008-62d1e6614942",
+    "07_Component_And_Token_Sheet": "030c6195-5b61-8040-8008-62d1e6644912",
+    "F004-RESIDENT.1-penpot-flow-source": "030c6195-5b61-8040-8008-62d1e54687c2",
+    "08_Representative_Player_UE": "030c6195-5b61-8040-8008-62d1e54f53e3",
+    "09_Resident_State_Machine": "030c6195-5b61-8040-8008-62d1e5585335",
+    "10_Vehicle_Order_State_Machine": "030c6195-5b61-8040-8008-62d1e561416f",
+    "11_Spatial_Placement_Validation": "030c6195-5b61-8040-8008-62d1e56863ef"
+  },
+  "representative_nested_readback": {
+    "main-map-world": "030c6195-5b61-8040-8008-62d1e653b763",
+    "top-hud": "030c6195-5b61-8040-8008-62d1e6536408",
+    "context-panel": "030c6195-5b61-8040-8008-62d1e6565be5"
+  },
   "required_readback_objects": [
     "memory-point",
     "main-map-world",
@@ -43,6 +75,6 @@
     "reduced-motion-state",
     "component-sheet"
   ],
-  "gate": "PENDING_AUTHENTICATED_PENPOT_IMPORT_AND_READBACK",
+  "gate": "EDITABLE_SOURCE_READBACK_VERIFIED_CLOUD_EXPORT_AND_USER_REVIEW_PENDING",
   "runtime_authority": false
 }

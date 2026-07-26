@@ -5,7 +5,7 @@
 **适用范围：** 动物居民小镇主地图及代表性闭环  
 **目标：** 720×1280 竖屏、45° 等距 2D 卡通  
 **状态：** `VISUAL_CONTRACT_REVIEW`  
-**Penpot Gate：** `PENDING: authenticated editable file creation/readback`（本地导入源已完成）
+**Penpot Gate：** `EDITABLE_SOURCE_READBACK_VERIFIED / CLOUD_EXPORT_AND_USER_REVIEW_PENDING`
 **运行时 Gate：** `NOT AUTHORIZED`
 
 ## 1. 一句话视觉方向

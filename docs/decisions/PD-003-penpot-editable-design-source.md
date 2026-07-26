@@ -33,11 +33,11 @@ CityOfAnimals 从本决策起使用 **Penpot** 作为当前正式可编辑 UI、
 ## F004 迁移结论
 
 - 旧状态 `BLOCKED: Figma UE attachment` 改为 `SUPERSEDED TOOL BLOCKER / HISTORICAL EVIDENCE`。
-- 当前新状态为 `PENDING: Penpot authenticated editable file creation and readback`。
+- 当前新状态为 `PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED / CLOUD_EXPORT_AND_USER_REVIEW_PENDING`。
 - `output/figma/F004-RESIDENT.1/` 保留为历史诊断与 Mermaid 草稿来源。
 - 新登记目录为 `output/penpot/F004-RESIDENT.1/`。
 - F004 的八个页面/状态评审面和四张流程图继续保留原覆盖要求，只把承载工具改为 Penpot。
-- 当前 Penpot SaaS 登录页已验证可访问；尚无本任务可用的已认证会话，因此本决策不伪报远端可编辑文件已创建。
+- 2026-07-26 已在认证会话中创建并再次打开 `CityOfAnimals / F004-RESIDENT.1`，导入两个 SVG 根分组，回读 8 个屏幕组、4 个流程组和代表性内部矢量层；URL、team/file/page ID 与对象 ID 已登记在 `output/penpot/F004-RESIDENT.1/README.md`。
 
 ## Penpot Gate
 
@@ -51,7 +51,7 @@ CityOfAnimals 从本决策起使用 **Penpot** 作为当前正式可编辑 UI、
 6. 制作人完成视觉、信息层级、状态覆盖和原创性审阅；
 7. 用户完成详细占地目录与推荐默认值审阅。
 
-在上述条件完成前，最高状态只能是 `DESIGN_REBASELINE_REVIEW / PENPOT_SOURCE_PENDING`。
+当前 1–4 已通过；本地 V1.1 PNG/PDF 与导入源版本一致，但 Penpot 云端导出归档、制作人/用户详细审阅和运行时授权仍未完成。最高状态为 `DESIGN_REBASELINE_REVIEW / PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING`。
 
 ## 托管约束
 

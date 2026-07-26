@@ -4,12 +4,12 @@
 
 - 正式工具决策：`docs/decisions/PD-003-penpot-editable-design-source.md`
 - Penpot 入口：<https://design.penpot.app/>
-- 云端文件：`PENDING: authenticated Penpot file creation`
-- 对象级回读：`PENDING`
-- 评审状态：`DESIGN_REBASELINE_REVIEW / PENPOT_SOURCE_PENDING`
+- 云端文件：[CityOfAnimals / F004-RESIDENT.1](https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb)
+- 对象级回读：`VERIFIED: 2 root groups + 8 screen groups + 4 flow groups`
+- 评审状态：`PENPOT_EDITABLE_SOURCE_READBACK_VERIFIED / USER_DESIGN_REVIEW_PENDING`
 - 运行时权限：`false`
 
-2026-07-26 已验证 Penpot 官方云服务登录页可访问，但当前浏览器没有已认证会话。以下 SVG 是保留组名、对象 ID 和真实 720×1280 画布的 Penpot 导入源与本地备份，不单独满足 `PENPOT_EDITABLE_SOURCE_READY`，也不得进入 Godot 玩家可见运行路径。
+2026-07-26 已在认证 Penpot 账号中创建、重命名并再次打开云端文件。两份 SVG 已导入 `Page 1`，形成两个可编辑根分组；其下 8 个命名屏幕组与 4 个命名流程组均可在图层树中展开并取得对象 ID。`01_Main_Map_720x1280` 还可继续展开到 `main-map-world`、`top-hud`、`context-panel` 等内部矢量层，证明不是扁平截图。现有 PNG/PDF 仍是同版本 SVG 的本地评审派生物；Penpot 云端导出归档与用户详细设计审阅仍未完成。
 
 ## 导入源
 
@@ -19,7 +19,7 @@
 | `F004-RESIDENT.1-penpot-flow-source.svg` | 4 个命名 flow group | 代表性 UE、居民状态机、车辆状态机、空间合法性 |
 | `penpot-import-manifest.json` | 稳定对象登记 | 导入后页面/画板拆分与回读清单 |
 
-## 计划中的 Penpot 页面
+## 已导入并回读的 Penpot 命名组
 
 1. `00_Product_Memory_Point`
 2. `01_Main_Map_720x1280`
@@ -38,24 +38,51 @@
 
 | 字段 | 当前值 |
 |---|---|
-| `penpot_url` | `PENDING` |
-| `workspace_id` | `PENDING` |
-| `project_id` | `PENDING` |
-| `file_id` | `PENDING` |
+| `penpot_url` | <https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb> |
+| `workspace/team_id` | `bd31e32d-d69f-81e2-8008-62c66e2babc2` |
+| `project_container` | `Drafts`（工作区 URL 未暴露单独 project UUID） |
+| `file_id` | `bd31e32d-d69f-81e2-8008-62cc67c1eeda` |
+| `page_id` | `bd31e32d-d69f-81e2-8008-62cc67c1eedb` |
 | `source_version` | `F004-RESIDENT.1-V1.1` |
 | `owner` | Codex `/root` |
-| `review_state` | `PENDING_AUTHENTICATED_IMPORT_AND_READBACK` |
+| `review_state` | `EDITABLE_SOURCE_READBACK_VERIFIED / USER_REVIEW_PENDING` |
 | `coverage` | 8 个屏幕/状态评审面 + 4 张 UE/状态流程 |
 | `local_source_backup` | 本目录 SVG 与 manifest |
 
-## Gate 解除条件
+## 对象引用
 
-1. 用户在 Penpot 完成登录；
-2. 创建 `CityOfAnimals / F004-RESIDENT.1` 文件；
-3. 导入本目录 SVG，并按 manifest 拆分为命名页面/画板；
-4. 验证关键对象可选中、可编辑，登记 URL、ID 与对象引用；
-5. 导出 PNG/PDF 并与源版本核对；
-6. 制作人完成 UI/UX、状态、视觉质量与原创性审阅；
-7. 用户批准详细占地目录与推荐默认值。
+| 对象 | Penpot object ID |
+|---|---|
+| `F004-RESIDENT.1-penpot-screen-source` | `030c6195-5b61-8040-8008-62d1e64c497d` |
+| `00_Product_Memory_Point` | `030c6195-5b61-8040-8008-62d1e64f656f` |
+| `01_Main_Map_720x1280` | `030c6195-5b61-8040-8008-62d1e65338b6` |
+| `02_Build_And_Road_Mode` | `030c6195-5b61-8040-8008-62d1e656c642` |
+| `03_House_Invite_Assign` | `030c6195-5b61-8040-8008-62d1e6598832` |
+| `04_Resident_And_Workplace_States` | `030c6195-5b61-8040-8008-62d1e65cb5fc` |
+| `05_Vehicle_Order_States` | `030c6195-5b61-8040-8008-62d1e65f5744` |
+| `06_Loading_Empty_Failure_Interrupted` | `030c6195-5b61-8040-8008-62d1e6614942` |
+| `07_Component_And_Token_Sheet` | `030c6195-5b61-8040-8008-62d1e6644912` |
+| `F004-RESIDENT.1-penpot-flow-source` | `030c6195-5b61-8040-8008-62d1e54687c2` |
+| `08_Representative_Player_UE` | `030c6195-5b61-8040-8008-62d1e54f53e3` |
+| `09_Resident_State_Machine` | `030c6195-5b61-8040-8008-62d1e5585335` |
+| `10_Vehicle_Order_State_Machine` | `030c6195-5b61-8040-8008-62d1e561416f` |
+| `11_Spatial_Placement_Validation` | `030c6195-5b61-8040-8008-62d1e56863ef` |
 
-在以上条件完成前，不把本地 SVG、DOCX、PDF、截图或网页打开状态标记为可编辑设计 Gate 通过。
+代表性内部图层回读：
+
+- `main-map-world`：`030c6195-5b61-8040-8008-62d1e653b763`
+- `top-hud`：`030c6195-5b61-8040-8008-62d1e6536408`
+- `context-panel`：`030c6195-5b61-8040-8008-62d1e6565be5`
+
+## 剩余 Gate
+
+已完成：认证、云端文件创建、SVG 导入、再次打开、命名对象回读和内部矢量层核验。
+
+仍待完成：
+
+1. 归档 Penpot 云端 PNG/PDF 导出并与 V1.1 本地派生预览核对；
+2. 制作人/用户完成 UI/UX、状态、视觉质量与原创性审阅；
+3. 用户批准详细占地目录与推荐默认值；
+4. 另行签发代表性 Godot 运行切片授权。
+
+因此可编辑源阻塞已解除，但详细设计审阅与运行时授权仍保持 Pending。
