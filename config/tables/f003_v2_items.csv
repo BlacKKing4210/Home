@@ -1,0 +1,12 @@
+id,category,storage_type,initial_amount,market_coin_value,seed_reserve,icon_key
+golden_sprig,crop,granary,12,2,3,grain
+root_carrot,crop,granary,6,3,2,carrot
+cloud_bean,crop,granary,4,4,2,bean
+leafy_feed,feed,granary,2,5,0,feed
+spotted_egg,animal_product,storehouse,0,8,0,egg
+cloud_milk,animal_product,storehouse,0,10,0,milk
+hearth_loaf,machine_product,storehouse,0,18,0,bread
+soft_cream,machine_product,storehouse,0,22,0,cream
+root_preserve,machine_product,storehouse,0,26,0,preserve
+timber_board,material,storehouse,2,12,0,timber
+smooth_stone,material,storehouse,2,12,0,stone

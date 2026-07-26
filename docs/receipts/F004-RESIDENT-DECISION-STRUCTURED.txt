@@ -1,0 +1,10 @@
+feature_id: F-004 / F004-RESIDENT.1
+decision_state: DESIGN_REBASELINE_REVIEW + VISUAL_CONTRACT_REVIEW
+approved_rule: 玩家以低频建造、邀请、派遣和长期规划经营动物居民小镇；动物从住房沿道路到岗位完成实际工作；空间统一使用以 1x1 田地为最小单位的整数网格；订单以到达、等待、装载和离场的世界车辆表达。
+superseded_rule: F004-DISTRICT.1 的频繁手动生产点击、固定功能位、分区面板和裸订单卡进入 REVISE_REQUIRED / SUPERSEDED_BY F004-RESIDENT.1 / MIGRATION_INPUT / NOT_RUNTIME。
+formal_source_target: docs/features/F-004-resident-town-spatial-autonomy.md; docs/decisions/PD-002-animal-resident-town-rebaseline.md; docs/uiux/F004-RESIDENT.1-ui-priority.md; docs/design/F004-RESIDENT.1-visual-quality-contract.md
+affected_domains: product; game-design; spatial-grid; building-placement; road-network; resident-ai; job-scheduling; vehicle-orders; ui-ux; visual-quality; configuration; save-recovery; qa
+affected_files: docs/decisions/PD-002-animal-resident-town-rebaseline.md; docs/receipts/PD-002-READ-ONLY.md; docs/features/F-004-resident-town-spatial-autonomy.md; docs/uiux/F004-RESIDENT.1-ui-priority.md; docs/design/F004-RESIDENT.1-visual-quality-contract.md; docs/tasks/F004-RESIDENT.1-design-rebaseline.md; output/figma/F004-RESIDENT.1/README.md; output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.docx; output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.pdf
+execution_readiness: NOT_READY_FOR_RUNTIME; runtime_authority=false; requires user design review and editable Figma/FigJam write-readback before representative Godot slice
+unresolved_producer_decisions: BLOCKED Figma UE attachment; user review of 1x1 footprint catalog V0.9 and recommended defaults for one main job per resident, bounded offline progress, and no hard MVP vehicle-order timer
+reusable_method_candidate: false

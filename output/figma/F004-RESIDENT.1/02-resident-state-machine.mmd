@@ -1,0 +1,57 @@
+stateDiagram-v2
+    direction LR
+
+    [*] --> Visitor
+    Visitor: 到访
+    InvitedReserved: 已邀请并预留住房
+    Arriving: 前往小镇
+    MovingIn: 入住中
+    Resident: 已入住居民
+
+    Visitor --> InvitedReserved: 确认邀请
+    InvitedReserved --> Arriving: 住房和道路可用
+    Arriving --> MovingIn: 到达住房
+    MovingIn --> Resident: 入住完成
+
+    state Resident {
+        [*] --> AtHome
+        AtHome: 在家
+        Leisure: 生活活动
+        AssignedReady: 岗位待命
+        Reserving: 预留任务资源
+        PathRequested: 请求路径
+        Walking: 通勤或搬运
+        Queueing: 安全排队
+        Working: 执行作业
+        OutputReady: 产出就绪
+        Carrying: 搬运货物
+        Depositing: 存放或装载
+        TaskComplete: 任务完成
+        Blocked: 阻塞
+        Interrupted: 中断快照
+
+        AtHome --> Leisure: 无任务
+        Leisure --> AssignedReady: 工作时段
+        AssignedReady --> Reserving: 领取任务
+        Reserving --> PathRequested: 预留成功
+        Reserving --> Blocked: 预留失败
+        PathRequested --> Walking: 路径存在
+        PathRequested --> Blocked: 无路
+        Walking --> Queueing: 作业点忙
+        Walking --> Working: 到达
+        Queueing --> Working: 作业点释放
+        Working --> OutputReady: 作业完成
+        OutputReady --> Carrying: 有配送目标
+        OutputReady --> Blocked: 输出满
+        Carrying --> Depositing: 到达目标
+        Depositing --> TaskComplete: 原子存放成功
+        Depositing --> Blocked: 目标阻塞
+        TaskComplete --> AssignedReady: 下一任务
+        TaskComplete --> Leisure: 无任务
+        Leisure --> AtHome: 日程结束
+        Blocked --> AssignedReady: 条件恢复
+        Walking --> Interrupted: 切后台
+        Working --> Interrupted: 切后台
+        Carrying --> Interrupted: 切后台
+        Interrupted --> AssignedReady: 恢复安全状态
+    }

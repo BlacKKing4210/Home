@@ -1,0 +1,3 @@
+id,pen_id,feed_item_id,feed_cost,output_item_id,output_count,duration_seconds,animal_count,asset_id
+chicken,chicken_coop,leafy_feed,1,spotted_egg,2,18,3,animal_chicken_v1
+cow,cow_meadow,leafy_feed,2,cloud_milk,2,30,2,animal_cow_v1

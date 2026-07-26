@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "contract": "ART-003-FARM2-001",
+  "state": "ENGINEERING_PROMOTED_PROTOTYPE_RUNTIME",
+  "source_split_manifest": "res://assets/runtime/f003_farm2/source-split-manifest.json",
+  "source_split_manifest_sha256": "24301875DE2305E562EC52668F3BB867B820F7BFD796B2555AC05729AB0D95ED",
+  "commercial_safety": "Original project-owned prototype artwork. Do not substitute reference-game art.",
+  "origin": [256, 480],
+  "canvas_size": [512, 512],
+  "asset_count": 26,
+  "animal_assets": [
+    "animal_bear_v1",
+    "animal_chicken_v1",
+    "animal_cow_v1",
+    "animal_pig_v1",
+    "animal_rabbit_v1"
+  ],
+  "building_assets": [
+    "building_bakery_industrial_v1",
+    "building_bakery_shop_v1",
+    "building_chicken_coop_v1",
+    "building_chicken_coop_v2",
+    "building_dairy_v1",
+    "building_feedworks_v1",
+    "building_grainworks_v1",
+    "building_granary_v1",
+    "building_juice_press_v1",
+    "building_preserve_v1",
+    "building_roadside_market_v1",
+    "building_storehouse_v1",
+    "building_textile_v1",
+    "orchard_apple_v1",
+    "pen_pig_v1",
+    "pen_sheep_v1",
+    "plot_carrot_ready_v1",
+    "plot_clover_ready_v1",
+    "plot_sunflower_ready_v1",
+    "plot_tea_bush_v1",
+    "plot_wheat_ready_v1"
+  ],
+  "runtime_roots": {
+    "animals": "res://assets/runtime/f003_farm2/animals/",
+    "buildings": "res://assets/runtime/f003_farm2/buildings/"
+  },
+  "verification": {
+    "candidate_to_runtime_sha256_mismatches": 0,
+    "transparent_canvas_qa": "PASS",
+    "runtime_integration_state": "READY_FOR_F003_FARM2_VIEW"
+  }
+}

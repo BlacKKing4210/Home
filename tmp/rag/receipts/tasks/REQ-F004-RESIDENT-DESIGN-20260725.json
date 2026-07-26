@@ -1,0 +1,209 @@
+{
+  "citation_count": 11,
+  "citations": [
+    {
+      "authority": "canonical",
+      "chunk_id": "d79194b1ead7c477c8742bd9",
+      "feature_ids": [
+        "F-004",
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 6,
+      "locator": "lines 93-99",
+      "owner": "producer",
+      "path": "docs/decisions/PD-002-animal-resident-town-rebaseline.md",
+      "score": 0.1276912,
+      "sha256": "f27b1a6d5e5675c384928859a54832b736fe334f8185721fbcd21d2d3a171e3c",
+      "source_id": "PRODUCT_REBASE_DECISION",
+      "vector_rank": 3,
+      "version": "PRODUCT-REBASELINE.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "1b784f3fdd37379e1ff0beae",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 1,
+      "locator": "lines 1-9",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.123898,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 1,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "1e98d08ef425684dd7a41496",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 5,
+      "locator": "lines 40-64",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-001.md",
+      "score": 0.11364332,
+      "sha256": "8eed6089a4695d8e1be3a9221707bf5a1eb87a474c7bc0068640a57a86ed5498",
+      "source_id": "F004_RESIDENT_FINAL_RECEIPT",
+      "vector_rank": 7,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "c2e31bfbc30f4a80ab483654",
+      "feature_ids": [
+        "F-004",
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 23,
+      "locator": "lines 55-99",
+      "owner": "producer",
+      "path": "docs/decisions/PD-002-animal-resident-town-rebaseline.md",
+      "score": 0.1131593,
+      "sha256": "f27b1a6d5e5675c384928859a54832b736fe334f8185721fbcd21d2d3a171e3c",
+      "source_id": "PRODUCT_REBASE_DECISION",
+      "vector_rank": null,
+      "version": "PRODUCT-REBASELINE.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "35c83d496f8c34ecc1855214",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 4,
+      "locator": "lines 467-499",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.10972312,
+      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": 17,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "faafba75bda74de2e5a957c3",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 11,
+      "locator": "lines 8-10",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.10688021,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 2,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "f533833dfb1bb3cad1af405d",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 3,
+      "locator": "lines 686-727",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.10142857,
+      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "09cfe235508b15871ab9c1b4",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 2,
+      "locator": "lines 719-758",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.09835125,
+      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "971c5d0b3014e0cdc38be300",
+      "feature_ids": [
+        "F-004",
+        "GLOBAL"
+      ],
+      "kind": "qa",
+      "lexical_rank": 7,
+      "locator": "lines 1-47",
+      "owner": "producer",
+      "path": "docs/receipts/PD-002-READ-ONLY.md",
+      "score": 0.09825871,
+      "sha256": "f7d84031f58123e75e38bdd28ef5ec58787945fff6fde4ab282b4a44d321d9c7",
+      "source_id": "PD002_READ_ONLY_RECEIPT",
+      "vector_rank": null,
+      "version": "PRODUCT-REBASELINE.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "a66449df84ac2a685b3ca53e",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 8,
+      "locator": "lines 412-481",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.09803922,
+      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "8c5618f4b213cbac425c8bfb",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 14,
+      "locator": "lines 110-135",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-001.md",
+      "score": 0.09684685,
+      "sha256": "8eed6089a4695d8e1be3a9221707bf5a1eb87a474c7bc0068640a57a86ed5498",
+      "source_id": "F004_RESIDENT_FINAL_RECEIPT",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    }
+  ],
+  "context_pack": "tmp/rag/context/REQ-F004-RESIDENT-DESIGN-20260725.md",
+  "context_pack_sha256": "f05754550f0c94abc1de4004316d356452a07c9b161256f39404b4a8b59dc64d",
+  "created_at": "2026-07-25T16:15:15Z",
+  "feature_ids": [
+    "F-004"
+  ],
+  "gate_receipt": "tmp/rag/receipts/rag-gate.json",
+  "gate_receipt_sha256": "eef15b105f60126cd4ec449a3ea79750e712be872154fbde19b4377002b375d5",
+  "index_signature": "47cb307149578242fc1c43206cfd20dba366f596165310c90973de54f8eb14c0",
+  "project_root": "D:\\AI\\CityOfAnimals",
+  "query": "CityOfAnimals F004 animal resident slow town design rebaseline grid footprints roads resident autonomous jobs vehicle orders UI UX visual contract structured decision receipt Figma blocked runtime not authorized",
+  "request_id": "REQ-F004-RESIDENT-DESIGN-20260725",
+  "schema_version": 1,
+  "status": "READY"
+}

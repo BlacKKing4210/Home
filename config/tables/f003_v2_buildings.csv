@@ -1,0 +1,17 @@
+id,kind,world_x,world_y,footprint_w,footprint_h,asset_id,unlock_level,machine_slots,interactive
+granary,storage,880,430,2,2,building_granary_v1,1,0,true
+storehouse,storage,1020,500,2,2,building_storehouse_v1,1,0,true
+feedworks,machine,1320,700,2,2,building_feedworks_v1,1,3,true
+chicken_coop,animal_pen,1050,860,2,2,building_chicken_coop_v1,1,0,true
+cow_meadow,animal_pen,1430,940,3,2,pen_sheep_v1,1,0,true
+bakery,machine,690,900,2,2,building_bakery_shop_v1,1,2,true
+dairy,machine,470,800,2,2,building_dairy_v1,1,2,true
+roadside_market,market,820,1190,2,2,building_roadside_market_v1,1,0,true
+request_board,request_board,1020,1170,1,1,building_grainworks_v1,1,0,true
+preserve,machine,1260,1220,2,2,building_preserve_v1,2,2,true
+textile,locked_machine,1500,1230,2,2,building_textile_v1,3,2,false
+juice_press,locked_machine,300,1110,2,2,building_juice_press_v1,3,2,false
+grainworks,decorative,330,650,2,2,building_grainworks_v1,1,0,false
+bread_hall,decorative,1560,680,2,2,building_bakery_industrial_v1,2,0,false
+orchard,decorative,250,900,2,2,orchard_apple_v1,2,0,false
+bakery_annex,decorative,580,1190,2,2,building_bakery_shop_v1,1,0,false

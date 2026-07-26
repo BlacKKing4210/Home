@@ -1,0 +1,40 @@
+flowchart LR
+    start(["选择建筑或道路"])
+    footprint["读取逻辑占地与朝向"]
+    inside{"全部格在边界内?"}
+    terrain{"地形允许?"}
+    overlap{"无排他占用?"}
+    entrance{"入口朝向合法?"}
+    road{"入口邻接道路?"}
+    connected{"连到生活网络根?"}
+    preserve{"不切断关键路线?"}
+    workpoints{"作业点和队列点可用?"}
+    cost{"资源原子预检通过?"}
+    commit["一次提交占地、资源与导航变更"]
+    success(["放置成功"])
+    invalid["保持预览并显示第一原因"]
+
+    start --> footprint
+    footprint --> inside
+    inside -->|"否"| invalid
+    inside -->|"是"| terrain
+    terrain -->|"否"| invalid
+    terrain -->|"是"| overlap
+    overlap -->|"否"| invalid
+    overlap -->|"是"| entrance
+    entrance -->|"否"| invalid
+    entrance -->|"是"| road
+    road -->|"否"| invalid
+    road -->|"是"| connected
+    connected -->|"否"| invalid
+    connected -->|"是"| preserve
+    preserve -->|"否"| invalid
+    preserve -->|"是"| workpoints
+    workpoints -->|"否"| invalid
+    workpoints -->|"是"| cost
+    cost -->|"否"| invalid
+    cost -->|"是"| commit
+    commit --> success
+
+    style invalid fill:#FFCDC2,stroke:#FF7556
+    style success fill:#CDF4D3,stroke:#66D575

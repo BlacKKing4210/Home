@@ -1,0 +1,37 @@
+key,zh-CN,en
+app_city,动物小镇,City of Animals
+farm_name,晨光农场,Market Meadow
+label_bakery,面包房,Bakery
+label_delivery,送货车,Delivery Van
+label_settings,设置,Settings
+label_language,语言,Language
+locale_zh,中文,Chinese
+locale_en,English,English
+action_plant,种下,Plant
+action_harvest,收获,Harvest
+action_collect,收取,Collect
+action_bake,制作,Bake
+action_deliver,交付,Deliver
+action_unlock,开垦,Unlock
+resource_grain,谷叶,Grainleaf
+resource_loaf,面包,Meadow Loaf
+hint_start,点一下空地开始种植。,Tap an empty field to plant.
+feedback_crop_ready,作物成熟了。,Crop is ready to harvest.
+feedback_bakery_ready,面包房出炉了。,Bakery item is ready.
+feedback_invalid_plot,这块地暂时不能使用。,This field is unavailable.
+feedback_growing,作物生长中: {0}秒。,Crop is growing: {0}s.
+feedback_storage_full,谷叶仓满了，先用掉一些。,Grainleaf storage is full. Use some first.
+feedback_planted,已种下，{0}秒后成熟。,Planted. Ready in {0}s.
+feedback_harvested,收获了谷叶。,Harvested Grainleaf.
+feedback_workshop_reset,面包房正在整理。,The bakery is resetting.
+feedback_missing_grain,需要 {0} 份谷叶。,Need {0} Grainleaf.
+feedback_loaf_storage_full,面包仓满了，先交付一份。,Loaf storage is full. Deliver one first.
+feedback_bakery_busy,面包房忙碌中: {0}秒。,Bakery is busy: {0}s.
+feedback_baking_started,面包房开始制作。,Bakery started baking.
+feedback_bakery_collected,收取了面包。,Collected Meadow Loaf.
+feedback_cart_needs_loaf,送货车还需要 1 份面包。,Delivery van needs 1 Meadow Loaf.
+feedback_order_delivered,交付完成: +{0} 金币  +{1} 声望。,Delivery complete: +{0} coins  +{1} renown.
+feedback_plot_not_locked,这块地并未锁定。,This field is not locked.
+feedback_need_coins,还差 {0} 金币才能开垦。,Need {0} more coins to unlock.
+feedback_plot_unlocked,新的田地可以使用了。,A new field is ready to use.
+feedback_choose_target,选择一块田地，面包房或送货车。,Choose a field or bakery or delivery van.

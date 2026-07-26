@@ -1,0 +1,89 @@
+key,zh-CN,en
+town_name,动物晴谷,Sunpaw Valley
+hud_granary,粮仓,Granary
+hud_storehouse,货物屋,Storehouse
+hud_coins,金币,Coins
+hud_renown,声望,Renown
+nav_town,小镇,Town
+nav_requests,委托,Requests
+nav_build,建设,Build
+nav_market,市场,Market
+nav_settings,设置,Settings
+action_plant,播种,Plant
+action_harvest,收获,Harvest
+action_feed,喂养,Feed
+action_collect,收取,Collect
+action_queue,加入生产,Queue
+action_sell,出售余货,Sell surplus
+action_deliver,完成委托,Deliver
+action_close,关闭,Close
+action_language,语言,Language
+action_reduced_motion,减少动态效果,Reduced motion
+action_upgrade,升级,Upgrade
+state_empty,空闲,Empty
+state_growing,生长中,Growing
+state_ready,可收取,Ready
+state_hungry,待喂养,Hungry
+state_producing,生产中,Producing
+state_processing,加工中,Processing
+state_output_ready,成品待收,Output ready
+state_idle,待生产,Idle
+state_locked,尚未解锁,Locked
+state_invalid,可探索,Explore
+panel_choose_crop,选择作物,Choose a crop
+panel_choose_recipe,选择配方,Choose a recipe
+panel_requests,邻里委托,Neighbor requests
+panel_market,橡果集市,Acorn Market
+panel_settings,游戏设置,Settings
+item_golden_sprig,金穗草,Golden Sprig
+item_root_carrot,根冠萝卜,Root Carrot
+item_cloud_bean,云豆,Cloud Bean
+item_leafy_feed,绿叶饲料,Leafy Feed
+item_spotted_egg,斑点蛋,Spotted Egg
+item_cloud_milk,云纹牛奶,Cloud Milk
+item_hearth_loaf,炉心面包,Hearth Loaf
+item_soft_cream,柔云奶油,Soft Cream
+item_root_preserve,根香果酱,Root Preserve
+item_timber_board,木料板,Timber Board
+item_smooth_stone,平整石料,Smooth Stone
+building_granary,粮仓,Granary
+building_storehouse,货物屋,Storehouse
+building_feedworks,混粮坊,Feedworks
+building_chicken_coop,鸡舍,Chicken Coop
+building_cow_meadow,奶牛棚,Cow Meadow
+building_bakery,面包房,Bakery
+building_dairy,乳坊,Dairy
+building_roadside_market,橡果集市,Acorn Market
+building_request_board,邻里委托板,Request Board
+building_preserve,制酱坊,Preserve Kitchen
+building_textile,纺织坊,Textile Mill
+building_juice_press,榨汁坊,Juice Press
+building_grainworks,谷物工坊,Grainworks
+building_bread_hall,面包工坊,Bread Hall
+building_orchard,苹果园,Apple Orchard
+building_bakery_annex,烘焙小屋,Bakery Annex
+request_village_breakfast,清晨早餐,Sunrise Breakfast
+request_cream_picnic,奶油野餐,Cream Picnic
+request_garden_box,花园礼盒,Garden Box
+feedback_planted,已播种 {0}，{1} 秒后成熟。,Planted {0}. Ready in {1}s.
+feedback_harvested,收获完成：+{0} {1}。,Harvested +{0} {1}.
+feedback_missing_seed,种子不足，保留最后一批种源。,Not enough seed. Keep the last seed stock.
+feedback_granary_full,粮仓已满，成熟作物会留在田里。,Granary full. The crop stays ready.
+feedback_storehouse_full,货物屋已满，产物会保留在原处。,Storehouse full. The product stays ready.
+feedback_animal_started,动物吃饱了，{0} 秒后可收取。,Animals fed. Ready in {0}s.
+feedback_machine_queued,已加入生产队列。,Added to the production queue.
+feedback_queue_full,生产队列已满。,Production queue is full.
+feedback_missing_items,原料不足，点击缺口图标查看来源。,Missing ingredients. Tap the missing item for its source.
+feedback_output_blocked,成品位未收取，后续生产暂停。,Collect the output before production continues.
+feedback_collected,已收取 {0}。,Collected {0}.
+feedback_request_complete,委托完成：+{0} 金币，+{1} 声望。,"Request complete: +{0} coins, +{1} renown."
+feedback_request_missing,委托物品不足，不会扣除任何库存。,Missing request items. Nothing was deducted.
+feedback_market_sold,出售 {0} 个 {1}：+{2} 金币。,Sold {0} {1}: +{2} coins.
+feedback_market_reserve,需要保留种源，当前不能继续出售。,Keep seed stock before selling more.
+feedback_locked,达到 {0} 级后解锁。,Unlocks at level {0}.
+feedback_saved,进度已保存。,Progress saved.
+feedback_migrated,旧存档已安全迁移到新小镇。,Old save migrated safely.
+settings_chinese,简体中文,Simplified Chinese
+settings_english,English,English
+settings_motion_on,开启,On
+settings_motion_off,关闭,Off

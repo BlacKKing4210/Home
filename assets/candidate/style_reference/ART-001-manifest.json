@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "task_id": "ART-001",
+  "version": "ART-STYLE.1",
+  "status": "NOT_RUNTIME",
+  "candidate_root": "assets/candidate/style_reference",
+  "runtime_destination": null,
+  "formal_archive_destination": null,
+  "style_lock": "CANDIDATE_STYLE_LOCK",
+  "source_project": "D:\\AI\\zhanchengdashi",
+  "assets": [
+    {
+      "id": "chicken",
+      "source": "D:\\AI\\zhanchengdashi\\assets\\card_art\\animals\\chicken.png",
+      "target": "animals/chicken.png",
+      "sha256": "c9ce96c9a2051cdf041713f27fd668a34c0593d846b0346e08708a3fe8a3d5fc",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "role": "poultry and outline reference"
+    },
+    {
+      "id": "cow",
+      "source": "D:\\AI\\zhanchengdashi\\assets\\card_art\\animals\\cow.png",
+      "target": "animals/cow.png",
+      "sha256": "08688726fd23e39da6ba666b1024657715f3fe95f9d41a8014c55677af260371",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "role": "livestock and massing reference"
+    },
+    {
+      "id": "pig",
+      "source": "D:\\AI\\zhanchengdashi\\assets\\card_art\\animals\\pig.png",
+      "target": "animals/pig.png",
+      "sha256": "46c1747cc75527bd5364b5c92718c63fe6044f98d11848135c780c5b011a0ae5",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "role": "warm palette and rounded proportion reference"
+    },
+    {
+      "id": "bear",
+      "source": "D:\\AI\\zhanchengdashi\\assets\\card_art\\animals\\bear.png",
+      "target": "animals/bear.png",
+      "sha256": "aca7d5c74b4e0cbb12bb920413e563b0bceb191710877fe68252ede8fbce4778",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "role": "dark contour and warm shadow reference"
+    },
+    {
+      "id": "rabbit",
+      "source": "D:\\AI\\zhanchengdashi\\assets\\card_art\\animals\\rabbit.png",
+      "target": "animals/rabbit.png",
+      "sha256": "18a95bcbbead2c3a6178b0f084fda97fea8a7bb22e9bebf88cb3c4c1bd50f64d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "role": "light silhouette and highlight reference"
+    },
+    {
+      "id": "building_review_board",
+      "source": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "target": "building_review/art-001-animal-town-buildings-board.png",
+      "sha256": "55268caf5756f5753b9a5b08dd521ebf0f52251352d2f528b347d13d5b6df59b",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "role": "five-building whole-set style review board",
+      "split_authorized": false
+    }
+  ],
+  "prohibited": [
+    "runtime loading",
+    "scene references",
+    "resource registry entries",
+    "automatic image splitting",
+    "formal asset archive"
+  ]
+}

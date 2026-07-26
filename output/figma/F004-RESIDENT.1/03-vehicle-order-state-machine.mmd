@@ -1,0 +1,35 @@
+stateDiagram-v2
+    direction LR
+
+    [*] --> OffMapScheduled
+    OffMapScheduled: 场外排期
+    Approaching: 驶入小镇
+    Docking: 对齐泊位
+    WaitingDecision: 等待承诺
+    WaitingGoods: 等待货物
+    Loading: 世界内装载
+    ReadyToDepart: 满载待发
+    Departing: 鸣笛离场
+    Rewarded: 奖励已结算
+    Cooldown: 装卸位冷却
+    DepartingEmpty: 谢绝后空驶
+    Blocked: 道路或泊位阻塞
+
+    OffMapScheduled --> Approaching: 到达时间
+    Approaching --> Docking: 进入泊位
+    Approaching --> Blocked: 入口断路
+    Docking --> WaitingDecision: 停靠完成
+    Docking --> Blocked: 泊位占用
+    WaitingDecision --> WaitingGoods: 承诺
+    WaitingDecision --> DepartingEmpty: 谢绝
+    WaitingGoods --> Loading: 货物到达
+    WaitingGoods --> DepartingEmpty: 取消
+    Loading --> WaitingGoods: 尚未装满
+    Loading --> ReadyToDepart: 装满
+    ReadyToDepart --> Departing: 短延时
+    Departing --> Rewarded: 越过离场点
+    Rewarded --> Cooldown: 一次结算
+    DepartingEmpty --> Cooldown: 离场
+    Blocked --> Approaching: 道路恢复
+    Blocked --> Docking: 泊位恢复
+    Cooldown --> OffMapScheduled: 安排下一辆

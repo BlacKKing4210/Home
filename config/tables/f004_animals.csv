@@ -1,0 +1,3 @@
+id,site_id,feed_item_id,feed_cost,output_item_id,output_count,duration_seconds,animal_count,animal_asset_id,pen_asset_id,name_locale_key
+pig,pig_shelter,root_mash,2,soft_bristle,2,45,2,animal_pig_v1,pen_pig_v1,animal_pig
+rabbit,rabbit_meadow,sun_petal,2,downy_fiber,2,36,3,animal_rabbit_v1,building_chicken_coop_v2,animal_rabbit

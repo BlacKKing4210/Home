@@ -1,0 +1,3 @@
+id,source_type,site_id,seed_item_id,harvest_item_id,grow_seconds,plant_cost,harvest_yield,unlock_rule,asset_id,initial_state,name_locale_key
+sun_petal_field,field,,sun_petal,sun_petal,45,1,4,goal:harvest_orientation,plot_sunflower_ready_v1,available,item_sun_petal
+amber_orchard,orchard,orchard,,amber_apple,70,0,3,site:orchard:built,orchard_apple_v1,ready_on_build,source_amber_orchard

@@ -1,0 +1,15 @@
+key,value
+world_width,1800
+world_height,1700
+camera_pan_threshold_px,12
+camera_min_x,0
+camera_min_y,0
+camera_max_x,1080
+camera_max_y,540
+field_drag_step_px,24
+starter_field_count,12
+initial_coins,120
+initial_renown,0
+request_slot_count,3
+autosave_interval_seconds,10
+save_schema,2

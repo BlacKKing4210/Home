@@ -1,0 +1,4 @@
+id,slot,requirements,reward_coins,reward_renown,refresh_seconds,seed_salt
+village_breakfast,0,hearth_loaf:1;spotted_egg:2,44,3,30,breakfast
+cream_picnic,1,soft_cream:1;root_carrot:2,58,4,30,picnic
+garden_box,2,root_preserve:1;cloud_bean:1,72,5,30,garden

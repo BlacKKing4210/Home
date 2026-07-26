@@ -1,0 +1,9 @@
+id,category,storage_type,initial_amount,market_coin_value,seed_reserve,icon_key,name_locale_key
+sun_petal,crop,granary,3,5,1,sunflower,item_sun_petal
+amber_apple,orchard_crop,granary,0,6,0,apple,item_amber_apple
+root_mash,feed,granary,0,7,0,mash,item_root_mash
+soft_bristle,animal_product,storehouse,0,10,0,bristle,item_soft_bristle
+downy_fiber,animal_product,storehouse,0,11,0,fiber,item_downy_fiber
+woven_roll,machine_product,storehouse,0,24,0,cloth,item_woven_roll
+orchard_tonic,machine_product,storehouse,0,22,0,juice,item_orchard_tonic
+sunset_jam,machine_product,storehouse,0,26,0,jam,item_sunset_jam

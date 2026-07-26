@@ -1,0 +1,5 @@
+id,district_id,objective_type,requirements,reward_coins,reward_renown,reward_items,unlock_site_ids,repeatable,sort_order,title_locale_key,description_locale_key
+harvest_orientation,harvest_gardens,collect_cumulative,golden_sprig:4,50,2,timber_board:1,orchard,false,1,goal_harvest_orientation,goal_harvest_orientation_desc
+meadow_orientation,meadow_hollows,collect_cumulative,leafy_feed:2;spotted_egg:2,70,3,smooth_stone:1,pig_shelter;rabbit_meadow,false,2,goal_meadow_orientation,goal_meadow_orientation_desc
+workshop_orientation,maker_row,collect_cumulative,root_preserve:1;soft_cream:1,90,4,timber_board:1;smooth_stone:1,textile;juice_press,false,3,goal_workshop_orientation,goal_workshop_orientation_desc
+industry_showcase,maker_row,collect_cumulative,woven_roll:1;orchard_tonic:1;sunset_jam:1,120,8,,,false,4,goal_industry_showcase,goal_industry_showcase_desc

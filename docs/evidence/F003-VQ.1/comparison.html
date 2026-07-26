@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F003-VQ.1 Runtime Comparison</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      background: #143e42;
+      color: #fff9e8;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 36px; background: #143e42; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    .sub { margin: 0 0 28px; color: #cfeDEE; font-size: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    figure { margin: 0; padding: 14px; border: 2px solid #547b78; border-radius: 18px; background: #24434c; }
+    figure.baseline { border-color: #788a86; }
+    figure.approved { border-color: #159a8c; }
+    figure.failure { border-color: #da654c; }
+    img { display: block; width: 100%; height: auto; border-radius: 10px; background: #fff; }
+    figcaption { padding: 12px 4px 2px; font-size: 18px; line-height: 1.45; }
+    strong { color: #f4c14e; }
+    .tag { display: inline-block; margin-right: 8px; padding: 3px 9px; border-radius: 999px; background: #0b6d69; font-size: 14px; }
+    .tag.fail { background: #bc433d; }
+    .tag.base { background: #657673; }
+  </style>
+</head>
+<body>
+  <h1>F003-VQ.1 代表性运行切片对比</h1>
+  <p class="sub">真实 Godot OpenGL · 720×1280 · 2026-07-25 · 不是静态 UI 替代品</p>
+  <section class="grid">
+    <figure class="baseline">
+      <img src="../../../output/runtime/F003-FARM2/iteration-a-main-map.png" alt="F003 accepted baseline">
+      <figcaption><span class="tag base">BASELINE</span><strong>原验收主地图</strong><br>田地贴近左边缘；操作焦点与世界内因果较弱。</figcaption>
+    </figure>
+    <figure class="approved">
+      <img src="../../../output/runtime/F003-VQ.1/vq-default.png" alt="F003 VQ default state">
+      <figcaption><span class="tag">DEFAULT</span><strong>农田焦点区</strong><br>视野居中、地面降噪、接触阴影和生产区轮廓更清楚。</figcaption>
+    </figure>
+    <figure class="approved">
+      <img src="../../../output/runtime/F003-VQ.1/vq-ready.png" alt="F003 VQ ready state">
+      <figcaption><span class="tag">INTERACTION</span><strong>成熟待收</strong><br>作物完整剪影、暖金外环、状态徽标共同传达可收获。</figcaption>
+    </figure>
+    <figure class="approved">
+      <img src="../../../output/runtime/F003-VQ.1/vq-harvest-success.png" alt="F003 VQ harvest flight">
+      <figcaption><span class="tag">FEEDBACK</span><strong>作物飞向粮仓</strong><br>成功结算后才出现弧线粒子；逻辑田块立即回到空闲。</figcaption>
+    </figure>
+    <figure class="approved">
+      <img src="../../../output/runtime/F003-VQ.1/vq-harvest-settle.png" alt="F003 VQ harvest settlement">
+      <figcaption><span class="tag">SUCCESS</span><strong>粮仓确认</strong><br>容量槽、终点环与 +3 形成可读结算闭环。</figcaption>
+    </figure>
+    <figure class="failure">
+      <img src="../../../output/runtime/F003-VQ.1/vq-granary-blocked.png" alt="F003 VQ granary blocked">
+      <figcaption><span class="tag fail">FAILURE</span><strong>粮仓已满</strong><br>成熟作物保留；起点和容量区警示；不播放成功飞行。</figcaption>
+    </figure>
+  </section>
+</body>
+</html>

@@ -1,0 +1,11 @@
+kind,id,display_name,emoji,seconds,input_item,input_count,output_item,output_count,initial_value,reward_coins,reward_renown,unlock_cost,capacity
+crop,sunseed,Sunseed,🌱,6,,,grainleaf,1,,,,,
+building,crumbworks,Crumbworks,🥖,5,grainleaf,2,meadow_loaf,1,,,,,
+order,market_cart,Market Cart,📦,,meadow_loaf,1,,,,24,1,,
+unlock,plot_four,Fourth Meadow Plot,🔓,,,,,,,,,30,
+inventory,grainleaf,Grainleaf,🌾,,,,,,,,,,8
+inventory,meadow_loaf,Meadow Loaf,🥖,,,,,,,,,,4
+state,initial_open_plots,Initial Open Plots,🌿,,,,,,3,,,,
+state,initial_locked_plots,Initial Locked Plots,🔒,,,,,,1,,,,
+state,initial_coins,Initial Coins,🪙,,,,,,12,,,,
+state,initial_renown,Initial Renown,🏵️,,,,,,0,,,,

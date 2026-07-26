@@ -1,0 +1,7 @@
+kind,id,display_name,emoji,seconds,input_item,input_count,output_item,output_count,initial_value,reward_coins,reward_renown,unlock_cost,capacity
+building,willow_pen,Willow Pen,🐑,7,grainleaf,1,soft_fleece,1,,,,,
+building,threadmill,Threadmill,🧵,7,soft_fleece,2,yarn_roll,1,,,,,
+inventory,soft_fleece,Soft Fleece,🧶,,,,,,,,,,6
+inventory,yarn_roll,Yarn Roll,🧵,,,,,,,,,,3
+order,fleece_bundle,Fleece Bundle,📦,,soft_fleece,1,,,,18,1,,
+order,yarn_crate,Yarn Crate,📦,,yarn_roll,1,,,,42,2,,

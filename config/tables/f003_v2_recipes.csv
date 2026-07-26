@@ -1,0 +1,5 @@
+id,machine_id,input_items,output_item_id,output_count,duration_seconds,queue_slot
+leafy_feed_mix,feedworks,golden_sprig:2;cloud_bean:1,leafy_feed,2,12,3
+hearth_loaf,bakery,golden_sprig:3;spotted_egg:1,hearth_loaf,1,35,2
+soft_cream,dairy,cloud_milk:2,soft_cream,1,40,2
+root_preserve,preserve,root_carrot:3;cloud_bean:1,root_preserve,1,50,2

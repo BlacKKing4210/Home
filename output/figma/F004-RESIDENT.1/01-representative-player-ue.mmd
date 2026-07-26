@@ -1,0 +1,32 @@
+flowchart LR
+    observe(["进入小镇"])
+    placeHouse["放置 2x2 住房"]
+    connectRoad["连接住房与岗位道路"]
+    inviteResident["邀请动物居民"]
+    moveIn["居民沿路入住"]
+    assignJob["分配长期岗位"]
+    routeCheck{"路径和资源可用?"}
+    recover["定位断路或资源阻塞"]
+    walkToWork["居民沿路上班"]
+    performWork["居民执行作业"]
+    carryGoods["搬运产出到装卸点"]
+    loadVehicle["订单车装载"]
+    depart(["车辆离场并结算"])
+
+    observe --> placeHouse
+    placeHouse --> connectRoad
+    connectRoad --> inviteResident
+    inviteResident --> moveIn
+    moveIn --> assignJob
+    assignJob --> routeCheck
+    routeCheck -->|"否"| recover
+    recover --> connectRoad
+    routeCheck -->|"是"| walkToWork
+    walkToWork --> performWork
+    performWork --> carryGoods
+    carryGoods --> loadVehicle
+    loadVehicle --> depart
+
+    style routeCheck fill:#FFECBD,stroke:#FFC943
+    style recover fill:#FFCDC2,stroke:#FF7556
+    style depart fill:#CDF4D3,stroke:#66D575

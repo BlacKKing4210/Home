@@ -1,0 +1,4 @@
+id,kind,anchor_x,anchor_y,bounds_min_x,bounds_min_y,bounds_max_x,bounds_max_y,accent_key,focus_site_id,unlock_rule,sort_order,name_locale_key,description_locale_key
+harvest_gardens,agriculture,650,480,160,180,980,980,harvest_gold,orchard,always,1,district_harvest_gardens,district_harvest_gardens_desc
+meadow_hollows,animal,1330,900,930,600,1740,1160,meadow_teal,pig_shelter,always,2,district_meadow_hollows,district_meadow_hollows_desc
+maker_row,workshop,930,1270,230,980,1700,1580,workshop_coral,textile,goal:workshop_orientation,3,district_maker_row,district_maker_row_desc

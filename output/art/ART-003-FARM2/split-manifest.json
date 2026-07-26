@@ -1,0 +1,1097 @@
+{
+  "schema_version": 1,
+  "contract": "ART-003-FARM2-001",
+  "state": "PREPARED_CANDIDATE_NOT_RUNTIME",
+  "source_board_sha256": "55A29F2752E721BE0F1115AC44093E472CF0938E5F797B4541B278F3F9C1EB7A",
+  "source_evidence": {
+    "A": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "B": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "C": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    "D": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "animal_chicken_v1": {
+      "path": "assets/candidate/style_reference/animals/chicken.png",
+      "sha256": "C9CE96C9A2051CDF041713F27FD668A34C0593D846B0346E08708A3FE8A3D5FC",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_cow_v1": {
+      "path": "assets/candidate/style_reference/animals/cow.png",
+      "sha256": "08688726FD23E39DA6BA666B1024657715F3FE95F9D41A8014C55677AF260371",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_pig_v1": {
+      "path": "assets/candidate/style_reference/animals/pig.png",
+      "sha256": "46C1747CC75527BD5364B5C92718C63FE6044F98D11848135C780C5B011A0AE5",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_bear_v1": {
+      "path": "assets/candidate/style_reference/animals/bear.png",
+      "sha256": "ACA7D5C74B4E0CBB12BB920413E563B0BCEB191710877FE68252EDE8FBCE4778",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_rabbit_v1": {
+      "path": "assets/candidate/style_reference/animals/rabbit.png",
+      "sha256": "18A95BCBBEAD2C3A6178B0F084FDA97FEA8A7BB22E9BEBF88CB3C4C1BD50F64D",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "output_rules": {
+    "canvas": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "safe_padding": 32,
+    "alignment": "bottom_center",
+    "origin": [
+      256,
+      480
+    ],
+    "upscale": false,
+    "background_method": "border_connected_teal_segmentation_v1"
+  },
+  "asset_count": 26,
+  "runtime_reference_hits": [],
+  "assets": [
+    {
+      "asset_id": "plot_wheat_ready_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        40,
+        150,
+        350,
+        450
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/plot_wheat_ready_v1.png",
+      "sha256": "299B5C43F67CDF7E23C5DBE4947AE3568B0541E8BFA1DACC1AFF1E9717172AA0",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        124,
+        268,
+        387,
+        480
+      ],
+      "nontransparent_pixel_count": 35858,
+      "canvas_occupancy": 0.136787,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "plot_clover_ready_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        345,
+        175,
+        685,
+        455
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/plot_clover_ready_v1.png",
+      "sha256": "4DC8177B39D7BBF0CFCE2213041626B6B046515438E3C8C9646B8E098D5B3DB8",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        124,
+        282,
+        387,
+        480
+      ],
+      "nontransparent_pixel_count": 32343,
+      "canvas_occupancy": 0.123379,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "plot_sunflower_ready_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        650,
+        115,
+        1055,
+        475
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/plot_sunflower_ready_v1.png",
+      "sha256": "C698669DB83E4907CA838355B7D012B39F60156D4A0D9118EF792D7E13FD4BC5",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        78,
+        175,
+        433,
+        480
+      ],
+      "nontransparent_pixel_count": 70004,
+      "canvas_occupancy": 0.267044,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "plot_carrot_ready_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        1025,
+        115,
+        1530,
+        490
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/plot_carrot_ready_v1.png",
+      "sha256": "61D50AB8A7D071C52CAEEFD4B55B02F0A9CCB87AD32578945A4D82FD13D229EE",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        36,
+        171,
+        476,
+        480
+      ],
+      "nontransparent_pixel_count": 85275,
+      "canvas_occupancy": 0.325298,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "orchard_apple_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        25,
+        430,
+        545,
+        925
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/orchard_apple_v1.png",
+      "sha256": "E52F8235C4DD325BE02866D52572BB9DCBA54B76FFB00E8716FB45F5443D1E5A",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        109,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 109708,
+      "canvas_occupancy": 0.418503,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "plot_tea_bush_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        515,
+        480,
+        1005,
+        925
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/plot_tea_bush_v1.png",
+      "sha256": "3B88F25413C8DA7A3B4294A65461D1ECF8D7DA86421B7958373DCCA0C0F529CA",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        154,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 88992,
+      "canvas_occupancy": 0.339478,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_feedworks_v1",
+      "source_kind": "A",
+      "crop_xyxy": [
+        975,
+        420,
+        1530,
+        935
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_feedworks_v1.png",
+      "sha256": "DC67EECD9EABAF86D3E52573BF8C7ABA8E8AD5D8657E6D9F4DE536631D73CBCC",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        85,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 113154,
+      "canvas_occupancy": 0.431648,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "pen_sheep_v1",
+      "source_kind": "B",
+      "crop_xyxy": [
+        40,
+        115,
+        470,
+        495
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/pen_sheep_v1.png",
+      "sha256": "BD20F271FAB2C0B92A1FB70D32345FF1E13EDF8BA2F00041F7E9F69ECDCECA3B",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        77,
+        188,
+        435,
+        480
+      ],
+      "nontransparent_pixel_count": 68093,
+      "canvas_occupancy": 0.259754,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_chicken_coop_v1",
+      "source_kind": "B",
+      "crop_xyxy": [
+        465,
+        115,
+        895,
+        500
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_chicken_coop_v1.png",
+      "sha256": "D41CBA33486E1F3145C3B061EE94C2DCD89450D01ED7296DCFEA555DB54F314E",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        74,
+        157,
+        438,
+        480
+      ],
+      "nontransparent_pixel_count": 71407,
+      "canvas_occupancy": 0.272396,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "pen_pig_v1",
+      "source_kind": "B",
+      "crop_xyxy": [
+        200,
+        470,
+        745,
+        900
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/pen_pig_v1.png",
+      "sha256": "72CC130C7B59C7210A47D23ECDA10CFF996B86DA80493FF1A8C9F4732815D3FB",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        160,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 89910,
+      "canvas_occupancy": 0.342979,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_granary_v1",
+      "source_kind": "B",
+      "crop_xyxy": [
+        755,
+        170,
+        1520,
+        865
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_granary_v1.png",
+      "sha256": "9BBE7DDDEDD9093E1A840F7729A159DC362F4A4DD2BA5565579DC60EC74AAFB0",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        108,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 109337,
+      "canvas_occupancy": 0.417088,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_dairy_v1",
+      "source_kind": "C",
+      "crop_xyxy": [
+        130,
+        85,
+        480,
+        410
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_dairy_v1.png",
+      "sha256": "AB56F72E2130E78DD02ED11551B0E4533F8B2A58ED68916CCF36192374E14A97",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        110,
+        212,
+        401,
+        480
+      ],
+      "nontransparent_pixel_count": 50414,
+      "canvas_occupancy": 0.192314,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_preserve_v1",
+      "source_kind": "C",
+      "crop_xyxy": [
+        535,
+        70,
+        895,
+        415
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_preserve_v1.png",
+      "sha256": "47889F6DFD551915E14D4D38B7A8D8BF1A65417C5722B87FDB43AFF180E19DE0",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        90,
+        165,
+        422,
+        480
+      ],
+      "nontransparent_pixel_count": 69260,
+      "canvas_occupancy": 0.264206,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_textile_v1",
+      "source_kind": "C",
+      "crop_xyxy": [
+        1010,
+        35,
+        1510,
+        425
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_textile_v1.png",
+      "sha256": "527AE56F1961044F8D0C9CA79279B68B1E692EF888CB8369CCD8ACC5DAD058CC",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        134,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 101988,
+      "canvas_occupancy": 0.389053,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_juice_press_v1",
+      "source_kind": "C",
+      "crop_xyxy": [
+        180,
+        430,
+        625,
+        830
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_juice_press_v1.png",
+      "sha256": "A1B51CF3B1720F629474BBB9DF31A728954BC9140B377C9523770C9D95455245",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        53,
+        127,
+        458,
+        480
+      ],
+      "nontransparent_pixel_count": 90196,
+      "canvas_occupancy": 0.34407,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_bakery_industrial_v1",
+      "source_kind": "C",
+      "crop_xyxy": [
+        680,
+        365,
+        1475,
+        920
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_bakery_industrial_v1.png",
+      "sha256": "4FE3E39E36FE3995F0FFFE55358F5B0945575395D44B7293426B5C3F041ECC57",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        190,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 85404,
+      "canvas_occupancy": 0.32579,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_chicken_coop_v2",
+      "source_kind": "D",
+      "crop_xyxy": [
+        10,
+        55,
+        505,
+        525
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_chicken_coop_v2.png",
+      "sha256": "D63A5C934BC4D586905C49A254429098CD9CEAFD40C973CE954F5281ADF748E3",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        81,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 118737,
+      "canvas_occupancy": 0.452946,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_storehouse_v1",
+      "source_kind": "D",
+      "crop_xyxy": [
+        470,
+        35,
+        1020,
+        525
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_storehouse_v1.png",
+      "sha256": "E370222970535438D816E104A90352E170EF55BEFB534088279C34386674DA0C",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        106,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 131029,
+      "canvas_occupancy": 0.499836,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_grainworks_v1",
+      "source_kind": "D",
+      "crop_xyxy": [
+        995,
+        25,
+        1530,
+        535
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_grainworks_v1.png",
+      "sha256": "BC5DC841CA4A63B187E4B6D47F80E7EEF1203561D08781D2AB1A93F7688AD326",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        61,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 128017,
+      "canvas_occupancy": 0.488346,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_bakery_shop_v1",
+      "source_kind": "D",
+      "crop_xyxy": [
+        145,
+        465,
+        725,
+        995
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_bakery_shop_v1.png",
+      "sha256": "B00B79916BC364AE07C1AEA0A5B39C911DC6C7141DC8BF277502BA2F63846B4F",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        80,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 123338,
+      "canvas_occupancy": 0.470497,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "building_roadside_market_v1",
+      "source_kind": "D",
+      "crop_xyxy": [
+        710,
+        460,
+        1370,
+        1005
+      ],
+      "output_path": "assets/candidate/f003_farm2/prepared/buildings/building_roadside_market_v1.png",
+      "sha256": "AD3F75AEB7290BFDF4266E4EB76F9DCF993854B98A83E552BFCC57D859D49B2E",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        32,
+        135,
+        480,
+        480
+      ],
+      "nontransparent_pixel_count": 110408,
+      "canvas_occupancy": 0.421173,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "animal_chicken_v1",
+      "source_kind": "animal",
+      "crop_xyxy": null,
+      "output_path": "assets/candidate/f003_farm2/prepared/animals/animal_chicken_v1.png",
+      "sha256": "BC9A6A9C75B0D264EB7C6B79F716594CEF392D696124E8030A7B751D853935A0",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        111,
+        156,
+        400,
+        480
+      ],
+      "nontransparent_pixel_count": 63865,
+      "canvas_occupancy": 0.243626,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "animal_cow_v1",
+      "source_kind": "animal",
+      "crop_xyxy": null,
+      "output_path": "assets/candidate/f003_farm2/prepared/animals/animal_cow_v1.png",
+      "sha256": "624CA248D06D1307F1D902313D83A0385010AF93508FA98A8943A805C60DD732",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        72,
+        140,
+        439,
+        480
+      ],
+      "nontransparent_pixel_count": 77686,
+      "canvas_occupancy": 0.296349,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "animal_pig_v1",
+      "source_kind": "animal",
+      "crop_xyxy": null,
+      "output_path": "assets/candidate/f003_farm2/prepared/animals/animal_pig_v1.png",
+      "sha256": "1DFFE37D066140A6308E21BDC60DDF0DFB34E175256237FA40DB2CA06E42894E",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        93,
+        177,
+        419,
+        480
+      ],
+      "nontransparent_pixel_count": 70172,
+      "canvas_occupancy": 0.267685,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "animal_bear_v1",
+      "source_kind": "animal",
+      "crop_xyxy": null,
+      "output_path": "assets/candidate/f003_farm2/prepared/animals/animal_bear_v1.png",
+      "sha256": "F3096B32A30CB24D38BA3F050C5EABF860BF1DE2BA6EF862B7DB4C048B8CF52E",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        95,
+        158,
+        416,
+        480
+      ],
+      "nontransparent_pixel_count": 80201,
+      "canvas_occupancy": 0.305943,
+      "origin": [
+        256,
+        480
+      ]
+    },
+    {
+      "asset_id": "animal_rabbit_v1",
+      "source_kind": "animal",
+      "crop_xyxy": null,
+      "output_path": "assets/candidate/f003_farm2/prepared/animals/animal_rabbit_v1.png",
+      "sha256": "862347444AF3BE9071EB4054B5A4A8B35BD451FE8411D46535835BD106876B03",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "nontransparent_bbox": [
+        118,
+        115,
+        394,
+        480
+      ],
+      "nontransparent_pixel_count": 66709,
+      "canvas_occupancy": 0.254475,
+      "origin": [
+        256,
+        480
+      ]
+    }
+  ]
+}

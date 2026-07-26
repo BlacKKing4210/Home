@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "contract": "ART-003-FARM2-001",
+  "state": "SOURCE_BOARD_APPROVED",
+  "board_path": "output/art/ART-003-FARM2/review/ART-003-FARM2-source-board.png",
+  "board_sha256": "55A29F2752E721BE0F1115AC44093E472CF0938E5F797B4541B278F3F9C1EB7A",
+  "board_size": [
+    1800,
+    2092
+  ],
+  "layout": {
+    "columns": 5,
+    "rows": 6,
+    "cell_width": 360,
+    "cell_height": 330
+  },
+  "preview_method": "building planned mask: border_connected_teal_segmentation_v1 + central_component_v1",
+  "registered_asset_count": 26,
+  "visual_review": {
+    "reviewed_on": "2026-07-24",
+    "reviewer": "Codex /root",
+    "result": "PASS",
+    "notes": "All 26 registered identities are complete, isolated, readable, non-duplicated, and correctly labeled. Four reserved cells remain empty."
+  },
+  "reserved_cells": [
+    "R6C2",
+    "R6C3",
+    "R6C4",
+    "R6C5"
+  ],
+  "sources": {
+    "A": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "B": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "C": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    "D": {
+      "path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "animal_chicken_v1": {
+      "path": "assets/candidate/style_reference/animals/chicken.png",
+      "sha256": "C9CE96C9A2051CDF041713F27FD668A34C0593D846B0346E08708A3FE8A3D5FC",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_cow_v1": {
+      "path": "assets/candidate/style_reference/animals/cow.png",
+      "sha256": "08688726FD23E39DA6BA666B1024657715F3FE95F9D41A8014C55677AF260371",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_pig_v1": {
+      "path": "assets/candidate/style_reference/animals/pig.png",
+      "sha256": "46C1747CC75527BD5364B5C92718C63FE6044F98D11848135C780C5B011A0AE5",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_bear_v1": {
+      "path": "assets/candidate/style_reference/animals/bear.png",
+      "sha256": "ACA7D5C74B4E0CBB12BB920413E563B0BCEB191710877FE68252EDE8FBCE4778",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "animal_rabbit_v1": {
+      "path": "assets/candidate/style_reference/animals/rabbit.png",
+      "sha256": "18A95BCBBEAD2C3A6178B0F084FDA97FEA8A7BB22E9BEBF88CB3C4C1BD50F64D",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "cells": [
+    {
+      "cell": "R1C1",
+      "asset_id": "plot_wheat_ready_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        40,
+        150,
+        350,
+        450
+      ]
+    },
+    {
+      "cell": "R1C2",
+      "asset_id": "plot_clover_ready_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        345,
+        175,
+        685,
+        455
+      ]
+    },
+    {
+      "cell": "R1C3",
+      "asset_id": "plot_sunflower_ready_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        650,
+        115,
+        1055,
+        475
+      ]
+    },
+    {
+      "cell": "R1C4",
+      "asset_id": "plot_carrot_ready_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        1025,
+        115,
+        1530,
+        490
+      ]
+    },
+    {
+      "cell": "R1C5",
+      "asset_id": "orchard_apple_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        25,
+        430,
+        545,
+        925
+      ]
+    },
+    {
+      "cell": "R2C1",
+      "asset_id": "plot_tea_bush_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        515,
+        480,
+        1005,
+        925
+      ]
+    },
+    {
+      "cell": "R2C2",
+      "asset_id": "building_feedworks_v1",
+      "source_kind": "A",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-46192109-85ab-444c-a0c3-429caa3a3755.png",
+      "source_sha256": "732DF4218000BE74F142907A9F8B65C26F631616FD8590742001884B7CFF8DD7",
+      "crop_xyxy": [
+        975,
+        420,
+        1530,
+        935
+      ]
+    },
+    {
+      "cell": "R2C3",
+      "asset_id": "pen_sheep_v1",
+      "source_kind": "B",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "source_sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "crop_xyxy": [
+        40,
+        115,
+        470,
+        495
+      ]
+    },
+    {
+      "cell": "R2C4",
+      "asset_id": "building_chicken_coop_v1",
+      "source_kind": "B",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "source_sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "crop_xyxy": [
+        465,
+        115,
+        895,
+        500
+      ]
+    },
+    {
+      "cell": "R2C5",
+      "asset_id": "pen_pig_v1",
+      "source_kind": "B",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "source_sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "crop_xyxy": [
+        200,
+        470,
+        745,
+        900
+      ]
+    },
+    {
+      "cell": "R3C1",
+      "asset_id": "building_granary_v1",
+      "source_kind": "B",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-d5ab13cf-72de-47f5-9583-e81660c34b7d.png",
+      "source_sha256": "031DEFDA240C2609E730376FF55934A02D6142793622A1AFC89F4CC9EE5D30F7",
+      "crop_xyxy": [
+        755,
+        170,
+        1520,
+        865
+      ]
+    },
+    {
+      "cell": "R3C2",
+      "asset_id": "building_dairy_v1",
+      "source_kind": "C",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "source_sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "crop_xyxy": [
+        130,
+        85,
+        480,
+        410
+      ]
+    },
+    {
+      "cell": "R3C3",
+      "asset_id": "building_preserve_v1",
+      "source_kind": "C",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "source_sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "crop_xyxy": [
+        535,
+        70,
+        895,
+        415
+      ]
+    },
+    {
+      "cell": "R3C4",
+      "asset_id": "building_textile_v1",
+      "source_kind": "C",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "source_sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "crop_xyxy": [
+        1010,
+        35,
+        1510,
+        425
+      ]
+    },
+    {
+      "cell": "R3C5",
+      "asset_id": "building_juice_press_v1",
+      "source_kind": "C",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "source_sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "crop_xyxy": [
+        180,
+        430,
+        625,
+        830
+      ]
+    },
+    {
+      "cell": "R4C1",
+      "asset_id": "building_bakery_industrial_v1",
+      "source_kind": "C",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-a6d4c21d-ca91-440b-9187-dc07e6a51403.png",
+      "source_sha256": "74B4FA06E47191A05F7BDF8AB60F7719AE7F6A45219C0BC3796BFE603A175A84",
+      "crop_xyxy": [
+        680,
+        365,
+        1475,
+        920
+      ]
+    },
+    {
+      "cell": "R4C2",
+      "asset_id": "building_chicken_coop_v2",
+      "source_kind": "D",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "source_sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "crop_xyxy": [
+        10,
+        55,
+        505,
+        525
+      ]
+    },
+    {
+      "cell": "R4C3",
+      "asset_id": "building_storehouse_v1",
+      "source_kind": "D",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "source_sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "crop_xyxy": [
+        470,
+        35,
+        1020,
+        525
+      ]
+    },
+    {
+      "cell": "R4C4",
+      "asset_id": "building_grainworks_v1",
+      "source_kind": "D",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "source_sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "crop_xyxy": [
+        995,
+        25,
+        1530,
+        535
+      ]
+    },
+    {
+      "cell": "R4C5",
+      "asset_id": "building_bakery_shop_v1",
+      "source_kind": "D",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "source_sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "crop_xyxy": [
+        145,
+        465,
+        725,
+        995
+      ]
+    },
+    {
+      "cell": "R5C1",
+      "asset_id": "building_roadside_market_v1",
+      "source_kind": "D",
+      "source_path": "C:\\Users\\76398\\.codex\\generated_images\\019f7f4f-493e-7b21-8766-e256e7641e7f\\exec-b8e58cf6-791c-439c-99bf-86c473a7abc9.png",
+      "source_sha256": "55268CAF5756F5753B9A5B08DD521EBF0F52251352D2F528B347D13D5B6DF59B",
+      "crop_xyxy": [
+        710,
+        460,
+        1370,
+        1005
+      ]
+    },
+    {
+      "cell": "R5C2",
+      "asset_id": "animal_chicken_v1",
+      "source_kind": "animal",
+      "source_path": "assets/candidate/style_reference/animals/chicken.png",
+      "source_sha256": "C9CE96C9A2051CDF041713F27FD668A34C0593D846B0346E08708A3FE8A3D5FC",
+      "crop_xyxy": null
+    },
+    {
+      "cell": "R5C3",
+      "asset_id": "animal_cow_v1",
+      "source_kind": "animal",
+      "source_path": "assets/candidate/style_reference/animals/cow.png",
+      "source_sha256": "08688726FD23E39DA6BA666B1024657715F3FE95F9D41A8014C55677AF260371",
+      "crop_xyxy": null
+    },
+    {
+      "cell": "R5C4",
+      "asset_id": "animal_pig_v1",
+      "source_kind": "animal",
+      "source_path": "assets/candidate/style_reference/animals/pig.png",
+      "source_sha256": "46C1747CC75527BD5364B5C92718C63FE6044F98D11848135C780C5B011A0AE5",
+      "crop_xyxy": null
+    },
+    {
+      "cell": "R5C5",
+      "asset_id": "animal_bear_v1",
+      "source_kind": "animal",
+      "source_path": "assets/candidate/style_reference/animals/bear.png",
+      "source_sha256": "ACA7D5C74B4E0CBB12BB920413E563B0BCEB191710877FE68252EDE8FBCE4778",
+      "crop_xyxy": null
+    },
+    {
+      "cell": "R6C1",
+      "asset_id": "animal_rabbit_v1",
+      "source_kind": "animal",
+      "source_path": "assets/candidate/style_reference/animals/rabbit.png",
+      "source_sha256": "18A95BCBBEAD2C3A6178B0F084FDA97FEA8A7BB22E9BEBF88CB3C4C1BD50F64D",
+      "crop_xyxy": null
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+id,storage_type,base_capacity,capacity_per_level,initial_level,upgrade_costs
+granary,granary,48,12,1,timber_board:2;smooth_stone:2
+storehouse,storehouse,40,10,1,timber_board:2;smooth_stone:2

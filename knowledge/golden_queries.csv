@@ -1,0 +1,19 @@
+query_id,query,expected_source_ids,feature_ids,min_recall_at_k,k
+GQ-001,Where is the authoritative producer-led workflow and its gates defined?,PROJECT_WORKFLOW,GLOBAL,1.0,5
+GQ-002,Which source records active priorities task ownership and shared write locks?,ACTIVE_SCOPE,GLOBAL,1.0,5
+GQ-003,Which file defines project roles engine runtime paths and formal sources?,PROJECT_PROFILE,GLOBAL,1.0,5
+GQ-004,哪份功能文档定义动物小镇农场经营地基 V2 以及田格、机器队列和邻里委托？,F003_SOURCE,F-003,1.0,8
+GQ-005,Which receipt accepts F003-FARM.2 as the playable prototype baseline?,F003_ACCEPT_RECEIPT,F-003,1.0,8
+GQ-006,Which evidence README records the real 720 x 1280 F003-FARM.2 runtime captures and player interaction routes?,F003_RUNTIME_EVIDENCE,F-003,1.0,8
+GQ-007,Which receipt says F004-DISTRICT.1 is blocked by the Figma UE attachment and runtime_authority is false?,F004_DESIGN_RECEIPT,F-004,1.0,8
+GQ-008,Which live scope source owns F004-DESIGN-LOCK-001 and records its runtime authority?,ACTIVE_SCOPE,F-004,1.0,8
+GQ-009,Which F003 CSV defines building footprint and world placement columns?,F003_CFG_BUILDINGS,F-003,1.0,8
+GQ-010,哪份 F004 新功能设计定义 1x1 最小田格、统一占地目录、四向道路、入口和作业点？,F004_RESIDENT_SOURCE,F-004,1.0,8
+GQ-011,哪份制作人决策把频繁手动生产改为低频建造邀请派遣并声明动物是会生活和工作的居民？,PRODUCT_REBASE_DECISION,GLOBAL;F-004,1.0,8
+GQ-012,哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？,F004_RESIDENT_SOURCE,F-004,1.0,8
+GQ-013,Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?,F003_VQ_CONTRACT;F003_VQ_RECEIPT,F-003,1.0,8
+GQ-014,哪份证据记录旧 Godot 故障进程 PID 10912、13:08:04 事件时间以及当前入口未复现？,F003_VQ_EVIDENCE,F-003,1.0,8
+GQ-015,Which source records feature priority completion stage next milestone and blockers?,FEATURE_PROGRESS,GLOBAL,1.0,5
+GQ-016,哪份只读回执记录“超过一万条记录”的脏工作区以及 PM 工作簿哈希 DBE5D1BD6B3E7CD95CF9DAEFCD9E342F0B79EACEF80E23ED09B521B7D0563959？,PD002_READ_ONLY_RECEIPT,GLOBAL;F-004,1.0,8
+GQ-017,哪份 UIUX 文档规定主地图 P0 信息层级、状态气泡预算、禁止临时资源以及 Figma 节点覆盖？,F004_RESIDENT_UIUX,F-004,1.0,8
+GQ-018,COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS,F004_RESIDENT_VQ,F-004,1.0,12

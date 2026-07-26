@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "feature": "F004-DISTRICT.1",
+  "task_id": "F-004-DESIGN-001",
+  "validated_at_utc": "2026-07-25T01:33:53.001767+00:00",
+  "status": "PASS",
+  "world": {
+    "width": 1800,
+    "height": 1700
+  },
+  "counts": {
+    "districts": 3,
+    "sites": 6,
+    "functional_world_entries": 16,
+    "items": 8,
+    "sources": 2,
+    "animals": 2,
+    "recipes": 4,
+    "goals": 4,
+    "locale_keys": 83
+  },
+  "shared_route_counts": {
+    "sun_petal": 2,
+    "amber_apple": 2,
+    "root_carrot": 2
+  },
+  "material_availability": {
+    "timber_board": {
+      "initial": 2,
+      "goal_rewards": 2,
+      "total_available": 4,
+      "total_build_cost": 4,
+      "sufficient": true
+    },
+    "smooth_stone": {
+      "initial": 2,
+      "goal_rewards": 2,
+      "total_available": 4,
+      "total_build_cost": 3,
+      "sufficient": true
+    }
+  },
+  "prerequisite_graph": {
+    "status": "PASS",
+    "nodes": 9,
+    "cycle": []
+  },
+  "runtime_manifest": {
+    "path": "assets/runtime/f003_farm2/runtime-manifest.json",
+    "asset_count": 26,
+    "sha256": "C16B3CE0985A1379A5ED928E54308664F5283ADC3F7D7F633316106B7370AC86"
+  },
+  "table_sha256": {
+    "config/tables/f004_districts.csv": "8EB358216FA49E0FC9BD73F2D952162B6A907DDF5E25170551E5F88461BD8A94",
+    "config/tables/f004_sites.csv": "74DB171A53D8839962812CD3A080D21A9B9B9DA7F85C695C37F6D51C394A49BC",
+    "config/tables/f004_items.csv": "15005050CC576E9530BC371942BD778B8748FF388E784B93F58FB6483A67FFDC",
+    "config/tables/f004_sources.csv": "B3EA5192A70323E2FCFD3C202FA80EFB6141FCF38AF337C91CAAF1EC5DF4616A",
+    "config/tables/f004_animals.csv": "8F7C5F599D5A1F15A160B504A1CA72F7FBCD1305A87FA9AE8A97A543916FB73C",
+    "config/tables/f004_recipes.csv": "B10ADC244615FC4BCEF64A026FDE2C565D682ACC342EC11FE4D4EDAA80FF2A4A",
+    "config/tables/f004_requests.csv": "41A46B103F3C2184523D1CB5E31E2F1F16BB32309294018351E1F5E6B98B126A",
+    "config/tables/f004_locale.csv": "23B1F7AAF5537976AC5CED4F53E749A1CF8511D05BC349C7F1C37E3E31732015"
+  },
+  "warnings": [],
+  "errors": []
+}

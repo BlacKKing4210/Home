@@ -1,0 +1,25 @@
+key,zh-CN,en
+label_willow_pen,柳绒棚,Willow Pen
+label_threadmill,纺线屋,Threadmill
+label_orders,订单小站,Order Board
+resource_fleece,绒团,Soft Fleece
+resource_yarn,线卷,Yarn Roll
+action_feed,喂养,Feed
+action_spin,纺线,Spin
+action_ship,交付,Ship
+order_fleece,绒团订单,Fleece Bundle
+order_yarn,线卷订单,Yarn Crate
+feedback_willow_pen_ready,柳绒棚有新的绒团可收取。,Willow Pen has fleece ready.
+feedback_threadmill_ready,纺线屋有新的线卷可收取。,Threadmill has yarn ready.
+feedback_missing_feed,需要 {0} 份谷叶。,Need {0} Grainleaf.
+feedback_missing_fleece,需要 {0} 份绒团。,Need {0} Soft Fleece.
+feedback_fleece_storage_full,绒团仓满了，先完成一份订单。,Soft Fleece storage is full. Complete an order first.
+feedback_yarn_storage_full,线卷仓满了，先完成一份订单。,Yarn Roll storage is full. Complete an order first.
+feedback_willow_pen_busy,柳绒棚忙碌中：{0}秒。,Willow Pen is busy: {0}s.
+feedback_threadmill_busy,纺线屋忙碌中：{0}秒。,Threadmill is busy: {0}s.
+feedback_feeding_started,柳绒棚开始喂养。,Willow Pen started feeding.
+feedback_spinning_started,纺线屋开始纺线。,Threadmill started spinning.
+feedback_fleece_collected,收取了绒团。,Collected Soft Fleece.
+feedback_yarn_collected,收取了线卷。,Collected Yarn Roll.
+feedback_order_needs_fleece,绒团订单还需要 {0} 份绒团。,Fleece order needs {0} more Soft Fleece.
+feedback_order_needs_yarn,线卷订单还需要 {0} 份线卷。,Yarn order needs {0} more Yarn Roll.

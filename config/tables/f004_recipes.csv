@@ -1,0 +1,5 @@
+id,machine_id,input_items,output_item_id,output_count,duration_seconds,queue_slot,unlock_rule,name_locale_key
+root_mash,feedworks,golden_sprig:1;root_carrot:2,root_mash,2,16,3,goal:meadow_orientation,recipe_root_mash
+woven_roll,textile,soft_bristle:1;downy_fiber:1,woven_roll,1,55,2,site:textile:built,recipe_woven_roll
+orchard_tonic,juice_press,amber_apple:2;sun_petal:1,orchard_tonic,1,50,2,site:juice_press:built,recipe_orchard_tonic
+sunset_jam,preserve,amber_apple:2;root_carrot:1,sunset_jam,1,65,2,site:orchard:built,recipe_sunset_jam

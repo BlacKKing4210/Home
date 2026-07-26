@@ -1,0 +1,155 @@
+{
+  "citation_count": 8,
+  "citations": [
+    {
+      "authority": "approved",
+      "chunk_id": "a9da0098b1324651ab8152d6",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 6,
+      "locator": "lines 112-159",
+      "owner": "producer",
+      "path": "docs/roadmaps/PRODUCT-PLAN-001-city-of-animals.md",
+      "score": 0.1102025,
+      "sha256": "42d12a8ae280e2311b9c62f964b05e392ed1d32269efab42a20073be382f8322",
+      "source_id": "PRODUCT_PLAN",
+      "vector_rank": 4,
+      "version": "PRODUCT-PLAN-001"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "3eaf37f3fc258d61b5aa4635",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 10,
+      "locator": "lines 68-116",
+      "owner": "producer",
+      "path": "docs/roadmaps/PRODUCT-PLAN-001-city-of-animals.md",
+      "score": 0.10938006,
+      "sha256": "42d12a8ae280e2311b9c62f964b05e392ed1d32269efab42a20073be382f8322",
+      "source_id": "PRODUCT_PLAN",
+      "vector_rank": 1,
+      "version": "PRODUCT-PLAN-001"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "58d3d64971567bfd1fc61973",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 7,
+      "locator": "lines 1-39",
+      "owner": "design_owner",
+      "path": "docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md",
+      "score": 0.10886843,
+      "sha256": "6bb34a921c35d0fa0cce879a62b22387aa57a17886f0d61a2359188edc97a475",
+      "source_id": "CORE_FUNCTIONS",
+      "vector_rank": 6,
+      "version": "CORE-FUNCTIONS.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "acf3d487b6c6e76bfbbb19a5",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 21,
+      "locator": "lines 173-210",
+      "owner": "design_owner",
+      "path": "docs/design/CORE-LOOP-001-original-farm-town-core-loop.md",
+      "score": 0.10610389,
+      "sha256": "a8bd1d3dcaa8dc1cf6b2288f753acfbe8ae584342669aeba6ad85558cfe693a6",
+      "source_id": "CORE_LOOP",
+      "vector_rank": 3,
+      "version": "CORE-LOOP.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "14199532a8c644668fee71df",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 8,
+      "locator": "lines 37-71",
+      "owner": "design_owner",
+      "path": "docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md",
+      "score": 0.10542064,
+      "sha256": "6bb34a921c35d0fa0cce879a62b22387aa57a17886f0d61a2359188edc97a475",
+      "source_id": "CORE_FUNCTIONS",
+      "vector_rank": 22,
+      "version": "CORE-FUNCTIONS.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "2628091bd80c28f20f6060ed",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 12,
+      "locator": "lines 353-404",
+      "owner": "design_owner",
+      "path": "docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md",
+      "score": 0.10400355,
+      "sha256": "6bb34a921c35d0fa0cce879a62b22387aa57a17886f0d61a2359188edc97a475",
+      "source_id": "CORE_FUNCTIONS",
+      "vector_rank": 23,
+      "version": "CORE-FUNCTIONS.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "14fd857f86906ef8015e151d",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": 20,
+      "locator": "lines 316-357",
+      "owner": "design_owner",
+      "path": "docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md",
+      "score": 0.10326427,
+      "sha256": "6bb34a921c35d0fa0cce879a62b22387aa57a17886f0d61a2359188edc97a475",
+      "source_id": "CORE_FUNCTIONS",
+      "vector_rank": 14,
+      "version": "CORE-FUNCTIONS.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "15f27a2c91f2b9db666987f8",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "design",
+      "lexical_rank": null,
+      "locator": "lines 259-295",
+      "owner": "producer",
+      "path": "docs/roadmaps/PRODUCT-PLAN-001-city-of-animals.md",
+      "score": 0.09437677,
+      "sha256": "42d12a8ae280e2311b9c62f964b05e392ed1d32269efab42a20073be382f8322",
+      "source_id": "PRODUCT_PLAN",
+      "vector_rank": 2,
+      "version": "PRODUCT-PLAN-001"
+    }
+  ],
+  "context_pack": "tmp/rag/context/REQ-COA-RESIDENT-TOWN-REBASE-20260725.md",
+  "context_pack_sha256": "ccedd9276ae2de7463706cfc4c66b68652ae4bce78df00c96b0890c37ae39ab9",
+  "created_at": "2026-07-25T15:14:32Z",
+  "feature_ids": [
+    "GLOBAL"
+  ],
+  "gate_receipt": "tmp/rag/receipts/rag-gate.json",
+  "gate_receipt_sha256": "a0ce05f7c6b1948210819f4cdd9e496430750a17cc2ea264193cf985d5f877a8",
+  "index_signature": "884171f0cf2bbd63b3b5332fda89abbea0c19f6b429bf1d8221b36c0fdf1b44e",
+  "project_root": "D:\\AI\\CityOfAnimals",
+  "query": "CityOfAnimals 产品重基线 producer_decision：把频繁手动生产点击改为低频建造、邀请、派遣与长期规划；定义统一 1x1 田格空间网格、道路连接、建筑占地与作业点、动物居民建房入住行走作业生活状态机、世界内订单车辆到达装载离场状态、720x1280 主页面 UI/UX 与视觉质量合同；审计 F003 可玩基线、F004 Figma 阻塞与设计锁、进度矩阵、可复用资产、真实运行证据、被覆盖规则、正式通用模板与设计验收边界。",
+  "request_id": "REQ-COA-RESIDENT-TOWN-REBASE-20260725",
+  "schema_version": 1,
+  "status": "READY"
+}

@@ -1,0 +1,84 @@
+key,zh-CN,en
+district_harvest_gardens,丰收花园,Harvest Gardens
+district_harvest_gardens_desc,田地与果园组成的原料区,Fields and orchard sources
+district_meadow_hollows,草坡牧场,Meadow Hollows
+district_meadow_hollows_desc,动物吃进饲料并产出工坊原料,Animals turn feed into workshop materials
+district_maker_row,匠作长街,Maker Row
+district_maker_row_desc,把多区原料汇成可交付成品,Combines district goods into finished products
+site_district_board,分区营建板,District Board
+site_district_board_desc,查看分区目标并建造固定功能位,Review district goals and build fixed sites
+site_orchard,琥珀果园,Amber Orchard
+site_orchard_desc,定时结出琥珀果并等待手动收取,Grows amber apples for manual collection
+site_pig_shelter,绒鬃猪舍,Bristle Pig Shelter
+site_pig_shelter_desc,把根香糊变成柔鬃纤维,Turns root mash into soft bristle
+site_rabbit_meadow,软绒兔苑,Downy Rabbit Meadow
+site_rabbit_meadow_desc,把日瓣花变成轻软纤维,Turns sun petals into downy fiber
+site_textile,合织工坊,Blendloom Workshop
+site_textile_desc,把两种动物纤维合织成布卷,Weaves two animal fibers into cloth rolls
+site_juice_press,果香压榨坊,Orchard Press
+site_juice_press_desc,把果园和田地原料制成果饮,Blends orchard and field goods into tonic
+item_sun_petal,日瓣花,Sun Petal
+item_amber_apple,琥珀果,Amber Apple
+item_root_mash,根香糊,Root Mash
+item_soft_bristle,柔鬃纤维,Soft Bristle
+item_downy_fiber,轻绒纤维,Downy Fiber
+item_woven_roll,合织布卷,Woven Roll
+item_orchard_tonic,果园清饮,Orchard Tonic
+item_sunset_jam,晚霞果酱,Sunset Jam
+source_amber_orchard,琥珀果园,Amber Orchard
+animal_pig,绒鬃猪,Bristle Pig
+animal_rabbit,软绒兔,Downy Rabbit
+recipe_root_mash,调制根香糊,Mix Root Mash
+recipe_woven_roll,合织布卷,Weave a Roll
+recipe_orchard_tonic,压榨果园清饮,Press Orchard Tonic
+recipe_sunset_jam,熬制晚霞果酱,Cook Sunset Jam
+goal_harvest_orientation,认识丰收花园,Meet Harvest Gardens
+goal_harvest_orientation_desc,累计收取4份金穗草,Collect 4 Golden Sprigs
+goal_meadow_orientation,照料草坡牧场,Care for Meadow Hollows
+goal_meadow_orientation_desc,累计制成2份青草料并收取2份斑点蛋,Make 2 Leafy Feed and collect 2 Spotted Eggs
+goal_workshop_orientation,准备匠作长街,Prepare Maker Row
+goal_workshop_orientation_desc,累计收取1份根香腌罐和1份柔云奶油,Collect 1 Root Preserve and 1 Soft Cream
+goal_industry_showcase,完成一级工业样品,Finish the Industry I Showcase
+goal_industry_showcase_desc,各收取1份合织布卷果园清饮和晚霞果酱,Collect one Woven Roll one Orchard Tonic and one Sunset Jam
+screen_district_board,分区营建板,District Board
+label_district_progress,分区进度,District Progress
+label_fixed_site,固定功能位,Fixed Site
+label_needs,还需要,Needs
+label_reward,完成奖励,Reward
+label_build_cost,建造消耗,Build Cost
+label_build_time,建造时间,Build Time
+label_district_snapshot,分区状态,District Status
+label_active_next,当前下一步,Current Next Step
+label_output_shelf,成品台,Output Shelf
+label_production_queue,生产队列,Production Queue
+label_ingredients,所需原料,Ingredients
+label_pending_reward,待领奖励,Pending Reward
+action_focus,前往查看,Focus
+action_build,开始建造,Build
+action_collect,收取,Collect
+action_collect_all,全部收取,Collect All
+action_queue,加入生产,Queue
+action_restart,再次培育,Restart
+action_open_board,查看分区,Open Districts
+action_claim_reward,领取奖励,Claim Reward
+state_goal_locked,先完成前一项分区目标,Complete the earlier district goal
+state_goal_active,正在累计,Tracking
+state_goal_complete,目标完成,Goal Complete
+state_site_locked,尚未开放,Locked
+state_site_available,可以建造,Available
+state_site_constructing,建造中,Constructing
+state_site_built,已经建成,Built
+state_source_growing,生长中,Growing
+state_source_ready,可以收取,Ready
+state_queue_full,生产队列已满,Queue Full
+state_output_waiting,成品等待收取,Output Waiting
+feedback_site_needs_coins,金币不足,Not enough coins
+feedback_site_needs_items,建材不足,Missing construction items
+feedback_site_started,已开始建造,Construction started
+feedback_site_finished,新功能位已建成,New site completed
+feedback_goal_finished,分区目标完成,District goal completed
+feedback_source_blocked,粮仓空间不足,Granary is full
+feedback_output_blocked,货物屋空间不足,Storehouse is full
+feedback_reward_needs_space,腾出仓储空间后可领取,Make storage space to claim
+feedback_no_source,还没有可用来源,No source is available yet
+feedback_saved,进度已保存,Progress saved

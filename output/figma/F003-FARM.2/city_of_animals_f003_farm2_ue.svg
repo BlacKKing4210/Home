@@ -1,0 +1,347 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3380" height="3660" viewBox="0 0 3380 3660">
+  <defs>
+    <style>
+      .title{font-family:Arial,'Noto Sans SC',sans-serif;font-size:42px;font-weight:700;fill:#2F2A24}
+      .h2{font-family:Arial,'Noto Sans SC',sans-serif;font-size:24px;font-weight:700;fill:#2F2A24}
+      .h3{font-family:Arial,'Noto Sans SC',sans-serif;font-size:18px;font-weight:700;fill:#2F2A24}
+      .body{font-family:Arial,'Noto Sans SC',sans-serif;font-size:16px;font-weight:400;fill:#6E746E}
+      .small{font-family:Arial,'Noto Sans SC',sans-serif;font-size:14px;font-weight:400;fill:#6E746E}
+      .white{fill:#FFF}
+      .ink{fill:#2F2A24}
+      .center{text-anchor:middle}
+      .label{font-family:Arial,'Noto Sans SC',sans-serif;font-size:14px;font-weight:700}
+      .frame{fill:#FFF8E8;stroke:#193B32;stroke-width:4}
+      .card{fill:#FFF;stroke:#D4C7A8;stroke-width:2}
+      .chip{fill:#F4F1E8;stroke:#D4C7A8;stroke-width:2}
+      .dark{fill:#193B32}
+      .green{fill:#62A54A}
+      .forest{fill:#2F6B46}
+      .mint{fill:#DDF2C8}
+      .yellow{fill:#F4C95D}
+      .orange{fill:#E79A3B}
+      .red{fill:#D85B46}
+      .blue{fill:#67A9C9}
+      .purple{fill:#9A75B5}
+      .brown{fill:#8A5A35}
+      .cream{fill:#F6E8C8}
+      .sky{fill:#BFE4EF}
+      .water{fill:#6EC9D1}
+      .round{rx:18;ry:18}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#193B32" flood-opacity=".18"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#62A54A"/>
+    </marker>
+  </defs>
+
+  <rect width="3380" height="3660" fill="#18342E"/>
+
+  <!-- 00 System Framework -->
+  <g id="00_System_Framework" data-name="00_System_Framework" transform="translate(40 40)">
+    <rect class="frame" width="1400" height="900" rx="30" filter="url(#shadow)"/>
+    <rect x="48" y="40" width="224" height="38" rx="19" class="dark"/>
+    <text x="160" y="65" class="label white center">F003 / SYSTEM</text>
+    <text x="48" y="132" class="title">动物小镇生产经营地基</text>
+    <text x="48" y="172" class="body">学习品类结构，原创实现；不复制数值、地图、文案、UI布局或商业美术。</text>
+
+    <circle cx="700" cy="470" r="98" class="green" stroke="#2F6B46" stroke-width="6"/>
+    <text x="700" y="449" font-family="Arial" font-size="56" class="center">🏡</text>
+    <text x="700" y="505" class="h2 white center">小镇成长</text>
+
+    <g id="system_crop" transform="translate(80 260)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="yellow"/>
+      <text x="48" y="56" font-size="30" class="center">🌾</text>
+      <text x="92" y="42" class="h3">种植与收获</text>
+      <text x="24" y="92" class="small">真实库存扣种；收获产生净增殖</text>
+    </g>
+    <g id="system_animal" transform="translate(80 540)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="orange"/>
+      <text x="48" y="56" font-size="30" class="center">🐄</text>
+      <text x="92" y="42" class="h3">饲料与养殖</text>
+      <text x="24" y="92" class="small">喂养 → 等待 → 动物产品</text>
+    </g>
+    <g id="system_machine" transform="translate(390 685)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="purple"/>
+      <text x="48" y="56" font-size="30" class="center">🏭</text>
+      <text x="92" y="42" class="h3">生产队列</text>
+      <text x="24" y="92" class="small">投料 → 排队 → 成品待取</text>
+    </g>
+    <g id="system_order" transform="translate(760 685)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="red"/>
+      <text x="48" y="56" font-size="30" class="center">📋</text>
+      <text x="92" y="42" class="h3">动态订单</text>
+      <text x="24" y="92" class="small">消耗库存 → 金币 / 经验</text>
+    </g>
+    <g id="system_market" transform="translate(1070 540)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="blue"/>
+      <text x="48" y="56" font-size="30" class="center">🛒</text>
+      <text x="92" y="42" class="h3">路边市场</text>
+      <text x="24" y="92" class="small">处理盈余，补充短缺</text>
+    </g>
+    <g id="system_storage" transform="translate(1070 260)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="brown"/>
+      <text x="48" y="56" font-size="30" class="center">📦</text>
+      <text x="92" y="42" class="h3">双仓储</text>
+      <text x="24" y="92" class="small">粮仓 / 仓库容量约束</text>
+    </g>
+    <g id="system_expansion" transform="translate(760 118)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="green"/>
+      <text x="48" y="56" font-size="30" class="center">🗺️</text>
+      <text x="92" y="42" class="h3">扩张建设</text>
+      <text x="24" y="92" class="small">清障 → 地块 → 建筑网络</text>
+    </g>
+    <g id="system_long_order" transform="translate(390 118)">
+      <rect width="250" height="130" rx="22" class="card"/>
+      <circle cx="48" cy="46" r="30" class="water"/>
+      <text x="48" y="56" font-size="30" class="center">🚂</text>
+      <text x="92" y="42" class="h3">长订单</text>
+      <text x="24" y="92" class="small">等级解锁后的多批交付</text>
+    </g>
+
+    <g stroke="#62A54A" stroke-width="5" fill="none" marker-end="url(#arrow)">
+      <path d="M330 325 C470 325 520 405 600 440"/>
+      <path d="M330 605 C470 605 520 535 600 500"/>
+      <path d="M515 685 C560 620 600 580 650 550"/>
+      <path d="M885 685 C840 620 800 580 750 550"/>
+      <path d="M1070 605 C930 605 880 535 800 500"/>
+      <path d="M1070 325 C930 325 880 405 800 440"/>
+      <path d="M885 248 C840 310 800 350 750 390"/>
+      <path d="M515 248 C560 310 600 350 650 390"/>
+    </g>
+    <rect x="70" y="838" width="1260" height="42" rx="14" class="dark"/>
+    <text x="700" y="865" class="label white center">短周期采集 → 中周期加工 → 订单兑现 → 容量/地块/建筑扩张 → 新内容解锁</text>
+  </g>
+
+  <!-- 01 Player UE Flow -->
+  <g id="01_Player_UE_Flow" data-name="01_Player_UE_Flow" transform="translate(1500 40)">
+    <rect class="frame" width="1800" height="900" rx="30" filter="url(#shadow)"/>
+    <rect x="48" y="40" width="224" height="38" rx="19" class="dark"/>
+    <text x="160" y="65" class="label white center">PLAYER UE FLOW</text>
+    <text x="48" y="132" class="title">一次完整的可感知经营循环</text>
+    <text x="48" y="172" class="body">每一步优先由场景对象、图标和数量变化传达；文字只解释边界和异常。</text>
+
+    <g id="flow_cards" transform="translate(48 250)">
+      <g transform="translate(0 0)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="green"/><text x="38" y="45" class="label white center">1</text>
+        <text x="22" y="88" class="h3">进入小镇</text><text x="22" y="120" class="small">成熟田地、待取成品、订单提醒</text>
+        <rect x="22" y="150" width="96" height="28" rx="14" class="dark"/><text x="70" y="169" class="label white center">主地图</text>
+      </g>
+      <g transform="translate(250 230)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="yellow"/><text x="38" y="45" class="label ink center">2</text>
+        <text x="22" y="88" class="h3">滑动收获</text><text x="22" y="120" class="small">连续划过田块，作物飞入粮仓</text>
+        <rect x="22" y="150" width="106" height="28" rx="14" class="dark"/><text x="75" y="169" class="label white center">场景手势</text>
+      </g>
+      <g transform="translate(500 0)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="orange"/><text x="38" y="45" class="label white center">3</text>
+        <text x="22" y="88" class="h3">再次播种</text><text x="22" y="120" class="small">从真实库存扣除种子并显示短缺</text>
+        <rect x="22" y="150" width="96" height="28" rx="14" class="dark"/><text x="70" y="169" class="label white center">田地操作</text>
+      </g>
+      <g transform="translate(750 230)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="blue"/><text x="38" y="45" class="label white center">4</text>
+        <text x="22" y="88" class="h3">喂养动物</text><text x="22" y="120" class="small">饲料拖放到圈舍，进入等待</text>
+        <rect x="22" y="150" width="96" height="28" rx="14" class="dark"/><text x="70" y="169" class="label white center">养殖交互</text>
+      </g>
+      <g transform="translate(1000 0)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="purple"/><text x="38" y="45" class="label white center">5</text>
+        <text x="22" y="88" class="h3">安排加工</text><text x="22" y="120" class="small">按配方投料进入机器队列</text>
+        <rect x="22" y="150" width="96" height="28" rx="14" class="dark"/><text x="70" y="169" class="label white center">生产面板</text>
+      </g>
+      <g transform="translate(1250 230)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="red"/><text x="38" y="45" class="label white center">6</text>
+        <text x="22" y="88" class="h3">完成订单</text><text x="22" y="120" class="small">库存满足时装车，获得奖励</text>
+        <rect x="22" y="150" width="86" height="28" rx="14" class="dark"/><text x="65" y="169" class="label white center">订单板</text>
+      </g>
+      <g transform="translate(1500 0)">
+        <rect width="220" height="196" rx="22" class="card"/>
+        <circle cx="38" cy="38" r="24" class="brown"/><text x="38" y="45" class="label white center">7</text>
+        <text x="22" y="88" class="h3">扩容扩地</text><text x="22" y="120" class="small">压力促使升级仓储或开新地块</text>
+        <rect x="22" y="150" width="96" height="28" rx="14" class="dark"/><text x="70" y="169" class="label white center">建设模式</text>
+      </g>
+      <g stroke="#62A54A" stroke-width="5" fill="none" marker-end="url(#arrow)">
+        <path d="M220 98 L248 280"/><path d="M470 328 L498 98"/><path d="M720 98 L748 280"/>
+        <path d="M970 328 L998 98"/><path d="M1220 98 L1248 280"/><path d="M1470 328 L1498 98"/>
+      </g>
+    </g>
+    <text x="48" y="756" class="h3">强制状态覆盖</text>
+    <g transform="translate(230 724)">
+      <g><rect width="280" height="96" rx="18" class="card"/><rect width="8" height="96" rx="4" class="red"/><text x="24" y="35" class="h3">空仓</text><text x="24" y="65" class="small">显示缺口与来源</text></g>
+      <g transform="translate(296)"><rect width="280" height="96" rx="18" class="card"/><rect width="8" height="96" rx="4" class="orange"/><text x="24" y="35" class="h3">仓满</text><text x="24" y="65" class="small">停止领取并引导扩容</text></g>
+      <g transform="translate(592)"><rect width="280" height="96" rx="18" class="card"/><rect width="8" height="96" rx="4" class="purple"/><text x="24" y="35" class="h3">队列满</text><text x="24" y="65" class="small">不吞材料，提示槽位</text></g>
+      <g transform="translate(888)"><rect width="280" height="96" rx="18" class="card"/><rect width="8" height="96" rx="4" class="blue"/><text x="24" y="35" class="h3">离线归来</text><text x="24" y="65" class="small">只结算完成，不自动领取</text></g>
+      <g transform="translate(1184)"><rect width="280" height="96" rx="18" class="card"/><rect width="8" height="96" rx="4" class="brown"/><text x="24" y="35" class="h3">中断</text><text x="24" y="65" class="small">操作可恢复，无资源损失</text></g>
+    </g>
+  </g>
+
+  <!-- 02 Main Map 720x1280 -->
+  <g id="02_Main_Map_720x1280" data-name="02_Main_Map_720x1280" transform="translate(40 1000)">
+    <rect width="720" height="1280" rx="34" class="sky" stroke="#193B32" stroke-width="5" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="720" height="72" rx="34" class="sky"/>
+    <text x="26" y="42" class="h3">09:41</text><text x="650" y="42" class="h3">●●●</text>
+    <rect x="20" y="90" width="190" height="62" rx="21" fill="#FFF8E8" stroke="#2F2A24" stroke-width="3"/>
+    <circle cx="57" cy="121" r="22" class="green"/><text x="57" y="131" font-size="26" class="center">🦊</text>
+    <text x="90" y="116" class="h3">动物镇长</text><text x="90" y="139" class="small">Lv.12</text>
+    <text x="360" y="126" class="h3 center">小镇全景</text>
+    <rect x="430" y="94" width="124" height="52" rx="18" fill="#FFF8E8" stroke="#2F2A24" stroke-width="3"/>
+    <text x="448" y="126" font-size="22">🪙</text><text x="485" y="127" class="h3">2 480</text>
+    <rect x="564" y="94" width="130" height="52" rx="18" fill="#FFF8E8" stroke="#2F2A24" stroke-width="3"/>
+    <text x="582" y="126" font-size="22">💎</text><text x="620" y="127" class="h3">24</text>
+
+    <rect x="0" y="160" width="720" height="1012" class="mint"/>
+    <path d="M610 160 C540 400 720 620 580 1172 L720 1172 L720 160 Z" class="water"/>
+    <path d="M20 700 C180 610 340 690 700 500" stroke="#F6E8C8" stroke-width="90" fill="none"/>
+    <path d="M320 180 C250 420 390 700 300 1160" stroke="#F6E8C8" stroke-width="76" fill="none"/>
+
+    <g id="field_grid" transform="translate(42 280)">
+      <g fill="#F4C95D" stroke="#8A5A35" stroke-width="3">
+        <rect x="0" y="0" width="64" height="64" rx="10"/><rect x="72" y="0" width="64" height="64" rx="10"/><rect x="144" y="0" width="64" height="64" rx="10"/><rect x="216" y="0" width="64" height="64" rx="10"/>
+        <rect x="0" y="72" width="64" height="64" rx="10"/><rect x="72" y="72" width="64" height="64" rx="10"/><rect x="144" y="72" width="64" height="64" rx="10"/><rect x="216" y="72" width="64" height="64" rx="10"/>
+        <rect x="0" y="144" width="64" height="64" rx="10"/><rect x="72" y="144" width="64" height="64" rx="10"/><rect x="144" y="144" width="64" height="64" rx="10"/><rect x="216" y="144" width="64" height="64" rx="10"/>
+      </g>
+      <g font-size="26" text-anchor="middle"><text x="32" y="42">🌾</text><text x="104" y="42">🌽</text><text x="176" y="42">🌾</text><text x="248" y="42">🌽</text><text x="32" y="114">🌽</text><text x="104" y="114">🌾</text><text x="176" y="114">🌽</text><text x="248" y="114">🌾</text><text x="32" y="186">🌾</text><text x="104" y="186">🌽</text></g>
+    </g>
+    <rect x="42" y="506" width="190" height="34" rx="17" class="dark"/><text x="137" y="529" class="label white center">可连续滑动收获</text>
+
+    <g id="map_buildings">
+      <g transform="translate(408 290)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="brown" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">🏠</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">谷仓</text></g>
+      <g transform="translate(455 490)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="orange" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">🏭</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">烘焙坊</text></g>
+      <g transform="translate(80 660)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="blue" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">🐄</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">奶牛棚</text></g>
+      <g transform="translate(235 790)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="red" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">🐔</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">鸡舍</text></g>
+      <g transform="translate(435 850)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="green" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">🧺</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">路边市场</text></g>
+      <g transform="translate(70 960)"><ellipse cx="78" cy="92" rx="80" ry="34" class="green"/><rect x="28" y="10" width="100" height="96" rx="18" class="yellow" stroke="#2F2A24" stroke-width="3"/><text x="78" y="66" font-size="40" class="center">📋</text><rect x="30" y="108" width="96" height="30" rx="15" fill="#FFF8E8"/><text x="78" y="129" class="label ink center">订单板</text></g>
+    </g>
+    <rect x="22" y="1066" width="210" height="76" rx="20" fill="#FFF8E8" stroke="#2F2A24" stroke-width="3"/>
+    <text x="42" y="1095" class="h3">粮仓 38/60</text><rect x="42" y="1114" width="166" height="12" rx="6" fill="#D4C7A8"/><rect x="42" y="1114" width="105" height="12" rx="6" class="green"/>
+    <rect x="548" y="1048" width="146" height="94" rx="26" class="yellow" stroke="#2F2A24" stroke-width="4"/><text x="621" y="1084" font-size="34" class="center">🛠️</text><text x="621" y="1120" class="h3 center">建设</text>
+    <rect x="16" y="1180" width="688" height="82" rx="28" fill="#FFF8E8" stroke="#2F2A24" stroke-width="4"/>
+    <g font-family="Arial,'Noto Sans SC',sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+      <rect x="32" y="1190" width="120" height="62" rx="20" class="mint"/>
+      <text x="92" y="1218" font-size="24">🏡</text><text x="92" y="1242" class="ink">小镇</text>
+      <text x="226" y="1218" font-size="24">📋</text><text x="226" y="1242" fill="#6E746E">订单</text>
+      <text x="360" y="1218" font-size="24">🛠️</text><text x="360" y="1242" fill="#6E746E">建设</text>
+      <text x="494" y="1218" font-size="24">🛒</text><text x="494" y="1242" fill="#6E746E">市场</text>
+      <text x="628" y="1218" font-size="24">⚙️</text><text x="628" y="1242" fill="#6E746E">设置</text>
+    </g>
+  </g>
+
+  <!-- 03 Object Interactions -->
+  <g id="03_Object_Interactions" data-name="03_Object_Interactions" transform="translate(820 1000)">
+    <rect width="2480" height="1280" rx="34" fill="#FFF8E8" stroke="#193B32" stroke-width="5" filter="url(#shadow)"/>
+    <rect x="48" y="40" width="224" height="38" rx="19" class="dark"/><text x="160" y="65" class="label white center">OBJECT-FIRST UI</text>
+    <text x="48" y="132" class="title">场景对象驱动的四类核心交互</text>
+    <text x="48" y="172" class="body">建筑、动物、田块和货箱是入口；弹层只承载选择、队列和异常处理。</text>
+    <g id="interaction_farm" transform="translate(48 230)">
+      <rect width="560" height="940" rx="28" class="card"/><rect width="560" height="76" rx="28" class="green"/>
+      <text x="280" y="49" class="h2 white center">田地：收获与播种</text><text x="280" y="188" font-size="96" class="center">🌾</text>
+      <text x="280" y="255" class="h2 center">小麦已成熟</text><text x="280" y="290" class="body center">在田块上连续滑动即可收获</text>
+      <rect x="54" y="340" width="452" height="92" rx="20" class="mint" stroke="#2F6B46" stroke-width="3"/><text x="280" y="398" class="h2 forest center">+2 产出 / -1 种子</text>
+      <text x="54" y="490" class="h3">再次播种</text>
+      <rect x="54" y="530" width="210" height="82" rx="18" class="card"/><text x="90" y="582" font-size="32">🌾</text><text x="138" y="578" class="h3">小麦 12</text>
+      <rect x="296" y="530" width="210" height="82" rx="18" class="card"/><text x="332" y="582" font-size="32">🌽</text><text x="380" y="578" class="h3">玉米 3</text>
+      <rect x="54" y="802" width="452" height="82" rx="24" class="green" stroke="#2F2A24" stroke-width="3"/><text x="280" y="853" class="h2 white center">按住并滑动播种</text>
+    </g>
+    <g id="interaction_animal" transform="translate(656 230)">
+      <rect width="560" height="940" rx="28" class="card"/><rect width="560" height="76" rx="28" class="blue"/>
+      <text x="280" y="49" class="h2 white center">圈舍：喂养与领取</text><text x="280" y="188" font-size="96" class="center">🐄</text>
+      <text x="280" y="255" class="h2 center">奶牛棚 3/3</text>
+      <rect x="54" y="316" width="452" height="88" rx="20" class="cream" stroke="#8A5A35" stroke-width="3"/><text x="86" y="353" class="h3">饲料 2/3</text><rect x="238" y="346" width="218" height="14" rx="7" fill="#D4C7A8"/><rect x="238" y="346" width="145" height="14" rx="7" class="orange"/>
+      <text x="280" y="462" class="body center">拖动饲料袋到动物身上</text>
+      <circle cx="128" cy="560" r="55" class="mint" stroke="#2F2A24" stroke-width="3"/><text x="128" y="575" font-size="46" class="center">🥛</text>
+      <circle cx="280" cy="560" r="55" class="mint" stroke="#2F2A24" stroke-width="3"/><text x="280" y="575" font-size="46" class="center">🥛</text>
+      <circle cx="432" cy="560" r="55" fill="#F4F1E8" stroke="#2F2A24" stroke-width="3"/><text x="432" y="575" font-size="46" class="center">🐄</text>
+      <rect x="54" y="802" width="452" height="82" rx="24" class="blue" stroke="#2F2A24" stroke-width="3"/><text x="280" y="853" class="h2 white center">领取 2 份牛奶</text>
+    </g>
+    <g id="interaction_machine" transform="translate(1264 230)">
+      <rect width="560" height="940" rx="28" class="card"/><rect width="560" height="76" rx="28" class="purple"/>
+      <text x="280" y="49" class="h2 white center">烘焙坊：生产队列</text><text x="280" y="188" font-size="96" class="center">🥖</text>
+      <text x="54" y="252" class="h3">生产槽位</text>
+      <rect x="54" y="290" width="452" height="92" rx="20" class="mint" stroke="#D4C7A8" stroke-width="3"/><text x="86" y="350" font-size="36">🥖</text><text x="154" y="345" class="h3">面包 · 00:42</text>
+      <rect x="54" y="404" width="452" height="92" rx="20" class="card"/><text x="94" y="463" font-size="36">＋</text><text x="154" y="459" class="h3">添加配方</text>
+      <rect x="54" y="518" width="452" height="92" rx="20" class="card"/><text x="94" y="577" font-size="36">＋</text><text x="154" y="573" class="h3">添加配方</text>
+      <text x="54" y="674" class="h3">需要</text>
+      <rect x="54" y="706" width="210" height="82" rx="18" class="card"/><text x="90" y="758" font-size="32">🌾</text><text x="138" y="754" class="h3">小麦 3</text>
+      <rect x="296" y="706" width="210" height="82" rx="18" class="card"/><text x="332" y="758" font-size="32">🥛</text><text x="380" y="754" class="h3">牛奶 1</text>
+    </g>
+    <g id="interaction_order" transform="translate(1872 230)">
+      <rect width="560" height="940" rx="28" class="card"/><rect width="560" height="76" rx="28" class="red"/>
+      <text x="280" y="49" class="h2 white center">订单板：装车交付</text><text x="280" y="180" font-size="84" class="center">📋</text>
+      <rect x="50" y="230" width="460" height="176" rx="22" class="card"/><rect x="50" y="230" width="8" height="176" rx="4" class="red"/>
+      <text x="78" y="272" class="h3">晨光餐馆</text><text x="78" y="310" class="body">需要：🥖×2  🥛×1</text><rect x="78" y="342" width="228" height="34" rx="17" class="yellow"/><text x="192" y="365" class="label ink center">奖励 210🪙 48⭐</text>
+      <rect x="50" y="438" width="460" height="176" rx="22" class="card"/><rect x="50" y="438" width="8" height="176" rx="4" class="orange"/>
+      <text x="78" y="480" class="h3">河畔杂货铺</text><text x="78" y="518" class="body">需要：🌽×6  🥚×3</text><rect x="78" y="550" width="170" height="34" rx="17" class="red"/><text x="163" y="573" class="label white center">缺少 🥚×1</text>
+      <rect x="54" y="802" width="452" height="82" rx="24" class="red" stroke="#2F2A24" stroke-width="3"/><text x="280" y="853" class="h2 white center">装车并交付</text>
+    </g>
+  </g>
+
+  <!-- 04 States and Edges -->
+  <g id="04_States_And_Edges" data-name="04_States_And_Edges" transform="translate(40 2340)">
+    <rect class="frame" width="1700" height="960" rx="30" filter="url(#shadow)"/>
+    <rect x="48" y="40" width="224" height="38" rx="19" class="dark"/><text x="160" y="65" class="label white center">STATE COVERAGE</text>
+    <text x="48" y="132" class="title">边界状态、反馈和恢复路径</text><text x="48" y="172" class="body">不吞材料、不丢进度、不用长段文字阻断经营节奏。</text>
+    <g id="edge_cards" transform="translate(48 230)">
+      <g><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="orange"/><text x="58" y="70" font-size="34" class="center">📦</text><text x="112" y="55" class="h3">粮仓已满</text><text x="26" y="126" class="body">收获停止在当前田块；成熟作物仍保留。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：扩容 / 出售粮食</text></g>
+      <g transform="translate(408)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="red"/><text x="58" y="70" font-size="34" class="center">🏭</text><text x="112" y="55" class="h3">仓库已满</text><text x="26" y="126" class="body">成品停留在机器出口，不自动丢弃。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：交订单 / 出售成品</text></g>
+      <g transform="translate(816)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="yellow"/><text x="58" y="70" font-size="34" class="center">⚠️</text><text x="112" y="55" class="h3">原料不足</text><text x="26" y="126" class="body">配方卡标红缺口，并高亮来源建筑。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：种植 / 购买 / 等待</text></g>
+      <g transform="translate(1224)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="purple"/><text x="58" y="70" font-size="34" class="center">⏳</text><text x="112" y="55" class="h3">生产队列满</text><text x="26" y="126" class="body">新增任务不扣材料；可等待或解锁槽位。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：等待 / 加速 / 解锁</text></g>
+      <g transform="translate(0 320)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="blue"/><text x="58" y="70" font-size="34" class="center">📋</text><text x="112" y="55" class="h3">订单不可完成</text><text x="26" y="126" class="body">保留订单，可刷新；缺口物品定位来源。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：生产 / 市场 / 刷新</text></g>
+      <g transform="translate(408 320)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="green"/><text x="58" y="70" font-size="34" class="center">🌙</text><text x="112" y="55" class="h3">离线归来</text><text x="26" y="126" class="body">只结算计时完成；成品仍需点击领取。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：逐项领取 / 一键定位</text></g>
+      <g transform="translate(816 320)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="brown"/><text x="58" y="70" font-size="34" class="center">↩</text><text x="112" y="55" class="h3">操作被中断</text><text x="26" y="126" class="body">仅结算已确认对象，可返回主地图继续。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">恢复：回到对象继续操作</text></g>
+      <g transform="translate(1224 320)"><rect width="380" height="280" rx="24" class="card"/><circle cx="58" cy="58" r="32" class="water"/><text x="58" y="70" font-size="34" class="center">🌐</text><text x="112" y="55" class="h3">语言切换</text><text x="26" y="126" class="body">zh-CN 首次默认；en 可选并持久化。</text><rect x="26" y="210" width="328" height="44" rx="14" class="chip"/><text x="42" y="238" class="label forest">路径：设置 → 语言</text></g>
+    </g>
+  </g>
+
+  <!-- 05 Settings -->
+  <g id="05_Settings_720x1280" data-name="05_Settings_720x1280" transform="translate(1800 2340)">
+    <rect width="720" height="1280" rx="34" class="frame" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="720" height="72" rx="34" class="sky"/><text x="26" y="42" class="h3">09:41</text><text x="650" y="42" class="h3">●●●</text>
+    <text x="360" y="126" class="h2 center">设置</text><text x="40" y="205" class="h2">游戏偏好</text>
+    <g id="settings_rows" transform="translate(32 240)">
+      <g><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">🌐</text><text x="100" y="40" class="h3">语言</text><text x="100" y="70" class="small">简体中文</text><text x="620" y="60" class="h2">›</text></g>
+      <g transform="translate(0 116)"><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">🔔</text><text x="100" y="40" class="h3">通知</text><text x="100" y="70" class="small">生产完成、订单刷新</text><circle cx="606" cy="49" r="18" class="green"/></g>
+      <g transform="translate(0 232)"><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">🎵</text><text x="100" y="40" class="h3">音乐</text><text x="100" y="70" class="small">80%</text><rect x="420" y="45" width="186" height="12" rx="6" fill="#D4C7A8"/><rect x="420" y="45" width="148" height="12" rx="6" class="green"/></g>
+      <g transform="translate(0 348)"><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">🔊</text><text x="100" y="40" class="h3">音效</text><text x="100" y="70" class="small">100%</text><rect x="420" y="45" width="186" height="12" rx="6" fill="#D4C7A8"/><rect x="420" y="45" width="186" height="12" rx="6" class="green"/></g>
+      <g transform="translate(0 464)"><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">🫨</text><text x="100" y="40" class="h3">震动反馈</text><text x="100" y="70" class="small">开启</text><circle cx="606" cy="49" r="18" class="green"/></g>
+      <g transform="translate(0 580)"><rect width="656" height="98" rx="22" class="card"/><circle cx="50" cy="49" r="30" class="mint"/><text x="50" y="60" font-size="30" class="center">♿</text><text x="100" y="40" class="h3">减少动态效果</text><text x="100" y="70" class="small">关闭</text><circle cx="606" cy="49" r="18" fill="#D4C7A8"/></g>
+    </g>
+    <rect x="32" y="980" width="656" height="126" rx="24" class="mint" stroke="#2F6B46" stroke-width="3"/>
+    <text x="56" y="1020" class="h3 forest">首次启动默认 zh-CN</text><text x="56" y="1058" class="body">切换为 English 后立即生效，并写入本地偏好。</text>
+    <rect x="16" y="1180" width="688" height="82" rx="28" fill="#FFF8E8" stroke="#2F2A24" stroke-width="4"/>
+    <g font-family="Arial,'Noto Sans SC',sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="92" y="1218" font-size="24">🏡</text><text x="92" y="1242" fill="#6E746E">小镇</text><text x="226" y="1218" font-size="24">📋</text><text x="226" y="1242" fill="#6E746E">订单</text><text x="360" y="1218" font-size="24">🛠️</text><text x="360" y="1242" fill="#6E746E">建设</text><text x="494" y="1218" font-size="24">🛒</text><text x="494" y="1242" fill="#6E746E">市场</text><rect x="568" y="1190" width="120" height="62" rx="20" class="mint"/><text x="628" y="1218" font-size="24">⚙️</text><text x="628" y="1242" class="forest">设置</text>
+    </g>
+  </g>
+
+  <!-- 06 Artifact Register -->
+  <g id="06_Figma_Artifact_Register" data-name="06_Figma_Artifact_Register" transform="translate(2580 2340)">
+    <rect width="720" height="1280" rx="34" class="frame" filter="url(#shadow)"/>
+    <rect x="40" y="40" width="244" height="38" rx="19" class="dark"/><text x="162" y="65" class="label white center">HANDOFF REGISTER</text>
+    <text x="40" y="130" font-family="Arial,'Noto Sans SC',sans-serif" font-size="34" font-weight="700" class="ink">Figma UE &amp; UI/UX</text>
+    <text x="40" y="170" class="body">所有对象均为可编辑 SVG 矢量分组。</text>
+    <g id="register_rows" transform="translate(40 220)">
+      <g><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">00_System_Framework</text><text x="22" y="68" class="small">系统关系与内容分层</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+      <g transform="translate(0 142)"><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">01_Player_UE_Flow</text><text x="22" y="68" class="small">玩家主循环与强制状态</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+      <g transform="translate(0 284)"><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">02_Main_Map_720x1280</text><text x="22" y="68" class="small">可扩张45°主地图低保真</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+      <g transform="translate(0 426)"><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">03_Object_Interactions</text><text x="22" y="68" class="small">田地 / 养殖 / 机器 / 订单</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+      <g transform="translate(0 568)"><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">04_States_And_Edges</text><text x="22" y="68" class="small">异常、恢复、离线与本地化</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+      <g transform="translate(0 710)"><rect width="640" height="126" rx="18" class="card"/><text x="22" y="36" class="h3">05_Settings_720x1280</text><text x="22" y="68" class="small">中文默认与英文选择</text><rect x="444" y="74" width="172" height="34" rx="17" class="green"/><text x="530" y="97" class="label white center">Review Ready</text></g>
+    </g>
+    <rect x="40" y="1110" width="640" height="120" rx="20" class="dark"/>
+    <text x="360" y="1148" class="label white center">Canvas: 720 × 1280 portrait</text>
+    <text x="360" y="1180" class="label white center">Locale: zh-CN default / en optional</text>
+    <text x="360" y="1212" class="label white center">Source: F003-FARM.2</text>
+  </g>
+</svg>

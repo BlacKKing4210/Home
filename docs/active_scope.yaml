@@ -1,0 +1,127 @@
+schema_version: 1
+scope_id: SCOPE-001
+updated_on: "2026-07-26"
+
+authority:
+  producer: Codex /root
+  design_owner: Codex /root (F004-RESIDENT.1 design-rebaseline owner)
+  engineering_owner: Codex /root (F-003 FARM.2 acceptance owner)
+  art_owner: Codex /root (F-003 FARM.2 runtime-asset owner)
+  pm_execution_operator: Codex /root
+  default_write_scope: docs/ and PM/ (producer coordination only)
+
+priority_order:
+  source: PM/feature_progress.xlsx
+  same_priority_tiebreaker: feature_id_ascending
+  completed_features_last: true
+  skip_only_for: [unmet_dependency, shared_lock, safety_blocker]
+
+monitoring:
+  active_batch_nodes: []
+  active_batch_tasks: []
+  dependency_paused_nodes: []
+  deferred_paused_nodes: []
+  exception_interval_minutes: 30
+  progress_refresh_interval_hours: 6
+  healthy_result: quiet
+
+feature_progress:
+  workbook: PM/feature_progress.xlsx
+  first_sheet: Nine Dimensions
+  row_definition: one_complete_feature
+  dimensions: [design_document, numeric_table, code, scene, UI, icon_or_image, scene_integration, image_integration, UI_integration]
+  not_applicable_display: Not needed
+  source_collection: [functional_documents, numeric_or_config_tables, version_plan, filed_producer_directives, latest_accountable_receipts]
+
+active_modules:
+  - feature_id: F-004
+    task_id: F-004-RESIDENT-DESIGN-001
+    name: Animal Resident Town Spatial and Autonomy Foundation
+    version: F004-RESIDENT.1
+    phase: DESIGN_REBASELINE_REVIEW
+    state: DESIGN_REBASELINE_REVIEW_FIGMA_BLOCKED_NOT_RUNTIME_AUTHORIZED
+    producer: Codex /root
+    design_owner: Codex /root
+    primary_skill: game-feature-design-docs + ui-design-priority + game-visual-quality-pipeline
+    task_fingerprint: BA4466ABDA82579862EA7476FF39D1A8B96ACB30A009EDCC85616914805E4897
+    formal_inputs:
+      - docs/decisions/PD-002-animal-resident-town-rebaseline.md
+      - docs/features/F-004-resident-town-spatial-autonomy.md
+      - docs/uiux/F004-RESIDENT.1-ui-priority.md
+      - docs/design/F004-RESIDENT.1-visual-quality-contract.md
+      - docs/receipts/F004-RESIDENT-DESIGN-001.md
+      - docs/features/F-003-farm-town-foundation-v2.md
+      - docs/features/F-004-farm-district-industry-i.md
+    authorization: docs/receipts/PD-002-READ-ONLY.md
+    current_receipt: docs/receipts/F004-RESIDENT-DESIGN-001.md
+    editable_design_register: output/figma/F004-RESIDENT.1/README.md
+    blocker: "BLOCKED: Figma UE attachment"
+    runtime_authority: false
+queued_modules:
+  - feature_id: F-005
+    name: Rail Freight Yard
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F004-RESIDENT.1 representative runtime slice approval plus a dedicated functional/configuration source, receipt, and write authorization
+  - feature_id: F-006
+    name: Town Trade Quarter and Industry II
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F-005 acceptance plus a dedicated functional/configuration source, receipt, and write authorization
+  - feature_id: F-007
+    name: Sky Cargo Harbor
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F-006 acceptance plus a dedicated functional/configuration source, receipt, and write authorization
+  - feature_id: F-008
+    name: Land and District Expansion
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F-007 acceptance plus a dedicated functional/configuration source, receipt, and write authorization
+  - feature_id: F-009
+    name: Riverbank and Stoneworks
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F-008 acceptance plus a dedicated functional/configuration source, receipt, and write authorization
+  - feature_id: F-010
+    name: Collections and Cooperative Layer
+    state: ROADMAP_ONLY
+    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
+    dependency: F-009 acceptance plus a separate product decision, functional/configuration source, receipt, and write authorization
+
+completed_modules:
+  - feature_id: F-003
+    name: Animal Town Farm Foundation V2
+    version: F003-FARM.2
+    state: ACCEPTED_FOR_PROTOTYPE
+    formal_source: docs/features/F-003-farm-town-foundation-v2.md
+    evidence: docs/receipts/F-003-FARM2-ENG-002.md
+    player_visible_evidence: docs/evidence/F-003-FARM2/README.md
+  - feature_id: F-003-HIST
+    name: Herd and Local Orders
+    version: F003-FARM.1
+    state: SUPERSEDED_ARCHIVED
+    evidence: docs/receipts/F-003-FARM1-LOCK-RELEASE-001.md
+  - feature_id: F-002
+    name: Farmboard Visual Language
+    state: ACCEPTED_FOR_PROTOTYPE
+    evidence: docs/receipts/F-002-ENG-002.md
+  - feature_id: F-001
+    name: Market Meadow P0
+    state: ACCEPTED_FOR_PROTOTYPE
+    evidence: docs/receipts/F-001-ENG-003.md
+
+shared_locks: []
+
+released_locks:
+  - lock_id: F004-DESIGN-LOCK-001
+    owner: Codex /root
+    task_id: F-004-DESIGN-001
+    released_on: "2026-07-26"
+    release_receipt: docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md
+    reason: F004-DISTRICT.1 was superseded by the approved PD-002 product rebaseline; formal sources and progress state were synchronized to F004-RESIDENT.1.
+    preserves:
+      - docs/features/F-004-farm-district-industry-i.md
+      - config/tables/f004_*.csv
+      - output/documents/F004-DISTRICT.1/
+    preserved_status: HISTORICAL_MIGRATION_INPUT_NOT_RUNTIME

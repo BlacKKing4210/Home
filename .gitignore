@@ -1,0 +1,61 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local engine and workstation caches
+/Godot/app_userdata/
+*.import
+*.translation
+*.cache
+*.tmp
+
+# Local dependencies and script caches
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+
+# Task scratch space. Keep only the auditable RAG gate/context receipts.
+/tmp/**
+!/tmp/rag/
+!/tmp/rag/context/
+!/tmp/rag/context/*.md
+!/tmp/rag/receipts/
+!/tmp/rag/receipts/rag-gate.json
+!/tmp/rag/receipts/tasks/
+!/tmp/rag/receipts/tasks/*.json
+
+# Regenerable document render intermediates
+/output/documents/**/final-render-*/
+/output/documents/**/template-reference-render/
+
+# Local workflow migration backups
+/AGENTS.md.before-*.bak
+
+# Local engine and workstation caches
+/Godot/app_userdata/
+*.import
+*.translation
+*.cache
+*.tmp
+
+# Local dependencies and script caches
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+
+# Task scratch space. Keep only the auditable RAG gate/context receipts.
+/tmp/**
+!/tmp/rag/
+!/tmp/rag/context/
+!/tmp/rag/context/*.md
+!/tmp/rag/receipts/
+!/tmp/rag/receipts/rag-gate.json
+!/tmp/rag/receipts/tasks/
+!/tmp/rag/receipts/tasks/*.json
+
+# Regenerable document render intermediates
+/output/documents/**/final-render-*/
+/output/documents/**/template-reference-render/
+
+# Local workflow migration backups
+/AGENTS.md.before-*.bak

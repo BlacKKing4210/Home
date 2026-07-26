@@ -1,0 +1,52 @@
+schema_version: 1
+project:
+  name: "CityOfAnimals"
+  root: 'D:\AI\CityOfAnimals'
+  engine: "Godot"
+  stage: prototype
+
+formal_sources:
+  workflow: docs/WORKFLOW.md
+  handoff: docs/PM_HANDOFF.md
+  active_scope: docs/active_scope.yaml
+  feature_progress: PM/feature_progress.xlsx
+  design_index: docs/design_index.md
+  config_index: docs/config_index.md
+
+runtime:
+  project_path: 'D:\AI\CityOfAnimals'
+  candidate_paths:
+    - assets/candidate/f003_farm2
+  formal_asset_paths:
+    - assets/runtime/f003_farm2
+  task_temporary_root: tmp
+
+presentation:
+  default_platform: mobile
+  orientation: portrait
+  design_resolution: [720, 1280]
+  responsive_scaling_required: true
+  verification_resolution: [720, 1280]
+
+localization:
+  default_locale: zh-CN
+  selectable_locales: [zh-CN, en]
+  settings_path: "Settings > Language"
+  persistence_required: true
+  runtime_text_rule: "Use locale keys and locale tables for all player-visible text."
+
+roles:
+  producer: Codex /root
+  design_owner: Codex /root (F-004 formal-design owner)
+  engineering_owner: Codex /root (F-003 FARM.2 acceptance owner)
+  art_owner: Codex /root (F-003 FARM.2 runtime-asset owner)
+  pm_execution_operator: Codex /root
+
+rules:
+  one_active_producer: true
+  execution_requires_read_only_receipt: true
+  execution_requires_owner_write_authorization: true
+  one_writer_per_shared_file: true
+  existing_final_assets_have_priority: true
+  ui_temporary_visuals_allowed: true
+  non_ui_art_final_quality_from_first_production: true

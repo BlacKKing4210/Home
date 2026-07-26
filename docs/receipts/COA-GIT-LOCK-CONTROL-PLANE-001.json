@@ -1,0 +1,27 @@
+{
+  "request_id": "REQ-COA-GIT-LOCK-AUDIT-20260726",
+  "status": "READY",
+  "execution_level": "L3",
+  "route_owner": "pm_control_plane",
+  "task_action": "continue_role_conversation",
+  "state_sink": "formal_source_and_structured_decision_receipt",
+  "task_fingerprint": null,
+  "selected_candidate": null,
+  "duplicate_task_ids": [],
+  "conflicting_task_ids": [],
+  "rag": {
+    "status": "READY",
+    "index_signature": "47cb307149578242fc1c43206cfd20dba366f596165310c90973de54f8eb14c0",
+    "citation_count": 10,
+    "gate_receipt": "tmp/rag/receipts/rag-gate.json",
+    "task_receipt": "tmp/rag/receipts/tasks/REQ-COA-GIT-LOCK-AUDIT-20260726.json",
+    "errors": []
+  },
+  "required_actions": [
+    "send_structured_decision_receipt_to_control_plane"
+  ],
+  "notes": [
+    "The producer-authorized action is an atomic control-plane synchronization and stale-lock release, not a new feature implementation.",
+    "Figma remains blocked and runtime_authority remains false."
+  ]
+}

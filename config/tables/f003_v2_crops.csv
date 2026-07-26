@@ -1,0 +1,4 @@
+id,seed_item_id,harvest_item_id,grow_seconds,plant_cost,harvest_yield,unlock_level,asset_id
+golden_sprig,golden_sprig,golden_sprig,8,1,3,1,plot_wheat_ready_v1
+root_carrot,root_carrot,root_carrot,25,1,3,1,plot_carrot_ready_v1
+cloud_bean,cloud_bean,cloud_bean,60,1,4,2,plot_clover_ready_v1

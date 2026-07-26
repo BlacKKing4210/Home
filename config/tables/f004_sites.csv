@@ -1,0 +1,7 @@
+id,district_id,site_type,world_x,world_y,footprint_w,footprint_h,asset_id,content_id,initial_state,prerequisite_rule,build_coin_cost,build_items,build_seconds,sort_order,name_locale_key,description_locale_key
+district_board,maker_row,board,1020,1060,1,1,building_grainworks_v1,district_board,built,always,0,,0,1,site_district_board,site_district_board_desc
+orchard,harvest_gardens,source,250,900,2,2,orchard_apple_v1,amber_orchard,locked,goal:harvest_orientation,60,timber_board:1,12,2,site_orchard,site_orchard_desc
+pig_shelter,meadow_hollows,animal_pen,1640,1030,2,2,pen_pig_v1,pig,locked,goal:meadow_orientation,75,smooth_stone:1,18,3,site_pig_shelter,site_pig_shelter_desc
+rabbit_meadow,meadow_hollows,animal_pen,1190,1010,2,2,building_chicken_coop_v2,rabbit,locked,goal:meadow_orientation,70,timber_board:1,16,4,site_rabbit_meadow,site_rabbit_meadow_desc
+textile,maker_row,machine,1500,1230,2,2,building_textile_v1,textile,locked,goal:workshop_orientation&site:pig_shelter:built&site:rabbit_meadow:built,140,timber_board:1;smooth_stone:1,26,5,site_textile,site_textile_desc
+juice_press,maker_row,machine,300,1110,2,2,building_juice_press_v1,juice_press,locked,goal:workshop_orientation&site:orchard:built,130,timber_board:1;smooth_stone:1,24,6,site_juice_press,site_juice_press_desc

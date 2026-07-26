@@ -1,0 +1,783 @@
+{
+  "chunk_count": 346,
+  "config_hash": "2d6409cbaba6e932956b990266a8031ec6c6fb94096a47b8cdc0a9df29e83f59",
+  "created_at": "2026-07-25T16:47:26Z",
+  "embedding_provider": "hashing-ngrams-v1",
+  "errors": [],
+  "evaluation": {
+    "golden_queries_hash": "fdee4729b98fcdc849a601e60d340072c384ca361e9e5260caf1b259147f2a12",
+    "mean_recall_at_k": 1.0,
+    "pass_rate": 1.0,
+    "passed": true,
+    "queries": [
+      {
+        "expected_source_ids": [
+          "PROJECT_WORKFLOW"
+        ],
+        "k": 5,
+        "matched_source_ids": [
+          "PROJECT_WORKFLOW"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Where is the authoritative producer-led workflow and its gates defined?",
+        "query_id": "GQ-001",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.33333333,
+        "returned_source_ids": [
+          "PROJECT_AGENTS",
+          "PROJECT_WORKFLOW"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "ACTIVE_SCOPE"
+        ],
+        "k": 5,
+        "matched_source_ids": [
+          "ACTIVE_SCOPE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which source records active priorities task ownership and shared write locks?",
+        "query_id": "GQ-002",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.5,
+        "returned_source_ids": [
+          "PROJECT_AGENTS",
+          "ACTIVE_SCOPE",
+          "PROJECT_WORKFLOW"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "PROJECT_PROFILE"
+        ],
+        "k": 5,
+        "matched_source_ids": [
+          "PROJECT_PROFILE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which file defines project roles engine runtime paths and formal sources?",
+        "query_id": "GQ-003",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "PROJECT_PROFILE",
+          "PROJECT_AGENTS",
+          "PROJECT_WORKFLOW"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_SOURCE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_SOURCE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份功能文档定义动物小镇农场经营地基 V2 以及田格、机器队列和邻里委托？",
+        "query_id": "GQ-004",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "F003_SOURCE",
+          "PRODUCT_REBASE_DECISION"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_ACCEPT_RECEIPT"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_ACCEPT_RECEIPT"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which receipt accepts F003-FARM.2 as the playable prototype baseline?",
+        "query_id": "GQ-005",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "F003_ACCEPT_RECEIPT",
+          "TASK_CONTRACT",
+          "ACTIVE_SCOPE",
+          "F003_VQ_RECEIPT",
+          "PROJECT_AGENTS",
+          "F003_VQ_SYNC_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_RUNTIME_EVIDENCE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_RUNTIME_EVIDENCE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which evidence README records the real 720 x 1280 F003-FARM.2 runtime captures and player interaction routes?",
+        "query_id": "GQ-006",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.25,
+        "returned_source_ids": [
+          "F003_ACCEPT_RECEIPT",
+          "F003_RUNTIME_EVIDENCE",
+          "ACTIVE_SCOPE",
+          "PROJECT_WORKFLOW",
+          "PROJECT_AGENTS"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_DESIGN_RECEIPT"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_DESIGN_RECEIPT"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which receipt says F004-DISTRICT.1 is blocked by the Figma UE attachment and runtime_authority is false?",
+        "query_id": "GQ-007",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "F004_DESIGN_RECEIPT",
+          "TASK_CONTRACT",
+          "ACTIVE_SCOPE",
+          "GIT_LOCK_CONTROL_PLANE_RECEIPT",
+          "PROJECT_AGENTS",
+          "F004_RESIDENT_STRUCTURED_DECISION"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "ACTIVE_SCOPE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "ACTIVE_SCOPE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which live scope source owns F004-DESIGN-LOCK-001 and records its runtime authority?",
+        "query_id": "GQ-008",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.5,
+        "returned_source_ids": [
+          "F004_DESIGN_RECEIPT",
+          "ACTIVE_SCOPE",
+          "TASK_CONTRACT",
+          "PROJECT_WORKFLOW",
+          "PRODUCT_REBASE_DECISION"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_CFG_BUILDINGS"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_CFG_BUILDINGS"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which F003 CSV defines building footprint and world placement columns?",
+        "query_id": "GQ-009",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "F003_CFG_BUILDINGS",
+          "RAG_TOOL",
+          "F003_SOURCE",
+          "F003_ACCEPT_RECEIPT",
+          "F003_CODE_VIEW"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_SOURCE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_RESIDENT_SOURCE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份 F004 新功能设计定义 1x1 最小田格、统一占地目录、四向道路、入口和作业点？",
+        "query_id": "GQ-010",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.33333333,
+        "returned_source_ids": [
+          "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_FINAL_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "PRODUCT_REBASE_DECISION"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "PRODUCT_REBASE_DECISION"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份制作人决策把频繁手动生产改为低频建造邀请派遣并声明动物是会生活和工作的居民？",
+        "query_id": "GQ-011",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_FINAL_RECEIPT",
+          "F004_RESIDENT_STRUCTURED_DECISION",
+          "PD002_READ_ONLY_RECEIPT",
+          "F004_LOCK_RELEASE_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_SOURCE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_RESIDENT_SOURCE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？",
+        "query_id": "GQ-012",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.33333333,
+        "returned_source_ids": [
+          "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_FINAL_RECEIPT",
+          "F004_RESIDENT_STRUCTURED_DECISION"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_VQ_CONTRACT",
+          "F003_VQ_RECEIPT"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_VQ_CONTRACT",
+          "F003_VQ_RECEIPT"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?",
+        "query_id": "GQ-013",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.2,
+        "returned_source_ids": [
+          "ACTIVE_SCOPE",
+          "TASK_CONTRACT",
+          "PROJECT_WORKFLOW",
+          "F003_VQ_CHECKLIST",
+          "F003_VQ_CONTRACT",
+          "F003_VQ_RECEIPT",
+          "F003_VQ_SYNC_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F003_VQ_EVIDENCE"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F003_VQ_EVIDENCE"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份证据记录旧 Godot 故障进程 PID 10912、13:08:04 事件时间以及当前入口未复现？",
+        "query_id": "GQ-014",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "F003_VQ_EVIDENCE",
+          "F003_VQ_RECEIPT",
+          "F003_VQ_CHECKLIST",
+          "F003_VQ_CONTRACT",
+          "F003_SOURCE"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "FEATURE_PROGRESS"
+        ],
+        "k": 5,
+        "matched_source_ids": [
+          "FEATURE_PROGRESS"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "Which source records feature priority completion stage next milestone and blockers?",
+        "query_id": "GQ-015",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.2,
+        "returned_source_ids": [
+          "PROJECT_AGENTS",
+          "PROJECT_WORKFLOW",
+          "FEATURE_PROGRESS"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "PD002_READ_ONLY_RECEIPT"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "PD002_READ_ONLY_RECEIPT"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份只读回执记录“超过一万条记录”的脏工作区以及 PM 工作簿哈希 DBE5D1BD6B3E7CD95CF9DAEFCD9E342F0B79EACEF80E23ED09B521B7D0563959？",
+        "query_id": "GQ-016",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "returned_source_ids": [
+          "PD002_READ_ONLY_RECEIPT",
+          "F004_RESIDENT_FINAL_RECEIPT",
+          "F004_RESIDENT_SOURCE",
+          "CORE_FUNCTIONS",
+          "PRODUCT_REBASE_DECISION",
+          "F004_LOCK_RELEASE_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_UIUX"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_RESIDENT_UIUX"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份 UIUX 文档规定主地图 P0 信息层级、状态气泡预算、禁止临时资源以及 Figma 节点覆盖？",
+        "query_id": "GQ-017",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.16666667,
+        "returned_source_ids": [
+          "F004_RESIDENT_FINAL_RECEIPT",
+          "F004_RESIDENT_SOURCE",
+          "PD002_READ_ONLY_RECEIPT",
+          "F004_RESIDENT_UIUX",
+          "GIT_LOCK_READ_ONLY_RECEIPT"
+        ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_VQ"
+        ],
+        "k": 12,
+        "matched_source_ids": [
+          "F004_RESIDENT_VQ"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS",
+        "query_id": "GQ-018",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.16666667,
+        "returned_source_ids": [
+          "PD002_READ_ONLY_RECEIPT",
+          "F004_LOCK_RELEASE_RECEIPT",
+          "GIT_LOCK_READ_ONLY_RECEIPT",
+          "F004_RESIDENT_VQ",
+          "F004_RESIDENT_SOURCE",
+          "ACTIVE_SCOPE",
+          "TASK_CONTRACT",
+          "F004_RESIDENT_STRUCTURED_DECISION"
+        ]
+      }
+    ],
+    "query_count": 18,
+    "thresholds": {
+      "default_k": 5,
+      "min_mean_recall_at_k": 0.8,
+      "min_pass_rate": 1.0,
+      "require_all_queries": true
+    }
+  },
+  "fresh": true,
+  "golden_queries_hash": "fdee4729b98fcdc849a601e60d340072c384ca361e9e5260caf1b259147f2a12",
+  "index_signature": "34ae788b93f7fa1dfb3b0dc0bcec8e226a40e775f8631d9b25af0bff7ede68cd",
+  "manifest_hash": "9e76612886ec9919cecf907e4d6f2934b9b3247e5ee4d18805da7b0c5c39bb12",
+  "project_root": "D:\\AI\\CityOfAnimals",
+  "reason": null,
+  "reranker": "authority-feature-overlap-v1",
+  "schema_version": 1,
+  "source_count": 51,
+  "sources": [
+    {
+      "authority": "canonical",
+      "path": "AGENTS.md",
+      "sha256": "80d8187733e3cc892136f801078a130ccab0e031bf6e49492b0299690444ed22",
+      "source_id": "PROJECT_AGENTS",
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "path": "docs/WORKFLOW.md",
+      "sha256": "a8085fbf17d027d6025407be915087dda47636f8dfd9bd05fbfb6086a485fbc0",
+      "source_id": "PROJECT_WORKFLOW",
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "path": "docs/project_profile.yaml",
+      "sha256": "cbc5f1c8ccc4b244ed522c9628da0dde64f791974765dce51f24e89dddf70cd3",
+      "source_id": "PROJECT_PROFILE",
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "path": "docs/active_scope.yaml",
+      "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
+      "source_id": "ACTIVE_SCOPE",
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/PM_HANDOFF.md",
+      "sha256": "4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93",
+      "source_id": "PM_HANDOFF",
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/design_index.md",
+      "sha256": "3f9dbb3bb51ca1e8f83a9e2da181196dd39bc6419ba9f1694161b584cb8ed992",
+      "source_id": "DESIGN_INDEX",
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/config_index.md",
+      "sha256": "562982a7fa52a7662127d10ea47df41a5863a2862602a8e6995cee929eb4c3cd",
+      "source_id": "CONFIG_INDEX",
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "path": "PM/feature_progress.xlsx",
+      "sha256": "64c9ddfe7ada9646576f4894299938f2658835968571279e9e717abd0ddece33",
+      "source_id": "FEATURE_PROGRESS",
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "path": "tools/game_project_rag.py",
+      "sha256": "ee57d8cb169cb5cf95bd918ccc94ca2dfd3fdb094149d814e49607bef2a74bc3",
+      "source_id": "RAG_TOOL",
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "path": "docs/task_contract.md",
+      "sha256": "1b926af18e14729aadb0bd9301b3983505bc424b02c546a6ef826267913427dd",
+      "source_id": "TASK_CONTRACT",
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/roadmaps/PRODUCT-PLAN-001-city-of-animals.md",
+      "sha256": "42d12a8ae280e2311b9c62f964b05e392ed1d32269efab42a20073be382f8322",
+      "source_id": "PRODUCT_PLAN",
+      "version": "PRODUCT-PLAN-001"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md",
+      "sha256": "0498cc5a71dc82d786b420c18f0dfe40e1a157938750e5dbfaeb15ed2752b32d",
+      "source_id": "CONTENT_LADDER",
+      "version": "PLAN-001"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/design/CORE-LOOP-001-original-farm-town-core-loop.md",
+      "sha256": "a8bd1d3dcaa8dc1cf6b2288f753acfbe8ae584342669aeba6ad85558cfe693a6",
+      "source_id": "CORE_LOOP",
+      "version": "CORE-LOOP.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md",
+      "sha256": "6bb34a921c35d0fa0cce879a62b22387aa57a17886f0d61a2359188edc97a475",
+      "source_id": "CORE_FUNCTIONS",
+      "version": "CORE-FUNCTIONS.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/features/F-003-farm-town-foundation-v2.md",
+      "sha256": "4f568013f6605d9be4858b3642da23fae9129e838eb93c7d271e213855d250b4",
+      "source_id": "F003_SOURCE",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/design/F003-VQ.1-visual-quality-contract.md",
+      "sha256": "122fee18300a4c95bf8048eac6c7dae3550292127b91a34d174bfb63b90bdbcd",
+      "source_id": "F003_VQ_CONTRACT",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_items.csv",
+      "sha256": "ae3154063f3436984a66eef7c35863a4cf545c33cd09de945defba47dd98fa67",
+      "source_id": "F003_CFG_ITEMS",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_crops.csv",
+      "sha256": "09506ab498986d21d176c6cbea7f8477fd4b487dfc77b48b4f8a98c8cd983c10",
+      "source_id": "F003_CFG_CROPS",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_storage.csv",
+      "sha256": "95f742bf11029eefe8d3bacba293ef39a22156b2cb8313c8ea2821d5abbd4571",
+      "source_id": "F003_CFG_STORAGE",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_recipes.csv",
+      "sha256": "b368ba7b41f5eb7cf08e15b39db239eb17e6b8c660317e7cb0d527fcb031225b",
+      "source_id": "F003_CFG_RECIPES",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_animals.csv",
+      "sha256": "9953d3c7ca914a65bd15840560d9d7242fa7e3b2460931d23c1af2a232b5e841",
+      "source_id": "F003_CFG_ANIMALS",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_buildings.csv",
+      "sha256": "80c9b61b49a56bf8f625c9f298a21773c4f2eb87a13efeaee3ee26f7b3057497",
+      "source_id": "F003_CFG_BUILDINGS",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_requests.csv",
+      "sha256": "c6712cf825d5115c6f875c49f375d7706c894f7391a88f385fbf060f83c37357",
+      "source_id": "F003_CFG_REQUESTS",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_world.csv",
+      "sha256": "d4a09dfb0d39cb2daad23120587b76e0f65256051f0597ee3b8c3a33d42375d9",
+      "source_id": "F003_CFG_WORLD",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "config/tables/f003_v2_locale.csv",
+      "sha256": "9b7632ea44dafb23aba5caad0792a8470177a29433eaa977fdee2a22aacace98",
+      "source_id": "F003_CFG_LOCALE",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F-003-FARM2-ENG-002.md",
+      "sha256": "29634d80238294752954395c3a31bff3ff2d50b985f66ba29906df747dac8254",
+      "source_id": "F003_ACCEPT_RECEIPT",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F003-VQ-001.md",
+      "sha256": "7922a82fc5c3432393ce19a1a31162a42858ec100f51e2b209c6e6906e9ef212",
+      "source_id": "F003_VQ_RECEIPT",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F003-VQ-SYNC-001.md",
+      "sha256": "e1c6247d86d2f0a07ae7fc952df80df248ab873de862a38d74c364f6f88906da",
+      "source_id": "F003_VQ_SYNC_RECEIPT",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F-004-DESIGN-001.md",
+      "sha256": "8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790",
+      "source_id": "F004_DESIGN_RECEIPT",
+      "version": "F004-DISTRICT.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/evidence/F-003-FARM2/README.md",
+      "sha256": "5a1b1693c3fd2f85fb70a34189b7b0f1020a9072c953788d4209d534466250e5",
+      "source_id": "F003_RUNTIME_EVIDENCE",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/evidence/F003-VQ.1/README.md",
+      "sha256": "9f951c449d6d4e91f2229977697cc39a8157a060c145a29747f4aa07c651f6f4",
+      "source_id": "F003_VQ_EVIDENCE",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/evidence/F003-VQ.1/runtime-parity-checklist.md",
+      "sha256": "78f1f50c79c20201fb919eb951ead21312abdf659627edd544b8f23724172208",
+      "source_id": "F003_VQ_CHECKLIST",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "assets/runtime/f003_farm2/runtime-manifest.json",
+      "sha256": "c16b3ce0985a1379a5ed928e54308664f5283adc3f7d7f633316106b7370ac86",
+      "source_id": "F003_RUNTIME_MANIFEST",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "supporting",
+      "path": "scripts/town/farm2_model.gd",
+      "sha256": "0f802a368c4f758a36ab071f434616c447726f3262dc53c262e9fc902729b486",
+      "source_id": "F003_CODE_MODEL",
+      "version": "F003-FARM.2"
+    },
+    {
+      "authority": "supporting",
+      "path": "scripts/town/farm2_view.gd",
+      "sha256": "f354c43996923b343e99548f86c000be779f6fc2b6cf4eaf83a9cfd06d81b0f6",
+      "source_id": "F003_CODE_VIEW",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "scripts/town/farm2_feedback_layer.gd",
+      "sha256": "d2660a6be846263ab7c9be31c65f8ec248606cd236e05ab2ca14763b18c26815",
+      "source_id": "F003_CODE_FEEDBACK",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "tests/test_farm2_scene.gd",
+      "sha256": "d6aee7aadfd7617a89e83788f8adae8572df6880350ee5e59354fb1e00c9fe28",
+      "source_id": "F003_TEST_SCENE",
+      "version": "F003-VQ.1"
+    },
+    {
+      "authority": "canonical",
+      "path": "docs/decisions/PD-002-animal-resident-town-rebaseline.md",
+      "sha256": "f27b1a6d5e5675c384928859a54832b736fe334f8185721fbcd21d2d3a171e3c",
+      "source_id": "PRODUCT_REBASE_DECISION",
+      "version": "PRODUCT-REBASELINE.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/PD-002-READ-ONLY.md",
+      "sha256": "f7d84031f58123e75e38bdd28ef5ec58787945fff6fde4ab282b4a44d321d9c7",
+      "source_id": "PD002_READ_ONLY_RECEIPT",
+      "version": "PRODUCT-REBASELINE.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "sha256": "3115e1fce3bdae6c8d1e9b2e44b8ab716f41298a2d18541a84cdbb688f63c737",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/uiux/F004-RESIDENT.1-ui-priority.md",
+      "sha256": "9b3e08cb86c204ede367ac399d8f8b619724996b0975926b0ba1f4c242a421ab",
+      "source_id": "F004_RESIDENT_UIUX",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/design/F004-RESIDENT.1-visual-quality-contract.md",
+      "sha256": "baccbf15c0a5b94d23fb62b4479670702a3248518660dfee4bcdbee32afb99b7",
+      "source_id": "F004_RESIDENT_VQ",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "output/figma/F004-RESIDENT.1/README.md",
+      "sha256": "b1bf7973b5bc48109d965cbd50584a0b767c4ef76cd21a6edd7b2469a8c0d403",
+      "source_id": "F004_RESIDENT_FIGMA_REGISTER",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "supporting",
+      "path": "docs/tasks/F004-RESIDENT.1-design-rebaseline.md",
+      "sha256": "1a0f42dcec1dd1ead485d7a5ea958fa44e53ba12c7b39c5bffa747457e9a3312",
+      "source_id": "F004_RESIDENT_TASK",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-DESIGN-001.md",
+      "sha256": "8eed6089a4695d8e1be3a9221707bf5a1eb87a474c7bc0068640a57a86ed5498",
+      "source_id": "F004_RESIDENT_FINAL_RECEIPT",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "generated",
+      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.docx",
+      "sha256": "ebace7363fbe9fbcd4c559c893a40a37ba1655ab85f5eca1cf881bcb4eb5ef33",
+      "source_id": "F004_RESIDENT_DOCX",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "generated",
+      "path": "output/documents/F004-RESIDENT.1/CityOfAnimals_F004_Resident_Town_Spatial_Autonomy_V0.9_REVIEW.pdf",
+      "sha256": "d1d1da21d64af9c2bb1a86038a58ca5c3045c24207262d4781de8f2f19022438",
+      "source_id": "F004_RESIDENT_PDF",
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/COA-GIT-LOCK-READ-ONLY-001.md",
+      "sha256": "466425ace923e005b0fb2402f4f2a0dc82aea54bac384cfc8ece78888f6d2675",
+      "source_id": "GIT_LOCK_READ_ONLY_RECEIPT",
+      "version": "GIT-LOCK.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/COA-GIT-LOCK-CONTROL-PLANE-001.json",
+      "sha256": "3f8fa5894ef7608ccc291b1dbd5d67016d596886ce65cc0a6362bc4c6024c68a",
+      "source_id": "GIT_LOCK_CONTROL_PLANE_RECEIPT",
+      "version": "GIT-LOCK.1"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md",
+      "sha256": "89a099601d486a829657a1425cb8a13a4ae94f66ea63fafdb45ea7f92d9feb23",
+      "source_id": "F004_LOCK_RELEASE_RECEIPT",
+      "version": "F004-RESIDENT.1"
+    }
+  ],
+  "status": "READY"
+}
