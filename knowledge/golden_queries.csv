@@ -18,3 +18,4 @@ GQ-016,哪份只读回执记录“超过一万条记录”的脏工作区以及 
 GQ-017,哪份 UIUX 文档规定主地图 P0 信息层级、状态气泡预算、禁止临时资源以及 Figma 节点覆盖？,F004_RESIDENT_UIUX,F-004,1.0,8
 GQ-018,COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS,F004_RESIDENT_VQ,F-004,1.0,12
 GQ-019,哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包已完成待审且 Figma seat View 阻塞并保持 runtime false？,F004_RESIDENT_REBASELINE_RECEIPT,F-004,1.0,8
+GQ-020,哪份制作人回执确认统一1x1占地、世界车辆订单、正式主页面资产、动物居民自主作业和慢节奏住房邀请五项方向，同时保持runtime false？,F004_RESIDENT_REAFFIRMED_DECISION,F-004,1.0,8

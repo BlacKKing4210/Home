@@ -1,11 +1,11 @@
 {
-  "chunk_count": 354,
+  "chunk_count": 359,
   "config_hash": "2d6409cbaba6e932956b990266a8031ec6c6fb94096a47b8cdc0a9df29e83f59",
-  "created_at": "2026-07-26T06:33:43Z",
+  "created_at": "2026-07-26T08:25:25Z",
   "embedding_provider": "hashing-ngrams-v1",
   "errors": [],
   "evaluation": {
-    "golden_queries_hash": "f0209e957f95db70c9c0190085d096455837e1c799f833f6f8c46efe4aa55bec",
+    "golden_queries_hash": "ee2404ecc7bd9b1c7b9780320d280ed062278275cc59e302be6f572a3cabb41a",
     "mean_recall_at_k": 1.0,
     "pass_rate": 1.0,
     "passed": true,
@@ -23,7 +23,7 @@
         "query": "Where is the authoritative producer-led workflow and its gates defined?",
         "query_id": "GQ-001",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.33333333,
+        "reciprocal_rank": 0.25,
         "returned_source_ids": [
           "PROJECT_AGENTS",
           "PROJECT_WORKFLOW"
@@ -129,8 +129,8 @@
         "returned_source_ids": [
           "F003_ACCEPT_RECEIPT",
           "F003_RUNTIME_EVIDENCE",
-          "ACTIVE_SCOPE",
           "PROJECT_WORKFLOW",
+          "ACTIVE_SCOPE",
           "PROJECT_AGENTS"
         ]
       },
@@ -152,7 +152,6 @@
           "F004_DESIGN_RECEIPT",
           "TASK_CONTRACT",
           "ACTIVE_SCOPE",
-          "GIT_LOCK_CONTROL_PLANE_RECEIPT",
           "PROJECT_AGENTS"
         ]
       },
@@ -174,8 +173,8 @@
           "F004_DESIGN_RECEIPT",
           "ACTIVE_SCOPE",
           "PROJECT_WORKFLOW",
-          "TASK_CONTRACT",
-          "PRODUCT_REBASE_DECISION"
+          "PRODUCT_REBASE_DECISION",
+          "TASK_CONTRACT"
         ]
       },
       {
@@ -238,8 +237,8 @@
           "PRODUCT_REBASE_DECISION",
           "F004_RESIDENT_SOURCE",
           "F004_RESIDENT_FINAL_RECEIPT",
-          "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_STRUCTURED_DECISION",
+          "F004_RESIDENT_REBASELINE_RECEIPT",
           "PD002_READ_ONLY_RECEIPT"
         ]
       },
@@ -256,11 +255,11 @@
         "query": "哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？",
         "query_id": "GQ-012",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.25,
+        "reciprocal_rank": 0.33333333,
         "returned_source_ids": [
           "PRODUCT_REBASE_DECISION",
-          "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_FINAL_RECEIPT"
         ]
       },
@@ -279,11 +278,10 @@
         "query": "Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?",
         "query_id": "GQ-013",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.16666667,
+        "reciprocal_rank": 0.2,
         "returned_source_ids": [
-          "ACTIVE_SCOPE",
           "TASK_CONTRACT",
-          "PROJECT_WORKFLOW",
+          "ACTIVE_SCOPE",
           "F003_VQ_CHECKLIST",
           "F003_VQ_CONTRACT",
           "F003_VQ_RECEIPT"
@@ -350,12 +348,12 @@
         "reciprocal_rank": 1.0,
         "returned_source_ids": [
           "PD002_READ_ONLY_RECEIPT",
-          "F004_RESIDENT_FINAL_RECEIPT",
           "F004_RESIDENT_SOURCE",
-          "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_FINAL_RECEIPT",
           "F004_RESIDENT_REBASELINE_RECEIPT",
           "F004_RESIDENT_CONTINUE_READONLY",
-          "CORE_FUNCTIONS"
+          "CORE_FUNCTIONS",
+          "F004_RESIDENT_REAFFIRM_READONLY"
         ]
       },
       {
@@ -393,14 +391,14 @@
         "query": "COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS",
         "query_id": "GQ-018",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.16666667,
+        "reciprocal_rank": 0.2,
         "returned_source_ids": [
           "PD002_READ_ONLY_RECEIPT",
           "F004_LOCK_RELEASE_RECEIPT",
-          "F004_RESIDENT_SOURCE",
           "F004_RESIDENT_VQ",
+          "F004_RESIDENT_SOURCE",
           "GIT_LOCK_READ_ONLY_RECEIPT",
-          "F004_RESIDENT_CONTINUE_READONLY",
+          "TASK_CONTRACT",
           "F004_RESIDENT_DOCX",
           "ACTIVE_SCOPE"
         ]
@@ -418,16 +416,37 @@
         "query": "哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包已完成待审且 Figma seat View 阻塞并保持 runtime false？",
         "query_id": "GQ-019",
         "recall_at_k": 1.0,
-        "reciprocal_rank": 0.33333333,
+        "reciprocal_rank": 0.25,
         "returned_source_ids": [
           "F004_RESIDENT_SOURCE",
           "F004_RESIDENT_REBASELINE_RECEIPT",
           "GIT_LOCK_READ_ONLY_RECEIPT",
           "F004_LOCK_RELEASE_RECEIPT"
         ]
+      },
+      {
+        "expected_source_ids": [
+          "F004_RESIDENT_REAFFIRMED_DECISION"
+        ],
+        "k": 8,
+        "matched_source_ids": [
+          "F004_RESIDENT_REAFFIRMED_DECISION"
+        ],
+        "min_recall_at_k": 1.0,
+        "passed": true,
+        "query": "哪份制作人回执确认统一1x1占地、世界车辆订单、正式主页面资产、动物居民自主作业和慢节奏住房邀请五项方向，同时保持runtime false？",
+        "query_id": "GQ-020",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.2,
+        "returned_source_ids": [
+          "PRODUCT_REBASE_DECISION",
+          "F004_RESIDENT_SOURCE",
+          "F004_RESIDENT_REAFFIRMED_DECISION",
+          "F004_RESIDENT_FINAL_RECEIPT"
+        ]
       }
     ],
-    "query_count": 19,
+    "query_count": 20,
     "thresholds": {
       "default_k": 5,
       "min_mean_recall_at_k": 0.8,
@@ -436,14 +455,14 @@
     }
   },
   "fresh": true,
-  "golden_queries_hash": "f0209e957f95db70c9c0190085d096455837e1c799f833f6f8c46efe4aa55bec",
-  "index_signature": "835285268b25ba121fe304c390dc30a8815c734f4ab2180c116ec428530991f0",
-  "manifest_hash": "151b7a0cc39a466c17c183bd928664dd737fdc32d1fa8579faa7446c792079db",
+  "golden_queries_hash": "ee2404ecc7bd9b1c7b9780320d280ed062278275cc59e302be6f572a3cabb41a",
+  "index_signature": "e41b62315e0cba60e11e14a7c67f328a26061dbe8f7478ef02732110b29562aa",
+  "manifest_hash": "fe3caf71ad179d0112ea7ae195f3e929a259e4cc7fe2951d22abbbe1fa8c397a",
   "project_root": "D:\\AI\\CityOfAnimals",
   "reason": null,
   "reranker": "authority-feature-overlap-v1",
   "schema_version": 1,
-  "source_count": 53,
+  "source_count": 55,
   "sources": [
     {
       "authority": "canonical",
@@ -469,14 +488,14 @@
     {
       "authority": "canonical",
       "path": "docs/active_scope.yaml",
-      "sha256": "4a97ef384371a227128c6a7a5752e6333a447efb0adb893b4f8074349776af0d",
+      "sha256": "8e01546d40ab14d487fe5f6fd19fd1ae24284ec5aed4f4543b423e177295d1b9",
       "source_id": "ACTIVE_SCOPE",
       "version": "v1"
     },
     {
       "authority": "approved",
       "path": "docs/PM_HANDOFF.md",
-      "sha256": "8697fad73bf998ff5b6186f6f77c41245a00882de3a76fefbcc2bd4e0bc9e64d",
+      "sha256": "0a934e22abc73b97b09d55dbf32bf9a7fdc3ac63a5134e0255e4b88c9d1517f8",
       "source_id": "PM_HANDOFF",
       "version": "v1"
     },
@@ -511,7 +530,7 @@
     {
       "authority": "canonical",
       "path": "docs/task_contract.md",
-      "sha256": "349e1fb386f2358b979efd3a53b725e409eef1f66933cf72020dd90deb4a495e",
+      "sha256": "770e9020108e0878fde16660ebbf1bc71dc20560eb4dda6f15d209f647258ca0",
       "source_id": "TASK_CONTRACT",
       "version": "v1"
     },
@@ -721,7 +740,7 @@
     {
       "authority": "approved",
       "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
-      "sha256": "c94599ace261771233ba6e39bea6d1a4f4a60ddeb601e5feb72ef9797cc27341",
+      "sha256": "3110de889fa248e758bf7ede50c55150fd7b135ea7ef60a12d890c2a285a8073",
       "source_id": "F004_RESIDENT_SOURCE",
       "version": "F004-RESIDENT.1-V1.0"
     },
@@ -779,6 +798,20 @@
       "path": "docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md",
       "sha256": "90cecdd85f5808e1c5a870d9330dbe8ade080c85a3d1f2febed02174a1570b77",
       "source_id": "F004_RESIDENT_REBASELINE_RECEIPT",
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-READ-ONLY-003.md",
+      "sha256": "f3def0dec2290f85c2a75bed07e39ffb2e6c431c9fabb75116f175e83c20ad9b",
+      "source_id": "F004_RESIDENT_REAFFIRM_READONLY",
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "path": "docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt",
+      "sha256": "33e142f5a5824fdd3bfafebc00ccceba072ddfc18c94332db60a6abbdaf0b64c",
+      "source_id": "F004_RESIDENT_REAFFIRMED_DECISION",
       "version": "F004-RESIDENT.1-V1.0"
     },
     {

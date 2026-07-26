@@ -51,10 +51,14 @@ active_modules:
       - docs/design/F004-RESIDENT.1-visual-quality-contract.md
       - docs/receipts/F004-RESIDENT-DESIGN-001.md
       - docs/receipts/F004-RESIDENT-CONTINUE-READ-ONLY-002.md
+      - docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-READ-ONLY-003.md
+      - docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt
       - docs/features/F-003-farm-town-foundation-v2.md
       - docs/features/F-004-farm-district-industry-i.md
     authorization: docs/receipts/PD-002-READ-ONLY.md
     current_receipt: docs/receipts/F004-RESIDENT-DESIGN-REBASELINE-002.md
+    producer_direction_state: APPROVED_REAFFIRMED_20260726
+    producer_direction_receipt: docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt
     editable_design_register: output/figma/F004-RESIDENT.1/README.md
     blocker: "BLOCKED: Figma UE attachment"
     runtime_authority: false

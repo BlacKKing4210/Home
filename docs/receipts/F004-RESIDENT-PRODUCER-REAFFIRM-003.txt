@@ -1,0 +1,10 @@
+feature_id: F-004 / F004-RESIDENT.1
+decision_state: APPROVED_PRODUCT_DIRECTION / DESIGN_DETAILS_REVIEW_PENDING / FIGMA_BLOCKED / NOT_RUNTIME
+approved_rule: 田地、道路和建筑统一使用以1x1田地为最小单位的整数占地；订单由世界车辆到达、等待、装载、完成和离场表达；主页面道路、田地和需重做建筑使用原创正式资产并先通过UIUX、可编辑Figma与视觉质量流程；动物作为居民承担全部建筑实际操作并沿道路通勤；住房、邀请、入住、生活、工作和长期规划组成慢节奏小镇体验。
+superseded_rule: 旧方向的频繁逐次生产点击、裸订单功能卡、临时主页面资源、按现有贴图反推占地以及把动物当按钮或加成的表达继续保持REVISE_REQUIRED / SUPERSEDED / NOT_RUNTIME。
+formal_source_target: docs/features/F-004-resident-town-spatial-autonomy.md; docs/decisions/PD-002-animal-resident-town-rebaseline.md; docs/active_scope.yaml; docs/task_contract.md; docs/PM_HANDOFF.md
+affected_domains: product; game-design; spatial-grid; building-footprints; road-network; resident-ai; housing-invitation; job-scheduling; vehicle-orders; ui-ux; visual-quality; asset-production; configuration; save-recovery; qa
+affected_files: docs/features/F-004-resident-town-spatial-autonomy.md; docs/active_scope.yaml; docs/task_contract.md; docs/PM_HANDOFF.md; knowledge/knowledge_manifest.csv; knowledge/golden_queries.csv
+execution_readiness: READY_FOR_DESIGN_REVIEW_CONTINUATION_ONLY; exact footprint catalog, editable Figma/FigJam, configuration schemas and representative runtime slice remain unapproved; runtime_authority=false
+unresolved_producer_decisions: approve exact V1.0 footprint catalog and recommended defaults after editable Figma/FigJam review; restore edit-capable Figma write-readback
+reusable_method_candidate: none

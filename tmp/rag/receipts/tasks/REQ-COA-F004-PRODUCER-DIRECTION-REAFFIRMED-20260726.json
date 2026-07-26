@@ -1,0 +1,189 @@
+{
+  "citation_count": 10,
+  "citations": [
+    {
+      "authority": "approved",
+      "chunk_id": "1b784f3fdd37379e1ff0beae",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 5,
+      "locator": "lines 1-9",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.11425042,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 6,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "b16d5e2895bc9eb22a8090d6",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 4,
+      "locator": "lines 1-10",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt",
+      "score": 0.11318803,
+      "sha256": "33e142f5a5824fdd3bfafebc00ccceba072ddfc18c94332db60a6abbdaf0b64c",
+      "source_id": "F004_RESIDENT_REAFFIRMED_DECISION",
+      "vector_rank": 8,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "faafba75bda74de2e5a957c3",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "pm",
+      "lexical_rank": 8,
+      "locator": "lines 8-10",
+      "owner": "producer",
+      "path": "docs/receipts/F004-RESIDENT-DECISION-STRUCTURED.txt",
+      "score": 0.10975945,
+      "sha256": "6dd28cda4d02cf39d6da078435a65ce87412c8a3cde49edf3dbd607738b7cf2b",
+      "source_id": "F004_RESIDENT_STRUCTURED_DECISION",
+      "vector_rank": 4,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "4815292651da00127d693b6e",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 6,
+      "locator": "lines 1-16",
+      "owner": "producer",
+      "path": "docs/task_contract.md",
+      "score": 0.10753613,
+      "sha256": "770e9020108e0878fde16660ebbf1bc71dc20560eb4dda6f15d209f647258ca0",
+      "source_id": "TASK_CONTRACT",
+      "vector_rank": 5,
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "f431aa217b5861c15fd32776",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 13,
+      "locator": "lines 15-21",
+      "owner": "producer",
+      "path": "docs/task_contract.md",
+      "score": 0.09891292,
+      "sha256": "770e9020108e0878fde16660ebbf1bc71dc20560eb4dda6f15d209f647258ca0",
+      "source_id": "TASK_CONTRACT",
+      "vector_rank": 20,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "1e0e83e72acb8ea8d1496643",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 1,
+      "locator": "lines 1-23",
+      "owner": "producer",
+      "path": "docs/PM_HANDOFF.md",
+      "score": 0.09492974,
+      "sha256": "0a934e22abc73b97b09d55dbf32bf9a7fdc3ac63a5134e0255e4b88c9d1517f8",
+      "source_id": "PM_HANDOFF",
+      "vector_rank": 1,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "8470d8938ebf61a2b1c1c7ae",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "config",
+      "lexical_rank": 2,
+      "locator": "lines 1-8",
+      "owner": "design_owner",
+      "path": "docs/config_index.md",
+      "score": 0.09328776,
+      "sha256": "562982a7fa52a7662127d10ea47df41a5863a2862602a8e6995cee929eb4c3cd",
+      "source_id": "CONFIG_INDEX",
+      "vector_rank": 3,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "85c115ecc0d3e24a46e0d050",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 3,
+      "locator": "sheet Nine Dimensions, chars 5410-7004",
+      "owner": "producer",
+      "path": "PM/feature_progress.xlsx",
+      "score": 0.09328776,
+      "sha256": "591643b6c6ff0bdc17ce700ad49a0331203d8b725252009aaabe58e2275eeef4",
+      "source_id": "FEATURE_PROGRESS",
+      "vector_rank": 2,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "71f936c662fc82e05f108c71",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "design",
+      "lexical_rank": 10,
+      "locator": "lines 453-500",
+      "owner": "design_owner",
+      "path": "docs/features/F-004-resident-town-spatial-autonomy.md",
+      "score": 0.09285714,
+      "sha256": "3110de889fa248e758bf7ede50c55150fd7b135ea7ef60a12d890c2a285a8073",
+      "source_id": "F004_RESIDENT_SOURCE",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1-V1.0"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "c62b081ef9233a451d4a4386",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 11,
+      "locator": "lines 62-86",
+      "owner": "producer",
+      "path": "docs/receipts/F-004-DESIGN-001.md",
+      "score": 0.09094165,
+      "sha256": "8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790",
+      "source_id": "F004_DESIGN_RECEIPT",
+      "vector_rank": null,
+      "version": "F004-DISTRICT.1"
+    }
+  ],
+  "context_pack": "tmp/rag/context/REQ-COA-F004-PRODUCER-DIRECTION-REAFFIRMED-20260726.md",
+  "context_pack_sha256": "5eed1f339e67494d5ebac0ae7d4d31fbae6837382f59f00164b712338e5139cb",
+  "created_at": "2026-07-26T08:25:44Z",
+  "feature_ids": [
+    "F-004"
+  ],
+  "gate_receipt": "tmp/rag/receipts/rag-gate.json",
+  "gate_receipt_sha256": "7861a70305fc1523b0d134821149cf06f5837cdd6505784dd4cdcaf1fa76779f",
+  "index_signature": "e41b62315e0cba60e11e14a7c67f328a26061dbe8f7478ef02732110b29562aa",
+  "project_root": "D:\\AI\\CityOfAnimals",
+  "query": "F004-RESIDENT.1 producer reaffirms unified 1x1 footprint grid regenerated buildings world vehicle orders final generated roads fields editable Figma UIUX animal residents walking working housing invitation slow simulation no runtime implementation before design approval",
+  "request_id": "REQ-COA-F004-PRODUCER-DIRECTION-REAFFIRMED-20260726",
+  "schema_version": 1,
+  "status": "READY"
+}
