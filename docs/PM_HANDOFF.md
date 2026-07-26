@@ -36,7 +36,7 @@ No shared file or runtime lock is active. `F004-DESIGN-LOCK-001` was released th
 
 ## Git State
 
-The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The local repository began with no commits and no remote; a guarded initial commit may be created only after generated caches, temporary dependency junctions, sensitive data and large files are excluded and RAG is rebuilt. Git connectivity is independent from feature acceptance.
+The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The guarded project baseline was committed as `5128e5a5bd27b2e61bf3f9c3137f2f36c92a1ca5` and pushed to `origin/main`; the post-push remote hash matched the local hash. The baseline contains 305 project files (34.54 MB), while dependency junctions, task scratch data outside auditable RAG receipts, Godot imports/translations, Python caches and workstation GPU caches remain ignored. Git connectivity and source synchronization do not change F004 design or runtime acceptance.
 
 ## Takeover State
 

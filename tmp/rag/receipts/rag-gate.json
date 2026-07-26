@@ -1,7 +1,7 @@
 {
   "chunk_count": 346,
   "config_hash": "2d6409cbaba6e932956b990266a8031ec6c6fb94096a47b8cdc0a9df29e83f59",
-  "created_at": "2026-07-25T16:47:26Z",
+  "created_at": "2026-07-26T05:37:27Z",
   "embedding_provider": "hashing-ngrams-v1",
   "errors": [],
   "evaluation": {
@@ -413,7 +413,7 @@
   },
   "fresh": true,
   "golden_queries_hash": "fdee4729b98fcdc849a601e60d340072c384ca361e9e5260caf1b259147f2a12",
-  "index_signature": "34ae788b93f7fa1dfb3b0dc0bcec8e226a40e775f8631d9b25af0bff7ede68cd",
+  "index_signature": "c204223feda828b1ce0d6fcf643a6002439d0f26d91a8c080875984005ab2f2d",
   "manifest_hash": "9e76612886ec9919cecf907e4d6f2934b9b3247e5ee4d18805da7b0c5c39bb12",
   "project_root": "D:\\AI\\CityOfAnimals",
   "reason": null,
@@ -452,7 +452,7 @@
     {
       "authority": "approved",
       "path": "docs/PM_HANDOFF.md",
-      "sha256": "4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93",
+      "sha256": "87203df37e27e97185ea019638e0b217e5981d99692f474a36137ddfc2377dcf",
       "source_id": "PM_HANDOFF",
       "version": "v1"
     },
@@ -774,7 +774,7 @@
     {
       "authority": "approved",
       "path": "docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md",
-      "sha256": "89a099601d486a829657a1425cb8a13a4ae94f66ea63fafdb45ea7f92d9feb23",
+      "sha256": "ca5a0703ab06f4be323a275faa6cb7a964491dddc7b3f9e3f9b631c6a06d577e",
       "source_id": "F004_LOCK_RELEASE_RECEIPT",
       "version": "F004-RESIDENT.1"
     }

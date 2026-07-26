@@ -2,21 +2,38 @@
   "citation_count": 10,
   "citations": [
     {
-      "authority": "canonical",
-      "chunk_id": "77e721de6c864e051010ff3b",
+      "authority": "approved",
+      "chunk_id": "fc6bcc85ac66f8cb7196ef5d",
       "feature_ids": [
-        "GLOBAL"
+        "F-004"
       ],
-      "kind": "pm",
-      "lexical_rank": 4,
-      "locator": "lines 1-45",
+      "kind": "qa",
+      "lexical_rank": 9,
+      "locator": "lines 1-35",
       "owner": "producer",
-      "path": "docs/active_scope.yaml",
-      "score": 0.13800403,
-      "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
-      "source_id": "ACTIVE_SCOPE",
-      "vector_rank": 2,
-      "version": "v1"
+      "path": "docs/receipts/F-004-DESIGN-001.md",
+      "score": 0.10867024,
+      "sha256": "8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790",
+      "source_id": "F004_DESIGN_RECEIPT",
+      "vector_rank": 24,
+      "version": "F004-DISTRICT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "917db644869102d03efd74f4",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 18,
+      "locator": "lines 32-67",
+      "owner": "producer",
+      "path": "docs/receipts/F-004-DESIGN-001.md",
+      "score": 0.10865498,
+      "sha256": "8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790",
+      "source_id": "F004_DESIGN_RECEIPT",
+      "vector_rank": 7,
+      "version": "F004-DISTRICT.1"
     },
     {
       "authority": "canonical",
@@ -25,31 +42,14 @@
         "GLOBAL"
       ],
       "kind": "pm",
-      "lexical_rank": 7,
+      "lexical_rank": 5,
       "locator": "lines 90-127",
       "owner": "producer",
       "path": "docs/active_scope.yaml",
-      "score": 0.13155999,
+      "score": 0.10580309,
       "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
       "source_id": "ACTIVE_SCOPE",
-      "vector_rank": 5,
-      "version": "v1"
-    },
-    {
-      "authority": "canonical",
-      "chunk_id": "9050941b4530656c10f99483",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "pm",
-      "lexical_rank": 11,
-      "locator": "lines 39-70",
-      "owner": "producer",
-      "path": "docs/active_scope.yaml",
-      "score": 0.13087022,
-      "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
-      "source_id": "ACTIVE_SCOPE",
-      "vector_rank": 10,
+      "vector_rank": 3,
       "version": "v1"
     },
     {
@@ -59,99 +59,14 @@
         "GLOBAL"
       ],
       "kind": "pm",
-      "lexical_rank": 20,
+      "lexical_rank": 11,
       "locator": "lines 1-17",
       "owner": "producer",
       "path": "docs/task_contract.md",
-      "score": 0.12890152,
+      "score": 0.10537821,
       "sha256": "1b926af18e14729aadb0bd9301b3983505bc424b02c546a6ef826267913427dd",
       "source_id": "TASK_CONTRACT",
-      "vector_rank": 6,
-      "version": "v1"
-    },
-    {
-      "authority": "canonical",
-      "chunk_id": "a5e46afa2266e3ab2aa48592",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "workflow",
-      "lexical_rank": 14,
-      "locator": "lines 1-31",
-      "owner": "producer",
-      "path": "docs/WORKFLOW.md",
-      "score": 0.12775053,
-      "sha256": "a8085fbf17d027d6025407be915087dda47636f8dfd9bd05fbfb6086a485fbc0",
-      "source_id": "PROJECT_WORKFLOW",
-      "vector_rank": 17,
-      "version": "v1"
-    },
-    {
-      "authority": "approved",
-      "chunk_id": "57c4706aa1709ce4fc64f980",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "pm",
-      "lexical_rank": 2,
-      "locator": "lines 27-39",
-      "owner": "producer",
-      "path": "docs/PM_HANDOFF.md",
-      "score": 0.11825205,
-      "sha256": "4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93",
-      "source_id": "PM_HANDOFF",
-      "vector_rank": 3,
-      "version": "v1"
-    },
-    {
-      "authority": "approved",
-      "chunk_id": "35a83f3154da170ed6f5fb6f",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "pm",
-      "lexical_rank": 3,
-      "locator": "lines 1-27",
-      "owner": "producer",
-      "path": "docs/PM_HANDOFF.md",
-      "score": 0.11774802,
-      "sha256": "4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93",
-      "source_id": "PM_HANDOFF",
-      "vector_rank": 4,
-      "version": "v1"
-    },
-    {
-      "authority": "approved",
-      "chunk_id": "45be0ccd37784b76a3076e99",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "pm",
-      "lexical_rank": 1,
-      "locator": "lines 35-43",
-      "owner": "producer",
-      "path": "docs/PM_HANDOFF.md",
-      "score": 0.11653689,
-      "sha256": "4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93",
-      "source_id": "PM_HANDOFF",
-      "vector_rank": 1,
-      "version": "v1"
-    },
-    {
-      "authority": "canonical",
-      "chunk_id": "f5f28f0a47ec615fa3491e65",
-      "feature_ids": [
-        "GLOBAL"
-      ],
-      "kind": "workflow",
-      "lexical_rank": 6,
-      "locator": "lines 1-10",
-      "owner": "producer",
-      "path": "AGENTS.md",
-      "score": 0.11515152,
-      "sha256": "80d8187733e3cc892136f801078a130ccab0e031bf6e49492b0299690444ed22",
-      "source_id": "PROJECT_AGENTS",
-      "vector_rank": null,
+      "vector_rank": 5,
       "version": "v1"
     },
     {
@@ -161,29 +76,114 @@
         "GLOBAL"
       ],
       "kind": "workflow",
-      "lexical_rank": null,
+      "lexical_rank": 12,
       "locator": "lines 1-52",
       "owner": "producer",
       "path": "docs/project_profile.yaml",
-      "score": 0.11470588,
+      "score": 0.10405934,
       "sha256": "cbc5f1c8ccc4b244ed522c9628da0dde64f791974765dce51f24e89dddf70cd3",
       "source_id": "PROJECT_PROFILE",
+      "vector_rank": 4,
+      "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "77e721de6c864e051010ff3b",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "pm",
+      "lexical_rank": 16,
+      "locator": "lines 1-45",
+      "owner": "producer",
+      "path": "docs/active_scope.yaml",
+      "score": 0.10377287,
+      "sha256": "c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af",
+      "source_id": "ACTIVE_SCOPE",
       "vector_rank": 8,
       "version": "v1"
+    },
+    {
+      "authority": "canonical",
+      "chunk_id": "a5e46afa2266e3ab2aa48592",
+      "feature_ids": [
+        "GLOBAL"
+      ],
+      "kind": "workflow",
+      "lexical_rank": 17,
+      "locator": "lines 1-31",
+      "owner": "producer",
+      "path": "docs/WORKFLOW.md",
+      "score": 0.10005772,
+      "sha256": "a8085fbf17d027d6025407be915087dda47636f8dfd9bd05fbfb6086a485fbc0",
+      "source_id": "PROJECT_WORKFLOW",
+      "vector_rank": 12,
+      "version": "v1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "6cdf6bc4e48f89f154dc39fe",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 7,
+      "locator": "lines 1-43",
+      "owner": "producer",
+      "path": "docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md",
+      "score": 0.09992537,
+      "sha256": "ca5a0703ab06f4be323a275faa6cb7a964491dddc7b3f9e3f9b631c6a06d577e",
+      "source_id": "F004_LOCK_RELEASE_RECEIPT",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "ef9969bbacf1e817288e5144",
+      "feature_ids": [
+        "F-004"
+      ],
+      "kind": "qa",
+      "lexical_rank": 4,
+      "locator": "lines 34-61",
+      "owner": "producer",
+      "path": "docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md",
+      "score": 0.09926136,
+      "sha256": "ca5a0703ab06f4be323a275faa6cb7a964491dddc7b3f9e3f9b631c6a06d577e",
+      "source_id": "F004_LOCK_RELEASE_RECEIPT",
+      "vector_rank": null,
+      "version": "F004-RESIDENT.1"
+    },
+    {
+      "authority": "approved",
+      "chunk_id": "9c2a9e9296acb45c646dd8fb",
+      "feature_ids": [
+        "F-004",
+        "GLOBAL"
+      ],
+      "kind": "qa",
+      "lexical_rank": 8,
+      "locator": "lines 1-30",
+      "owner": "producer",
+      "path": "docs/receipts/COA-GIT-LOCK-READ-ONLY-001.md",
+      "score": 0.09834225,
+      "sha256": "466425ace923e005b0fb2402f4f2a0dc82aea54bac384cfc8ece78888f6d2675",
+      "source_id": "GIT_LOCK_READ_ONLY_RECEIPT",
+      "vector_rank": null,
+      "version": "GIT-LOCK.1"
     }
   ],
   "context_pack": "tmp/rag/context/REQ-COA-GIT-LOCK-AUDIT-20260726.md",
-  "context_pack_sha256": "46d8100678af7b91133ac1ac1fbacf9c2ac730f021371ae5deea4aa204e604a3",
-  "created_at": "2026-07-25T16:47:46Z",
+  "context_pack_sha256": "ca038a18506454e5236ca6a95555028d66df362d05811304b2605176294d66a8",
+  "created_at": "2026-07-26T05:44:36Z",
   "feature_ids": [
-    "GLOBAL",
     "F-004"
   ],
   "gate_receipt": "tmp/rag/receipts/rag-gate.json",
-  "gate_receipt_sha256": "89b4e9612694dd06b6230385a3476ef43d46a9e42ed74b2dc4165e83f1487ea6",
-  "index_signature": "34ae788b93f7fa1dfb3b0dc0bcec8e226a40e775f8631d9b25af0bff7ede68cd",
+  "gate_receipt_sha256": "27799bbe1aebf8f470796c80fbecc24d9c57d9c1f3e303bcb7a23ead992a78a8",
+  "index_signature": "c204223feda828b1ce0d6fcf643a6002439d0f26d91a8c080875984005ab2f2d",
   "project_root": "D:\\AI\\CityOfAnimals",
-  "query": "CityOfAnimals current GitHub remote setup initial commit safety F004-RESIDENT.1 active scope old design lock release receipt Figma blocker runtime authority progress matrix",
+  "query": "CityOfAnimals GitHub origin main baseline commit verified stale F004 design lock released no active shared locks Figma blocked runtime unauthorized final handoff",
   "request_id": "REQ-COA-GIT-LOCK-AUDIT-20260726",
   "schema_version": 1,
   "status": "READY"

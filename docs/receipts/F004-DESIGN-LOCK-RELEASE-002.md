@@ -40,6 +40,17 @@
 
 `RELEASED: F004-DESIGN-LOCK-001`
 
+## Git 基线同步
+
+- 远端：`git@github.com:BlacKKing4210/Home.git`
+- 分支：`main`，跟踪 `origin/main`
+- 首个基线提交：`5128e5a5bd27b2e61bf3f9c3137f2f36c92a1ca5`
+- 推送：`PASS`
+- 推送后只读校验：本地与远端 `refs/heads/main` 哈希一致
+- 提交边界：305 个文件、34.54 MB；未包含 `node_modules` junction、非审计 `tmp`、`.godot`、`.import`、`.translation`、`*.pyc`、本机 Vulkan 管线缓存或常见凭据模式
+- 二进制完整性：115 个 PNG/PDF/DOCX/XLSX 等文件的 Git 暂存 blob 与工作区字节哈希一致
+- 工程检查：Godot `4.6.2` 无界面导入与 `tests/test_town_model.gd` 回归均为退出码 `0`
+
 该结果只解除失效的文件协调锁，不代表：
 
 - `DESIGN_REBASELINE_APPROVED`

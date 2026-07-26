@@ -1,13 +1,216 @@
 # RAG Context Pack: REQ-COA-GIT-LOCK-AUDIT-20260726
 
-- Query: CityOfAnimals current GitHub remote setup initial commit safety F004-RESIDENT.1 active scope old design lock release receipt Figma blocker runtime authority progress matrix
-- Feature IDs: GLOBAL, F-004
-- Index signature: `34ae788b93f7fa1dfb3b0dc0bcec8e226a40e775f8631d9b25af0bff7ede68cd`
-- Generated: 2026-07-25T16:47:46Z
+- Query: CityOfAnimals GitHub origin main baseline commit verified stale F004 design lock released no active shared locks Figma blocked runtime unauthorized final handoff
+- Feature IDs: F-004
+- Index signature: `c204223feda828b1ce0d6fcf643a6002439d0f26d91a8c080875984005ab2f2d`
+- Generated: 2026-07-26T05:44:36Z
 
 Use these excerpts as grounded project evidence. Resolve conflicts through formal source authority; do not treat this pack as a new approval.
 
-## 1. ACTIVE_SCOPE — docs/active_scope.yaml
+## 1. F004_DESIGN_RECEIPT — docs/receipts/F-004-DESIGN-001.md
+
+Citation: `F004_DESIGN_RECEIPT:lines 1-35` | authority `approved` | version `F004-DISTRICT.1` | SHA-256 `8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790` | chunk `fc6bcc85ac66f8cb7196ef5d`
+
+# F-004 Formal Design Authorization
+
+**Receipt:** F-004-DESIGN-001  
+**State:** ACTIVE / CONFIG+DOCUMENT VALIDATED / FIGMA BLOCKED / FORMAL DESIGN ONLY  
+**Date:** 2026-07-24  
+**Producer and design owner:** Codex `/root`  
+**Feature:** F-004 / F004-DISTRICT.1  
+**Task fingerprint:** `D59A3CA5733E743B7316DE5F86D604BB592E6FD7C84EC5A45BD883C897CDDF25`
+
+## Read-only preflight result
+
+- Control-plane result: `READY / L3`.
+- Route owner: `design_owner`.
+- Duplicate tasks: none.
+- Conflicting tasks or shared locks: none.
+- Dependency: F003-FARM.2 is `ACCEPTED FOR PROTOTYPE` and its lock is released.
+- L3 means a cross-domain milestone review is required. It does not authorize creating an agent, sub-agent, Codex task, thread or worktree.
+- The unique producer remains Codex `/root`; the current agent directly owns this design package.
+
+## Formal inputs
+
+- `docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md`
+- `docs/roadmaps/PRODUCT-PLAN-001-city-of-animals.md`
+- `docs/design/CORE-LOOP-001-original-farm-town-core-loop.md`
+- `docs/design/CORE-FUNCTIONS-001-original-farm-town-design.md`
+- `docs/research/2026-07-farm-town-market-architecture.md`
+- `docs/features/F-003-farm-town-foundation-v2.md`
+- `docs/receipts/F-003-FARM2-ENG-002.md`
+
+## Authorized outcome
+
+Create an implementation-ready general feature package for an original, commercially safe “Farm District Board and Industry I” slice:
+
+1. preserve the accepted 1800 x 1700 FARM.2 world and organize its existing land into readable agriculture, animal and workshop districts;
+2. define a world-first District Board and fixed
+
+## 2. F004_DESIGN_RECEIPT — docs/receipts/F-004-DESIGN-001.md
+
+Citation: `F004_DESIGN_RECEIPT:lines 32-67` | authority `approved` | version `F004-DISTRICT.1` | SHA-256 `8a9912c63b9383390f0f5cfdadc63af76cd9bccb580cae1b0588bab33f98e790` | chunk `917db644869102d03efd74f4`
+
+ly safe “Farm District Board and Industry I” slice:
+
+1. preserve the accepted 1800 x 1700 FARM.2 world and organize its existing land into readable agriculture, animal and workshop districts;
+2. define a world-first District Board and fixed construction sites without implementing free land expansion;
+3. activate a first connected extension of existing agriculture, animal and workshop content;
+4. make at least one shared material visibly compete between two valid uses;
+5. define exact original configuration tables, player-visible states, UI/UE, localization, persistence boundaries and QA;
+6. deliver editable Figma/FigJam artifacts plus reviewed DOCX and PDF.
+
+## Authorized write set
+
+- `docs/features/F-004-farm-district-industry-i.md`
+- `config/tables/f004_districts.csv`
+- `config/tables/f004_sites.csv`
+- `config/tables/f004_items.csv`
+- `config/tables/f004_sources.csv`
+- `config/tables/f004_animals.csv`
+- `config/tables/f004_recipes.csv`
+- `config/tables/f004_requests.csv`
+- `config/tables/f004_locale.csv`
+- `docs/receipts/F-004-DESIGN-001.md`
+- `docs/active_scope.yaml`
+- `docs/task_contract.md`
+- `docs/project_profile.yaml`
+- `docs/design_index.md`
+- `docs/config_index.md`
+- `docs/PM_HANDOFF.md`
+- `PM/feature_progress.xlsx`
+- `output/documents/F004-DISTRICT.1/`
+
+The editable Figma artifact is an external design source registered by file key, URL, page and node references in the feature document.
+
+## Explicit exclusions
+
+- No Godot scene, script, test, `project.godot`, save data or runtime-asset write.
+- No F-005 rail freight, F-006 town services, F-007 air cargo or F-008
+
+## 3. ACTIVE_SCOPE — docs/active_scope.yaml
+
+Citation: `ACTIVE_SCOPE:lines 90-127` | authority `canonical` | version `v1` | SHA-256 `c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af` | chunk `20e35ed03d3ff1f209b1fee2`
+
+dependency: F-009 acceptance plus a separate product decision, functional/configuration source, receipt, and write authorization
+
+completed_modules:
+  - feature_id: F-003
+    name: Animal Town Farm Foundation V2
+    version: F003-FARM.2
+    state: ACCEPTED_FOR_PROTOTYPE
+    formal_source: docs/features/F-003-farm-town-foundation-v2.md
+    evidence: docs/receipts/F-003-FARM2-ENG-002.md
+    player_visible_evidence: docs/evidence/F-003-FARM2/README.md
+  - feature_id: F-003-HIST
+    name: Herd and Local Orders
+    version: F003-FARM.1
+    state: SUPERSEDED_ARCHIVED
+    evidence: docs/receipts/F-003-FARM1-LOCK-RELEASE-001.md
+  - feature_id: F-002
+    name: Farmboard Visual Language
+    state: ACCEPTED_FOR_PROTOTYPE
+    evidence: docs/receipts/F-002-ENG-002.md
+  - feature_id: F-001
+    name: Market Meadow P0
+    state: ACCEPTED_FOR_PROTOTYPE
+    evidence: docs/receipts/F-001-ENG-003.md
+
+shared_locks: []
+
+released_locks:
+  - lock_id: F004-DESIGN-LOCK-001
+    owner: Codex /root
+    task_id: F-004-DESIGN-001
+    released_on: "2026-07-26"
+    release_receipt: docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md
+    reason: F004-DISTRICT.1 was superseded by the approved PD-002 product rebaseline; formal sources and progress state were synchronized to F004-RESIDENT.1.
+    preserves:
+      - docs/features/F-004-farm-district-industry-i.md
+      - config/tables/f004_*.csv
+      - output/documents/F004-DISTRICT.1/
+    preserved_status: HISTORICAL_MIGRATION_INPUT_NOT_RUNTIME
+
+## 4. TASK_CONTRACT — docs/task_contract.md
+
+Citation: `TASK_CONTRACT:lines 1-17` | authority `canonical` | version `v1` | SHA-256 `1b926af18e14729aadb0bd9301b3983505bc424b02c546a6ef826267913427dd` | chunk `c1e744b62d610f3b69a36b6e`
+
+# Current Execution Task Contract
+
+F-004 has been formally rebaselined from `F004-DISTRICT.1` to `F004-RESIDENT.1`. The current task is design review and editable-design handoff only. Figma remains blocked and runtime implementation remains unauthorized.
+
+- Task ID: `F-004-RESIDENT-DESIGN-001`.
+- Version: `F004-RESIDENT.1`.
+- Feature name: `Animal Resident Town Spatial & Autonomy Foundation`.
+- Producer/design owner: Codex `/root`.
+- Product decision: [PD-002 Animal Resident Town Rebaseline](decisions/PD-002-animal-resident-town-rebaseline.md).
+- Design authorization: [PD-002 Read-only Receipt](receipts/PD-002-READ-ONLY.md).
+- Current design receipt: [F004-RESIDENT-DESIGN-001](receipts/F004-RESIDENT-DESIGN-001.md).
+- Formal output target: [F-004 Resident Town Spatial and Autonomy](features/F-004-resident-town-spatial-autonomy.md).
+- Required handoff: approved `1x1` grid and footprint catalog, editable Figma/FigJam UE and state layouts, reviewed general-template DOCX/PDF, visual quality contract and milestone review.
+- Current evidence: product rebaseline, spatial rules, resident/job state machine, vehicle-order UE, UI priority, visual contract and 37-page DOCX/PDF review package exist.
+- Current blocker: `BLOCKED: Figma UE attachment`; local Mermaid sources, static figures and documents do not close this gate.
+- Runtime exclusion: do not edit Godot scenes, scripts, tests, save data, `project.godot`, runtime assets or create new F004 configuration tables under this task.
+- Engineering gate: user design review and verified editable Figma/FigJam write-readback must pass
+
+## 5. PROJECT_PROFILE — docs/project_profile.yaml
+
+Citation: `PROJECT_PROFILE:lines 1-52` | authority `canonical` | version `v1` | SHA-256 `cbc5f1c8ccc4b244ed522c9628da0dde64f791974765dce51f24e89dddf70cd3` | chunk `2ced5fb4d4591013251b1f45`
+
+schema_version: 1
+project:
+  name: "CityOfAnimals"
+  root: 'D:\AI\CityOfAnimals'
+  engine: "Godot"
+  stage: prototype
+
+formal_sources:
+  workflow: docs/WORKFLOW.md
+  handoff: docs/PM_HANDOFF.md
+  active_scope: docs/active_scope.yaml
+  feature_progress: PM/feature_progress.xlsx
+  design_index: docs/design_index.md
+  config_index: docs/config_index.md
+
+runtime:
+  project_path: 'D:\AI\CityOfAnimals'
+  candidate_paths:
+    - assets/candidate/f003_farm2
+  formal_asset_paths:
+    - assets/runtime/f003_farm2
+  task_temporary_root: tmp
+
+presentation:
+  default_platform: mobile
+  orientation: portrait
+  design_resolution: [720, 1280]
+  responsive_scaling_required: true
+  verification_resolution: [720, 1280]
+
+localization:
+  default_locale: zh-CN
+  selectable_locales: [zh-CN, en]
+  settings_path: "Settings > Language"
+  persistence_required: true
+  runtime_text_rule: "Use locale keys and locale tables for all player-visible text."
+
+roles:
+  producer: Codex /root
+  design_owner: Codex /root (F-004 formal-design owner)
+  engineering_owner: Codex /root (F-003 FARM.2 acceptance owner)
+  art_owner: Codex /root (F-003 FARM.2 runtime-asset owner)
+  pm_execution_operator: Codex /root
+
+rules:
+  one_active_producer: true
+  execution_requires_read_only_receipt: true
+  execution_requires_owner_write_authorization: true
+  one_writer_per_shared_file: true
+  existing_final_assets_have_priority: true
+  ui_temporary_visuals_allowed: true
+  non_ui_art_final_quality_from_first_production: true
+
+## 6. ACTIVE_SCOPE — docs/active_scope.yaml
 
 Citation: `ACTIVE_SCOPE:lines 1-45` | authority `canonical` | version `v1` | SHA-256 `c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af` | chunk `77e721de6c864e051010ff3b`
 
@@ -57,109 +260,7 @@ active_modules:
     design_owner: Codex /root
     primary_skill:
 
-## 2. ACTIVE_SCOPE — docs/active_scope.yaml
-
-Citation: `ACTIVE_SCOPE:lines 90-127` | authority `canonical` | version `v1` | SHA-256 `c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af` | chunk `20e35ed03d3ff1f209b1fee2`
-
-dependency: F-009 acceptance plus a separate product decision, functional/configuration source, receipt, and write authorization
-
-completed_modules:
-  - feature_id: F-003
-    name: Animal Town Farm Foundation V2
-    version: F003-FARM.2
-    state: ACCEPTED_FOR_PROTOTYPE
-    formal_source: docs/features/F-003-farm-town-foundation-v2.md
-    evidence: docs/receipts/F-003-FARM2-ENG-002.md
-    player_visible_evidence: docs/evidence/F-003-FARM2/README.md
-  - feature_id: F-003-HIST
-    name: Herd and Local Orders
-    version: F003-FARM.1
-    state: SUPERSEDED_ARCHIVED
-    evidence: docs/receipts/F-003-FARM1-LOCK-RELEASE-001.md
-  - feature_id: F-002
-    name: Farmboard Visual Language
-    state: ACCEPTED_FOR_PROTOTYPE
-    evidence: docs/receipts/F-002-ENG-002.md
-  - feature_id: F-001
-    name: Market Meadow P0
-    state: ACCEPTED_FOR_PROTOTYPE
-    evidence: docs/receipts/F-001-ENG-003.md
-
-shared_locks: []
-
-released_locks:
-  - lock_id: F004-DESIGN-LOCK-001
-    owner: Codex /root
-    task_id: F-004-DESIGN-001
-    released_on: "2026-07-26"
-    release_receipt: docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md
-    reason: F004-DISTRICT.1 was superseded by the approved PD-002 product rebaseline; formal sources and progress state were synchronized to F004-RESIDENT.1.
-    preserves:
-      - docs/features/F-004-farm-district-industry-i.md
-      - config/tables/f004_*.csv
-      - output/documents/F004-DISTRICT.1/
-    preserved_status: HISTORICAL_MIGRATION_INPUT_NOT_RUNTIME
-
-## 3. ACTIVE_SCOPE — docs/active_scope.yaml
-
-Citation: `ACTIVE_SCOPE:lines 39-70` | authority `canonical` | version `v1` | SHA-256 `c6fcc501f72122452bfb8f834ab9893b5ede7b7f5f0faa33e46d587be5ca95af` | chunk `9050941b4530656c10f99483`
-
-ial and Autonomy Foundation
-    version: F004-RESIDENT.1
-    phase: DESIGN_REBASELINE_REVIEW
-    state: DESIGN_REBASELINE_REVIEW_FIGMA_BLOCKED_NOT_RUNTIME_AUTHORIZED
-    producer: Codex /root
-    design_owner: Codex /root
-    primary_skill: game-feature-design-docs + ui-design-priority + game-visual-quality-pipeline
-    task_fingerprint: BA4466ABDA82579862EA7476FF39D1A8B96ACB30A009EDCC85616914805E4897
-    formal_inputs:
-      - docs/decisions/PD-002-animal-resident-town-rebaseline.md
-      - docs/features/F-004-resident-town-spatial-autonomy.md
-      - docs/uiux/F004-RESIDENT.1-ui-priority.md
-      - docs/design/F004-RESIDENT.1-visual-quality-contract.md
-      - docs/receipts/F004-RESIDENT-DESIGN-001.md
-      - docs/features/F-003-farm-town-foundation-v2.md
-      - docs/features/F-004-farm-district-industry-i.md
-    authorization: docs/receipts/PD-002-READ-ONLY.md
-    current_receipt: docs/receipts/F004-RESIDENT-DESIGN-001.md
-    editable_design_register: output/figma/F004-RESIDENT.1/README.md
-    blocker: "BLOCKED: Figma UE attachment"
-    runtime_authority: false
-queued_modules:
-  - feature_id: F-005
-    name: Rail Freight Yard
-    state: ROADMAP_ONLY
-    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
-    dependency: F004-RESIDENT.1 representative runtime slice approval plus a dedicated functional/configuration source, receipt, and write authorization
-  - feature_id: F-006
-    name: Town Trade Quarter and Industry II
-    state: ROADMAP_ONLY
-    producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
-    dependency:
-
-## 4. TASK_CONTRACT — docs/task_contract.md
-
-Citation: `TASK_CONTRACT:lines 1-17` | authority `canonical` | version `v1` | SHA-256 `1b926af18e14729aadb0bd9301b3983505bc424b02c546a6ef826267913427dd` | chunk `c1e744b62d610f3b69a36b6e`
-
-# Current Execution Task Contract
-
-F-004 has been formally rebaselined from `F004-DISTRICT.1` to `F004-RESIDENT.1`. The current task is design review and editable-design handoff only. Figma remains blocked and runtime implementation remains unauthorized.
-
-- Task ID: `F-004-RESIDENT-DESIGN-001`.
-- Version: `F004-RESIDENT.1`.
-- Feature name: `Animal Resident Town Spatial & Autonomy Foundation`.
-- Producer/design owner: Codex `/root`.
-- Product decision: [PD-002 Animal Resident Town Rebaseline](decisions/PD-002-animal-resident-town-rebaseline.md).
-- Design authorization: [PD-002 Read-only Receipt](receipts/PD-002-READ-ONLY.md).
-- Current design receipt: [F004-RESIDENT-DESIGN-001](receipts/F004-RESIDENT-DESIGN-001.md).
-- Formal output target: [F-004 Resident Town Spatial and Autonomy](features/F-004-resident-town-spatial-autonomy.md).
-- Required handoff: approved `1x1` grid and footprint catalog, editable Figma/FigJam UE and state layouts, reviewed general-template DOCX/PDF, visual quality contract and milestone review.
-- Current evidence: product rebaseline, spatial rules, resident/job state machine, vehicle-order UE, UI priority, visual contract and 37-page DOCX/PDF review package exist.
-- Current blocker: `BLOCKED: Figma UE attachment`; local Mermaid sources, static figures and documents do not close this gate.
-- Runtime exclusion: do not edit Godot scenes, scripts, tests, save data, `project.godot`, runtime assets or create new F004 configuration tables under this task.
-- Engineering gate: user design review and verified editable Figma/FigJam write-readback must pass
-
-## 5. PROJECT_WORKFLOW — docs/WORKFLOW.md
+## 7. PROJECT_WORKFLOW — docs/WORKFLOW.md
 
 Citation: `PROJECT_WORKFLOW:lines 1-31` | authority `canonical` | version `v1` | SHA-256 `a8085fbf17d027d6025407be915087dda47636f8dfd9bd05fbfb6086a485fbc0` | chunk `a5e46afa2266e3ab2aa48592`
 
@@ -195,96 +296,104 @@ The task first submits a read-only receipt. The owner independently reviews it a
 - Missing assets may use explicit development placeholders.
 - UI may use temporary visuals; non-UI art targets final quality from first production.
 
-## 6. PM_HANDOFF — docs/PM_HANDOFF.md
+## 8. F004_LOCK_RELEASE_RECEIPT — docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md
 
-Citation: `PM_HANDOFF:lines 27-39` | authority `approved` | version `v1` | SHA-256 `4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93` | chunk `57c4706aa1709ce4fc64f980`
+Citation: `F004_LOCK_RELEASE_RECEIPT:lines 1-43` | authority `approved` | version `F004-RESIDENT.1` | SHA-256 `ca5a0703ab06f4be323a275faa6cb7a964491dddc7b3f9e3f9b631c6a06d577e` | chunk `6cdf6bc4e48f89f154dc39fe`
 
-eipts/F004-DESIGN-LOCK-RELEASE-002.md` after the old direction was superseded and the control-plane sources were synchronized. The old F004 document, eight tables and package remain preserved as historical migration input. Any F-004 runtime change still requires Figma closure, user design approval and a new engineering read-only receipt with an exact non-conflicting write set.
+# F004 旧设计锁释放回执
 
-## Producer Direction
+- 回执 ID：`F004-DESIGN-LOCK-RELEASE-002`
+- 日期：2026-07-26
+- 唯一 accountable producer：Codex `/root`
+- 释放锁：`F004-DESIGN-LOCK-001`
+- 原任务：`F-004-DESIGN-001 / F004-DISTRICT.1`
+- 当前任务：`F-004-RESIDENT-DESIGN-001 / F004-RESIDENT.1`
+- 决策来源：`docs/decisions/PD-002-animal-resident-town-rebaseline.md`
+- 控制面回执：`docs/receipts/COA-GIT-LOCK-CONTROL-PLANE-001.json`
+- 只读回执：`docs/receipts/COA-GIT-LOCK-READ-ONLY-001.md`
 
-`docs/decisions/PD-002-animal-resident-town-rebaseline.md` is the current product-direction authority. The single memory point is: animals are not buttons or bonuses; they are visible residents who walk, live and make the town work. `docs/features/F-004-resident-town-spatial-autonomy.md` is the current F004 functional source. Earlier core-loop, product-plan and market sources remain genre and migration context only where they do not conflict with PD-002. F005 rail freight must now depend on the resident, road, carrying and world-vehicle order foundations rather than the superseded manual production direction.
+## 释放判断
 
-## Blockers
+`F004-DISTRICT.1` 已被正式产品决策标记为：
 
-`BLOCKED: Figma UE attachment` remains material. The target Figma file can be identified, but editable frames/flows have not been created and read back with a valid edit-capable seat. User review of the `1x1` footprint catalog and the recommended resident/offline/order defaults is also pending. These blockers prevent design approval and runtime authorization; they are not file locks and must not be bypassed. F-001, F-002 and F003-FARM.2 remain closed for prototype.
+`REVISE_REQUIRED / SUPERSEDED_BY F004-RESIDENT.1 / MIGRATION_INPUT / NOT_RUNTIME`
 
-## Git State
+旧锁继续占用 `active_scope`、任务契约、索引、PM handoff 和进度工作簿只会造成控制面状态漂移。当前唯一制作人已经完成这些共享来源的原子同步，因此旧锁满足释放条件。
 
-The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The
+## 已完成的同步
 
-## 7. PM_HANDOFF — docs/PM_HANDOFF.md
+- `docs/active_scope.yaml` 已将活动身份切换为 `F004-RESIDENT.1`，`shared_locks` 为空，并登记本释放回执；
+- `docs/task_contract.md` 已切换到居民小镇设计重基线与 Figma 阻塞状态；
+- `docs/PM_HANDOFF.md` 已同步当前产品记忆点、阻塞、Git 状态和下一步；
+- `docs/design_index.md` 已把新 F004 设为当前来源，把 `F004-DISTRICT.1` 降为历史迁移输入；
+- `docs/config_index.md` 已明确新方向的数值表为 `0%` 且尚未授权，旧八表只作历史迁移输入；
+- `PM/feature_progress.xlsx` 的 `Nine Dimensions!A19:U19` 已改为 `F004-RESIDENT.1` 身份，九维完成度全部为 `0%`，不继承旧方向的 `22.22%`；
+- 更新后的工作簿通过公式错误扫描，`#REF!`、`#DIV/0!`、`#VALUE!`、`#NAME?`、`#N/A` 命中为零，并完成样式渲染复核；
+- Git 层面没有 `.git/index.lock`、`.git/config.lock` 或 `.git/HEAD.lock`，也没有相关编辑器写进程。
 
-Citation: `PM_HANDOFF:lines 1-27` | authority `approved` | version `v1` | SHA-256 `4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93` | chunk `35a83f3154da170ed6f5fb6f`
+## 保留与禁止
 
-# Producer Handoff
+- 保留 `docs/features/F-004-farm-district-industry-i.md`、`config/tables/f004_*.csv` 和 `output/documents/F004-DISTRICT.1/`，不删除用户已有成果；
+- 这些历史内容不再拥有运行时权威，不得据此继续手动生产点击、固定功能位或裸订单卡方向；
+- 本次释放没有创建新的共享锁，因为当前处于用户设计审阅和 Figma 阻塞阶段，没有获准的运行时写任务；
+- `BLOCKED: Figma UE attachment`、用户设计审阅和 `runtime_authority=false` 继续有效。
 
-Status: F004-RESIDENT.1 DESIGN REBASELINE REVIEW - FIGMA BLOCKED, RUNTIME NOT AUTHORIZED
+## 结果
 
-## Read Order
+`RELEASED: F004-DESIGN-LOCK-001`
 
-1. `docs/WORKFLOW.md`
-2. `docs/project_profile.yaml`
-3. `docs/active_scope.yaml`
-4. `PM/feature_progress.xlsx`
-5. Latest receipts for active tasks only
+## Git
 
-## Unique Roles
+## 9. F004_LOCK_RELEASE_RECEIPT — docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md
 
-- Producer: `Codex /root`
-- Design owner: `Codex /root (F004-RESIDENT.1 design-rebaseline owner)`
-- Engineering owner: `Codex /root (F-003 FARM.2 acceptance owner)`
-- Art owner: `Codex /root (F-003 FARM.2 runtime-asset owner)`
-- PM execution operator: `Codex /root`
+Citation: `F004_LOCK_RELEASE_RECEIPT:lines 34-61` | authority `approved` | version `F004-RESIDENT.1` | SHA-256 `ca5a0703ab06f4be323a275faa6cb7a964491dddc7b3f9e3f9b631c6a06d577e` | chunk `ef9969bbacf1e817288e5144`
 
-## Current Batch
+RICT.1/`，不删除用户已有成果；
+- 这些历史内容不再拥有运行时权威，不得据此继续手动生产点击、固定功能位或裸订单卡方向；
+- 本次释放没有创建新的共享锁，因为当前处于用户设计审阅和 Figma 阻塞阶段，没有获准的运行时写任务；
+- `BLOCKED: Figma UE attachment`、用户设计审阅和 `runtime_authority=false` 继续有效。
 
-`PD-002` has formally rebaselined F-004 to `F004-RESIDENT.1`: players make low-frequency building, invitation, assignment and planning decisions while visible animal residents walk along roads, work, carry goods and live in the town. The representative loop is one house, one resident, one road segment, one field or workplace and one vehicle order. The design package, UI priority source, visual quality contract and DOCX/PDF review package exist, but the editable Figma/FigJam source is still blocked. No Godot runtime or new F004 configuration write is authorized. F003-FARM.2 remains the accepted playable baseline evidence, not proof of the new direction.
+## 结果
 
-## Shared Locks
+`RELEASED: F004-DESIGN-LOCK-001`
 
-No shared file or runtime lock is active. `F004-DESIGN-LOCK-001` was released through `docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md` after the old direction was superseded and the control-plane sources were synchronized. The old F004 document, eight tables and package remain preserved as historical migration input. Any F-004 runtime
+## Git 基线同步
 
-## 8. PM_HANDOFF — docs/PM_HANDOFF.md
+- 远端：`git@github.com:BlacKKing4210/Home.git`
+- 分支：`main`，跟踪 `origin/main`
+- 首个基线提交：`5128e5a5bd27b2e61bf3f9c3137f2f36c92a1ca5`
+- 推送：`PASS`
+- 推送后只读校验：本地与远端 `refs/heads/main` 哈希一致
+- 提交边界：305 个文件、34.54 MB；未包含 `node_modules` junction、非审计 `tmp`、`.godot`、`.import`、`.translation`、`*.pyc`、本机 Vulkan 管线缓存或常见凭据模式
+- 二进制完整性：115 个 PNG/PDF/DOCX/XLSX 等文件的 Git 暂存 blob 与工作区字节哈希一致
+- 工程检查：Godot `4.6.2` 无界面导入与 `tests/test_town_model.gd` 回归均为退出码 `0`
 
-Citation: `PM_HANDOFF:lines 35-43` | authority `approved` | version `v1` | SHA-256 `4aa9e85f93359a533dbafc1876394fcb463472534223adae19f125ffd67fce93` | chunk `45be0ccd37784b76a3076e99`
+该结果只解除失效的文件协调锁，不代表：
 
-design approval and runtime authorization; they are not file locks and must not be bypassed. F-001, F-002 and F003-FARM.2 remain closed for prototype.
+- `DESIGN_REBASELINE_APPROVED`
+- `VISUAL_CONTRACT_APPROVED`
+- `RUNTIME_SLICE_APPROVED`
+- F004 功能完成
+- 整批工作完成
+- 满足关机条件
 
-## Git State
+## 10. GIT_LOCK_READ_ONLY_RECEIPT — docs/receipts/COA-GIT-LOCK-READ-ONLY-001.md
 
-The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The local repository began with no commits and no remote; a guarded initial commit may be created only after generated caches, temporary dependency junctions, sensitive data and large files are excluded and RAG is rebuilt. Git connectivity is independent from feature acceptance.
+Citation: `GIT_LOCK_READ_ONLY_RECEIPT:lines 1-30` | authority `approved` | version `GIT-LOCK.1` | SHA-256 `466425ace923e005b0fb2402f4f2a0dc82aea54bac384cfc8ece78888f6d2675` | chunk `9c2a9e9296acb45c646dd8fb`
 
-## Takeover State
+# CityOfAnimals Git 与锁状态只读回执
 
-`F004_RESIDENT_DESIGN_REVIEW_FIGMA_BLOCKED`: Codex `/root` remains the sole accountable producer. The stale old-direction lock is released, so coordination is no longer blocked by a file lock. The next product step is still to restore editable Figma/FigJam delivery, review the footprint catalog, and close the design milestone before authorizing one representative Godot runtime slice. F-004 through F-010 remain non-runtime-authorized until their individual gates pass.
+- 回执 ID：`COA-GIT-LOCK-READ-ONLY-001`
+- 请求 ID：`REQ-COA-GIT-LOCK-AUDIT-20260726`
+- 日期：2026-07-26
+- 唯一 accountable producer：Codex `/root`
+- 请求类型：制作人执行请求；Git 远端接入与阻塞锁排查
+- 项目根目录：`D:\AI\CityOfAnimals`
+- RAG Gate：`tmp/rag/receipts/rag-gate.json`
+- 请求上下文回执：`tmp/rag/receipts/tasks/REQ-COA-GIT-LOCK-AUDIT-20260726.json`
 
-## 9. PROJECT_AGENTS — AGENTS.md
+## 只读结论
 
-Citation: `PROJECT_AGENTS:lines 1-10` | authority `canonical` | version `v1` | SHA-256 `80d8187733e3cc892136f801078a130ccab0e031bf6e49492b0299690444ed22` | chunk `f5f28f0a47ec615fa3491e65`
-
-# CityOfAnimals Workspace Rules
-## Current Adaptive Game Workflow
-
-This is the current common game-workflow rule and takes precedence over later generic workflow wording in this file. Preserve every project-specific rule, approved design, engine constraint, and data pipeline as the project adapter.
-
-Use `game-studio-orchestrator` from the personal `game-studio-agent-workflow` plugin as the primary workflow. Load `game-project-control-plane` for intake, state synchronization, task deduplication, write-lock checks, evidence tracking, and adaptive routing. Keep exactly one accountable producer; the control plane is the producer-facing coordination surface, not a second producer.
-
-Classify requests as discussion, producer decision, execution request, status query, or reusable-method candidate. Use the smallest safe level: L0 inline discussion/status, L1 direct low-risk single-domain execution with reproducible checks, L2 bounded work with separate review, L3 only the needed design/engineering/art owner for cross-domain, shared, high-risk, milestone, or concurrent work, and L4 for unresolved material or irreversible choices. If profile, priority, active-scope, ownership, or write-lock sources are absent, return NOT READY instead of inventing state.
-
-Before any production write, confirm the formal source, owner, primary Skill, task fingerprint, non-conflicting write set, baseline, acceptance, evidence, and cleanup conditions; record a read-only receipt. Use the priority matrix when it exists: higher priority, then ascending feature ID, with skip reasons recorded. Close only with
-
-## 10. PROJECT_PROFILE — docs/project_profile.yaml
-
-Citation: `PROJECT_PROFILE:lines 1-52` | authority `canonical` | version `v1` | SHA-256 `cbc5f1c8ccc4b244ed522c9628da0dde64f791974765dce51f24e89dddf70cd3` | chunk `2ced5fb4d4591013251b1f45`
-
-schema_version: 1
-project:
-  name: "CityOfAnimals"
-  root: 'D:\AI\CityOfAnimals'
-  engine: "Godot"
-  stage: prototype
-
-formal_sources:
-  wo
+1. 本地目录已经是 Git 仓库，分支为 `main`，但当前没有首个提交，也没有配置远端。
+2. `git@github.com:BlacKKing4210/H
 [chunk truncated by context budget]
