@@ -134,3 +134,4 @@ F004_RESIDENT2_DOC_READONLY,docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-READ-O
 F004_RESIDENT2_DOCUMENT_RECEIPT,docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-018.md,qa,approved,active,F004-RESIDENT.2-V1.2,producer,F-004,document;docx;pdf;visual-qa;forty-six-pages,2026-07-27,,project,,
 F004_RESIDENT2_DOCX,output/documents/F004-RESIDENT.2/CityOfAnimals_F004_Resident_Dairy_Neighborhood_V1.2_FINAL.docx,design,generated,active,F004-RESIDENT.2-V1.2,design_owner,F-004,docx;formal-template;final;penpot;runtime-evidence,2026-07-27,,project,,
 F004_RESIDENT2_PDF,output/documents/F004-RESIDENT.2/CityOfAnimals_F004_Resident_Dairy_Neighborhood_V1.2_FINAL.pdf,design,generated,active,F004-RESIDENT.2-V1.2,design_owner,F-004,pdf;review-copy;forty-six-pages;visual-qa;final,2026-07-27,,project,,
+F004_RESIDENT2_GIT_CLOSE,docs/receipts/F004-RESIDENT-SCALEOUT-GIT-CLOSE-019.md,qa,approved,active,F004-RESIDENT.2-V1.2,producer,F-004,git;commit;push;close;rag;locks,2026-07-27,,project,,
