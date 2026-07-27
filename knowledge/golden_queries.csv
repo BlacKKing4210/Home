@@ -5,22 +5,30 @@ GQ-003,Which file defines project roles engine runtime paths and formal sources?
 GQ-004,哪份功能文档定义动物小镇农场经营地基 V2 以及田格、机器队列和邻里委托？,F003_SOURCE,F-003,1.0,8
 GQ-005,Which receipt accepts F003-FARM.2 as the playable prototype baseline?,F003_ACCEPT_RECEIPT,F-003,1.0,8
 GQ-006,Which evidence README records the real 720 x 1280 F003-FARM.2 runtime captures and player interaction routes?,F003_RUNTIME_EVIDENCE,F-003,1.0,8
-GQ-007,Which receipt approves F004-RESIDENT.1 as a runtime representative slice while keeping scale-out unauthorized?,F004_RESIDENT_RUNTIME_RECEIPT,F-004,1.0,8
+GQ-007,Which F004-RESIDENT-SLICE-RUNTIME-ACCEPTANCE-010 receipt records F004-RESIDENT.1 RUNTIME_SLICE_APPROVED and SCALE_OUT_APPROVED false?,F004_RESIDENT_RUNTIME_RECEIPT,F-004,1.0,12
 GQ-008,Which live scope source records no active write task no shared lock and F004 RUNTIME_SLICE_APPROVED with scale_out_approved false?,ACTIVE_SCOPE,F-004,1.0,8
 GQ-009,Which F003 CSV defines building footprint and world placement columns?,F003_CFG_BUILDINGS,F-003,1.0,8
 GQ-010,哪份 F004 新功能设计定义 1x1 最小田格、统一占地目录、四向道路、入口和作业点？,F004_RESIDENT_SOURCE,F-004,1.0,8
 GQ-011,哪份制作人决策把频繁手动生产改为低频建造邀请派遣并声明动物是会生活和工作的居民？,PRODUCT_REBASE_DECISION,GLOBAL;F-004,1.0,8
-GQ-012,哪份 F004 新功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？,F004_RESIDENT_SOURCE,F-004,1.0,8
-GQ-013,Which F003 visual contract and approval receipt state RUNTIME_SLICE_APPROVED but SCALE_OUT_APPROVED false?,F003_VQ_CONTRACT;F003_VQ_RECEIPT,F-003,1.0,8
+GQ-012,哪份编号 COA-F004-RESIDENT.1 的 F004 功能设计定义住房邀请入住派遣通勤工作搬运和世界车辆订单闭环？,F004_RESIDENT_SOURCE,F-004,1.0,12
+GQ-013,Which F003-VQ.1 visual quality contract and F003-VQ-001 approval receipt record RUNTIME_SLICE_APPROVED while SCALE_OUT_APPROVED remains false?,F003_VQ_CONTRACT;F003_VQ_RECEIPT,F-003,1.0,12
 GQ-014,哪份证据记录旧 Godot 故障进程 PID 10912、13:08:04 事件时间以及当前入口未复现？,F003_VQ_EVIDENCE,F-003,1.0,8
 GQ-015,Feature Nine-Dimension Progress Matrix Complete feature Priority Current stage Next milestone Blocker dependency,FEATURE_PROGRESS,GLOBAL,1.0,12
 GQ-016,哪份只读回执记录“超过一万条记录”的脏工作区以及 PM 工作簿哈希 DBE5D1BD6B3E7CD95CF9DAEFCD9E342F0B79EACEF80E23ED09B521B7D0563959？,PD002_READ_ONLY_RECEIPT,GLOBAL;F-004,1.0,8
 GQ-017,F004-RESIDENT.1 主页面 UI UX 优先级 单一主要决定 P0 P1 P2 P3 状态气泡预算 Penpot 交付覆盖,F004_RESIDENT_UIUX,F-004,1.0,8
 GQ-018,COA-VQ-F004-RESIDENT-001 GroundBase ResidentsAndVehicles reduced-motion 60 FPS,F004_RESIDENT_VQ,F-004,1.0,12
 GQ-019,哪份回执记录 F004-RESIDENT.1 A-H V1.0 设计包完成待审且当时 Figma seat View 阻塞并保持 runtime false？,F004_RESIDENT_REBASELINE_RECEIPT,F-004,1.0,8
-GQ-020,哪份制作人回执确认统一1x1占地、世界车辆订单、正式主页面资产、动物居民自主作业和慢节奏住房邀请五项方向，同时保持runtime false？,F004_RESIDENT_REAFFIRMED_DECISION,F-004,1.0,8
+GQ-020,哪份 F004-RESIDENT-PRODUCER-REAFFIRM-003 制作人回执确认统一1x1占地、世界车辆订单、正式主页面资产、动物居民自主作业和慢节奏住房邀请五项方向，同时保持runtime false？,F004_RESIDENT_REAFFIRMED_DECISION,F-004,1.0,12
 GQ-021,哪份制作人决策把 CityOfAnimals 的正式可编辑 UI UE 源切换为 Penpot 并声明旧 Figma 阻塞仅保留为历史证据？,PENPOT_SOURCE_DECISION,GLOBAL;F-004,1.0,8
 GQ-022,哪份登记列出 F004 Penpot 的八个屏幕状态画板、四张流程图、云端认证和对象级回读，并把下载错误标为归档限制？,F004_RESIDENT_PENPOT_REGISTER,F-004,1.0,8
 GQ-023,Which F004 runtime manifest records six approved original assets plus the approved project rabbit and approved-only loading rule?,F004_RESIDENT_RUNTIME_MANIFEST,F-004,1.0,8
-GQ-024,哪份运行证据记录真实720x1280画面、主入口点击、订单1/1、金币40到120和连续120帧性能？,F004_RESIDENT_RUNTIME_EVIDENCE,F-004,1.0,8
+GQ-024,哪份 docs evidence F004-RESIDENT.1 README 运行证据记录真实720x1280画面、主入口点击、订单1/1、金币40到120和连续120帧164.69 FPS？,F004_RESIDENT_RUNTIME_EVIDENCE,F-004,1.0,12
 GQ-025,Which F004 configuration source defines the 1x1 field and roads 2x2 house and workshop and 3x2 loading yard?,F004_RESIDENT_CFG_GRID,F-004,1.0,8
+GQ-026,哪份制作人决定批准 F004-RESIDENT.2 乳品邻里与居民日常先于铁路推进，并定义第二住房、熊居民、3x3乳畜牧场和2x2乳品工坊？,F004_RESIDENT_SCALEOUT_DECISION,F-004,1.0,8
+GQ-027,哪份 F004-RESIDENT-SCALEOUT-DESIGN-CLOSE-012 回执记录 PENPOT_SCALEOUT_READBACK_VERIFIED、六个页面、四张流程、保存重开与对象级回读，并且只授权一张完整整套候选板且 runtime_authority=false？,F004_RESIDENT2_DESIGN_CLOSE,F-004,1.0,12
+GQ-028,F004-RESIDENT-SCALEOUT-ASSET-READ-ONLY-013 old bear F3096B32 and old cow 624CA248 NOT_RUNTIME_F004.2 one 4x2 candidate,F004_RESIDENT2_ASSET_READONLY,F-004,1.0,16
+GQ-029,F004-RESIDENT-SCALEOUT-ASSET-APPROVAL-014 ASSET_SET_APPROVED Alpha board 68CFA4EF mobile readability E301B6C2 runtime_authority false,F004_RESIDENT2_ASSET_APPROVAL,F-004,1.0,16
+GQ-030,Which F004.2 receipt records engineering fingerprint 1CB2B50B and replaces the asset lock with F004-RESIDENT-SCALEOUT-ENG-LOCK-004 while preserving F004.1 files?,F004_RESIDENT2_ENG_READONLY,F-004,1.0,16
+GQ-031,哪份 F004-RESIDENT-SCALEOUT-RUNTIME-ACCEPTANCE-016 回执记录 91 项行为断言、11 张真实 720x1280 画面、SCALE_OUT_APPROVED 和 BLOCKER MATERIAL POLISH 全部为零？,F004_RESIDENT2_RUNTIME_ACCEPTANCE,F-004,1.0,16
+GQ-032,哪份 F004-RESIDENT.2 运行证据索引列出非法占地、道路中断、牧场与工坊作业、装卸阻塞、车辆离场、双居民生活和英文减少动态十一种状态？,F004_RESIDENT2_RUNTIME_EVIDENCE,F-004,1.0,16
+GQ-033,哪份正式文档回执记录 F004.2 的 46 页 PDF、726 个段落、37 张表、13 张嵌入图、DOCX PDF 哈希与逐页视觉 QA？,F004_RESIDENT2_DOCUMENT_RECEIPT,F-004,1.0,16

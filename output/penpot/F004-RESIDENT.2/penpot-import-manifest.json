@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "feature_id": "F-004.2",
+  "version": "F004-RESIDENT.2-V0.9",
+  "status": "PENPOT_SCALEOUT_READBACK_VERIFIED_NOT_RUNTIME",
+  "target_canvas": {
+    "width": 720,
+    "height": 1280,
+    "orientation": "portrait",
+    "locale": "zh-CN"
+  },
+  "screen_source": "F004-RESIDENT.2-penpot-screen-source.svg",
+  "flow_source": "F004-RESIDENT.2-penpot-flow-source.svg",
+  "frames": [
+    "12_Expansion_Placement_720x1280",
+    "13_Placement_Invalid_720x1280",
+    "14_Second_Home_Invite_720x1280",
+    "15_Dairy_Assignment_720x1280",
+    "16_Dairy_Work_And_Truck_720x1280",
+    "17_Two_Residents_Leisure_720x1280"
+  ],
+  "flows": [
+    "18_Placement_Validation_Flow",
+    "19_Bear_Dairy_State_Machine",
+    "20_Second_Vehicle_Order_State",
+    "21_Two_Resident_Daily_Rhythm"
+  ],
+  "penpot_cloud": {
+    "url": "https://design.penpot.app/#/workspace?team-id=bd31e32d-d69f-81e2-8008-62c66e2babc2&file-id=bd31e32d-d69f-81e2-8008-62cc67c1eeda&page-id=bd31e32d-d69f-81e2-8008-62cc67c1eedb",
+    "team_id": "bd31e32d-d69f-81e2-8008-62c66e2babc2",
+    "file_id": "bd31e32d-d69f-81e2-8008-62cc67c1eeda",
+    "page_id": "bd31e32d-d69f-81e2-8008-62cc67c1eedb",
+    "file_name": "CityOfAnimals / F004-RESIDENT.1",
+    "readback_status": "VERIFIED_AFTER_SAVE_AND_REOPEN",
+    "screen_root_position": {
+      "x": 2000,
+      "y": -911
+    },
+    "flow_root_position": {
+      "x": 2000,
+      "y": 2100
+    }
+  },
+  "required_readback_objects": [
+    "F004-RESIDENT.2-penpot-screen-source",
+    "F004-RESIDENT.2-penpot-flow-source",
+    "placement-footprint-3x3",
+    "invalid-overlap-cells",
+    "second-house-2x2",
+    "bear-resident",
+    "dairy-pasture",
+    "creamery-2x2",
+    "milk-carried-good",
+    "dairy-order-truck",
+    "two-resident-life-state",
+    "placement-primary-cta",
+    "assignment-primary-cta",
+    "invite-primary-cta"
+  ],
+  "object_refs": {
+    "screen-import-root": "eba48188-d2c7-80cc-8008-639d645b5347",
+    "screen-content-root": "eba48188-d2c7-80cc-8008-639d645ed5ac",
+    "12_Expansion_Placement_720x1280": "eba48188-d2c7-80cc-8008-639d645f1932",
+    "13_Placement_Invalid_720x1280": "eba48188-d2c7-80cc-8008-639d64638855",
+    "14_Second_Home_Invite_720x1280": "eba48188-d2c7-80cc-8008-639d646633e6",
+    "15_Dairy_Assignment_720x1280": "eba48188-d2c7-80cc-8008-639d6468be47",
+    "16_Dairy_Work_And_Truck_720x1280": "eba48188-d2c7-80cc-8008-639d646c1de1",
+    "17_Two_Residents_Leisure_720x1280": "eba48188-d2c7-80cc-8008-639d64703d35",
+    "flow-import-root": "eba48188-d2c7-80cc-8008-639d71e7e824",
+    "flow-content-root": "eba48188-d2c7-80cc-8008-639d71e94cbb",
+    "18_Placement_Validation_Flow": "eba48188-d2c7-80cc-8008-639d71e94cbc",
+    "19_Bear_Dairy_State_Machine": "eba48188-d2c7-80cc-8008-639d71ec8396",
+    "20_Second_Vehicle_Order_State": "eba48188-d2c7-80cc-8008-639d71f02ca7",
+    "21_Two_Resident_Daily_Rhythm": "eba48188-d2c7-80cc-8008-639d71f26860",
+    "placement-footprint-3x3": "eba48188-d2c7-80cc-8008-639d64615aed",
+    "invalid-overlap-cells": "eba48188-d2c7-80cc-8008-639d6464ddf3",
+    "second-house-2x2": "eba48188-d2c7-80cc-8008-639d64670f58",
+    "bear-resident": "eba48188-d2c7-80cc-8008-639d6467b1fa",
+    "dairy-pasture": "eba48188-d2c7-80cc-8008-639d646a2d45",
+    "creamery-2x2": "eba48188-d2c7-80cc-8008-639d646a7da1",
+    "milk-carried-good": "eba48188-d2c7-80cc-8008-639d646ee2ee",
+    "dairy-order-truck": "eba48188-d2c7-80cc-8008-639d646f136b",
+    "two-resident-life-state": "eba48188-d2c7-80cc-8008-639d71f421d2",
+    "placement-primary-cta": "eba48188-d2c7-80cc-8008-639d6463618b",
+    "invite-primary-cta": "eba48188-d2c7-80cc-8008-639d64685251",
+    "assignment-primary-cta": "eba48188-d2c7-80cc-8008-639d646bfa99",
+    "f0042-top-hud-placement": "eba48188-d2c7-80cc-8008-639d645f8928",
+    "placement-context-panel": "eba48188-d2c7-80cc-8008-639d6462f228",
+    "bear-dairy-blocked-state": "eba48188-d2c7-80cc-8008-639d71efb20b",
+    "vehicle-settled-state": "eba48188-d2c7-80cc-8008-639d71f1acb5",
+    "rabbit-life-state": "eba48188-d2c7-80cc-8008-639d6471a75c",
+    "bear-life-state": "eba48188-d2c7-80cc-8008-639d6471c0fc",
+    "life-point-bench": "eba48188-d2c7-80cc-8008-639d6471516e"
+  },
+  "visual_previews": [
+    "previews/F004-RESIDENT.2-screen-board.png",
+    "previews/F004-RESIDENT.2-flow-board.png",
+    "previews/12-expansion-placement-720x1280.png",
+    "previews/13-placement-invalid-720x1280.png",
+    "previews/14-second-home-invite-720x1280.png",
+    "previews/15-dairy-assignment-720x1280.png",
+    "previews/16-dairy-work-truck-720x1280.png",
+    "previews/17-two-residents-leisure-720x1280.png"
+  ],
+  "gate": "PENPOT_SCALEOUT_READBACK_VERIFIED",
+  "runtime_authority": false
+}

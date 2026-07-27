@@ -1,12 +1,12 @@
 schema_version: 1
 scope_id: SCOPE-001
-updated_on: "2026-07-26"
+updated_on: "2026-07-27"
 
 authority:
   producer: Codex /root
-  design_owner: Codex /root (F004-RESIDENT.1 design-rebaseline owner)
-  engineering_owner: Codex /root (F004-RESIDENT.1 representative-slice owner)
-  art_owner: Codex /root (F004-RESIDENT.1 representative-asset-set owner)
+  design_owner: Codex /root (F004-RESIDENT.2 approved baseline reviewer)
+  engineering_owner: Codex /root (F004-RESIDENT.2 representative runtime owner)
+  art_owner: Codex /root (F004-RESIDENT.2 approved asset-set reviewer)
   pm_execution_operator: Codex /root
   default_write_scope: docs/ and PM/ (producer coordination only)
 
@@ -39,7 +39,8 @@ queued_modules:
     name: Rail Freight Yard
     state: ROADMAP_ONLY
     producer_direction: docs/roadmaps/PLAN-001-original-farm-town-content-ladder.md
-    dependency: F004-RESIDENT.1 representative runtime slice approval plus a dedicated functional/configuration source, receipt, and write authorization
+    dependency: dedicated functional/configuration source, request-specific RAG receipt, read-only receipt, and write authorization
+    skip_reason: F004.2 is accepted, but F-005 has no independent approved design source or runtime authority.
   - feature_id: F-006
     name: Town Trade Quarter and Industry II
     state: ROADMAP_ONLY
@@ -67,6 +68,22 @@ queued_modules:
     dependency: F-009 acceptance plus a separate product decision, functional/configuration source, receipt, and write authorization
 
 completed_modules:
+  - feature_id: F-004.2
+    task_id: F-004-RESIDENT-SCALEOUT-002
+    name: Resident Dairy Neighborhood and Daily Life Scale-Out
+    version: F004-RESIDENT.2 V1.2
+    state: RUNTIME_SLICE_APPROVED
+    producer: Codex /root
+    formal_decision: docs/decisions/PD-004-resident-quality-scaleout.md
+    formal_source: docs/features/F-004-resident-dairy-neighborhood-scaleout.md
+    evidence: docs/receipts/F004-RESIDENT-SCALEOUT-RUNTIME-ACCEPTANCE-016.md
+    player_visible_evidence: docs/evidence/F004-RESIDENT.2/README.md
+    asset_evidence: docs/receipts/F004-RESIDENT-SCALEOUT-ASSET-APPROVAL-014.md
+    editable_design: output/penpot/F004-RESIDENT.2/penpot-import-manifest.json
+    highest_gate: SCALE_OUT_APPROVED
+    runtime_complete: true
+    scale_out_approved: true
+    blocker: none
   - feature_id: F-004
     task_id: F-004-RESIDENT-SLICE-001
     name: Animal Resident Town Representative Runtime Slice
@@ -114,6 +131,54 @@ completed_modules:
 shared_locks: []
 
 released_locks:
+  - lock_id: F004-RESIDENT-SCALEOUT-DOC-LOCK-005
+    owner: Codex /root
+    task_id: F-004-RESIDENT-SCALEOUT-DOCUMENT-003
+    released_on: "2026-07-27"
+    release_receipt: docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-018.md
+    reason: The formal DOCX and 46-page PDF were generated, all 46 pages were visually inspected through 12 contact sheets, hashes were recorded, and no document process remained. Final RAG preparation follows the closed source state.
+    preserves:
+      - output/documents/F004-RESIDENT.2/
+      - docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-READ-ONLY-017.md
+      - docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-018.md
+    preserved_status: DOCUMENT_PACKAGE_APPROVED
+  - lock_id: F004-RESIDENT-SCALEOUT-ENG-LOCK-004
+    owner: Codex /root
+    task_id: F-004-RESIDENT-SCALEOUT-002
+    released_on: "2026-07-27"
+    release_receipt: docs/receipts/F004-RESIDENT-SCALEOUT-RUNTIME-ACCEPTANCE-016.md
+    reason: Real 720x1280 runtime, 91 behavior assertions, approved-only asset checks, performance, F004.1/F003/town regression and zero BLOCKER/MATERIAL passed.
+    preserves:
+      - config/tables/f004_resident2_*.csv
+      - scripts/town/f004_resident2_*.gd
+      - scenes/f004_resident2.tscn
+      - scenes/f004_resident1_baseline.tscn
+      - scenes/town_main.tscn
+      - output/runtime/F004-RESIDENT.2/
+      - docs/evidence/F004-RESIDENT.2/
+    preserved_status: RUNTIME_SLICE_APPROVED
+  - lock_id: F004-RESIDENT-SCALEOUT-ASSET-LOCK-003
+    owner: Codex /root
+    task_id: F-004-RESIDENT-SCALEOUT-002
+    released_on: "2026-07-27"
+    release_receipt: docs/receipts/F004-RESIDENT-SCALEOUT-ENG-READ-ONLY-015.md
+    reason: The one 4x2 asset board, eight approved splits, Alpha QA and 96px/64px readability passed; replaced atomically by the engineering lock.
+    preserves:
+      - assets/runtime/f004_resident_slice2/
+      - docs/receipts/F004-RESIDENT-SCALEOUT-ASSET-APPROVAL-014.md
+    preserved_status: ASSET_SET_APPROVED
+  - lock_id: F004-RESIDENT-SCALEOUT-DESIGN-LOCK-002
+    owner: Codex /root
+    task_id: F-004-RESIDENT-SCALEOUT-002
+    released_on: "2026-07-27"
+    release_receipt: docs/receipts/F004-RESIDENT-SCALEOUT-ASSET-READ-ONLY-013.md
+    reason: Design, Penpot readback and visual contract passed; replaced atomically by the narrow asset lock.
+    preserves:
+      - docs/features/F-004-resident-dairy-neighborhood-scaleout.md
+      - docs/uiux/F004-RESIDENT.2-ui-priority.md
+      - docs/design/F004-RESIDENT.2-visual-quality-contract.md
+      - output/penpot/F004-RESIDENT.2/
+    preserved_status: DESIGN_SCALEOUT_BASELINE_APPROVED
   - lock_id: F004-DESIGN-LOCK-001
     owner: Codex /root
     task_id: F-004-DESIGN-001

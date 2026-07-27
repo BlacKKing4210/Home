@@ -1,0 +1,5 @@
+route_id,state,from_x,from_y,to_x,to_y,duration_seconds
+dairy_arrival,arriving,812,700,596,720,1.4
+dairy_waiting,waiting,596,720,596,720,0.1
+dairy_departure,departing,596,720,824,680,2.0
+dairy_settled,settled,824,680,824,680,0.1

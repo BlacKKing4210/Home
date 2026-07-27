@@ -1,6 +1,6 @@
 # Producer Handoff
 
-Status: F004-RESIDENT.1 REPRESENTATIVE RUNTIME SLICE APPROVED - SCALE-OUT NOT AUTHORIZED
+Status: F004-RESIDENT.2 SCALE-OUT AND FORMAL DOCUMENT PACKAGE APPROVED - NO ACTIVE WRITE LOCK
 
 ## Read Order
 
@@ -13,31 +13,31 @@ Status: F004-RESIDENT.1 REPRESENTATIVE RUNTIME SLICE APPROVED - SCALE-OUT NOT AU
 ## Unique Roles
 
 - Producer: `Codex /root`
-- Design owner: `Codex /root (F004-RESIDENT.1 design-rebaseline owner)`
-- Engineering owner: `Codex /root (F004-RESIDENT.1 representative-slice acceptance owner)`
-- Art owner: `Codex /root (F004-RESIDENT.1 representative-asset-set owner)`
+- Design owner: `Codex /root (F004-RESIDENT.2 approved baseline reviewer)`
+- Engineering owner: `Codex /root (F004-RESIDENT.2 representative runtime owner)`
+- Art owner: `Codex /root (F004-RESIDENT.2 approved asset-set reviewer)`
 - PM execution operator: `Codex /root`
 
 ## Current Batch
 
-`PD-002` has formally rebaselined F-004 to `F004-RESIDENT.1`: players make low-frequency building, invitation, assignment and planning decisions while visible animal residents walk along roads, work, carry goods and live in the town. The representative slice is now `RUNTIME_SLICE_APPROVED` in `docs/receipts/F004-RESIDENT-SLICE-RUNTIME-ACCEPTANCE-010.md`: one `2x2` house, one rabbit resident, `1x1` roads and field, a `2x2` granary workshop, a `3x2` loading yard and one world vehicle order run through the native Godot main scene. Seven configuration tables, six new approved original assets plus one project-approved rabbit, interruption/recovery, save recovery, Chinese/English, reduced motion, six real 720×1280 states, real main-entry clicks and performance evidence passed. `PD-003` remains the formal Penpot source; its authenticated file contains eight screen groups, four flow groups, fourteen root/group object IDs and nested-vector readback. Cloud PNG/PDF download remains an accurately recorded non-blocking archival limitation. No production task is active and `SCALE_OUT_APPROVED=false`.
+No active write task. F004-RESIDENT.2 `乳品邻里与居民日常` closed at `RUNTIME_SLICE_APPROVED / SCALE_OUT_APPROVED`, and its formal DOCX/PDF package passed document visual QA. It proves four real footprints, second housing/invitation, bear-resident autonomy, dairy work, second world vehicle delivery and two-resident life with 91 behavior assertions and 11 real 720×1280 captures. F004.1 remains the explicit rollback scene.
 
 ## Shared Locks
 
-No shared file or runtime lock is active. `F004-DESIGN-LOCK-001` was released through `docs/receipts/F004-DESIGN-LOCK-RELEASE-002.md` after the old direction was superseded and the control-plane sources were synchronized. The old F004 document, eight tables and package remain preserved as historical migration input. The design task is now closed; any F-004 runtime change requires a new engineering read-only receipt with an exact non-conflicting write set.
+No shared lock is active. `F004-RESIDENT-SCALEOUT-DOC-LOCK-005` was returned in `docs/receipts/F004-RESIDENT-SCALEOUT-DOCUMENT-018.md`; `F004-RESIDENT-SCALEOUT-ENG-LOCK-004` remains returned.
 
 ## Producer Direction
 
-`docs/decisions/PD-002-animal-resident-town-rebaseline.md` is the current product-direction authority, with the 2026-07-26 reaffirmation recorded in `docs/receipts/F004-RESIDENT-PRODUCER-REAFFIRM-003.txt`. The single memory point is: animals are not buttons or bonuses; they are visible residents who walk, live and make the town work. `docs/features/F-004-resident-town-spatial-autonomy.md` is the current F004 functional source. Earlier core-loop, product-plan and market sources remain genre and migration context only where they do not conflict with PD-002. F005 rail freight must now depend on the resident, road, carrying and world-vehicle order foundations rather than the superseded manual production direction.
+`PD-002` remains the product rebaseline and `PD-004` remains the approved scale-out rule source. The memory point remains: animals are not buttons or bonuses; they are visible residents who walk, live and make the town work. F004.2 does not copy commercial character, map, UI, building or economy designs. F-005 stays `ROADMAP_ONLY` until a dedicated formal source, RAG receipt and write authorization exist.
 
 ## Blockers
 
-There is no blocker for the approved representative slice. The Figma seat diagnosis is historical. Penpot authentication, cloud-file creation, SVG import, reopen and object-level readback are verified; the cloud-download transport error is an archival limitation, not a project lock. Runtime behavior and player-visible evidence now exist, so the slice no longer depends on static design evidence. Remaining work is intentionally unapproved scope: scale-out, F005+, Android/physical-device and release validation.
+No Penpot, asset, runtime, document or product-direction blocker exists. Final RAG and Git synchronization are repository-close operations, not feature blockers. The historical Penpot cloud-download error remains an archival limitation only because authenticated editable object readback passed.
 
 ## Git State
 
-The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The final F004 delivery commit and push are recorded in the completion handoff after refreshed RAG receipts. Dependency junctions, non-auditable task scratch data, Godot imports/translations, Python caches and workstation GPU caches remain ignored. Git connectivity and source synchronization do not replace runtime acceptance.
+The user-designated remote is `git@github.com:BlacKKing4210/Home.git`. The F004.2 content delivery commit is created only after the final indexed-source RAG receipt passes; its hash is recorded by the Git-close receipt and final handoff. Dependency junctions, non-auditable task scratch data, Godot imports/translations, Python caches and workstation GPU caches remain ignored. Git connectivity and source synchronization do not replace runtime acceptance.
 
 ## Takeover State
 
-`F004_RESIDENT_RUNTIME_SLICE_APPROVED_SCALE_OUT_NOT_AUTHORIZED`: Codex `/root` remains the sole accountable producer. There is no active shared/project lock or production write task. Penpot editable-source readback, asset set, native Godot representative loop, 720×1280 evidence and regression are complete. F-005 through F-010 remain non-runtime-authorized until their individual gates pass.
+`F004_RESIDENT_2_SCALE_OUT_APPROVED`: Codex `/root` remains the sole accountable producer. F004.1 is preserved at commit `2fdd69b`; F004.2 independently passed design, Penpot, visual, asset, runtime, performance, regression and formal document gates. F-005 through F-010 remain non-runtime-authorized.

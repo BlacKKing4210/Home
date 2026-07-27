@@ -1,0 +1,3 @@
+schedule_id,work_block_seconds,life_block_seconds,life_point_policy,idle_variants
+rabbit_schedule,0,24,nearest_free,home|bench|short_walk
+bear_schedule,0,30,home_then_nearest_free,home|bench|short_walk

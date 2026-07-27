@@ -1,0 +1,12 @@
+event_id,priority,cooldown_ms,max_concurrency,gain_db,frequency,duration_seconds
+placement_valid,20,100,2,-22,520,0.07
+placement_invalid,70,250,1,-18,170,0.14
+building_placed,50,200,1,-16,430,0.14
+resident_invited,60,300,1,-15,570,0.18
+job_assigned,50,250,1,-17,470,0.12
+feed_complete,35,250,1,-21,360,0.08
+milk_complete,45,250,1,-18,640,0.12
+process_complete,45,250,1,-18,690,0.12
+resident_blocked,80,500,1,-16,185,0.16
+resident_resumed,45,250,1,-19,420,0.10
+order_completed,100,1000,1,-12,790,0.28

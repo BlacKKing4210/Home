@@ -1,0 +1,6 @@
+task_type,input_id,input_count,output_id,output_count,duration_seconds,checkpoint,next_task,workplace_id,carry_asset
+DAIRY_FEED,feed_unit,1,cared_state,1,1.2,feed_complete,DAIRY_MILK,dairy_pasture,feed_sack
+DAIRY_MILK,cared_state,1,milk_can,1,1.6,milk_complete,DAIRY_CARRY_MILK,dairy_pasture,milk_can
+DAIRY_CARRY_MILK,milk_can,1,creamery_input,1,0.1,milk_delivered,CREAMERY_PROCESS,creamery,milk_can
+CREAMERY_PROCESS,creamery_input,1,dairy_crate,1,1.8,process_complete,DAIRY_LOAD_ORDER,creamery,dairy_crate
+DAIRY_LOAD_ORDER,dairy_crate,1,order_loaded,1,1.0,load_complete,,loading_dock,dairy_crate

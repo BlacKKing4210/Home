@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="2100" viewBox="0 0 2800 2100">
+  <defs>
+    <style>
+      .bg{fill:#eee8da}.board{fill:#fffdf7;stroke:#263f38;stroke-width:4}.node{fill:#fff8e7;stroke:#263f38;stroke-width:3}
+      .world{fill:#d9edbe;stroke:#263f38;stroke-width:3}.action{fill:#e0f1ec;stroke:#3c9a85;stroke-width:3}
+      .warn{fill:#fde1db;stroke:#d96554;stroke-width:3}.done{fill:#fff0bd;stroke:#9b744b;stroke-width:3}
+      .ink{fill:#263f38}.muted{fill:#65766d}.line{fill:none;stroke:#263f38;stroke-width:4;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#d96554;stroke-width:4;stroke-dasharray:10 8;marker-end:url(#arrow-red)}
+      .t1{font:700 27px Arial,'Microsoft YaHei',sans-serif}.t2{font:700 20px Arial,'Microsoft YaHei',sans-serif}
+      .body{font:16px Arial,'Microsoft YaHei',sans-serif}.small{font:14px Arial,'Microsoft YaHei',sans-serif}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#263f38"/></marker>
+    <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#d96554"/></marker>
+  </defs>
+  <rect width="2800" height="2100" class="bg"/>
+  <g id="F004-RESIDENT.2-penpot-flow-source">
+
+    <g id="18_Placement_Validation_Flow" transform="translate(30 30)">
+      <rect width="1330" height="970" rx="28" class="board"/>
+      <text x="35" y="58" class="t1 ink">18 占地放置与合法性流程</text>
+      <text x="35" y="88" class="small muted">目录先于美术；一次确认占用全部格并扣费</text>
+      <g transform="translate(55 140)"><rect width="220" height="105" rx="20" class="action"/><text x="54" y="45" class="t2 ink">选择建造对象</text><text x="38" y="77" class="body ink">读取占地与入口目录</text></g>
+      <path d="M275 192 H360" class="line"/>
+      <g transform="translate(360 140)"><rect width="220" height="105" rx="20" class="world"/><text x="48" y="45" class="t2 ink">显示候选占地</text><text x="39" y="77" class="body ink">逐格 + 入口 + 道路</text></g>
+      <path d="M580 192 H665" class="line"/>
+      <g transform="translate(665 140)"><rect width="250" height="105" rx="20" class="node"/><text x="67" y="45" class="t2 ink">边界内？</text><text x="47" y="77" class="body ink">所有格均可建</text></g>
+      <path d="M915 192 H1000" class="line"/>
+      <g transform="translate(1000 140)"><rect width="270" height="105" rx="20" class="node"/><text x="67" y="45" class="t2 ink">无重叠/保留区？</text><text x="45" y="77" class="body ink">入口与车道也检查</text></g>
+      <path d="M1135 245 V330 H990" class="line"/>
+      <g transform="translate(760 330)"><rect width="460" height="115" rx="20" class="node"/><text x="120" y="47" class="t2 ink">资源足够且地形允许？</text><text x="92" y="81" class="body ink">未连路可建，但记录琥珀阻塞</text></g>
+      <path d="M760 387 H650" class="line"/>
+      <g transform="translate(390 330)"><rect width="260" height="115" rx="20" class="action"/><text x="76" y="47" class="t2 ink">玩家确认</text><text x="40" y="81" class="body ink">再次验证当前草稿</text></g>
+      <path d="M390 387 H280" class="line"/>
+      <g transform="translate(55 330)"><rect width="225" height="115" rx="20" class="done"/><text x="55" y="47" class="t2 ink">原子落位</text><text x="35" y="81" class="body ink">占格、扣费、更新路网</text></g>
+      <path d="M168 445 V540" class="line"/>
+      <g transform="translate(55 540)"><rect width="310" height="120" rx="20" class="world"/><text x="65" y="48" class="t2 ink">世界状态生效</text><text x="37" y="83" class="body ink">底座固定；入口可达性可见</text></g>
+      <g id="placement-invalid-branch" transform="translate(515 540)">
+        <rect width="330" height="120" rx="20" class="warn"/><text x="75" y="48" class="t2 ink">非法：显示第一原因</text><text x="42" y="83" class="body ink">冲突格斜纹；确认禁用</text>
+      </g>
+      <path d="M790 245 V500 H680 V540" class="dash"/>
+      <path d="M1135 245 V480 H780 V540" class="dash"/>
+      <path d="M515 600 H410 V192 H360" class="dash"/>
+      <g transform="translate(940 540)"><rect width="330" height="120" rx="20" class="warn"/><text x="72" y="48" class="t2 ink">取消 / 中断</text><text x="38" y="83" class="body ink">不扣费；草稿恢复时重验</text></g>
+      <path d="M520 445 V500 H1105 V540" class="dash"/>
+      <text x="55" y="770" class="t2 ink">固定检查顺序</text>
+      <text x="55" y="810" class="body ink">边界 → 占用 → 地形 → 入口 → 保留区 → 资源 → 原子提交</text>
+      <text x="55" y="858" class="body muted">图片透明边界不参与占地；规则不得迁就旧 PNG。</text>
+    </g>
+
+    <g id="19_Bear_Dairy_State_Machine" transform="translate(1440 30)">
+      <rect width="1330" height="970" rx="28" class="board"/>
+      <text x="35" y="58" class="t1 ink">19 熊居民乳品状态机</text>
+      <text x="35" y="88" class="small muted">一次派遣形成长期岗位；任务按检查点幂等恢复</text>
+      <g transform="translate(60 140)"><rect width="215" height="100" rx="20" class="node"/><text x="70" y="58" class="t2 ink">空闲 / 生活</text></g>
+      <path d="M275 190 H355" class="line"/>
+      <g transform="translate(355 140)"><rect width="230" height="100" rx="20" class="action"/><text x="66" y="43" class="t2 ink">领取任务</text><text x="38" y="75" class="body ink">预留输入与工作点</text></g>
+      <path d="M585 190 H665" class="line"/>
+      <g transform="translate(665 140)"><rect width="220" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">行走</text><text x="44" y="75" class="body ink">只沿道路到入口</text></g>
+      <path d="M885 190 H965" class="line"/>
+      <g transform="translate(965 140)"><rect width="290" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">到达 / 排队</text><text x="54" y="75" class="body ink">进入批准作业点</text></g>
+      <path d="M1110 240 V320 H970" class="line"/>
+      <g transform="translate(810 320)"><rect width="320" height="110" rx="20" class="world"/><text x="98" y="46" class="t2 ink">照料奶牛</text><text x="49" y="80" class="body ink">饲料点 → 牛位响应</text></g>
+      <path d="M810 375 H710" class="line"/>
+      <g transform="translate(450 320)"><rect width="260" height="110" rx="20" class="world"/><text x="88" y="46" class="t2 ink">挤奶</text><text x="46" y="80" class="body ink">生成 1 罐牛奶</text></g>
+      <path d="M450 375 H350" class="line"/>
+      <g transform="translate(60 320)"><rect width="290" height="110" rx="20" class="world"/><text x="92" y="46" class="t2 ink">搬运牛奶</text><text x="48" y="80" class="body ink">奶罐作为 visual child</text></g>
+      <path d="M205 430 V515" class="line"/>
+      <g transform="translate(60 515)"><rect width="290" height="110" rx="20" class="world"/><text x="88" y="46" class="t2 ink">工坊加工</text><text x="45" y="80" class="body ink">牛奶 → 乳品订单货物</text></g>
+      <path d="M350 570 H450" class="line"/>
+      <g transform="translate(450 515)"><rect width="260" height="110" rx="20" class="world"/><text x="82" y="46" class="t2 ink">搬运乳品</text><text x="42" y="80" class="body ink">前往世界装卸点</text></g>
+      <path d="M710 570 H810" class="line"/>
+      <g transform="translate(810 515)"><rect width="320" height="110" rx="20" class="done"/><text x="108" y="46" class="t2 ink">装车</text><text x="52" y="80" class="body ink">货物与货箱原子变化</text></g>
+      <path d="M970 625 V720 H795" class="line"/>
+      <g transform="translate(795 720)"><rect width="335" height="110" rx="20" class="action"/><text x="80" y="46" class="t2 ink">下一任务 / 回家</text><text x="49" y="80" class="body ink">按优先级或生活日程</text></g>
+      <path d="M795 775 H660 V240 H167" class="line"/>
+      <g id="bear-dairy-blocked-state" transform="translate(300 720)"><rect width="350" height="115" rx="20" class="warn"/><text x="106" y="47" class="t2 ink">BLOCKED</text><text x="48" y="82" class="body ink">安全点等待；保留预留与任务</text></g>
+      <path d="M775 190 V680 H475 V720" class="dash"/>
+      <path d="M475 720 V660 H205 V625" class="dash"/>
+      <text x="60" y="900" class="small muted">奶牛是牧场动物，不是居民；熊承担照料、挤奶、加工与交付。</text>
+    </g>
+
+    <g id="20_Second_Vehicle_Order_State" transform="translate(30 1060)">
+      <rect width="1330" height="1000" rx="28" class="board"/>
+      <text x="35" y="58" class="t1 ink">20 第二世界车辆订单状态</text>
+      <text x="35" y="88" class="small muted">车辆位置和货箱表达订单；离场检查点后才结算</text>
+      <g transform="translate(55 145)"><rect width="220" height="105" rx="20" class="node"/><text x="68" y="45" class="t2 ink">已排程</text><text x="42" y="77" class="body ink">乳品订单实例</text></g>
+      <path d="M275 197 H360" class="line"/>
+      <g transform="translate(360 145)"><rect width="220" height="105" rx="20" class="world"/><text x="80" y="45" class="t2 ink">到达</text><text x="39" y="77" class="body ink">沿合法道路减速</text></g>
+      <path d="M580 197 H665" class="line"/>
+      <g transform="translate(665 145)"><rect width="220" height="105" rx="20" class="world"/><text x="80" y="45" class="t2 ink">等待</text><text x="42" y="77" class="body ink">货箱显示 0/1</text></g>
+      <path d="M885 197 H970" class="line"/>
+      <g transform="translate(970 145)"><rect width="285" height="105" rx="20" class="action"/><text x="74" y="45" class="t2 ink">承诺 / 自动排程</text><text x="51" y="77" class="body ink">建立唯一 settlement_id</text></g>
+      <path d="M1112 250 V335 H970" class="line"/>
+      <g transform="translate(770 335)"><rect width="400" height="115" rx="20" class="world"/><text x="150" y="47" class="t2 ink">装载</text><text x="55" y="81" class="body ink">熊搬运；货物与货箱原子变化</text></g>
+      <path d="M770 392 H660" class="line"/>
+      <g transform="translate(400 335)"><rect width="260" height="115" rx="20" class="done"/><text x="82" y="47" class="t2 ink">满载 1/1</text><text x="46" y="81" class="body ink">完成状态可见</text></g>
+      <path d="M400 392 H290" class="line"/>
+      <g transform="translate(55 335)"><rect width="235" height="115" rx="20" class="done"/><text x="70" y="47" class="t2 ink">离场</text><text x="42" y="81" class="body ink">鸣笛并驶过检查点</text></g>
+      <path d="M172 450 V545" class="line"/>
+      <g id="vehicle-settled-state" transform="translate(55 545)"><rect width="330" height="120" rx="20" class="done"/><text x="97" y="48" class="t2 ink">奖励结算</text><text x="46" y="83" class="body ink">settlement_id 只执行一次</text></g>
+      <g transform="translate(505 545)"><rect width="330" height="120" rx="20" class="warn"/><text x="80" y="48" class="t2 ink">装载阻塞</text><text x="44" y="83" class="body ink">缺货 / 断路 / 装卸位占用</text></g>
+      <path d="M970 450 V505 H670 V545" class="dash"/>
+      <path d="M505 605 H455 V392 H400" class="dash"/>
+      <g transform="translate(925 545)"><rect width="330" height="120" rx="20" class="node"/><text x="122" y="48" class="t2 ink">谢绝</text><text x="42" y="83" class="body ink">平静离场，无奖励、无惩罚</text></g>
+      <path d="M800 250 V300 H1090 V545" class="line"/>
+      <text x="55" y="800" class="t2 ink">中断恢复</text>
+      <text x="55" y="840" class="body ink">ARRIVING / WAITING / LOADING / DEPARTING 均保存路线与货箱检查点。</text>
+      <text x="55" y="880" class="body muted">窗口打开、测试通过或订单卡消失都不能代替车辆真实离场证据。</text>
+    </g>
+
+    <g id="21_Two_Resident_Daily_Rhythm" transform="translate(1440 1060)">
+      <rect width="1330" height="1000" rx="28" class="board"/>
+      <text x="35" y="58" class="t1 ink">21 双居民日常节奏</text>
+      <text x="35" y="88" class="small muted">工作段与生活段交替；不引入复杂需求值或社交系统</text>
+      <text x="60" y="150" class="t2 ink">兔子 · 谷物岗位</text>
+      <g transform="translate(60 185)"><rect width="220" height="100" rx="20" class="node"/><text x="76" y="58" class="t2 ink">在家</text></g>
+      <path d="M280 235 H360" class="line"/>
+      <g transform="translate(360 185)"><rect width="220" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">通勤</text><text x="48" y="75" class="body ink">沿道路到谷物岗</text></g>
+      <path d="M580 235 H660" class="line"/>
+      <g transform="translate(660 185)"><rect width="220" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">工作</text><text x="43" y="75" class="body ink">F004.1 谷物链</text></g>
+      <path d="M880 235 H960" class="line"/>
+      <g transform="translate(960 185)"><rect width="270" height="100" rx="20" class="done"/><text x="67" y="43" class="t2 ink">回家 / 生活点</text><text x="54" y="75" class="body ink">空闲 20–45 秒</text></g>
+      <path d="M1095 285 V330 H170 V285" class="line"/>
+      <text x="60" y="405" class="t2 ink">熊 · 乳品岗位</text>
+      <g transform="translate(60 440)"><rect width="220" height="100" rx="20" class="node"/><text x="76" y="58" class="t2 ink">在家</text></g>
+      <path d="M280 490 H360" class="line"/>
+      <g transform="translate(360 440)"><rect width="220" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">通勤</text><text x="48" y="75" class="body ink">沿道路到乳品岗</text></g>
+      <path d="M580 490 H660" class="line"/>
+      <g transform="translate(660 440)"><rect width="220" height="100" rx="20" class="world"/><text x="78" y="43" class="t2 ink">工作</text><text x="42" y="75" class="body ink">照料至装车全链</text></g>
+      <path d="M880 490 H960" class="line"/>
+      <g transform="translate(960 440)"><rect width="270" height="100" rx="20" class="done"/><text x="67" y="43" class="t2 ink">回家 / 生活点</text><text x="54" y="75" class="body ink">不阻断工作道路</text></g>
+      <path d="M1095 540 V585 H170 V540" class="line"/>
+      <g id="two-resident-life-state" transform="translate(130 660)">
+        <rect width="1070" height="165" rx="24" class="action"/>
+        <text x="52" y="53" class="t2 ink">世界调度规则</text>
+        <text x="52" y="90" class="body ink">1. 工作任务优先；2. 生活居民让出通勤节点；3. 生活点一人一位；4. 无空位则回家。</text>
+        <text x="52" y="125" class="body ink">断路或中断后回最近安全点，保留身份、住房、岗位和任务检查点。</text>
+      </g>
+      <text x="60" y="900" class="small muted">生活动作只创造居民存在感；不增加心情货币、领奖按钮或强制在线压力。</text>
+    </g>
+  </g>
+</svg>

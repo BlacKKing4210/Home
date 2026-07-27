@@ -1,0 +1,5 @@
+object_id,display_key,category,asset_id,cost,unlock_rule,placement_priority,default_x,default_y
+road_life_b,road_life,road,road_life_tile,5,always,1,5,3
+resident_house_b,house_b,building,resident_house_b,100,road_life_b,2,6,1
+dairy_pasture,pasture,building,dairy_pasture,80,resident_house_b,3,1,5
+creamery,creamery_name,building,creamery,90,dairy_pasture,4,6,5

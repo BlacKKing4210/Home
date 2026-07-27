@@ -1,0 +1,64 @@
+key,zh-CN,en
+town_name,茸叶小镇,Fernleaf Town
+coins,金币,Coins
+settings,设置,Settings
+close,关闭,Close
+language,语言,Language
+chinese,中文,Chinese
+english,English,English
+reduced_motion,减少动态,Reduced motion
+on,开启,On
+off,关闭,Off
+build_neighborhood,建造乳品邻里,Build the dairy neighborhood
+choose_building,选择要建造的设施,Choose what to build
+confirm_place,确认落位,Confirm placement
+cancel,取消,Cancel
+build_cost,花费 {0} 金币,Costs {0} coins
+road_life,道路生活点,Road life tile
+house_b,熊居民小屋,Bear resident cottage
+pasture,乳畜牧场,Dairy pasture
+creamery_name,乳品工坊,Creamery
+placement_legal,占地与道路连接有效,Footprint and road connection are valid
+placement_illegal,这里不能建造,Cannot build here
+invalid_overlap,占地与现有设施重叠,Footprint overlaps an existing object
+invalid_bounds,占地超出小镇边界,Footprint is outside the town boundary
+invalid_road,入口没有连接道路,Entrance is not connected to a road
+not_enough_coins,金币不足,Not enough coins
+placed,设施已经落位,Building placed
+tap_grid,点击地图选择落位位置,Tap the map to choose a location
+invite_bear,邀请熊居民入住,Invite the bear resident
+invite_cost,邀请需要 {0} 金币,Invitation costs {0} coins
+assign_dairy,派遣熊负责乳品岗位,Assign the bear to dairy work
+confirm_assign,确认长期派遣,Confirm persistent assignment
+resident_bear,阿栗,Ari
+resident_rabbit,小团,Tuft
+dairy_job,乳品岗位,Dairy role
+status_ready,乳品邻里已准备好,Dairy neighborhood is ready
+bear_home,阿栗正在新家休息,Ari is resting at the new home
+bear_walk_pasture,阿栗正沿道路去牧场,Ari is walking to the pasture
+feeding,阿栗正在给奶牛喂食,Ari is feeding the cow
+milking,阿栗正在挤奶,Ari is milking
+carry_milk,阿栗正把奶罐送往工坊,Ari is carrying milk to the creamery
+processing,阿栗正在制作订单乳品,Ari is preparing the dairy order
+carry_order,阿栗正把乳品箱送往订单车,Ari is carrying the dairy crate to the truck
+loading,阿栗正在装车,Ari is loading the truck
+bear_walk_life,阿栗正在回到生活点,Ari is returning to a life spot
+bear_life,阿栗和小团正在小镇里休息,Ari and Tuft are relaxing in town
+road_missing,道路未连通，阿栗正在等待,Road disconnected - Ari is waiting
+loading_blocked,装卸位被占用，乳品箱仍由阿栗保管,Loading bay blocked - Ari keeps the crate
+pasture_blocked,牧场暂时无法作业,Pasture work is blocked
+creamery_blocked,工坊暂时无法接收牛奶,Creamery cannot receive milk
+resident_blocked,工作被中断，资源已经保留,Work interrupted - resources are reserved
+interrupted_saved,进度已保存，恢复后从检查点继续,Progress saved and will resume from the checkpoint
+truck_arriving,乳品订单车正在进镇,Dairy order truck arriving
+truck_waiting,乳品订单车正在路边等待,Dairy order truck waiting by the road
+truck_departing,乳品装满，订单车正在离开,Dairy loaded - truck departing
+truck_settled,乳品订单已经交付,Dairy order delivered
+order_progress,乳品货箱 {0}/{1},Dairy cargo {0}/{1}
+reward_received,交付完成，获得 {0} 金币,Delivery complete - received {0} coins
+vehicle_departed,订单车已经离开小镇,The order truck has left town
+locate_gap,定位道路缺口,Locate route gap
+open_road,重新开放道路,Reopen road
+close_road,临时关闭道路,Close road temporarily
+settings_note,语言和减少动态设置会自动保存,Language and reduced-motion settings are saved automatically
+time_remaining,还需 {0} 秒,{0} seconds remaining

@@ -1,0 +1,17 @@
+token_id,value,reduced_motion_value,usage
+tile_width,64,64,isometric_grid
+tile_height,32,32,isometric_grid
+origin_x,360,360,isometric_grid
+origin_y,185,185,isometric_grid
+map_columns,10,10,placement_bounds
+map_rows,10,10,placement_bounds
+initial_coins,400,400,economy
+autosave_seconds,5,5,persistence
+save_schema,4,4,persistence
+placement_pulse_speed,2.5,0,placement_feedback
+walk_bob_px,4,0,resident_motion
+work_bob_px,3,0,resident_motion
+life_bob_px,2,0,resident_motion
+celebration_seconds,1.6,0.45,success_feedback
+max_particles,24,8,performance
+loading_capacity,1,1,vehicle_order

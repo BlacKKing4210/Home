@@ -1,0 +1,3 @@
+job_id,resident_id,workplace_ids,task_types,priority,interrupt_policy
+rabbit_life,rabbit_resident,existing_home_a|road_life_b,LIFE_IDLE,10,resume_nearest_safe
+bear_dairy,bear_resident,dairy_pasture|creamery|loading_dock,DAIRY_FEED|DAIRY_MILK|DAIRY_CARRY_MILK|CREAMERY_PROCESS|DAIRY_LOAD_ORDER,100,resume_checkpoint

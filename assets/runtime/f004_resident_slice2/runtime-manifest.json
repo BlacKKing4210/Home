@@ -1,0 +1,723 @@
+{
+  "schema_version": 1,
+  "asset_set": "F004-RESIDENT-SLICE.2",
+  "status": "ASSET_SET_APPROVED",
+  "runtime_allowed": true,
+  "source_board": {
+    "raw_path": "assets/runtime/f004_resident_slice2/source/F004-RESIDENT-SLICE.2-whole-set-board-raw.png",
+    "raw_sha256": "79050ac11ef764a4f595d81bc8bd5b7e8418b597b95df4c4b2767b76668b8cbe",
+    "path": "assets/runtime/f004_resident_slice2/source/F004-RESIDENT-SLICE.2-whole-set-board.png",
+    "sha256": "c4cc244334fd2f4b36e9c73a2be87076252437f0247e4a20885e4619fd21546b",
+    "width": 1774,
+    "height": 887,
+    "grid": "4x2",
+    "normalized_background_pixels": 1015611
+  },
+  "candidate_assets": [
+    {
+      "id": "resident_house_b",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/resident_house_b.png",
+      "source_cell": {
+        "column": 1,
+        "row": 1
+      },
+      "width": 427,
+      "height": 428,
+      "sha256": "467686ee014bb328636df80eb80905ba01550c2e623fe3ee608a3bf3c305d06d",
+      "logical_footprint": [
+        2,
+        2
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        1,
+        2
+      ],
+      "workpoint_offsets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "runtime_role": "resident-home",
+      "analysis": {
+        "visible_pixels": 100652,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          42,
+          50,
+          437,
+          446
+        ],
+        "board_gutter_px": 24.0,
+        "component_pixels": 100652
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "dairy_pasture",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/dairy_pasture.png",
+      "source_cell": {
+        "column": 2,
+        "row": 1
+      },
+      "width": 473,
+      "height": 367,
+      "sha256": "33b059d8f5b3f0b08e39b9579c3e95d2c82fc3086b1b8337e8b76d267e10d114",
+      "logical_footprint": [
+        3,
+        3
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        0,
+        3
+      ],
+      "workpoint_offsets": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "runtime_role": "dairy-pasture",
+      "analysis": {
+        "visible_pixels": 85387,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          461,
+          81,
+          902,
+          416
+        ],
+        "board_gutter_px": 24.0,
+        "component_pixels": 85387
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "creamery",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/creamery.png",
+      "source_cell": {
+        "column": 3,
+        "row": 1
+      },
+      "width": 433,
+      "height": 412,
+      "sha256": "1c233119a5ff90bbc1af42db55869067d48d5e84f5342b3a629ce5b212ae3298",
+      "logical_footprint": [
+        2,
+        2
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        1,
+        2
+      ],
+      "workpoint_offsets": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "runtime_role": "dairy-processing",
+      "analysis": {
+        "visible_pixels": 97994,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          935,
+          67,
+          1336,
+          447
+        ],
+        "board_gutter_px": 32.0,
+        "component_pixels": 97994
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "road_life_tile",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/road_life_tile.png",
+      "source_cell": {
+        "column": 4,
+        "row": 1
+      },
+      "width": 387,
+      "height": 253,
+      "sha256": "7761db5c5dd3005071e38c12dfe6479bffeb3e2fa6b794768346f26248445e1f",
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "pivot": [
+        0.5,
+        0.72
+      ],
+      "entrance_offset": [
+        0,
+        0
+      ],
+      "workpoint_offsets": [
+        [
+          1,
+          0
+        ]
+      ],
+      "runtime_role": "road-life-point",
+      "analysis": {
+        "visible_pixels": 43897,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          1382,
+          198,
+          1737,
+          419
+        ],
+        "board_gutter_px": 46.0,
+        "component_pixels": 43897
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "dairy_order_truck",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/dairy_order_truck.png",
+      "source_cell": {
+        "column": 1,
+        "row": 2
+      },
+      "width": 409,
+      "height": 337,
+      "sha256": "f76f50d1148310660a414ec67bdb2ecd9d9da960cfe9b47d70594b79f1ea4b0e",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.86
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "runtime_role": "world-order-vehicle",
+      "analysis": {
+        "visible_pixels": 71857,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          71,
+          511,
+          448,
+          816
+        ],
+        "board_gutter_px": 65.0,
+        "component_pixels": 71857
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "dairy_goods_set",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/dairy_goods_set.png",
+      "source_cell": {
+        "column": 2,
+        "row": 2
+      },
+      "width": 344,
+      "height": 290,
+      "sha256": "a8570773491b848997fb762ac491d7cfea36d7ad8102048ad398210d57fd8f8b",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.9
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "carried-and-loaded-goods",
+      "analysis": {
+        "visible_pixels": 47606,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          513,
+          542,
+          825,
+          800
+        ],
+        "board_gutter_px": 65.0,
+        "component_pixels": 47606
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "resident_bear_dairy",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/resident_bear_dairy.png",
+      "source_cell": {
+        "column": 3,
+        "row": 2
+      },
+      "width": 255,
+      "height": 372,
+      "sha256": "951a32cb9310a3196cdeecb409dc518fc36e2274115c9c5155632a8ee058e5b1",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "animal-resident",
+      "analysis": {
+        "visible_pixels": 52702,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          956,
+          479,
+          1179,
+          819
+        ],
+        "board_gutter_px": 32.0,
+        "component_pixels": 52702
+      },
+      "approved": false,
+      "runtime_allowed": false
+    },
+    {
+      "id": "pasture_cow",
+      "path": "assets/runtime/f004_resident_slice2/qa/candidates/pasture_cow.png",
+      "source_cell": {
+        "column": 4,
+        "row": 2
+      },
+      "width": 386,
+      "height": 315,
+      "sha256": "f293a21b5eb5e75fee7aacd3d21de07ad1a690ee24e62ff1178608f48f92f8c7",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "pasture-animal-not-resident",
+      "analysis": {
+        "visible_pixels": 57832,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          1338,
+          525,
+          1692,
+          808
+        ],
+        "board_gutter_px": 78.03,
+        "component_pixels": 57832
+      },
+      "approved": false,
+      "runtime_allowed": false
+    }
+  ],
+  "approved_assets": [
+    {
+      "id": "resident_house_b",
+      "path": "assets/runtime/f004_resident_slice2/approved/resident_house_b.png",
+      "source_cell": {
+        "column": 1,
+        "row": 1
+      },
+      "width": 427,
+      "height": 428,
+      "sha256": "467686ee014bb328636df80eb80905ba01550c2e623fe3ee608a3bf3c305d06d",
+      "logical_footprint": [
+        2,
+        2
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        1,
+        2
+      ],
+      "workpoint_offsets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "runtime_role": "resident-home",
+      "analysis": {
+        "visible_pixels": 100652,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          42,
+          50,
+          437,
+          446
+        ],
+        "board_gutter_px": 24.0,
+        "component_pixels": 100652
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "dairy_pasture",
+      "path": "assets/runtime/f004_resident_slice2/approved/dairy_pasture.png",
+      "source_cell": {
+        "column": 2,
+        "row": 1
+      },
+      "width": 473,
+      "height": 367,
+      "sha256": "33b059d8f5b3f0b08e39b9579c3e95d2c82fc3086b1b8337e8b76d267e10d114",
+      "logical_footprint": [
+        3,
+        3
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        0,
+        3
+      ],
+      "workpoint_offsets": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "runtime_role": "dairy-pasture",
+      "analysis": {
+        "visible_pixels": 85387,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          461,
+          81,
+          902,
+          416
+        ],
+        "board_gutter_px": 24.0,
+        "component_pixels": 85387
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "creamery",
+      "path": "assets/runtime/f004_resident_slice2/approved/creamery.png",
+      "source_cell": {
+        "column": 3,
+        "row": 1
+      },
+      "width": 433,
+      "height": 412,
+      "sha256": "1c233119a5ff90bbc1af42db55869067d48d5e84f5342b3a629ce5b212ae3298",
+      "logical_footprint": [
+        2,
+        2
+      ],
+      "pivot": [
+        0.5,
+        0.93
+      ],
+      "entrance_offset": [
+        1,
+        2
+      ],
+      "workpoint_offsets": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "runtime_role": "dairy-processing",
+      "analysis": {
+        "visible_pixels": 97994,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          935,
+          67,
+          1336,
+          447
+        ],
+        "board_gutter_px": 32.0,
+        "component_pixels": 97994
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "road_life_tile",
+      "path": "assets/runtime/f004_resident_slice2/approved/road_life_tile.png",
+      "source_cell": {
+        "column": 4,
+        "row": 1
+      },
+      "width": 387,
+      "height": 253,
+      "sha256": "7761db5c5dd3005071e38c12dfe6479bffeb3e2fa6b794768346f26248445e1f",
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "pivot": [
+        0.5,
+        0.72
+      ],
+      "entrance_offset": [
+        0,
+        0
+      ],
+      "workpoint_offsets": [
+        [
+          1,
+          0
+        ]
+      ],
+      "runtime_role": "road-life-point",
+      "analysis": {
+        "visible_pixels": 43897,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          1382,
+          198,
+          1737,
+          419
+        ],
+        "board_gutter_px": 46.0,
+        "component_pixels": 43897
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "dairy_order_truck",
+      "path": "assets/runtime/f004_resident_slice2/approved/dairy_order_truck.png",
+      "source_cell": {
+        "column": 1,
+        "row": 2
+      },
+      "width": 409,
+      "height": 337,
+      "sha256": "f76f50d1148310660a414ec67bdb2ecd9d9da960cfe9b47d70594b79f1ea4b0e",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.86
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "runtime_role": "world-order-vehicle",
+      "analysis": {
+        "visible_pixels": 71857,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          71,
+          511,
+          448,
+          816
+        ],
+        "board_gutter_px": 65.0,
+        "component_pixels": 71857
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "dairy_goods_set",
+      "path": "assets/runtime/f004_resident_slice2/approved/dairy_goods_set.png",
+      "source_cell": {
+        "column": 2,
+        "row": 2
+      },
+      "width": 344,
+      "height": 290,
+      "sha256": "a8570773491b848997fb762ac491d7cfea36d7ad8102048ad398210d57fd8f8b",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.9
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "carried-and-loaded-goods",
+      "analysis": {
+        "visible_pixels": 47606,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          513,
+          542,
+          825,
+          800
+        ],
+        "board_gutter_px": 65.0,
+        "component_pixels": 47606
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "resident_bear_dairy",
+      "path": "assets/runtime/f004_resident_slice2/approved/resident_bear_dairy.png",
+      "source_cell": {
+        "column": 3,
+        "row": 2
+      },
+      "width": 255,
+      "height": 372,
+      "sha256": "951a32cb9310a3196cdeecb409dc518fc36e2274115c9c5155632a8ee058e5b1",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "animal-resident",
+      "analysis": {
+        "visible_pixels": 52702,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          956,
+          479,
+          1179,
+          819
+        ],
+        "board_gutter_px": 32.0,
+        "component_pixels": 52702
+      },
+      "approved": true,
+      "runtime_allowed": true
+    },
+    {
+      "id": "pasture_cow",
+      "path": "assets/runtime/f004_resident_slice2/approved/pasture_cow.png",
+      "source_cell": {
+        "column": 4,
+        "row": 2
+      },
+      "width": 386,
+      "height": 315,
+      "sha256": "f293a21b5eb5e75fee7aacd3d21de07ad1a690ee24e62ff1178608f48f92f8c7",
+      "logical_footprint": null,
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "entrance_offset": null,
+      "workpoint_offsets": [],
+      "runtime_role": "pasture-animal-not-resident",
+      "analysis": {
+        "visible_pixels": 57832,
+        "semitransparent_pixels": 0,
+        "magenta_contamination_pixels": 0,
+        "magenta_contamination_ratio": 0.0,
+        "source_board_bbox": [
+          1338,
+          525,
+          1692,
+          808
+        ],
+        "board_gutter_px": 78.03,
+        "component_pixels": 57832
+      },
+      "approved": true,
+      "runtime_allowed": true
+    }
+  ],
+  "qa_board": {
+    "path": "assets/runtime/f004_resident_slice2/qa/F004-RESIDENT-SLICE.2-approved-alpha-board.png",
+    "sha256": "68cfa4efb60eda16f8f8dd242891d69c11e8ac323246381a85fc39210de2250f"
+  },
+  "mobile_readability_board": {
+    "path": "assets/runtime/f004_resident_slice2/qa/F004-RESIDENT-SLICE.2-approved-mobile-readability.png",
+    "sha256": "e301b6c271b7fa497f1060d5fcf979af85bbbcac230578390f80b3a31fa415e4",
+    "target_sizes_px": [
+      96,
+      64
+    ]
+  },
+  "runtime_rule": "Runtime may load only approved_assets with approved=true and runtime_allowed=true. Raw, source, QA and candidate paths remain NOT_RUNTIME."
+}

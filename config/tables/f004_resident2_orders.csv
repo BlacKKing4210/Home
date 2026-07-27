@@ -1,0 +1,2 @@
+order_id,vehicle_id,item_id,quantity,reward_coins,hard_timeout_seconds,load_seconds,arrival_seconds,departure_seconds,repeat_delay_seconds
+dairy_delivery,dairy_order_truck,dairy_crate,1,120,0,1.0,1.4,2.0,6.0
